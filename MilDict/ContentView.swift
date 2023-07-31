@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
         TabView {
             TerminologyView()
+            
                 .tabItem {
                     Label("Термінологія", systemImage: "text.book.closed")
                 }
@@ -24,17 +27,33 @@ struct ContentView: View {
 }
 
 struct TerminologyView: View {
+    @ObservedObject var datas = ReadData()
     @State private var searchfield: String = ""
     var body: some View {
         VStack{
             
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Vika")
-            Spacer()
-            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $searchfield)
-        }.padding()
+            List(datas.users){ user in
+                VStack(alignment: .leading) {
+                    HStack( alignment: .top){
+                        Text(user.ua_title)
+                            .font(.title2)
+
+                            .foregroundColor(Color.gray)
+                            .frame(maxWidth: .infinity, alignment: .topLeading)
+                        
+                        Text(user.en_title)
+                            .font(.title2)
+                            .foregroundColor(Color.red)
+                            .frame(maxWidth: .infinity, alignment: .topLeading)
+                    }
+                    
+                    Text(user.en_text)
+                        .font(.subheadline)
+                        .foregroundColor(Color.gray)
+                    
+                }
+            }
+        }
     }
 }
 
