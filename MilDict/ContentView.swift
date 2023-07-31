@@ -29,33 +29,61 @@ struct ContentView: View {
 struct TerminologyView: View {
     @ObservedObject var datas = ReadData()
     @State private var searchfield: String = ""
+    
     var body: some View {
         VStack{
             
-            List(datas.users){ user in
-                VStack(alignment: .leading) {
-                    HStack( alignment: .top){
-                        Text(user.ua_title)
-                            .font(.title2)
-
-                            .foregroundColor(Color.gray)
-                            .frame(maxWidth: .infinity, alignment: .topLeading)
-                        
-                        Text(user.en_title)
-                            .font(.title2)
-                            .foregroundColor(Color.red)
-                            .frame(maxWidth: .infinity, alignment: .topLeading)
-                    }
-                    
-                    Text(user.en_text)
-                        .font(.subheadline)
-                        .foregroundColor(Color.gray)
-                    
+            if searchfield.isEmpty{
+                List(datas.users.sorted{$0.ua_title < $1.ua_title}){ term in
+                    TermView(term)
                 }
             }
+            else {
+                if searchfield.isCyrillic{
+                    List(datas.users.filter({ $0.ua_title.contains(searchfield)}).sorted{$0.ua_title < $1.ua_title}) { term in
+                        TermView(term)
+                    }
+                } else {
+                    List(datas.users.filter({ $0.en_title.contains(searchfield)}).sorted{$0.en_title < $1.en_title}) { term in
+                        TermView(term)
+                    }
+                }
+            }
+   
+            
+            TextField("Пошук", text: $searchfield).padding()
         }
     }
 }
+
+struct TermView: View {
+    
+    var term: Term
+    init(_ term: Term) {
+        self.term = term
+    }
+        
+    var body: some View {
+        VStack(alignment: .leading) {
+            HStack( alignment: .top){
+                Text(term.ua_title)
+                    .font(.body)
+                    .foregroundColor(Color("BackgroundColor"))
+                    .frame(maxWidth: .infinity, alignment: .topLeading)
+                
+                Text(term.en_title)
+                    .font(.body)
+                    .foregroundColor(.accentColor)
+                    .frame(maxWidth: .infinity, alignment: .topLeading)
+            }
+            
+            Text(term.en_text)
+                .font(.subheadline)
+                .foregroundColor(Color.gray)
+        }
+    }
+}
+        
 
 
 struct AbbriviatinView: View {
