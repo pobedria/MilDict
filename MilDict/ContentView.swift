@@ -37,21 +37,21 @@ struct TerminologyView: View {
                 .trimmingCharacters(in: .whitespacesAndNewlines)
             
             if sanitizedField.isEmpty{
-                let words = datas.words
+                let words = datas.terms
                 List(words){ term in
                     TermView(term)
                 }
             }
             else {
                 if sanitizedField.isCyrillic{
-                    let filtered = datas.words.filter(
+                    let filtered = datas.terms.filter(
                         where:{ $0.ua_title.lowercased().contains(sanitizedField)},
                         limit: 20)
                     List(filtered) { term in
                         TermView(term)
                     }
                 } else {
-                    let filtered = datas.words.filter(
+                    let filtered = datas.terms.filter(
                         where:{ $0.en_title.lowercased().contains(sanitizedField)},
                         limit: 20)
                     List(filtered) { term in
