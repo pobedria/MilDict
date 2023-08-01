@@ -27,24 +27,32 @@ struct ContentView: View {
 }
 
 struct TerminologyView: View {
-    @ObservedObject var datas = ReadData()
+    var datas = ReadData()
     @State private var searchfield: String = ""
     
     var body: some View {
         VStack{
             
             if searchfield.isEmpty{
-                List(datas.users.sorted{$0.ua_title < $1.ua_title}){ term in
+                List(datas.users){ term in
                     TermView(term)
                 }
             }
             else {
                 if searchfield.isCyrillic{
-                    List(datas.users.filter({ $0.ua_title.contains(searchfield)}).sorted{$0.ua_title < $1.ua_title}) { term in
+                    let filtered = datas.users.filter(
+                        where:{ $0.ua_title.contains(searchfield)},
+                        limit: 20)
+                    
+                    List(filtered) { term in
                         TermView(term)
                     }
                 } else {
-                    List(datas.users.filter({ $0.en_title.contains(searchfield)}).sorted{$0.en_title < $1.en_title}) { term in
+                    let filtered = datas.users.filter(
+                        where:{ $0.en_title.contains(searchfield)},
+                        limit: 20)
+//                    var sliced = filtered[0..<min(20,filtered.count)]
+                    List(filtered) { term in
                         TermView(term)
                     }
                 }
@@ -66,15 +74,21 @@ struct TermView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack( alignment: .top){
-                Text(term.ua_title)
-                    .font(.body)
-                    .foregroundColor(Color("BackgroundColor"))
-                    .frame(maxWidth: .infinity, alignment: .topLeading)
-                
                 Text(term.en_title)
                     .font(.body)
                     .foregroundColor(.accentColor)
                     .frame(maxWidth: .infinity, alignment: .topLeading)
+                if term.ua_title.isEmpty{
+                    Text("⚠️ Переклад не стандартизовано")
+                        .font(.body)
+                        .foregroundColor(.red)
+                        .frame(maxWidth: .infinity, alignment: .topLeading)
+                }else {
+                    Text(term.ua_title)
+                        .font(.body)
+                        .foregroundColor(Color("BackgroundColor"))
+                        .frame(maxWidth: .infinity, alignment: .topLeading)
+                }
             }
             
             Text(term.en_text)
