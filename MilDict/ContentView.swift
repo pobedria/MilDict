@@ -51,7 +51,6 @@ struct TerminologyView: View {
                     let filtered = datas.users.filter(
                         where:{ $0.en_title.contains(searchfield)},
                         limit: 20)
-//                    var sliced = filtered[0..<min(20,filtered.count)]
                     List(filtered) { term in
                         TermView(term)
                     }
