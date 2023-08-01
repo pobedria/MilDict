@@ -38,8 +38,6 @@ struct TerminologyView: View {
             
             if sanitizedField.isEmpty{
                 let words = datas.words
-//                let sorted_words = words.sorted(by:{$0.en_title<$1.en_title})
-                
                 List(words){ term in
                     TermView(term)
                 }
@@ -49,7 +47,6 @@ struct TerminologyView: View {
                     let filtered = datas.words.filter(
                         where:{ $0.ua_title.lowercased().contains(sanitizedField)},
                         limit: 20)
-                    
                     List(filtered) { term in
                         TermView(term)
                     }
