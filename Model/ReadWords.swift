@@ -8,24 +8,26 @@
 import Foundation
 
 class ReadData: ObservableObject  {
-    @Published var users = [Term]()
+    @Published var words = [Term]()
     
         
     init(){
-        loadData()
+        self.words = loadSortedData()
     }
     
-    func loadData()  {
+    func loadData() -> [Term]  {
         guard let url = Bundle.main.url(forResource: "words", withExtension: "json")
             else {
                 print("Json file not found")
-                return
+                return []
             }
         
         let data = try? Data(contentsOf: url)
-        let users = try? JSONDecoder().decode([Term].self, from: data!)
-        self.users = users!
-        
+        return try! JSONDecoder().decode([Term].self, from: data!)
     }
-     
+    
+    func loadSortedData() -> [Term]{
+        let words = loadData()
+        return words.sorted(by:{$0.en_title.lowercased()<$1.en_title.lowercased()})
+    }
 }

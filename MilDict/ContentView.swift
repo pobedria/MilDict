@@ -28,28 +28,34 @@ struct ContentView: View {
 
 struct TerminologyView: View {
     var datas = ReadData()
-    @State private var searchfield: String = ""
+    @State private var searchField: String = ""
     
     var body: some View {
         VStack{
+            let sanitizedField = searchField
+                .lowercased()
+                .trimmingCharacters(in: .whitespacesAndNewlines)
             
-            if searchfield.isEmpty{
-                List(datas.users){ term in
+            if sanitizedField.isEmpty{
+                let words = datas.words
+//                let sorted_words = words.sorted(by:{$0.en_title<$1.en_title})
+                
+                List(words){ term in
                     TermView(term)
                 }
             }
             else {
-                if searchfield.isCyrillic{
-                    let filtered = datas.users.filter(
-                        where:{ $0.ua_title.contains(searchfield)},
+                if sanitizedField.isCyrillic{
+                    let filtered = datas.words.filter(
+                        where:{ $0.ua_title.lowercased().contains(sanitizedField)},
                         limit: 20)
                     
                     List(filtered) { term in
                         TermView(term)
                     }
                 } else {
-                    let filtered = datas.users.filter(
-                        where:{ $0.en_title.contains(searchfield)},
+                    let filtered = datas.words.filter(
+                        where:{ $0.en_title.lowercased().contains(sanitizedField)},
                         limit: 20)
                     List(filtered) { term in
                         TermView(term)
@@ -57,8 +63,7 @@ struct TerminologyView: View {
                 }
             }
    
-            
-            TextField("Пошук", text: $searchfield).padding()
+            TextField("Пошук", text: $searchField).padding()
         }
     }
 }
