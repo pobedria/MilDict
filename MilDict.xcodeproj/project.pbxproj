@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		776A79632A7A460F001F268B /* TermsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79622A7A460F001F268B /* TermsList.swift */; };
 		776A79652A7A516F001F268B /* abbreviation.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A79642A7A516F001F268B /* abbreviation.json */; };
+		776A79672A7A5344001F268B /* AbbreviationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79662A7A5344001F268B /* AbbreviationModel.swift */; };
 		778B07332A723F3100A96821 /* MilDictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07322A723F3100A96821 /* MilDictApp.swift */; };
 		778B07352A723F3100A96821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07342A723F3100A96821 /* ContentView.swift */; };
 		778B07372A723F3200A96821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B07362A723F3200A96821 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		776A79622A7A460F001F268B /* TermsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsList.swift; sourceTree = "<group>"; };
 		776A79642A7A516F001F268B /* abbreviation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abbreviation.json; sourceTree = "<group>"; };
+		776A79662A7A5344001F268B /* AbbreviationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationModel.swift; sourceTree = "<group>"; };
 		778B072F2A723F3100A96821 /* MilDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B07322A723F3100A96821 /* MilDictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictApp.swift; sourceTree = "<group>"; };
 		778B07342A723F3100A96821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		77AA0A232A77A29F006D3946 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				776A79662A7A5344001F268B /* AbbreviationModel.swift */,
 				77AA0A242A77A2CB006D3946 /* TermsModel.swift */,
 				77AA0A262A77A3CC006D3946 /* ReadWords.swift */,
 			);
@@ -345,6 +348,7 @@
 				77AA0A302A7A38B6006D3946 /* TermView.swift in Sources */,
 				77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */,
 				77AA0A252A77A2CB006D3946 /* TermsModel.swift in Sources */,
+				776A79672A7A5344001F268B /* AbbreviationModel.swift in Sources */,
 				77AA0A322A7A3ACF006D3946 /* TerminologyTabView.swift in Sources */,
 				778B07332A723F3100A96821 /* MilDictApp.swift in Sources */,
 			);
