@@ -17,7 +17,7 @@ struct AbbriviationTabView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, Vikaa")
             Spacer()
-            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $searchfield)
+            TextField("Пошук", text: $searchfield)
         }.padding()
     }
 }

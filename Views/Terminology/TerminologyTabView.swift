@@ -19,29 +19,19 @@ struct TerminologyTabView: View {
             NavigationView {
                 if sanitizedField.isEmpty{
                     let words = datas.terms
-                    List(words){ term in
-                        NavigationLink {
-                            TermDetail(term: term)
-                        } label: {
-                            TermView(term)
-                        }
-                    }
+                    TermsList(terms: words)
                 }
                 else {
                     if sanitizedField.isCyrillic{
                         let filtered = datas.terms.filter(
                             where:{ $0.ua_title.lowercased().contains(sanitizedField)},
                             limit: 20)
-                        List(filtered) { term in
-                            TermView(term)
-                        }
+                        TermsList(terms: filtered)
                     } else {
                         let filtered = datas.terms.filter(
                             where:{ $0.en_title.lowercased().contains(sanitizedField)},
                             limit: 20)
-                        List(filtered) { term in
-                            TermView(term)
-                        }
+                        TermsList(terms: filtered)
                     }
                 }
             }.navigationTitle("Landmarks")

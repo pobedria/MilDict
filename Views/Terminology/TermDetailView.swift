@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TermDetail: View {
-    var term: Term
+    let term: Term
     var body: some View {
         VStack(alignment: .leading){
             Text(term.en_title)
@@ -22,7 +22,7 @@ struct TermDetail: View {
             Text(term.ua_text)
                 .font(.title3).foregroundColor(.gray)
             Spacer()
-        }
+        }.padding()
         
     }
 }
