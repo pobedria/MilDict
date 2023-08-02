@@ -16,7 +16,7 @@
 		778B074E2A723F3200A96821 /* MilDictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B074D2A723F3200A96821 /* MilDictUITests.swift */; };
 		778B07502A723F3200A96821 /* MilDictUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B074F2A723F3200A96821 /* MilDictUITestsLaunchTests.swift */; };
 		77AA0A222A77A219006D3946 /* terms.json in Resources */ = {isa = PBXBuildFile; fileRef = 77AA0A212A77A219006D3946 /* terms.json */; };
-		77AA0A252A77A2CB006D3946 /* WordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A242A77A2CB006D3946 /* WordsModel.swift */; };
+		77AA0A252A77A2CB006D3946 /* TermsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A242A77A2CB006D3946 /* TermsModel.swift */; };
 		77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A262A77A3CC006D3946 /* ReadWords.swift */; };
 		77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A292A77D5D0006D3946 /* extensions.swift */; };
 		77AA0A2C2A793298006D3946 /* TermDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A2B2A793298006D3946 /* TermDetailView.swift */; };
@@ -55,7 +55,7 @@
 		778B074D2A723F3200A96821 /* MilDictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictUITests.swift; sourceTree = "<group>"; };
 		778B074F2A723F3200A96821 /* MilDictUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		77AA0A212A77A219006D3946 /* terms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = terms.json; sourceTree = "<group>"; };
-		77AA0A242A77A2CB006D3946 /* WordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsModel.swift; sourceTree = "<group>"; };
+		77AA0A242A77A2CB006D3946 /* TermsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsModel.swift; sourceTree = "<group>"; };
 		77AA0A262A77A3CC006D3946 /* ReadWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWords.swift; sourceTree = "<group>"; };
 		77AA0A292A77D5D0006D3946 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		77AA0A2B2A793298006D3946 /* TermDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetailView.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		77AA0A232A77A29F006D3946 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				77AA0A242A77A2CB006D3946 /* WordsModel.swift */,
+				77AA0A242A77A2CB006D3946 /* TermsModel.swift */,
 				77AA0A262A77A3CC006D3946 /* ReadWords.swift */,
 			);
 			path = Model;
@@ -340,7 +340,7 @@
 				77AA0A342A7A3B9D006D3946 /* AbbriviationTabView.swift in Sources */,
 				77AA0A302A7A38B6006D3946 /* TermView.swift in Sources */,
 				77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */,
-				77AA0A252A77A2CB006D3946 /* WordsModel.swift in Sources */,
+				77AA0A252A77A2CB006D3946 /* TermsModel.swift in Sources */,
 				77AA0A322A7A3ACF006D3946 /* TerminologyTabView.swift in Sources */,
 				778B07332A723F3100A96821 /* MilDictApp.swift in Sources */,
 			);

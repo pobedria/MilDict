@@ -33,10 +33,6 @@ struct TermView: View {
                         .frame(maxWidth: .infinity, alignment: .topLeading)
                 }
             }
-            
-            Text(term.en_text)
-                .font(.subheadline)
-                .foregroundColor(Color.gray)
         }
     }
 }
