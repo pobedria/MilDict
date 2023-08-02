@@ -15,7 +15,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Термінологія", systemImage: "text.book.closed")
                 }
-            AbbriviationTabView()
+            AbbreviationTabView()
                 .tabItem {
                     Label("Абревіатури", systemImage: "character.bubble")
                 }
