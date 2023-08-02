@@ -25,7 +25,16 @@ func load<T: Decodable>(_ filename: String) -> T {
 
 func loadSortedTerms() -> [Term]{
     let terms:[Term] = load("terms.json")
-    return terms.sorted(by:{$0.en_title.lowercased()<$1.en_title.lowercased()})
+    let lovercasedTerms = terms.map{
+        Term(
+            id: $0.id,
+            en_title: $0.en_title.lowercased(),
+            en_text: $0.en_text,
+            ua_title: $0.ua_title.lowercased(),
+            ua_text: $0.ua_text
+        )
+    }
+    return lovercasedTerms.sorted(by:{$0.en_title<$1.en_title})
 }
 
 func loadAbbreviations() -> [Abbreviation]{
