@@ -8,16 +8,29 @@
 import SwiftUI
 
 struct AbbreviationTabView: View {
-    @State private var searchfield: String = ""
+    var abbreviations = loadAbbreviations()
+    @State private var searchField: String = ""
     var body: some View {
         VStack{
+            let sanitizedField = searchField
+                .lowercased()
+                .trimmingCharacters(in: .whitespacesAndNewlines)
             
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Vikaa")
-            Spacer()
-            TextField("Пошук", text: $searchfield)
+            NavigationView {
+                if sanitizedField.isEmpty{
+                    let words = abbreviations
+                    AbbreviationListView(abbreviations: words)
+                }
+                else {
+                    let filtered = abbreviations.filter(
+                        where:{ $0.short_title.lowercased().contains(sanitizedField)},
+                        limit: 20)
+                    AbbreviationListView(abbreviations: filtered)
+                }
+            }.navigationTitle("Аббревіатури")
+            
+            
+            TextField("Пошук", text: $searchField)
         }.padding()
     }
 }
