@@ -8,9 +8,8 @@
 import SwiftUI
 
 
-
 struct TerminologyTabView: View {
-    var datas = ReadData()
+    var terms = loadSortedTerms()
     @State private var searchField: String = ""
     
     var body: some View {
@@ -20,17 +19,17 @@ struct TerminologyTabView: View {
                 .trimmingCharacters(in: .whitespacesAndNewlines)
             NavigationView {
                 if sanitizedField.isEmpty{
-                    let words = datas.terms
+                    let words = terms
                     TermsList(terms: words)
                 }
                 else {
                     if sanitizedField.isCyrillic{
-                        let filtered = datas.terms.filter(
+                        let filtered = terms.filter(
                             where:{ $0.ua_title.lowercased().contains(sanitizedField)},
                             limit: 20)
                         TermsList(terms: filtered)
                     } else {
-                        let filtered = datas.terms.filter(
+                        let filtered = terms.filter(
                             where:{ $0.en_title.lowercased().contains(sanitizedField)},
                             limit: 20)
                         TermsList(terms: filtered)
