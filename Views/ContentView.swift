@@ -15,8 +15,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Термінологія", systemImage: "text.book.closed")
                 }
-
-            AbbriviationView()
+            AbbriviationTabView()
                 .tabItem {
                     Label("Абревіатури", systemImage: "character.bubble")
                 }
@@ -24,20 +23,7 @@ struct ContentView: View {
     }
 }
 
-struct AbbriviationView: View {
-    @State private var searchfield: String = ""
-    var body: some View {
-        VStack{
-            
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Vikaa")
-            Spacer()
-            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $searchfield)
-        }.padding()
-    }
-}
+
 
 
 

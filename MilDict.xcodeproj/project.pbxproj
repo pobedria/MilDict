@@ -21,6 +21,7 @@
 		77AA0A2C2A793298006D3946 /* TermDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A2B2A793298006D3946 /* TermDetailView.swift */; };
 		77AA0A302A7A38B6006D3946 /* TermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A2F2A7A38B6006D3946 /* TermView.swift */; };
 		77AA0A322A7A3ACF006D3946 /* TerminologyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A312A7A3ACF006D3946 /* TerminologyTabView.swift */; };
+		77AA0A342A7A3B9D006D3946 /* AbbriviationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A332A7A3B9D006D3946 /* AbbriviationTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		77AA0A2B2A793298006D3946 /* TermDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetailView.swift; sourceTree = "<group>"; };
 		77AA0A2F2A7A38B6006D3946 /* TermView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermView.swift; sourceTree = "<group>"; };
 		77AA0A312A7A3ACF006D3946 /* TerminologyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyTabView.swift; sourceTree = "<group>"; };
+		77AA0A332A7A3B9D006D3946 /* AbbriviationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbriviationTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				77AA0A312A7A3ACF006D3946 /* TerminologyTabView.swift */,
 				77AA0A2F2A7A38B6006D3946 /* TermView.swift */,
 				77AA0A2B2A793298006D3946 /* TermDetailView.swift */,
+				77AA0A332A7A3B9D006D3946 /* AbbriviationTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				77AA0A2C2A793298006D3946 /* TermDetailView.swift in Sources */,
 				77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */,
 				778B07352A723F3100A96821 /* ContentView.swift in Sources */,
+				77AA0A342A7A3B9D006D3946 /* AbbriviationTabView.swift in Sources */,
 				77AA0A302A7A38B6006D3946 /* TermView.swift in Sources */,
 				77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */,
 				77AA0A252A77A2CB006D3946 /* WordsModel.swift in Sources */,
