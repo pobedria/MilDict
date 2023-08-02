@@ -174,13 +174,29 @@
 		77AA0A2E2A7A382E006D3946 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				77AA0A352A7A3C40006D3946 /* Terminology */,
+				77AA0A362A7A3C60006D3946 /* Abbriviation */,
 				778B07342A723F3100A96821 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77AA0A352A7A3C40006D3946 /* Terminology */ = {
+			isa = PBXGroup;
+			children = (
 				77AA0A312A7A3ACF006D3946 /* TerminologyTabView.swift */,
 				77AA0A2F2A7A38B6006D3946 /* TermView.swift */,
 				77AA0A2B2A793298006D3946 /* TermDetailView.swift */,
+			);
+			path = Terminology;
+			sourceTree = "<group>";
+		};
+		77AA0A362A7A3C60006D3946 /* Abbriviation */ = {
+			isa = PBXGroup;
+			children = (
 				77AA0A332A7A3B9D006D3946 /* AbbriviationTabView.swift */,
 			);
-			path = Views;
+			path = Abbriviation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
