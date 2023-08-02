@@ -9,16 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
     var body: some View {
         TabView {
-            TerminologyView()
-            
+            TerminologyTabView()
                 .tabItem {
                     Label("Термінологія", systemImage: "text.book.closed")
                 }
 
-            AbbriviatinView()
+            AbbriviationView()
                 .tabItem {
                     Label("Абревіатури", systemImage: "character.bubble")
                 }
@@ -26,56 +24,7 @@ struct ContentView: View {
     }
 }
 
-struct TerminologyView: View {
-    var datas = ReadData()
-    @State private var searchField: String = ""
-    
-    var body: some View {
-        VStack{
-            let sanitizedField = searchField
-                .lowercased()
-                .trimmingCharacters(in: .whitespacesAndNewlines)
-            NavigationView {
-                if sanitizedField.isEmpty{
-                    let words = datas.terms
-                    List(words){ term in
-                        NavigationLink {
-                            TermDetail(term: term)
-                        } label: {
-                            TermView(term)
-                        }
-                    }
-                }
-                else {
-                    if sanitizedField.isCyrillic{
-                        let filtered = datas.terms.filter(
-                            where:{ $0.ua_title.lowercased().contains(sanitizedField)},
-                            limit: 20)
-                        List(filtered) { term in
-                            TermView(term)
-                        }
-                    } else {
-                        let filtered = datas.terms.filter(
-                            where:{ $0.en_title.lowercased().contains(sanitizedField)},
-                            limit: 20)
-                        List(filtered) { term in
-                            TermView(term)
-                        }
-                    }
-                }
-            }.navigationTitle("Landmarks")
-   
-            TextField("Пошук", text: $searchField).padding()
-        }
-    }
-}
-
-
-
-        
-
-
-struct AbbriviatinView: View {
+struct AbbriviationView: View {
     @State private var searchfield: String = ""
     var body: some View {
         VStack{
