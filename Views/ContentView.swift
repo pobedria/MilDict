@@ -71,39 +71,7 @@ struct TerminologyView: View {
 }
 
 
-struct TermView: View {
-    
-    var term: Term
-    init(_ term: Term) {
-        self.term = term
-    }
-        
-    var body: some View {
-        VStack(alignment: .leading) {
-            HStack( alignment: .top){
-                Text(term.en_title)
-                    .font(.body)
-                    .foregroundColor(.accentColor)
-                    .frame(maxWidth: .infinity, alignment: .topLeading)
-                if term.ua_title.isEmpty{
-                    Text("⚠️ Переклад не стандартизовано")
-                        .font(.body)
-                        .foregroundColor(.red)
-                        .frame(maxWidth: .infinity, alignment: .topLeading)
-                }else {
-                    Text(term.ua_title)
-                        .font(.body)
-                        .foregroundColor(Color("BackgroundColor"))
-                        .frame(maxWidth: .infinity, alignment: .topLeading)
-                }
-            }
-            
-            Text(term.en_text)
-                .font(.subheadline)
-                .foregroundColor(Color.gray)
-        }
-    }
-}
+
         
 
 
