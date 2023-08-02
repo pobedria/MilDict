@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TermDetail: View {
+struct TermDetailView: View {
     let term: Term
     var body: some View {
         VStack(alignment: .leading){
@@ -27,9 +27,9 @@ struct TermDetail: View {
     }
 }
 
-struct TermDetail_Previews: PreviewProvider {
+struct TermDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TermDetail(term:
+        TermDetailView(term:
             Term(
                 id: 1,
                 en_title: "LOCAL AREA NETWORK",

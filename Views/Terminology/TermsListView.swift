@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct TermsList: View {
+struct TermsListView: View {
     let terms: [Term]
     
     var body: some View {
         List(terms){ term in
             NavigationLink {
-                TermDetail(term: term)
+                TermDetailView(term: term)
             } label: {
-                TermView(term)
+                TermView(term: term)
             }
         }
     }
 }
 
-struct TermsList_Previews: PreviewProvider {
+struct TermsListView_Previews: PreviewProvider {
     static var previews: some View {
-        TermsList(terms:
+        TermsListView(terms:
             [Term(
                 id: 1,
                 en_title: "LOCAL AREA NETWORK",

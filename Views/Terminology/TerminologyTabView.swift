@@ -20,19 +20,19 @@ struct TerminologyTabView: View {
             NavigationView {
                 if sanitizedField.isEmpty{
                     let words = terms
-                    TermsList(terms: words)
+                    TermsListView(terms: words)
                 }
                 else {
                     if sanitizedField.isCyrillic{
                         let filtered = terms.filter(
                             where:{ $0.ua_title.lowercased().contains(sanitizedField)},
                             limit: 20)
-                        TermsList(terms: filtered)
+                        TermsListView(terms: filtered)
                     } else {
                         let filtered = terms.filter(
                             where:{ $0.en_title.lowercased().contains(sanitizedField)},
                             limit: 20)
-                        TermsList(terms: filtered)
+                        TermsListView(terms: filtered)
                     }
                 }
             }.navigationTitle("Landmarks")

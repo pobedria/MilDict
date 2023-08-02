@@ -10,10 +10,6 @@ import SwiftUI
 struct TermView: View {
     
     var term: Term
-    init(_ term: Term) {
-        self.term = term
-    }
-        
     var body: some View {
         VStack(alignment: .leading) {
             HStack( alignment: .top){
@@ -39,7 +35,7 @@ struct TermView: View {
 
 struct TermView_Previews: PreviewProvider {
     static var previews: some View {
-        TermView(
+        TermView(term:
             Term(
                 id: 1,
                 en_title: "LOCAL AREA NETWORK",
