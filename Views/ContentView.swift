@@ -70,6 +70,7 @@ struct TerminologyView: View {
     }
 }
 
+
 struct TermView: View {
     
     var term: Term
