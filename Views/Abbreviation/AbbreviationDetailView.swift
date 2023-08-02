@@ -10,9 +10,22 @@ import SwiftUI
 struct AbbreviationDetailView: View {
     let abbreviation: Abbreviation
     var body: some View {
-        VStack{
-            Text(abbreviation.short_title)
+        VStack(alignment: .leading){
+            Text(abbreviation.short_title).foregroundColor(Color("BackgroundColor"))
+                .font(.title)
+            Divider()
             Text(abbreviation.en_title)
+                .foregroundColor(Color("BackgroundColor"))
+                .font(.title)
+
+            Text(abbreviation.ua_title)
+                .font(.headline)
+                .foregroundColor(.accentColor)
+            Divider()
+            Text("Джерело: \(abbreviation.source)")
+                .font(.subheadline)
+                .foregroundColor(.gray)
+            Spacer()
         }
         
     }
