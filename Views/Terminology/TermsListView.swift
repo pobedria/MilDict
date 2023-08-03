@@ -16,8 +16,9 @@ struct TermsListView: View {
                 TermDetailView(term: term)
             } label: {
                 TermView(term: term)
-            }
-        }
+            }.listRowBackground(Color("Olive"))
+        }.background(Color("Steppe"))
+        .scrollContentBackground(.hidden)
     }
 }
 
