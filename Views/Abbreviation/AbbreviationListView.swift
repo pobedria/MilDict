@@ -16,8 +16,9 @@ struct AbbreviationListView: View {
                 AbbreviationDetailView(abbreviation: abbreviation)
             } label: {
                 AbbreviationView(abbreviation: abbreviation)
-            }
-        }
+            }.listRowBackground(Color("Olive"))
+        }.background(Color("Steppe"))
+        .scrollContentBackground(.hidden)
     }
 }
 

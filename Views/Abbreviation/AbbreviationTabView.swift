@@ -32,10 +32,10 @@ struct AbbreviationTabView: View {
             .navigationTitle("Аббревіатури")
             TextField("Пошук", text: $searchField, onEditingChanged: { edit in
                 self.editing = edit
-            })
+            }).background(Color("Olive"))
             .textFieldStyle(MDTextFieldStyle(focused: $editing))
             Spacer()
-        }
+        }.background(Color("Olive"))
     }
 }
 
