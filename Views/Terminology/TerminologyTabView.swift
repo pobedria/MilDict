@@ -40,7 +40,9 @@ struct TerminologyTabView: View {
             
             TextField("Пошук", text: $searchField, onEditingChanged: { edit in
                 self.editing = edit
-            }).background(Color("Olive"))
+            })
+            .background(Color("Olive"))
+            .foregroundColor(searchField.isLatin ? Color("Primary") : Color("Secondary"))
             .textFieldStyle(MDTextFieldStyle(focused: $editing))
             Spacer()
         }.background(Color("Olive"))
