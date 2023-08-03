@@ -41,31 +41,12 @@ struct TerminologyTabView: View {
             TextField("Пошук", text: $searchField, onEditingChanged: { edit in
                 self.editing = edit
             })
-//                .frame(maxWidth: .infinity, alignment: .trailing)
-//                .padding()
-                .textFieldStyle(MyTextFieldStyle(focused: $editing))
-//                .textFieldStyle(.roundedBorder)
-//                .background(Color("BackgroundColor"))
-//                .foregroundColor(Color("BackgroundColor"))
-//
-//
+            .textFieldStyle(MyTextFieldStyle(focused: $editing))
             Spacer()
         }
     }
 }
 
-
-struct MyTextFieldStyle: TextFieldStyle {
-    @Binding var focused: Bool
-    func _body(configuration: TextField<Self._Label>) -> some View {
-        configuration
-        .padding(10)
-        .background(
-            RoundedRectangle(cornerRadius: 10, style: .continuous)
-                .stroke(focused ? .accentColor : Color.gray, lineWidth: 3)
-        ).padding(.horizontal,10)
-    }
-}
 
 struct TerminologyTabView_Previews: PreviewProvider {
     static var previews: some View {

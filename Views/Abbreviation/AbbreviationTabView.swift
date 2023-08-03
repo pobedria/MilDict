@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AbbreviationTabView: View {
+    @State private var editing = false
     var abbreviations = loadAbbreviations()
     @State private var searchField: String = ""
     var body: some View {
@@ -29,7 +30,11 @@ struct AbbreviationTabView: View {
                 }
             }
             .navigationTitle("Аббревіатури")
-            TextField("Пошук", text: $searchField).padding()
+            TextField("Пошук", text: $searchField, onEditingChanged: { edit in
+                self.editing = edit
+            })
+            .textFieldStyle(MyTextFieldStyle(focused: $editing))
+            Spacer()
         }
     }
 }
