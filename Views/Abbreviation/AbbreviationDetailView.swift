@@ -26,7 +26,9 @@ struct AbbreviationDetailView: View {
                 .font(.subheadline)
                 .foregroundColor(.gray)
             Spacer()
-        }.padding()
+        }
+        .padding()
+        .background(Color("Olive"))
         
     }
 }

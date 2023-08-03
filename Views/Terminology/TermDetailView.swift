@@ -22,8 +22,9 @@ struct TermDetailView: View {
             Text(term.ua_text)
                 .font(.title3).foregroundColor(.gray)
             Spacer()
-        }.padding()
-        
+        }
+        .padding()
+        .background(Color("Olive"))
     }
 }
 
