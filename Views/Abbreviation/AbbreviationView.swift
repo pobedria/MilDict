@@ -10,7 +10,7 @@ import SwiftUI
 struct AbbreviationView: View {
     let abbreviation: Abbreviation
     var body: some View {
-        Text(abbreviation.short_title).foregroundColor(.accentColor)
+        Text(abbreviation.short_title).foregroundColor(Color("Primary"))
     }
 }
 

@@ -14,7 +14,7 @@ struct MDTextFieldStyle: TextFieldStyle {
         .padding(10)
         .background(
             RoundedRectangle(cornerRadius: 10, style: .continuous)
-                .stroke(focused ? .accentColor : Color.gray, lineWidth: 3)
+                .stroke(focused ? Color("Primary") : Color.gray, lineWidth: 3)
         ).padding(.horizontal,10)
     }
 }
