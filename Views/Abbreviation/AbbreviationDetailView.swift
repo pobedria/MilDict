@@ -11,16 +11,16 @@ struct AbbreviationDetailView: View {
     let abbreviation: Abbreviation
     var body: some View {
         VStack(alignment: .leading){
-            Text(abbreviation.short_title).foregroundColor(Color("BackgroundColor"))
+            Text(abbreviation.short_title).foregroundColor(.accentColor)
                 .font(.title)
             Divider()
             Text(abbreviation.en_title)
-                .foregroundColor(Color("BackgroundColor"))
+                .foregroundColor(.accentColor)
                 .font(.title)
 
             Text(abbreviation.ua_title)
                 .font(.headline)
-                .foregroundColor(.accentColor)
+                .foregroundColor(Color("BackgroundColor"))
             Divider()
             Text("Джерело: \(abbreviation.source)")
                 .font(.subheadline)
