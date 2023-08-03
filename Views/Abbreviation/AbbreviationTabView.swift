@@ -27,11 +27,10 @@ struct AbbreviationTabView: View {
                         limit: 20)
                     AbbreviationListView(abbreviations: filtered)
                 }
-            }.navigationTitle("Аббревіатури")
-            
-            
-            TextField("Пошук", text: $searchField)
-        }.padding()
+            }
+            .navigationTitle("Аббревіатури")
+            TextField("Пошук", text: $searchField).padding()
+        }
     }
 }
 

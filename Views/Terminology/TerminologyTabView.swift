@@ -11,6 +11,7 @@ import SwiftUI
 struct TerminologyTabView: View {
     var terms = loadSortedTerms()
     @State private var searchField: String = ""
+    @State private var editing = false
     
     var body: some View {
         VStack{
@@ -36,12 +37,35 @@ struct TerminologyTabView: View {
                     }
                 }
             }.navigationTitle("Landmarks")
-   
-            TextField("Пошук", text: $searchField).padding()
+            
+            TextField("Пошук", text: $searchField, onEditingChanged: { edit in
+                self.editing = edit
+            })
+//                .frame(maxWidth: .infinity, alignment: .trailing)
+//                .padding()
+                .textFieldStyle(MyTextFieldStyle(focused: $editing))
+//                .textFieldStyle(.roundedBorder)
+//                .background(Color("BackgroundColor"))
+//                .foregroundColor(Color("BackgroundColor"))
+//
+//
+            Spacer()
         }
     }
 }
 
+
+struct MyTextFieldStyle: TextFieldStyle {
+    @Binding var focused: Bool
+    func _body(configuration: TextField<Self._Label>) -> some View {
+        configuration
+        .padding(10)
+        .background(
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                .stroke(focused ? .accentColor : Color.gray, lineWidth: 3)
+        ).padding(.horizontal,10)
+    }
+}
 
 struct TerminologyTabView_Previews: PreviewProvider {
     static var previews: some View {
