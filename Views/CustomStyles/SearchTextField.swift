@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MyTextFieldStyle: TextFieldStyle {
+struct MDTextFieldStyle: TextFieldStyle {
     @Binding var focused: Bool
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration

@@ -101,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		776A79702A7BA464001F268B /* CustomStyles */ = {
+			isa = PBXGroup;
+			children = (
+				776A796E2A7BA399001F268B /* SearchTextField.swift */,
+			);
+			path = CustomStyles;
+			sourceTree = "<group>";
+		};
 		778B07262A723F3100A96821 = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				77AA0A292A77D5D0006D3946 /* extensions.swift */,
-				776A796E2A7BA399001F268B /* SearchTextField.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -192,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				778B07342A723F3100A96821 /* ContentView.swift */,
+				776A79702A7BA464001F268B /* CustomStyles */,
 				77AA0A352A7A3C40006D3946 /* Terminology */,
 				77AA0A362A7A3C60006D3946 /* Abbreviation */,
 			);

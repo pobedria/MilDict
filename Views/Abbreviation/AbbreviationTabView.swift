@@ -33,7 +33,7 @@ struct AbbreviationTabView: View {
             TextField("Пошук", text: $searchField, onEditingChanged: { edit in
                 self.editing = edit
             })
-            .textFieldStyle(MyTextFieldStyle(focused: $editing))
+            .textFieldStyle(MDTextFieldStyle(focused: $editing))
             Spacer()
         }
     }
