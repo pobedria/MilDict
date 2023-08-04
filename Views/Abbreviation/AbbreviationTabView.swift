@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct AbbreviationTabView: View {
-    @State private var editing = false
-    var abbreviations = loadAbbreviations()
+
     @State private var searchField: String = ""
+    var abbreviations = loadAbbreviations()
+    
     var body: some View {
         VStack{
             let sanitizedField = searchField
@@ -30,10 +31,10 @@ struct AbbreviationTabView: View {
                 }
             }
             .navigationTitle("Аббревіатури")
-            TextField("Пошук", text: $searchField, onEditingChanged: { edit in
-                self.editing = edit
-            }).background(Color("Olive"))
-            .textFieldStyle(MDTextFieldStyle(focused: $editing))
+            TextField("Пошук", text: $searchField)
+                .background(Color("Olive"))
+                .textFieldStyle(MDTextFieldStyle())
+                .foregroundColor(Color("Primary"))
             Spacer()
         }.background(Color("Olive"))
     }

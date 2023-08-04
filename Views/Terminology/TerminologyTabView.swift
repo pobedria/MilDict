@@ -11,7 +11,6 @@ import SwiftUI
 struct TerminologyTabView: View {
     var terms = loadSortedTerms()
     @State private var searchField: String = ""
-    @State private var editing = false
     
     var body: some View {
         VStack{
@@ -38,12 +37,13 @@ struct TerminologyTabView: View {
                 }
             }.navigationTitle("Landmarks")
             
-            TextField("Пошук", text: $searchField, onEditingChanged: { edit in
-                self.editing = edit
-            })
+            TextField(
+                "Пошук",
+                text: $searchField
+            )
             .background(Color("Olive"))
             .foregroundColor(searchField.isLatin ? Color("Primary") : Color("Secondary"))
-            .textFieldStyle(MDTextFieldStyle(focused: $editing))
+            .textFieldStyle(MDTextFieldStyle())
             Spacer()
         }.background(Color("Olive"))
     }
