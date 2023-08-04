@@ -14,11 +14,11 @@ struct ContentView: View {
             TerminologyTabView()
                 .tabItem {
                     Label("Термінологія", systemImage: "text.book.closed")
-                }
+                }.toolbarBackground(Color("Olive"),for: .tabBar)
             AbbreviationTabView()
                 .tabItem {
                     Label("Абревіатури", systemImage: "character.bubble")
-                }
+                }.toolbarBackground(Color("Olive"),for: .tabBar)
         }
     }
 }
