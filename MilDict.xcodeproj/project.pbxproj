@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		776A79632A7A460F001F268B /* TermsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79622A7A460F001F268B /* TermsListView.swift */; };
-		776A79652A7A516F001F268B /* abbreviation.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A79642A7A516F001F268B /* abbreviation.json */; };
 		776A79672A7A5344001F268B /* AbbreviationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79662A7A5344001F268B /* AbbreviationModel.swift */; };
 		776A79692A7A68DC001F268B /* AbbreviationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79682A7A68DC001F268B /* AbbreviationView.swift */; };
 		776A796B2A7A6915001F268B /* AbbreviationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A796A2A7A6915001F268B /* AbbreviationDetailView.swift */; };
 		776A796D2A7A6939001F268B /* AbbreviationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A796C2A7A6939001F268B /* AbbreviationListView.swift */; };
 		776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A796E2A7BA399001F268B /* SearchTextField.swift */; };
+		776A79742A8123A2001F268B /* abbreviation.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A79732A8123A2001F268B /* abbreviation.json */; };
 		778B07332A723F3100A96821 /* MilDictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07322A723F3100A96821 /* MilDictApp.swift */; };
 		778B07352A723F3100A96821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07342A723F3100A96821 /* ContentView.swift */; };
 		778B07372A723F3200A96821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B07362A723F3200A96821 /* Assets.xcassets */; };
@@ -50,12 +50,12 @@
 
 /* Begin PBXFileReference section */
 		776A79622A7A460F001F268B /* TermsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsListView.swift; sourceTree = "<group>"; };
-		776A79642A7A516F001F268B /* abbreviation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abbreviation.json; sourceTree = "<group>"; };
 		776A79662A7A5344001F268B /* AbbreviationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationModel.swift; sourceTree = "<group>"; };
 		776A79682A7A68DC001F268B /* AbbreviationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationView.swift; sourceTree = "<group>"; };
 		776A796A2A7A6915001F268B /* AbbreviationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationDetailView.swift; sourceTree = "<group>"; };
 		776A796C2A7A6939001F268B /* AbbreviationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationListView.swift; sourceTree = "<group>"; };
 		776A796E2A7BA399001F268B /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		776A79732A8123A2001F268B /* abbreviation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abbreviation.json; sourceTree = "<group>"; };
 		778B072F2A723F3100A96821 /* MilDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B07322A723F3100A96821 /* MilDictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictApp.swift; sourceTree = "<group>"; };
 		778B07342A723F3100A96821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				77AA0A212A77A219006D3946 /* terms.json */,
-				776A79642A7A516F001F268B /* abbreviation.json */,
+				776A79732A8123A2001F268B /* abbreviation.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 				77AA0A222A77A219006D3946 /* terms.json in Resources */,
 				778B073A2A723F3200A96821 /* Preview Assets.xcassets in Resources */,
 				778B07372A723F3200A96821 /* Assets.xcassets in Resources */,
-				776A79652A7A516F001F268B /* abbreviation.json in Resources */,
+				776A79742A8123A2001F268B /* abbreviation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
