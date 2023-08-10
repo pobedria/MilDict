@@ -70,3 +70,19 @@ extension View {
         }
     }
 }
+
+extension String {
+    func compareDigitsInTheEnd(_ other: String) -> Bool{
+        if let leftChar = self.first, let rightChar = other.first {
+            if !leftChar.isLetter && rightChar.isLetter {
+                return false
+            } else if leftChar.isLetter && !rightChar.isLetter {
+                return true
+            } else {
+                return self < other
+            }
+        } else {
+            return self < other
+        }
+    }
+}

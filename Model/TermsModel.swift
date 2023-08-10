@@ -21,4 +21,5 @@ struct Term: Codable, Identifiable {
     var en_text: String
     var ua_title: String
     var ua_text: String
+    
 }

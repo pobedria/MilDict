@@ -34,7 +34,7 @@ func loadSortedTerms() -> [Term]{
             ua_text: $0.ua_text
         )
     }
-    return lovercasedTerms.sorted(by:{$0.en_title<$1.en_title})
+    return lovercasedTerms.sorted(by:{$0.en_title.compareDigitsInTheEnd($1.en_title)})
 }
 
 func loadAbbreviations() -> [Abbreviation]{
