@@ -38,7 +38,7 @@ func loadSortedTerms() -> [Term]{
 }
 
 func loadAbbreviations() -> [Abbreviation]{
-    let abbreviations: [Abbreviation] = load("abbreviation.json")
+    let abbreviations: [Abbreviation] = load("abbreviations.json")
     return abbreviations
 }
 
