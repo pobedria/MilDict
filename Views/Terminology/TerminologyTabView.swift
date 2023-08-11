@@ -35,7 +35,7 @@ struct TerminologyTabView: View {
                         TermsListView(terms: filtered)
                     }
                 }
-            }.navigationTitle("Landmarks")
+            }.navigationTitle("Термінологія")
             
             TextField(
                 "Пошук",
