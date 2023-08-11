@@ -40,7 +40,7 @@ struct TerminologyTabView: View {
             TextField(
                 "Пошук",
                 text: $searchField,
-                prompt:  Text("Пошук").foregroundColor(.gray)
+                prompt:  Text("Пошук").foregroundColor(Color("LightKhaki"))
             )
             .background(Color("Olive"))
             .foregroundColor(searchField.isLatin ? Color("Primary") : Color("Secondary"))

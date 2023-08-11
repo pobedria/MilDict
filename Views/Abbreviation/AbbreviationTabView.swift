@@ -31,7 +31,7 @@ struct AbbreviationTabView: View {
                 }
             }
             .navigationTitle("Аббревіатури")
-            TextField("Пошук", text: $searchField,prompt:  Text("Пошук").foregroundColor(.gray))
+            TextField("Пошук", text: $searchField,prompt:  Text("Пошук").foregroundColor(Color("LightKhaki")))
                 .background(Color("Olive"))
                 .textFieldStyle(MDTextFieldStyle())
                 .foregroundColor(Color("Primary"))

@@ -24,7 +24,7 @@ struct AbbreviationDetailView: View {
             Divider()
             Text("Джерело: \(abbreviation.source)")
                 .font(.subheadline)
-                .foregroundColor(.gray)
+                .foregroundColor(Color("LightKhaki"))
             Spacer()
         }
         .padding()

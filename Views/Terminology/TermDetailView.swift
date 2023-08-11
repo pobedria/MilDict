@@ -15,12 +15,12 @@ struct TermDetailView: View {
                 .font(.title).foregroundColor(Color("Primary"))
             
             Text(term.en_text)
-                .font(.title3).foregroundColor(.gray)
+                .font(.title3).foregroundColor(Color("LightKhaki"))
             Divider()
             Text(term.ua_title)
                 .font(.title).foregroundColor(Color("Secondary"))
             Text(term.ua_text)
-                .font(.title3).foregroundColor(.gray)
+                .font(.title3).foregroundColor(Color("LightKhaki"))
             Spacer()
         }
         .padding()
