@@ -15,6 +15,7 @@
 		776A28E62BEA4911008D4662 /* J-1 – питання персоналу.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A28DE2BEA4911008D4662 /* J-1 – питання персоналу.json */; };
 		776A28E72BEA4911008D4662 /* J-2 – розвідка.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A28DF2BEA4911008D4662 /* J-2 – розвідка.json */; };
 		776A28E82BEA4911008D4662 /* J-3 – оперативна діяльність.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A28E02BEA4911008D4662 /* J-3 – оперативна діяльність.json */; };
+		776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A28E92BEA4A40008D4662 /* TBXModel.swift */; };
 		776A79632A7A460F001F268B /* TermsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79622A7A460F001F268B /* TermsListView.swift */; };
 		776A79672A7A5344001F268B /* AbbreviationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79662A7A5344001F268B /* AbbreviationModel.swift */; };
 		776A79692A7A68DC001F268B /* AbbreviationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79682A7A68DC001F268B /* AbbreviationView.swift */; };
@@ -65,6 +66,7 @@
 		776A28DE2BEA4911008D4662 /* J-1 – питання персоналу.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "J-1 – питання персоналу.json"; path = "../../../../Downloads/J-1 – питання персоналу.json"; sourceTree = "<group>"; };
 		776A28DF2BEA4911008D4662 /* J-2 – розвідка.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "J-2 – розвідка.json"; path = "../../../../Downloads/J-2 – розвідка.json"; sourceTree = "<group>"; };
 		776A28E02BEA4911008D4662 /* J-3 – оперативна діяльність.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "J-3 – оперативна діяльність.json"; path = "../../../../Downloads/J-3 – оперативна діяльність.json"; sourceTree = "<group>"; };
+		776A28E92BEA4A40008D4662 /* TBXModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXModel.swift; sourceTree = "<group>"; };
 		776A79622A7A460F001F268B /* TermsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsListView.swift; sourceTree = "<group>"; };
 		776A79662A7A5344001F268B /* AbbreviationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationModel.swift; sourceTree = "<group>"; };
 		776A79682A7A68DC001F268B /* AbbreviationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationView.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			children = (
 				776A79662A7A5344001F268B /* AbbreviationModel.swift */,
 				77AA0A242A77A2CB006D3946 /* TermsModel.swift */,
+				776A28E92BEA4A40008D4662 /* TBXModel.swift */,
 				77AA0A262A77A3CC006D3946 /* ReadWords.swift */,
 			);
 			path = Model;
@@ -400,6 +403,7 @@
 				776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */,
 				778B07352A723F3100A96821 /* ContentView.swift in Sources */,
 				77AA0A342A7A3B9D006D3946 /* AbbreviationTabView.swift in Sources */,
+				776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */,
 				77AA0A302A7A38B6006D3946 /* TermView.swift in Sources */,
 				77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */,
 				776A796B2A7A6915001F268B /* AbbreviationDetailView.swift in Sources */,
