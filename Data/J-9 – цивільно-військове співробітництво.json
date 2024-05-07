@@ -8,7 +8,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "678356",
+						"_id": "678356",
 						"__text": "humanitarian aid"
 					},
 					"descrip": {
@@ -25,7 +25,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "678358",
+						"_id": "678358",
 						"__text": "гуманітарна допомога"
 					},
 					"descrip": {
@@ -40,7 +40,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "326262"
+		"_id": "326262"
 	},
 	{
 		"descrip": {
@@ -52,7 +52,7 @@
 				"termSec": [
 					{
 						"term": {
-							"id": "678360",
+							"_id": "678360",
 							"__text": "humanitarian operation"
 						},
 						"descrip": {
@@ -66,7 +66,7 @@
 					},
 					{
 						"term": {
-							"id": "678362",
+							"_id": "678362",
 							"__text": "humanitarian relief operation"
 						},
 						"termNote": {
@@ -76,7 +76,7 @@
 					},
 					{
 						"term": {
-							"id": "678364",
+							"_id": "678364",
 							"__text": "HUMRO"
 						},
 						"termNote": {
@@ -90,7 +90,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "678366",
+						"_id": "678366",
 						"__text": "гуманітарна операція"
 					},
 					"descrip": {
@@ -105,7 +105,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "326264"
+		"_id": "326264"
 	},
 	{
 		"descrip": {
@@ -116,7 +116,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "678368",
+						"_id": "678368",
 						"__text": "humanitarian assistance"
 					},
 					"descrip": {
@@ -133,7 +133,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "678370",
+						"_id": "678370",
 						"__text": "гуманітарна підтримка"
 					},
 					"descrip": {
@@ -148,7 +148,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "326266"
+		"_id": "326266"
 	},
 	{
 		"descrip": {
@@ -160,7 +160,7 @@
 				"termSec": [
 					{
 						"term": {
-							"id": "678450",
+							"_id": "678450",
 							"__text": "non-combatant evacuation operation"
 						},
 						"descrip": {
@@ -174,7 +174,7 @@
 					},
 					{
 						"term": {
-							"id": "678452",
+							"_id": "678452",
 							"__text": "NEO"
 						},
 						"termNote": {
@@ -188,7 +188,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "678454",
+						"_id": "678454",
 						"__text": "евакуація некомбатантів"
 					},
 					"descrip": {
@@ -203,7 +203,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "326306"
+		"_id": "326306"
 	},
 	{
 		"descrip": {
@@ -215,7 +215,7 @@
 				"termSec": [
 					{
 						"term": {
-							"id": "679976",
+							"_id": "679976",
 							"__text": "civil-military cooperation"
 						},
 						"descrip": {
@@ -229,7 +229,7 @@
 					},
 					{
 						"term": {
-							"id": "680286",
+							"_id": "680286",
 							"__text": "CIMIC"
 						},
 						"termNote": {
@@ -239,7 +239,7 @@
 					},
 					{
 						"term": {
-							"id": "680288",
+							"_id": "680288",
 							"__text": "CMC"
 						},
 						"termNote": [
@@ -259,7 +259,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "680290",
+						"_id": "680290",
 						"__text": "цивільно-військове співробітництво"
 					},
 					"descrip": {
@@ -274,7 +274,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "326974"
+		"_id": "326974"
 	},
 	{
 		"descrip": {
@@ -285,7 +285,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "682294",
+						"_id": "682294",
 						"__text": "civilianization"
 					},
 					"descrip": {
@@ -302,7 +302,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "682930",
+						"_id": "682930",
 						"__text": "заміщення цивільним персоналом"
 					},
 					"descrip": {
@@ -317,7 +317,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "327850"
+		"_id": "327850"
 	},
 	{
 		"descrip": {
@@ -328,7 +328,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "683296",
+						"_id": "683296",
 						"__text": "checkpoint"
 					},
 					"descrip": {
@@ -345,7 +345,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "683298",
+						"_id": "683298",
 						"__text": "контрольно-пропускний пункт"
 					},
 					"descrip": {
@@ -360,7 +360,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "328190"
+		"_id": "328190"
 	},
 	{
 		"descrip": {
@@ -371,7 +371,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684170",
+						"_id": "684170",
 						"__text": "stability policing"
 					},
 					"descrip": {
@@ -388,7 +388,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684196",
+						"_id": "684196",
 						"__text": "робота поліції щодо стабілізації"
 					},
 					"descrip": {
@@ -403,7 +403,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "328620"
+		"_id": "328620"
 	},
 	{
 		"descrip": {
@@ -414,7 +414,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684284",
+						"_id": "684284",
 						"__text": "accompaniment"
 					},
 					"descrip": {
@@ -431,7 +431,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684286",
+						"_id": "684286",
 						"__text": "супровід"
 					},
 					"descrip": {
@@ -446,7 +446,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "328698"
+		"_id": "328698"
 	},
 	{
 		"descrip": {
@@ -457,7 +457,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684294",
+						"_id": "684294",
 						"__text": "collateral damage"
 					},
 					"descrip": {
@@ -474,7 +474,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684476",
+						"_id": "684476",
 						"__text": "супутні втрати"
 					},
 					"descrip": {
@@ -489,7 +489,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "328704"
+		"_id": "328704"
 	},
 	{
 		"descrip": {
@@ -500,7 +500,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684314",
+						"_id": "684314",
 						"__text": "emergency burial"
 					},
 					"descrip": {
@@ -517,7 +517,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684478",
+						"_id": "684478",
 						"__text": "термінове поховання"
 					},
 					"descrip": {
@@ -532,7 +532,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "328722"
+		"_id": "328722"
 	},
 	{
 		"descrip": {
@@ -543,7 +543,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684444",
+						"_id": "684444",
 						"__text": "civil defence"
 					},
 					"descrip": {
@@ -560,7 +560,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684482",
+						"_id": "684482",
 						"__text": "цивільна оборона"
 					},
 					"descrip": {
@@ -575,7 +575,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "328766"
+		"_id": "328766"
 	},
 	{
 		"descrip": {
@@ -586,7 +586,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684446",
+						"_id": "684446",
 						"__text": "civil protection"
 					},
 					"descrip": {
@@ -603,7 +603,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "684484",
+						"_id": "684484",
 						"__text": "цивільний захист"
 					},
 					"descrip": {
@@ -618,7 +618,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "328768"
+		"_id": "328768"
 	},
 	{
 		"descrip": {
@@ -629,7 +629,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "685494",
+						"_id": "685494",
 						"__text": "collective risk"
 					},
 					"descrip": {
@@ -646,7 +646,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "685734",
+						"_id": "685734",
 						"__text": "колективний ризик"
 					},
 					"descrip": {
@@ -661,7 +661,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "329262"
+		"_id": "329262"
 	},
 	{
 		"descrip": {
@@ -672,7 +672,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "687468",
+						"_id": "687468",
 						"__text": "biometrics"
 					},
 					"descrip": {
@@ -689,7 +689,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "687556",
+						"_id": "687556",
 						"__text": "біометрія"
 					},
 					"descrip": {
@@ -704,7 +704,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "330176"
+		"_id": "330176"
 	},
 	{
 		"descrip": {
@@ -715,7 +715,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "688016",
+						"_id": "688016",
 						"__text": "human environment"
 					},
 					"descrip": {
@@ -732,7 +732,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "688018",
+						"_id": "688018",
 						"__text": "навколишнє середовище"
 					},
 					"descrip": {
@@ -747,7 +747,7 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "330410"
+		"_id": "330410"
 	},
 	{
 		"descrip": {
@@ -759,7 +759,7 @@
 				"termSec": [
 					{
 						"term": {
-							"id": "688680",
+							"_id": "688680",
 							"__text": "civil-military interaction"
 						},
 						"descrip": {
@@ -773,7 +773,7 @@
 					},
 					{
 						"term": {
-							"id": "688682",
+							"_id": "688682",
 							"__text": "CMI"
 						},
 						"termNote": {
@@ -787,7 +787,7 @@
 			{
 				"termSec": {
 					"term": {
-						"id": "688684",
+						"_id": "688684",
 						"__text": "цивільно-військова взаємодія"
 					},
 					"descrip": {
@@ -802,6 +802,6 @@
 				"_xml:lang": "uk"
 			}
 		],
-		"id": "330698"
+		"_id": "330698"
 	}
 ]

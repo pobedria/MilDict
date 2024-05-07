@@ -9,32 +9,22 @@ import Foundation
 
 import Foundation
 
-struct TBXConcept: Codable, Identifiable {
+struct TBXConcept: Decodable{
     enum CodingKeys: CodingKey {
-        case id
-        case en_title
-        case en_text
-        case ua_title
-        case ua_text
+        case _id, descrip
     }
     
-    var id: Int
-    var en_title: String
-    var en_text: String
-    var ua_title: String
-    var ua_text: String
-    
+    var _id: String
+    var descrip: Descrip
 }
 
 
-struct Descrip: Codable, Identifiable {
-    
+struct Descrip: Codable{
     enum CodingKeys: CodingKey {
-        case id
+
         case _type
         case __text
     }
-    var id: Int
     var _type: String
     var __text: String
 }

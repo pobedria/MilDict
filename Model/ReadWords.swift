@@ -25,6 +25,8 @@ func load<T: Decodable>(_ filename: String) -> T {
 
 func loadSortedTerms() -> [Term]{
     let terms:[Term] = load("terms.json")
+    let concepts:[TBXConcept] = load("J-1 – питання персоналу.json")
+    print(concepts)
     let lovercasedTerms = terms.map{
         Term(
             id: $0.id,
