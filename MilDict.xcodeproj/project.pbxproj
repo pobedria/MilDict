@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7702E64A2BEA572E0002B149 /* J-1 – питання персоналу.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6422BEA572E0002B149 /* J-1 – питання персоналу.json */; };
+		7702E64B2BEA572E0002B149 /* J-4 – логістика.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6432BEA572E0002B149 /* J-4 – логістика.json */; };
+		7702E64C2BEA572E0002B149 /* J-6 – зв’язок та інформаційні системи.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6442BEA572E0002B149 /* J-6 – зв’язок та інформаційні системи.json */; };
+		7702E64D2BEA572E0002B149 /* J-5 – оборонне планування.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6452BEA572E0002B149 /* J-5 – оборонне планування.json */; };
+		7702E64E2BEA572E0002B149 /* J-2 – розвідка.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6462BEA572E0002B149 /* J-2 – розвідка.json */; };
+		7702E64F2BEA572E0002B149 /* J-7 – підготовка військ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6472BEA572E0002B149 /* J-7 – підготовка військ.json */; };
+		7702E6502BEA572E0002B149 /* J-3 – оперативна діяльність.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6482BEA572E0002B149 /* J-3 – оперативна діяльність.json */; };
+		7702E6512BEA572E0002B149 /* J-9 – цивільно-військове співробітництво.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6492BEA572E0002B149 /* J-9 – цивільно-військове співробітництво.json */; };
 		776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A28E92BEA4A40008D4662 /* TBXModel.swift */; };
 		776A79632A7A460F001F268B /* TermsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79622A7A460F001F268B /* TermsListView.swift */; };
 		776A79672A7A5344001F268B /* AbbreviationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79662A7A5344001F268B /* AbbreviationModel.swift */; };
@@ -50,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7702E6422BEA572E0002B149 /* J-1 – питання персоналу.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-1 – питання персоналу.json"; sourceTree = "<group>"; };
+		7702E6432BEA572E0002B149 /* J-4 – логістика.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-4 – логістика.json"; sourceTree = "<group>"; };
+		7702E6442BEA572E0002B149 /* J-6 – зв’язок та інформаційні системи.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-6 – зв’язок та інформаційні системи.json"; sourceTree = "<group>"; };
+		7702E6452BEA572E0002B149 /* J-5 – оборонне планування.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-5 – оборонне планування.json"; sourceTree = "<group>"; };
+		7702E6462BEA572E0002B149 /* J-2 – розвідка.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-2 – розвідка.json"; sourceTree = "<group>"; };
+		7702E6472BEA572E0002B149 /* J-7 – підготовка військ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-7 – підготовка військ.json"; sourceTree = "<group>"; };
+		7702E6482BEA572E0002B149 /* J-3 – оперативна діяльність.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-3 – оперативна діяльність.json"; sourceTree = "<group>"; };
+		7702E6492BEA572E0002B149 /* J-9 – цивільно-військове співробітництво.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-9 – цивільно-військове співробітництво.json"; sourceTree = "<group>"; };
 		776A28E92BEA4A40008D4662 /* TBXModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXModel.swift; sourceTree = "<group>"; };
 		776A79622A7A460F001F268B /* TermsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsListView.swift; sourceTree = "<group>"; };
 		776A79662A7A5344001F268B /* AbbreviationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationModel.swift; sourceTree = "<group>"; };
@@ -173,6 +189,14 @@
 		77AA0A202A77A20A006D3946 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				7702E6422BEA572E0002B149 /* J-1 – питання персоналу.json */,
+				7702E6462BEA572E0002B149 /* J-2 – розвідка.json */,
+				7702E6482BEA572E0002B149 /* J-3 – оперативна діяльність.json */,
+				7702E6432BEA572E0002B149 /* J-4 – логістика.json */,
+				7702E6452BEA572E0002B149 /* J-5 – оборонне планування.json */,
+				7702E6442BEA572E0002B149 /* J-6 – зв’язок та інформаційні системи.json */,
+				7702E6472BEA572E0002B149 /* J-7 – підготовка військ.json */,
+				7702E6492BEA572E0002B149 /* J-9 – цивільно-військове співробітництво.json */,
 				776A797D2A8624F4001F268B /* abbreviations.json */,
 				776A797F2A8625BB001F268B /* terms.json */,
 			);
@@ -335,10 +359,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7702E64C2BEA572E0002B149 /* J-6 – зв’язок та інформаційні системи.json in Resources */,
 				778B073A2A723F3200A96821 /* Preview Assets.xcassets in Resources */,
 				776A79802A8625BB001F268B /* terms.json in Resources */,
+				7702E6502BEA572E0002B149 /* J-3 – оперативна діяльність.json in Resources */,
 				778B07372A723F3200A96821 /* Assets.xcassets in Resources */,
+				7702E64E2BEA572E0002B149 /* J-2 – розвідка.json in Resources */,
+				7702E64D2BEA572E0002B149 /* J-5 – оборонне планування.json in Resources */,
+				7702E64B2BEA572E0002B149 /* J-4 – логістика.json in Resources */,
+				7702E6512BEA572E0002B149 /* J-9 – цивільно-військове співробітництво.json in Resources */,
+				7702E64F2BEA572E0002B149 /* J-7 – підготовка військ.json in Resources */,
 				776A797E2A8624F4001F268B /* abbreviations.json in Resources */,
+				7702E64A2BEA572E0002B149 /* J-1 – питання персоналу.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
