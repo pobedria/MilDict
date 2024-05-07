@@ -1,0 +1,3069 @@
+[
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679034",
+						"__text": "validation"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The confirmation of the capabilities and performance of organizations, individuals, materiel or systems to meet defined standards or criteria, through the provision of objective evidence."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "In the context of military forces, the hierarchical relationship in logical sequence is: assessment, analysis, evaluation, validation and certification."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "679036",
+						"__text": "підтвердження боєготовності"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Підтвердження можливостей та ефективності діяльності організацій, окремих осіб, матеріальних засобів або систем, що вони дійсно відповідають визначеним стандартам або критеріям шляхом надання об’єктивних доказів."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "У контексті збройних сил – ієрархічні відносини у логічній послідовності є наступними: оцінка, аналіз, контроль готовності і атестація."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326614"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "679358",
+							"__text": "in-place force"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "A NATO assigned force which, in peacetime, is principally stationed in the designated combat zone of the NATO Command to which it is committed."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+						}
+					},
+					{
+						"term": {
+							"_id": "680270",
+							"__text": "IPF"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680272",
+						"__text": "розгорнуті війська НАТО"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Визначені війська НАТО, які в мирний час розміщуються головним чином у призначеній зоні ймовірних бойових дій Командування НАТО, якому вона доручена."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326784"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679746",
+						"__text": "end state"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The political and/or military situation to be attained at the end of an operation, which indicates that the objective has been achieved."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680258",
+						"__text": "кінцева мета"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Політична та/або військова ситуація, яку необхідно досягти в результаті завершення бойових дій і що свідчитиме про досягнення визначеної мети."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326870"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679748",
+						"__text": "strategic concept"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The course of action accepted as a result of the estimate of the strategic situation. It is a statement of what is to be done in broad terms sufficiently flexible to permit its use in framing the military, diplomatic, economic, psychological and other measures which stem from it."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680280",
+						"__text": "стратегічна концепція"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "План дій, прийнятий за результатами оцінювання стратегічної ситуації. Це формулювання дій, які необхідно зробити в цілому, достатньо гнучко, щоб дозволити використання цього при проведенні військових, дипломатичних, економічних, психологічних та інших заходів, які обумовлюються цією концепцією."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326872"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679750",
+						"__text": "strategic mobility"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The capability to move forces and their associated logistics in a timely and effective manner over long distances. This could be between joint operations areas, between regions, or beyond NATO’s area of responsibility."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680284",
+						"__text": "стратегічна мобільність"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Можливість своєчасного та ефективного переміщення сил та пов’язаної з ними логістичної бази на великі відстані. Це може здійснюватись між районами спільних операцій, між регіонами або поза межами відповідальності НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326874"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679754",
+						"__text": "strategic command"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The command organization at the highest level of the NATO military command structure."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "There are two strategic commands, namely, Allied Command Operations and Allied Command Transformation."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680278",
+						"__text": "стратегічне командування"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Організація командування найвищого рівня у військовій командній структурі НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					},
+					"note": "Існує два стратегічні командування, а саме Союзне командування операціями та Союзне стратегічне командування з трансформації."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326878"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679756",
+						"__text": "strategic level"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The level at which a nation or group of nations determines national or multinational security objectives and deploys national, including military, resources to achieve them."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680282",
+						"__text": "стратегічний рівень"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Рівень, на якому держава або група держав визначає завдання національної або багатонаціональної безпеки та розгортає національні, зокрема, військові ресурси для досягнення цих цілей."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326880"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679938",
+						"__text": "functional command"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A command organization based on military functions rather than geographic areas."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680262",
+						"__text": "функціональне командування"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Організація командування військами, яка будується на основі військових функцій, а не адміністративно-територіального поділу."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326970"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "680022",
+							"__text": "risk management"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "The process of identifying, assessing, and controlling risk arising from operational factors, and making informed decisions that balance risk cost with mission benefits."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+						}
+					},
+					{
+						"term": {
+							"_id": "680274",
+							"__text": "RM"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680276",
+						"__text": "управління ризиками"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Процес виявлення, оцінювання та стримування ризиків, спричинених умовами проведення операції, та ухвалення обґрунтованих рішень для врівноваження можливих наслідків ризику та загального корисного результату операціїї."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326992"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681242",
+						"__text": "asymmetric threat"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A threat emanating from the potential use of dissimilar means or methods to circumvent or negate an opponent’s strengths while exploiting his weaknesses to obtain a disproportionate result."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681296",
+						"__text": "асиметрична загроза"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Загроза від потенційного використання різнорідних засобів або методів для того, щоб ввести в оману або нівелювати переваги противника, використовуючи при цьому його слабкі сторони, для отримання непропорційного результату його дій."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327436"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681832",
+						"__text": "counter-insurgency"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Comprehensive civilian and military efforts made to defeat an insurgency and to address any core grievances."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681856",
+						"__text": "боротьба з повстанцями"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Спільні дії цивільних і військових проти повстанців, а також з метою вирішення будь-яких основних протирічь."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327636"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681834",
+						"__text": "counterterrorism"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "All offensive measures taken to neutralize terrorism before and after hostile acts are carried out."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "Such measures include those counterforce activities justified for the defence of individuals as well as containment measures implemented by military forces or civilian organizations."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681862",
+						"__text": "боротьба з тероризмом"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Усі наступальні дії, виконані з метою нейтралізації тероризму до та після здійснення ворожих дій."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "Такі дії передбачають здійснення контрзаходів для захисту окремих осіб, а також заходи стримування, вжиті збройними силами або цивільними організаціями."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327638"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681914",
+						"__text": "NATO military authority"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The Military Committee, the Supreme Allied Commander Europe or the Supreme Allied Commander Transformation."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681994",
+						"__text": "вище військове керівництво НАТО"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Військовий комітет, Верховний головнокомандувач ОЗС НАТО в Європі або Верховний головнокомандувач з трансформації ОЗС НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327684"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681926",
+						"__text": "NATO earmarked forces"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Forces and/or headquarters that nations agree to place under the operational command or the operational control of a NATO commander at some future time."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681996",
+						"__text": "війська, виділені для передачі в оперативне підпорядкування командуванню НАТО"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Сили і/або штаби, які країни погоджуються виділити під оперативне командування або оперативне підпорядкування командування НАТО в майбутньому."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327690"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681928",
+						"__text": "NATO assigned forces"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Forces and/or headquarters that nations agree to place under the operational command or operational control of a NATO commander."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682008",
+						"__text": "війська, передані в оперативне підпорядкування командування НАТО"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Сили і/або штаби, які країни погоджуються виділити в оперативне командування або оперативне підпорядкування командування НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327692"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681930",
+						"__text": "military assistance"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A broad range of activities that support and influence critical friendly assets through training, advising, mentoring or the conduct of combined operations."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "The range of military assistance is considerable and includes, but is not limited to: capability building of friendly security forces; engagement with local, regional, and national leadership or organizations; and civic actions supporting and influencing the local population."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682010",
+						"__text": "військова допомога"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Широкий спектр дій, що підтримують та впливають на сили та засоби шляхом підготовки, консультацій, навчання або проведення спільних операцій."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "Сфера військової допомоги досить велика і включає, проте не обмежується наступним: розвиток спроможностей своїх сил безпеки; взаємодія з місцевим, регіональним і національним керівництвом або організаціями; підтримка та допомога цивільному населенню, а також вплив на місцеве населення."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327694"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681932",
+						"__text": "military necessity"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The principle whereby a belligerent has the right to apply any measures that are required to bring about the successful conclusion of a military operation and that are not forbidden by the Law of War."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682012",
+						"__text": "військова необхідність"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Принцип, відповідно до якого воююча сторона має право вживати будь-які заходи, необхідні для успішного завершення військових операцій, за умови якщо такі заходи не заборонені правилами ведення війни."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327696"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681936",
+						"__text": "military strategy"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "That component of national or multinational strategy, presenting the manner in which military power should be developed and applied to achieve national objectives or those of a group of nations."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682014",
+						"__text": "військова стратегія"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Складова національної або багатонаціональної стратегії, що обумовлює процес розвитку та застосування збройних сил в інтересах країни або груп країн."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327700"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681938",
+						"__text": "military interoperability"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The ability of military forces to train, exercise and operate effectively together in the execution of assigned missions and tasks."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682016",
+						"__text": "військова сумісність та взаємодія"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Спроможність збройних сил проходити підготовку, проводити операції та ефективно взаємодіяти разом в ході виконання поставлених завдань."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327702"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681984",
+						"__text": "war reserves"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Stocks of material amassed in peacetime to meet the increase in military requirements consequent upon an outbreak of war. War reserves are intended to provide the interim support essential to sustain operations until resupply can be effected."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682018",
+						"__text": "воєнні запаси"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Запаси військової техніки, які накопичуються у мирний час для забезпечення зростаючих потреб збройних сил у випадку початку воєнних дій. Воєнні запаси призначені для надання тимчасової підтримки, яка є необхідною для проведення операцій допоки запаси не будуть поповнені."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327718"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682086",
+						"__text": "doctrine"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Fundamental principles by which the military forces guide their actions in support of objectives. It is authoritative but requires judgement in application."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682154",
+						"__text": "доктрина"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Основні принципи, що визначають діяльність збройних сил при виконанні ними своїх завдань. Хоча доктрина має характер розпорядження, її виконання потребує критичного підходу."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327774"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682176",
+						"__text": "vital interests"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "For a country, interests which contribute to the integrity of the\nnational territory and neighbouring areas, the free exercise of national sovereignty, and the protection of the population."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682230",
+						"__text": "життєвоважливі інтереси"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Для держави – це інтереси забезпечення територіальної цілісності та суверенітету держави, а також захисту її населення."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327808"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682288",
+						"__text": "insurgency"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Actions of an organized, often ideologically motivated, group or movement that seeks to effect or prevent political change or to overthrow a governing authority within a country or a region, focused on persuading or coercing the population through the use of violence and subversion."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682876",
+						"__text": "заколот"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Дії організованої, зазвичай ідеологічно мотивованої групи або руху, який має на меті вплинути або запобігти певним політичним змінам або усунути діючу владу в межах країни або регіону, зосередженої на тому, щоб переконати або примусити населення до певних дій шляхом застосування насильства або ведення підривної діяльності."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327844"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682296",
+						"__text": "reservation"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "In NATO standardization, a formal statement by which a member nation describes the part of the document or documents covered by a NATO standardization agreement that it will not implement or will not implement in full."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682880",
+						"__text": "замовлення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Офіційна заява в системі стандартизації НАТО, в якій країна-член зазначає частину документу або документів, що містяться в угоді зі стандартизації НАТО, яку вона не буде виконувати або виконуватиме лише частково."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327852"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682300",
+						"__text": "conflict prevention"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A peace support effort to identify and monitor the potential causes of conflict and take timely action to prevent the occurrence, escalation, or resumption of hostilities."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682886",
+						"__text": "запобігання конфлікту"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Мирні ініціативи, що спрямовані на виявлення та моніторинг потенційних причин виникнення конфліктів, а також вжиття своєчасних заходів з метою запобігання виникненню, ескалації або відновленню ворожих дій."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327856"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682502",
+						"__text": "external reinforcing force"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A reinforcing force which is principally stationed in peacetime outside its intended Major NATO Command area of operations."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682898",
+						"__text": "зовнішні сили підкріплення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Сили підкріплення, що у мирний час в першу чергу розміщуються поза районом бойових дій, визначеним головним командуванням НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327950"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682508",
+						"__text": "mobilizable reinforcing force"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "In reinforcement planning, any force which is not in being and which, when mobilized, is NATO assigned, NATO earmarked or otherwise designated to strengthen NATO forces."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682916",
+						"__text": "зовнішні сили підкріплення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "При плануванні підкріплення, будь-які сили, які під час мобілізації виділяються для передачі в оперативне підпорядкування командуванню НАТО або призначаються для підтримки сил НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327952"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682958",
+						"__text": "campaign"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A set of military operations planned and conducted to achieve a strategic objective."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683276",
+						"__text": "кампанія"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Низка запланованих і проведених військових операцій, спрямованих на досягнення стратегічної цілі."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328084"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683308",
+						"__text": "concept"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "In NATO concept development and experimentation, a solution-oriented transformation idea that addresses a capability shortfall or a gap."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683486",
+						"__text": "концепція"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "У галузі розробки концепцій НАТО і проведенні дослідницьких робіт – ідея направлена на вирішення проблемних питань, пов’язаних із браком відповідних сил та засобів."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328196"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683318",
+						"__text": "coordinating authority"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The authority granted to a commander, or other individual with assigned responsibility, to coordinate specific functions or activities involving two or more forces, commands, services or organizations."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "The commander or individual has the authority to require consultation between the organizations involved or their representatives, but does not have the authority to compel agreement."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683488",
+						"__text": "координуючий орган"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Повноваження, надані командирові або іншій особі із визначеними функціональними обов’язками, координувати конкретну діяльність або заходи за участю двох або більше частин, підрозділів, служб або організації."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "Командир або відповідальна особа має право вимагати проведення консультацій із залученими організаціями або їх представниками, але не має повноважень примушувати їх погодитись із його рішенням."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328202"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683330",
+						"__text": "emergency in war"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "An operational contingency in a limited area caused by a critical aggravation of combat operations and requiring special and immediate action by National and Allied Commanders. The existence of such an emergency shall be determined by the Allied Commander responsible for the limited area involved, in consultation with the National Commander concerned."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683490",
+						"__text": "кризова ситуація під час ведення війни"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Варіант оперативної обстановки на певній території, виникнення якого спричинено різким загостренням бойових дій та потребує вжиття надзвичайних і негайних заходів з боку командирів національних та союзних сил. Наявність такої надзвичайної ситуації визначається командувачем об’єднаних сил, що відповідає за визначений район, за погодженням із командувачем національними силами."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328208"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683334",
+						"__text": "crisis establishment"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "An establishment of military and civilian posts for a military organization that needs to respond to a crisis which does not fall under Article 5 of the North Atlantic Treaty."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683492",
+						"__text": "кризовий менеджмент"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Створення військових і цивільних посад для військового органу, відповідального за реагування на кризову ситуацію, що не підпадає під дію статті 5 Північноатлантичного договору"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328210"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683336",
+						"__text": "decisive point"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A point from which a hostile or friendly centre of gravity can be threatened. This point may exist in time, space or the information environment."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683494",
+						"__text": "критична точка"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Момент, з настанням якого, будь- яка із протидіючих сторін може отримати відчутну перевагу. Цей момент може існувати у часі, просторі або інформаційному середовищі."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328212"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683436",
+						"__text": "joint staff"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A staff formed of two or more of the services of the same country."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683496",
+						"__text": "міжвидовий штаб"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Штаб, що включає особовий склад із кількох видів збройних сил однієї країни."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328262"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683524",
+						"__text": "mobilization"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "1. The act of preparing for war or other emergencies through assembling and organizing national resources.\n2. The process by which the armed forces or part of them are brought to a state of readiness for war or other national emergency. This includes assembling and organizing personnel, supplies, and material for active military service."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683526",
+						"__text": "мобілізація"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "1. Діяльність щодо підготовки до війни або інших надзвичайних ситуацій шляхом зосередження та організації національних ресурсів.\n2. Процес приведення збройних сил або їх частини в стан готовності до ведення бойових дій або до надзвичайних ситуацій на національному рівні. Це передбачає збір і організацію особового складу, матеріальних засобів та військової техніки для виконання завдань військової служби."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328294"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683558",
+						"__text": "build-up"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The process of attaining prescribed strength of units and prescribed levels of vehicles, equipment, stores and supplies. Also may be applied to the means of accomplishing this process."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683614",
+						"__text": "нарощування боєздатності"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Процес забезпечення необхідної комплектації підрозділів та визначених рівнів військової техніки, обладнання, складських приміщень та оснащення. Крім того, цей термін можна застосовувати до засобів реалізації цього процесу."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328322"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683634",
+						"__text": "caveat"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "In NATO operations, any limitation, restriction or constraint by a nation on its military forces or civilian elements under NATO command and control or otherwise available to NATO, that does not permit NATO commanders to deploy and employ these assets fully in line with the approved operation plan."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "A caveat may apply inter alia to freedom of movement within the joint operations area and/or to compliance with the approved rules of engagement."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683676",
+						"__text": "обмеження"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Під час проведення операцій НАТО – будь-яке обмеження або застереження держави, пов’язане з її збройними силами або цивільним персоналом під командуванням і управлінням НАТО або іншим чином доступним для НАТО, яке не дозволяє командуванню НАТО розгортати і використовувати ці сили у повній відповідності із затвердженим планом проведення операцій."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "Обмеження може поширюватися, зокрема на свободу пересування в межах зони проведення спільних військових операцій та/або відповідно до затверджених правил участі у бойових діях."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328354"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683720",
+						"__text": "tactical air doctrine"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Fundamental principles designed to provide guidance for the employment of air power in tactical air operations to attain established objectives."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683742",
+						"__text": "основні принципи бойового застосування тактичної авіації"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Основоположні принципи, які слугують керівництвом для застосування військово- повітряних сил в операціях тактичної авіації з метою досягнення поставленої цілі."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328396"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683730",
+						"__text": "protective security"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The organized system of defensive measures instituted and maintained at all levels of command with the aim of achieving and maintaining security."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683740",
+						"__text": "охорона в обороні"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Організована система заходів оборони, яка встановлюється і підтримується на всіх рівнях військового управління з метою досягнення і підтримки належного рівня безпеки."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328404"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683744",
+						"__text": "assessment"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The process of estimating the capabilities and performance of organizations, individuals, materiel or systems."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "In the context of military forces, the hierarchical relationship in logical sequence is: assessment, analysis, evaluation, validation and certification."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683746",
+						"__text": "оцінка"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Процес оцінки спроможностей і ефективності роботи організацій, окремих осіб, матеріально-технічних засобів або систем."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "У контексті збройних сил – ієрархічні відносини у логічній послідовності: оцінка, аналіз, контроль готовності і сертифікація."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328406"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683748",
+						"__text": "evaluation"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The structured process of examining activities, capabilities and performance against defined standards or criteria."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "In the context of military forces, the hierarchical relationship in logical sequence is: assessment, analysis, evaluation, validation and certification."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683750",
+						"__text": "оцінка"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Структурований процес оцінювання діяльності, сил, засобів та ефективності роботи відповідно до визначених стандартів або критеріїв."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "У контексті збройних сил – ієрархічні відносини у логічній послідовності: оцінка, аналіз, контроль готовності та атестація."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328408"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683806",
+						"__text": "host-nation support"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Civil and military assistance rendered in peace, crisis or war by a host nation to NATO and/or other forces and NATO organizations that are located on, operating on/from, or in transit through the host nation’s territory."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683940",
+						"__text": "підтримка приймаючої країни"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Цивільна та військова допомога, надана у мирний час, під час кризи або війни, приймаючою країною силам НАТО та/або іншим силам і організаціям НАТО, що розташовані або діють на/з або через територію приймаючої країни."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328450"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683938",
+						"__text": "earmarked for assignment"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The status of forces which nations have agreed to assign to the operational command or operational control of a NATO commander at some future date. In designating such forces, nations should specify when these forces will be available in terms currently agreed by the Military Committee."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683946",
+						"__text": "призначений для виділення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Сили та засоби, які країни погодились виділити під оперативне командування або оперативне підпорядкування командуванню сил НАТО в майбутньому. Під час виділення таких сил та засобів, країни повинні визначити, коли ці сили будуть доступні відповідно до термінів, погоджених Військовим комітетом НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328516"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683942",
+						"__text": "acceptance trial"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A trial carried out by nominated representatives of the eventual military users of the weapon or equipment to determine if the specified performance and characteristics have been met."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683948",
+						"__text": "приймальні випробування"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Випробування, що здійснюється уповноваженими представниками майбутнього користувача зброї або військового обладнання для визначення відповідності продукції технічним завданням та технічній документації."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328518"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683960",
+						"__text": "assumption"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "In planning, a supposition made about the current situation and/or the future course of events to complete an estimate of the situation and decide on the course of action."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684054",
+						"__text": "припущення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "При плануванні – моделювання розвитку поточної ситуації та/або подальшого розвитку подій з метою завершення оцінки ситуації і ухвалення рішення щодо подальших дій."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328526"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683986",
+						"__text": "apportionment"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The quantification and distribution by percentage of the total expected effort, in relation to the priorities which are to be given to the various air operations in geographic areas for a given period."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684056",
+						"__text": "пропорційний розподіл"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Кількісний розподіл загальної кількості очікуваних заходів у процентному співвідношенні відповідно до пріоритетів різних повітряних операцій у географічних районах упродовж певного періоду часу."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328538"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684082",
+						"__text": "area of responsibility"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The geographical area assigned to the Supreme Allied Commander Europe."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684084",
+						"__text": "район відповідальності"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Географічний район, закріплений за верховним головнокомандувачем ОЗС НАТО в Європі."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328580"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684270",
+						"__text": "second strike capability"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The ability to survive a first strike with sufficient resources to deliver an effective counterblow (generally associated with nuclear weapons)."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684428",
+						"__text": "спроможність нанесення удару у відповідь"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Здатність витримати перший удар, зберігаючи у своєму розпорядженні достатні ресурси для нанесення ефективного контрудару (зазвичай, пов’язаного з ядерною зброєю)."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328684"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684280",
+						"__text": "strategic concentration"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The assembly of designated forces inareas from which it is intended that operations of the assembled force shall begin so that they are best disposed to initiate the plan of campaign."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684432",
+						"__text": "стратегічне зосередження"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Зосередження визначених сил в районах їх ймовірного розгортання з метою їх найкращої розташування для початку підготовки плану операції."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328694"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684282",
+						"__text": "deterrence"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The convincing of a potential aggressor that the consequences of coercion or armed conflict would outweigh the potential gains. This requires the maintenance of a credible military capability and strategy with the clear political will to act."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684438",
+						"__text": "стримування"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Переконування потенційного агресора, що негативні наслідки використання ним сили або збройного конфлікту переважать його потенційні здобутки. Це потребує надійного військового потенціалу та стратегії разом із чіткою політичною волею до дії."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328696"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684316",
+						"__text": "terrorism"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The unlawful use or threatened use of force or violence, instilling fear and terror, against individuals or property in an attempt to coerce or intimidate governments or societies, or to gain control over a population, to achieve political, religious or ideological objectives."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684442",
+						"__text": "тероризм"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Незаконне застосування сили або насильства, що вселяють страх і терор, спрямованих проти особи чи власності з метою примусити або залякати уряди чи суспільства, або для отримання контролю над населенням з метою досягнення політичних, релігійних або ідеологічних цілей."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328724"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684448",
+						"__text": "earmarking of stocks"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The arrangement whereby nations agree, normally in peacetime, to identify a proportion of selected items of their war reserve stocks to be called for by specified NATO commanders."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684500",
+						"__text": "цільове призначення запасів"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Домовленість, згідно з якою країни погоджуються, як правило, у мирний час, визначити певну частку окремих найменувань своїх резервних запасів, які можуть бути витребувані уповноваженим командуванням НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328770"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "685248",
+						"__text": "visiting force"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The force responsible for the transport of ammunition and explosives in a host country"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "685714",
+						"__text": "збройні сили тимчасово розміщені в іншій державі за згодою"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Сили, відповідальні за перевезення боєприпасів та вибухових речовин у приймаючій країні"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329178"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "685400",
+						"__text": "quantitative risk assessment"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Formalized specialist method for calculating numerical individual, environmental, employee and public risk level values for comparison with regulatory risk criteria\nMethod of estimating the approximate probability of an accidental explosion and of determining that of fatalities and injuries"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "685722",
+						"__text": "кількісна оцінка ризиків"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Офіційний спеціальний метод розрахунку числових значень рівня індивідуального ризику, ризику для довкілля, ризику для особового складу та колективного ризику для порівняння з нормативними критеріями ризику\nМетод оцінки приблизної вірогідності випадкового вибуху та визначення кількості можливих летальних випадків і травм"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329250"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "685510",
+						"__text": "damage control"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Measures taken before, during or after hostile action or natural or man-made disasters to reduce the probability of damage and minimize its effects"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "685730",
+						"__text": "контроль пошкоджень"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Заходи, що вживаються до( під) час або після дій противника чи природних або техногенних катастроф з метою зменшити імовірність отримання пошкоджень та мінімізації їхніх наслідків"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329276"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "685540",
+						"__text": "risk criteria"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Decision and prioritization methodology for assessing risk.\nTerms of reference by which the significance of risk is assessed."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					},
+					"note": "Risk criteria can include associated cost and benefits, legal and statutory requirements, socio-economical and environmental aspects, the concerns of stak eholders, priorities and other inputs to the assessment"
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "685732",
+						"__text": "критерії визначення ризику"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Методика прийняття рішень та визначення пріоритетів для оцінювання ризику.\nЗагальні критерії, за яким оцінюється критичність ризику."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					},
+					"note": "Критерії визначення ризику можуть включати пов’язані з ним витрати та вигоди, законодавчі та нормативні вимоги, соціально-економічні та екологічні аспекти, інтереси зацікавлених сторін, пріоритети та інші дані для оцінки"
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329294"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "686142",
+						"__text": "risk evaluation"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The process in which judgements are made on the tolerability of the risk on the basis of risk analysis and taking into account factors such as socio-economic and environmental aspects"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "686190",
+						"__text": "оцінка ризику"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Процес, у рамках якого на основі аналізування прийнятності ризику та з урахуванням таких факторів як соціально-економічні та екологічні аспекти, приймається рішення про допустимість ризику"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329550"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "686444",
+						"__text": "approved design"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Materiel: A design that has been admitted for military use by the accredited authority, based on the results of the tests and assessments in accordance with promulgated NATO publications and agreements."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					},
+					"note": "The approved design is completely defined by a government approved data package, consisting of: the material specifications, the product and component drawings and specifications, the acceptance criteria and the users' instructions."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687282",
+						"__text": "прийнятий на озброєння"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Озброєння і військова техніка: Зразок, який був схвалений уповноваженим органом для використання у військових цілях на основі результатів випробувань та оцінок відповідно до оприлюднених публікацій та угод НАТО."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					},
+					"note": "Затверджений зразок повністю визначається за затвердженим урядом пакетом даних, який складається із: специфікацій матеріалів, креслень та специфікацій зразка та компонентів, критеріїв прийнятності та інструкцій для користувачів."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329724"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "686448",
+						"__text": "acceptable performance"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The ability of materiel to perform its prime functions as stated in the requirements documents."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687292",
+						"__text": "прийнятні характеристики"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Властивість озброєння та військової техніки виконувати свої основні функції відповідно до вимог нормативних документів."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329728"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "686612",
+						"__text": "credible threat"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A threat with a probability of occurrence in a specific scenario."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687288",
+						"__text": "реалістична загроза"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Загроза з імовірністю виникнення за певним сценарієм."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329794"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "686614",
+						"__text": "credible accident"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A reasonable sequence of unintended events to which a weapon or weapon system may be exposed."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687286",
+						"__text": "реалістична надзвичайна ситуація"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Обґрунтована послідовність незалежних подій, які можуть вплинути на зброю або комплекси озброєння."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329796"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"note": "Можливо J3",
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "686728",
+						"__text": "sabotage"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Deliberate damage to or destruction of property, especially in order to disrupt the production of goods or as a political or military act.\nAct or acts with intent to injure, interfere with, or obstruct the national defence of a country by wilfully injuring or destroying, or attempting to injure or destroy, any national defence or war materiel, premises, or utilities, to include human and natural resources."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687284",
+						"__text": "саботаж"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Умисне пошкодження або знищення майна, особливо з метою порушення виробництва товарів або в якості політичного чи військового акту.\nДія з наміром пошкодження, втручання або перешкоджання національній обороні країни шляхом навмисного пошкодження чи знищення або спроби пошкодження чи знищення будь-яких засобів національної оборони чи ведення війни, об’єктів чи інфраструктури, включаючи людські та природні ресурси."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329856"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "687496",
+						"__text": "deception"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Those measures designed to mislead the enemy by manipulation, distortion, or falsification of evidence to induce him to react in a manner prejudicial to his interests."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AJP-3.15.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687498",
+						"__text": "введення в оману"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Комплекс заходів, що організовується з метою дезорієнтації противника відносно складу, положення, стану угруповань наших військ (сил) та захисту майбутніх дій"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://zakon.rada.gov.ua/laws/show/z0052-21"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330192"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688140",
+						"__text": "turn-in"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Within C-IED the process of handing in a weapon or item(s) of explosive ordnance to coalition forces, or host nation forces or other appropriate authority."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AJP-3.15.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688142",
+						"__text": "передача"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "У рамках протидії СВП процес передачі зброї або предметів (засобів) вибухових пристроїв силам коаліції, національним силам або іншим відповідним органам."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330470"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688384",
+						"__text": "STANAG"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Preferred term: NATO standardization agreement."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688386",
+						"__text": "cтандарт НАТО"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Стандарт, розроблений, прийнятий та опублікований Організацією Північноатлантичного договору”"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://zakon.rada.gov.ua/laws/show/2742-19"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330572"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688596",
+						"__text": "historical research collection"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Consists of historically significant documents (non-artifact and other media) from a specific organization, including the following: annual histories, special studies, monographs, reports, manuscripts, organizational charts and directories, messages, correspondence, interview tapes and transcripts, maps and overlays, and electronic records. The collection serves as the institutional memory of an organization, provides a basis for original research and preparation of narrative history and for bringing historical perspective to bear on the organization’s planning and decision making processes, and supports leadership development programs."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AR-870-5.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688602",
+						"__text": "воєнно-історичні дослідження"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Наукова діяльність, спрямована на здобуття нових воєнно-історичних знань, виявлення, документування, аналіз та узагальнення нових фактів, подій та явищ, встановлення тенденцій і закономірностей військового будівництва, еволюції засобів, форм і способів збройної боротьби з метою розвитку теорії і практики підготовки, застосування та забезпечення військ (сил), популяризації воєнно-історичних знань та традицій ЗС України."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330664"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688640",
+						"__text": "capability"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The ability to create an effect through employment of an integrated set of aspects categorized as doctrine, organization, training, materiel, leadership development, personnel, facilities, and interoperability."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688642",
+						"__text": "cпроможність"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Здатність органів військового управління, з’єднань, військових частин, військових навчальних закладів, установ та організацій ЗС України або сукупність сил і засобів оборони виконувати певні завдання (забезпечувати реалізацію визначених військових цілей) за певних умов, ресурсного забезпечення та відповідно до встановлених стандартів."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330682"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "688656",
+							"__text": "national security strategy"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "Specifies all national security interests that must be protected, as well as how these interests are currently under threat and how we can minimise these risks and threats"
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "https://english.nctv.nl/topics/national-security-strategy"
+						}
+					},
+					{
+						"term": {
+							"_id": "688658",
+							"__text": "NSS"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688660",
+						"__text": "стратегія національної безпеки України"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Документ довгострокового планування, що визначає актуальні загрози національній безпеці України та відповідні цілі, завдання, механізми захисту національних інтересів України та є основою для планування і реалізації державної політики у сфері національної безпеки."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330688"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688662",
+						"__text": "homeland defense"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The protection of U.S. sovereignty, territory, domestic population, and critical defense infrastructure against external threats and aggression, or other threats as directed by the President. The Department of Defense is responsible for homeland defense."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://policy.defense.gov/OUSDP-Offices/ASD-for-Homeland-Defense-and-Hemispheric-Affairs/Homeland-Defense-Integration-and-DSCA/faqs/"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688664",
+						"__text": "територіальна оборона"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Система загальнодержавних воєнних і спеціальних заходів, що здійснюються в особливий період із завданнями: охорони та захисту державного кордону; забезпечення умов для надійного функціонування органів державної влади, органів військового управління, стратегічного (оперативного) розгортання військ (сил); охорони та оборони важливих об’єктів і комунікацій; боротьби з диверсійно-розвідувальними силами, іншими озброєними формуваннями агресора та антидержавними незаконно утвореними збройними формуваннями, підтримання правового режиму воєнного стану."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330690"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "500 – оборонне планування"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688690",
+						"__text": "national security"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Encompasses the national defense, foreign intelligence and counterintelligence, international and internal security, and foreign relations. This includes countering terrorism; combating espionage and economic espionage conducted  for the benefit of any foreign government, foreign instrumentality, or foreign agent; enforcing export controls and sanctions; and disrupting cyber threats that are perpetrated by nation states, terrorists, or their agents or proxies."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://www.justice.gov/jm/jm-9-90000-national-security"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688692",
+						"__text": "національна безпека"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Захищеність державного суверенітету, територіальної цілісності, демократичного конституційного ладу та інших національних інтересів України від реальних та потенційних загроз"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://zakon.rada.gov.ua/laws/show/2469-19"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330702"
+	}
+]
