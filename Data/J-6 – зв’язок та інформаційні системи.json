@@ -1,0 +1,1670 @@
+[
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600  – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "678606",
+						"__text": "lines of communications"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "All the land, water, and air routes that connect an operating military force with one or more bases of operations, and along which supplies and reinforcements move."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "678610",
+						"__text": "комунікації"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Всі наземні, водні та повітряні маршрути, що з’єднують оперативне угруповання військ з однією чи більше операційними базами, якими здійснюється перевезення для забезпечення військ та поповнення особовим складом."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326400"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "679048",
+						"__text": "pictorial symbolization"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The use of symbols which convey the visual character of the features they represent."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680332",
+						"__text": "піктографічна система умовних позначень"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Використання символів для візуального позначення функцій, які ці символи представляють."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326620"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "679094",
+							"__text": "call sign"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "Any combination of characters or pronounceable words, which identifies a communication facility, a command, an authority, an activity, or a unit; used primarily for establishing and maintaining communications."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "AAP-06"
+						}
+					},
+					{
+						"term": {
+							"_id": "680292",
+							"__text": "C/S"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680294",
+						"__text": "позивний"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Будь-яка комбінація символів або слів, якими позначають засіб зв’язку, орган управління, посадову особу, захід або підрозділ. Переважно використовується для встановлення і підтримання зв’язку"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326658"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "679222",
+							"__text": "electronic warfare"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "Military action that exploits electromagnetic energy to provide situational awareness and achieve offensive and defensive effects."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "AAP-06"
+						}
+					},
+					{
+						"term": {
+							"_id": "680310",
+							"__text": "EW"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "680314",
+							"__text": "радіоелектронна боротьба"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "Воєнні дії з використанням енергії електромагнітного поля для забезпечення ситуаційної обізнаності, а також для досягнення наступальних і оборонних цілей."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"
+						}
+					},
+					{
+						"term": {
+							"_id": "680316",
+							"__text": "РЕБ"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326718"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "679684",
+							"__text": "communication and information systems"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "Collective term for communication systems and information systems."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+						}
+					},
+					{
+						"term": {
+							"_id": "680296",
+							"__text": "CIS"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "680298",
+						"__text": "інформаційно-комунікаційна система"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "сукупність інформаційних та електронних комунікаційних систем, які у процесі обробки інформації діють як єдине ціле;"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://zakon.rada.gov.ua/laws/show/80/94-вр"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "326838"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "680418",
+						"__text": "electronic attack"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Use of electromagnetic energy for offensive purposes."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681298",
+						"__text": "активне радіоелектронне придушення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Використання електромагнітної енергії для наступальних цілей."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327084"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "680422",
+						"__text": "active electronic protective measures"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Detectable measures, such as altering transmitter parameters as necessary, to ensure effective friendly use of the electromagnetic spectrum."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681300",
+						"__text": "активні заходи електронного захисту"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Заходи, що можуть бути виявленими, зокрема, зміна параметрів передавача для забезпечення ефективності використання електромагнітного спектру дружніми силами."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327088"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "681248",
+						"__text": "authentication"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The implementation of recordkeeping procedures that control the creation, receipt, transmission, maintenance, management and use of documents, and that prove that the document is official and protected against unauthorized addition, destruction, deletion, alteration, use or concealment."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					},
+					"note": "Documents may be authenticated by adding a signature or stamp."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "681612",
+						"__text": "аутентифікація"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Встановлення процедур облікових записів, які регламентують створення, отримання, передачу, обслуговування, управління і використання документів, та підтверджує, що цей документ є офіційним і захищеним від несанкціонованого доповнення, знищення, видалення, викривлення, використання або приховування."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "Документи можуть бути засвідчені шляхом додавання підпису або штампу."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327438"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682002",
+						"__text": "communication centre"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "An organization responsible for handling and controlling communications traffic, normally comprising a message centre, a cryptographic centre, and transmitting and receiving stations."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "Transmitting and receiving stations are not normally located in the communication centre but the remote controls for these facilities are located there."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682004",
+						"__text": "вузол зв’язку"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Організація, відповідальна за обробку і управління трафіком зв’язку, зазвичай має пункт прийому та відправки повідомлень, криптографічний центр, а також приймальні та передавальні станції."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "Приймальні та передавальні станції зазвичай не знаходяться у вузлі зв’язку, але пульти дистанційного керування цими об’єктами розташовані там."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327728"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "601 – криптографічний та технічний захист інформації"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682098",
+						"__text": "security clearance"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "An administrative determination by competent national authority that an individual is eligible, from a security standpoint, for access to classified information."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682150",
+						"__text": "допуск до інформації з обмеженим доступом"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Адміністративне рішення уповноваженого державного органу влади про надання особі права доступу до інформації з обмеженим доступом."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327780"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682112",
+						"__text": "electromagnetic vulnerability"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The characteristics of a system that cause it to suffer degradation in performance of, or inability to perform, its specified task as a result of electromagnetic interference."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682152",
+						"__text": "електромагнітна вразливість"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Характеристики системи, які через електромагнітні перешкоди знижують ефективність виконання системою певних завдань або призводять до неспроможності їх виконання."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327790"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682178",
+						"__text": "taboo frequency"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A friendly frequency on which jamming or other intentional inteference is prohibited."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682228",
+						"__text": "заборонена радіочастота"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Радіочастота своїх військ, на якій заборонено здійснювати радіоелектронне придушення або інші навмисні перешкоди."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327810"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682316",
+						"__text": "electronic deception"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "In electronic countermeasures, the deliberate radiation, re-radiation, alteration, absorption or reflection of electromagnetic energy in a manner intented to confuse, distract or seduce an enemy or his electronic systems."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682934",
+						"__text": "заходи введення противника в оману з використанням радіоелектронних засобів"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "В термінології радіоелектронної боротьби заходи спрямовані на умисне випромінювання, повторне випромінювання, зміну складу, поглинання та віддзеркалення електромагнітної енергії з метою введення в оману, відвернення уваги противника чи його електронних систем."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327870"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682318",
+						"__text": "electronic warfare support measures"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "That division of electronic warfare involving actions taken to search for, intercept and identify electromagnetic emissions and to locate their sources for the purpose of immediate threat recognition. It provides a source of information required for immediate decisions involving electronic countermeasures, electronic protective measures and other tactical actions."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682940",
+						"__text": "засоби радіоелектронної боротьби"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Обладнання, радарні комплекси, апаратура для виявлення роботи радіоелектронних засобів системи управління військами і зброєю противника, їх радіоелектронного подавлення та радіоелектронного захисту систем і засобів управління сил безпеки та сил оборони, а також здійснення заходів електронної підтримки."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://zakon.rada.gov.ua/laws/show/256-2023-п"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327872"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "682350",
+							"__text": "electronic protective measures"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "That division of electronic warfare involving actions taken to ensure effective friendly use of the electromagnetic spectrum despite the enemy’s use of electromagnetic energy. There are two subdivisions of electronic protective measures: active electronic protective measures and passive electronic protective measures."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+						}
+					},
+					{
+						"term": {
+							"_id": "688324",
+							"__text": "EPM"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					},
+					{
+						"term": {
+							"_id": "688326",
+							"__text": "electronic counter-countermeasures"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "variant"
+						}
+					},
+					{
+						"term": {
+							"_id": "688328",
+							"__text": "ECCM"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682952",
+						"__text": "радіоелектронний захист"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Елемент радіоелектронної війни, що включає в себе дії, які вживаються для забезпечення ефективного дружнього використання електромагнітного спектра, незважаючи на використання противником засобів радіоелектронної війни."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327888"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "682356",
+							"__text": "electronic countermeasures"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "That division of electronic warfare involving actions taken to prevent or reduce an enemy’s effective use of the electromagnetic spectrum through the use of electromagnetic energy. There are three subdivisions of electronic countermeasures: electronic jamming, electronic deception and electronic neutralization."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "ААР-06"
+						}
+					},
+					{
+						"term": {
+							"_id": "688304",
+							"__text": "ECM"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "abbreviation"
+						}
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682956",
+						"__text": "радіоелектронне подавлення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Дії по запобіганню чи зниженню ефективності використання супротивником спектра електромагнітного випромінювання шляхом застосування електромагнітної енергії.\nІснує три види радіоелектронного подавлення:\nелектронне подавлення;\nелектронна дезорієнтація;\nелектронна нейтралізація радіоелектронних засобів противника."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327892"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682588",
+						"__text": "communication zone"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Rear part of a theatre of operations (behind but contiguous to the combat zone) which contains the lines of communications, establishments for supply and evacuation, and other agencies required for the immediate support and maintenance of the field forces."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "682992",
+						"__text": "зона комунікацій"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Тилова частина театру воєнних дій (яка знаходиться позаду, але є прилеглою до району бойових дій), на якій розташовані лінії комунікацій, служби постачання та евакуації, а також інші органи, необхідні для безпосередньої підтримки та забезпечення бойових підрозділів."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "327978"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "682938",
+						"__text": "information system"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "An assembly of equipment, methods and procedures and, if necessary, personnel, organized to accomplish information processing functions."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683014",
+						"__text": "інформаційна система"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Сукупність обладнання, методів та процедур і, у разі потреби, особового складу, організованих для забезпечення обробки інформації."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328076"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683764",
+						"__text": "passive electronic protective measures"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Undetectable measures, such as those in operating procedures and technical features of equipment, to ensure effective friendly use of the electromagnetic spectrum."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683950",
+						"__text": "пасивні заходи радіоелектронного захисту"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Приховані заходи, які стосуються порядку експлуатації та технічних характеристик обладнання для забезпечення ефективного використання електромагнітного спектру з боку дружніх сил."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328420"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "683892",
+						"__text": "common electronic order of battle"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A standardized data exchange format containing electronic order of battle information."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "683952",
+						"__text": "порядок обміну даними в електронному форматі під час бою"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Стандартизований формат обміну даними, що містить електронний порядок інформації про бойові дії."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328492"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684068",
+						"__text": "electronic defence"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Use of electromagnetic energy to provide protection and to ensure effective friendly use of the electromagnetic spectrum."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684144",
+						"__text": "радіоелектронна протидія"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Використання електромагнітної енергії з метою забезпечення захисту та ефективного використання електромагнітного спектру дружніми силами."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328566"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684070",
+						"__text": "electronic masking"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The controlled radiation of electromagnetic energy on friendly frequencies in a manner to protect the emissions of friendly communications and electronic systems against enemy electronic warfare support measures/signals intelligence, without significantly degrading the operation of friendly systems."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684146",
+						"__text": "радіоелектронне маскування"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Контрольоване випромінювання електромагнітної енергії на дружніх частотах з метою захисту дружніх засобів зв’язку та електронних систем від ворожих засобів забезпечення РЕБ/радіоелектронної розвідки, без значного зменшення ефективності роботи власних систем."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328568"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684074",
+						"__text": "jamming"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Deliberate interference, caused by emissions intended to render unintelligible or falsify the whole or part of a wanted signal."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684150",
+						"__text": "радіоперешкоди"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Умисна протидія, спричинена випромінюванням, що спотворює інформацію, яку передає сигнал."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328572"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684076",
+						"__text": "airborne radio relay"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A technique employing aircraft fitted with radio relay stations for the purpose of increasing the range, flexibility or physical security of communication systems."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684152",
+						"__text": "радіорелейний зв’язок за допомогою повітряного ретранслятора"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Повітряне судно, оснащене радіорелейними станціями з метою збільшення дальності, гнучкісті або фізичної безпеки систем зв’язку."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328574"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684248",
+						"__text": "communication system"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "An assembly of equipment, methods and procedures and, if necessary, personnel, organized to accomplish information transfer functions."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					},
+					"note": "Notes: 1. A communication system provides communication between its users and may embrace transmission systems, switching systems and user systems.\n2. A communication system may also include storage or processing functions in support of information transfer."
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684456",
+						"__text": "система зв’язку"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Сукупність обладнання, методів та процедур і, у разі потреби, особового складу, організованих для забезпечення передачі інформації."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					},
+					"note": "1. Система зв’язку\nзабезпечує зв’язок між її користувачами і може включати системи передачі, комутаційні системи і системи користувачів.\n2. Для підтвердження передачі інформації система зв’язку також може виконувати функції зберігання або обробки інформації."
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328662"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684250",
+						"__text": "command and control communication system"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A communication system which conveys information between military authorities for command and control purposes."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684460",
+						"__text": "система зв’язку командування та управління"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Система зв’язку, яка забезпечує передачу інформації між органами військового управління з метою здійснення командування та управління."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328664"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684256",
+						"__text": "identification, friend or foe"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A system using electromagnetic transmissions to which equipment carried by friendly forces automatically responds, for example, by emitting pulses, thereby distinguishing themselves from enemy forces."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684464",
+						"__text": "система розпізнавання «свій- чужий»"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Система, що використовує поширення електромагнітних хвиль, на які автоматично відповідає обладнання дружніх сил, наприклад, шляхом випромінювання імпульсів, тим самим розрізняючи себе від сил противника."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328670"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684278",
+						"__text": "electronic jamming"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The deliberate radiation, reradiation or reflection of electromagnetic energy with the object of impairing the effectiveness of hostile electronic devices, equipment or systems."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ААР-06"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684466",
+						"__text": "створення радіоелектронних перешкод"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Умисне випромінювання, повторне випромінювання чи віддзеркалення електромагнітної енергії з метою зниження ефективності електронних приладів противника, його обладнання чи систем."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328692"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684308",
+						"__text": "structured message text"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A message text composed of paragraphs ordered in a specified sequence, each paragraph characterized by an identifier and containing information in free form. It is designed to facilitate manual handling and processing."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684470",
+						"__text": "текст структурованого повідомлення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Текст повідомлення, який складається з абзаців, розташованих у визначеній послідовності, кожен абзац характеризується ідентифікатором і містить інформацію у довільній формі. Він призначений для полегшення опрацювання та оформлення статутів та інструкцій."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328716"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "684518",
+						"__text": "sneak analysis"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Analyses designed to identify paths (control signals, information, etc.) not initially intended, and their consequences"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "AOP-38"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "684550",
+						"__text": "аналіз хибних ланцюгів"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Аналізи, призначені для виявлення маршрутів (контрольних сигналів, інформації і т.д.), які не були початково заплановані, та їхніх наслідків"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "328798"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "600 – комунікаційні та інформаційні системи"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "685782",
+						"__text": "memory integrity"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Computing systems: The assurance that the computer program or data is not altered or destroyed inadvertently or deliberately"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "685882",
+						"__text": "надійність запам’ятовувального пристрою"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Обчислювальні системи: Гарантія того, що комп’ютерна програма чи дані не будуть навмисно чи ненавмисно змінені або знищені"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "329396"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": [
+					{
+						"term": {
+							"_id": "687500",
+							"__text": "spot jamming"
+						},
+						"termNote": {
+							"_type": "termType",
+							"__text": "variant"
+						},
+						"descrip": {
+							"_type": "context",
+							"__text": "The jamming of a specific channel or frequency."
+						},
+						"xref": {
+							"_type": "externalCrossReference",
+							"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+						}
+					},
+					{
+						"term": {
+							"_id": "687504",
+							"__text": "selective jamming"
+						},
+						"termNote": [
+							{
+								"_type": "administrativeStatus",
+								"__text": "deprecatedTerm-admn-sts"
+							},
+							{
+								"_type": "termType",
+								"__text": "variant"
+							}
+						]
+					}
+				],
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687502",
+						"__text": "спрямоване подавлення"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Подавлення визначеного каналу чи частоти."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330194"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "687572",
+						"__text": "radio detection"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "The detection of the presence of an object by radiolocation without precise determination of its position."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "IED Tech Expl Lexicon"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687598",
+						"__text": "визначення за допомогою радіотехнічних засобів"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Визначення наявності об’єкта за допомогою радіолокаційних засобів без точного визначення його розташування."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330212"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "687734",
+						"__text": "sweep jamming"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "A narrow band of jamming that is swept back and forth over a relatively wide operating band of frequencies."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "687736",
+						"__text": "плаваюча перешкода"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Змінює частоту з часом пробігаючи коротким імпульсами по певній частині спектру"
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ЗАХИСТ_КАНАЛІВ_ЗВЯЗКУ_ВІД_ВПЛИВУ_РЕБ.pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330284"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "602 – електромагнітна та кіберборотьба"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688330",
+						"__text": "barrage jamming"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Simultaneous electronic jamming over a broad band of frequencies."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688332",
+						"__text": "загороджувальна активна перешкода"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Навмисна активна перешкода, ширина спектра якої значно більша ніж ширина спектра зондувального радіосигналу РЛС, яку заглушують."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "ДСТУ 2663-94 РАДІОЛОКАЦІЯ"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330550"
+	},
+	{
+		"descrip": {
+			"_type": "subjectField",
+			"__text": "601 – криптографічний та технічний захист інформації"
+		},
+		"langSec": [
+			{
+				"termSec": {
+					"term": {
+						"_id": "688628",
+						"__text": "classified information"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Classified information or classified national security information means information that has been determined pursuant to E. O. 12958 as amended by E.O. 13292 or any predecessor order to require protection against unauthorized disclosure and is marked to indicate its classified status when in documentary form."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://csrc.nist.gov/glossary/term/classified_information"
+					}
+				},
+				"_xml:lang": "en"
+			},
+			{
+				"termSec": {
+					"term": {
+						"_id": "688630",
+						"__text": "державна таємниця"
+					},
+					"descrip": {
+						"_type": "context",
+						"__text": "Вид таємної інформації, що охоплює відомості у сфері оборони, економіки, науки і техніки, зовнішніх відносин, державної безпеки та охорони правопорядку, розголошення яких може завдати шкоди національній безпеці України і які підлягають охороні державою."
+					},
+					"xref": {
+						"_type": "externalCrossReference",
+						"_target": "https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"
+					}
+				},
+				"_xml:lang": "uk"
+			}
+		],
+		"_id": "330678"
+	}
+]
