@@ -24,9 +24,8 @@ func load<T: Decodable>(_ filename: String) -> T {
 }
 
 func loadSortedTerms() -> [Term]{
+    decodeConcepts()
     let terms:[Term] = load("terms.json")
-    let concepts:[TBXConcept] = load("J-1 – питання персоналу.json")
-    print(concepts)
     let lovercasedTerms = terms.map{
         Term(
             id: $0.id,
@@ -44,3 +43,13 @@ func loadAbbreviations() -> [Abbreviation]{
     return abbreviations
 }
 
+func decodeConcepts(){
+    
+    var concepts:[TBXConcept] = []
+    
+    concepts.append(contentsOf: load("J-1 – питання персоналу.json") as [TBXConcept])
+    concepts.append(contentsOf: load("J-2 – розвідка.json") as [TBXConcept])
+    concepts.append(contentsOf: load("J-3 – оперативна діяльність.json") as [TBXConcept])
+    
+    print(concepts)
+}

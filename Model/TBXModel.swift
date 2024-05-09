@@ -11,7 +11,7 @@ import Foundation
 
 struct TBXConcept: Decodable{
     let _id: String
-    let descrip: Descrip
+    let descrip: Descrip?
     let langSec: [LangElement]
 }
 
@@ -44,6 +44,21 @@ struct LangElement: Decodable{
         } else {
             throw DecodingError.dataCorruptedError(forKey:.termSec, in: values, debugDescription: "Value cannot be decoded!")
         }
+    }
+    
+    
+}
+
+// Stub constructor for testing purposes
+extension LangElement{
+    init() {
+        let tbxterm = TBXTerm(_id: "555", __text: "psychological operation")
+        let descrip = Descrip(_type: "context", __text: "Planned activities using methods of communication and other means directed at approved audiences in order to influence perceptions, attitudes and behaviour, affecting the achievement of political and military objectives.")
+        let xref = TBXxref(_type: "externalCrossReference", _target: "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf")
+        
+        termSec = TermSecElement(term: tbxterm, descrip: descrip, xref: xref)
+        lang="en"
+        
     }
 }
 

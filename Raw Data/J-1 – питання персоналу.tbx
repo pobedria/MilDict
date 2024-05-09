@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx type="TBX-Basic" style="dca" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed-2">
+    <tbxHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Crowdin Enterprise glossary download</p>
+            </sourceDesc>
+        </fileDesc>
+    </tbxHeader>
+    <text>
+        <body>
+            <conceptEntry id="326712">
+                <descrip type="subjectField">102 – стратегічні комунікації</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="679190">psychological operation</term>
+                        <descrip type="context">Planned activities using methods of communication and other means directed at approved audiences in order to influence perceptions, attitudes and behaviour, affecting the achievement of political and military objectives.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="679192">PsyOp</term>
+                        <termNote type="termType">shortForm</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="679202">інформаційно-психологічна операція</term>
+                        <descrip type="context">Попередньо спланований та послідовно реалізований вплив на думки, настрої, світоглядні позиції людей з метою реалізувати власні цілі організатора. В основі всіх інформаційно-психологічних операцій лежить маніпуляція свідомістю.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/IPSO-Textbook.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="679204">ІПСО</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="326946">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="679898">manpower management</term>
+                        <descrip type="context">The means of manpower control to ensure the most efficient and economical use of available manpower.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="680120">управління кадрами</term>
+                        <descrip type="context">Способи управління особовим складом для забезпечення найбільш ефективного та економного використання наявного особового складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="326958">
+                <descrip type="subjectField">100 – підготовка (загальні положення)</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="679916">physical security</term>
+                        <descrip type="context">That part of security concerned with physical measures designed to safeguard personnel, to prevent unauthorized access to equipment, installations, material and documents, and to safeguard them against espionage, sabotage, damage, and theft.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="680122">фізична безпека</term>
+                        <descrip type="context">Ця складова безпеки стосується фізичних заходів, призначених для захисту особового складу, запобігання несанкціонованому доступу до обладнання, установок, матеріалів та документів, а також для захисту їх від шпигунства, диверсії, пошкодження та викрадення.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="326988">
+                <descrip type="subjectField">102 – стратегічні комунікації</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="680010">target audience</term>
+                        <descrip type="context">An individual or group selected for influence or attack by means of psychological operations.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="680130">цільова аудиторія</term>
+                        <descrip type="context">Особа або група людей, обраних для впливу або атаки силами та засобами психологічних операцій.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="327024">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="680136">organizational strength</term>
+                        <descrip type="context">The number of trained personnel, facilities and the amount of materiel required to perform a unit’s assigned mission.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                        <note>The organizational strength of a unit may change in response to changing situations and mission requirements.</note>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="680142">штатна чисельність</term>
+                        <descrip type="context">Кількість підготовленого особового складу, обладнання, озброєння та воєнної техніки, необхідних для виконання підрозділом завдань за призначенням.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
+                        <note>Штатна чисельність підрозділу може змінюватися залежно від ситуації та потреб, пов’язаних із виконанням завдання.</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="327076">
+                <descrip type="subjectField">102 – стратегічні комунікації</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="680410">active public information policy</term>
+                        <descrip type="context">A policy which dictates that attempts will be made to stimulate media/public interest about an issue or activity for the purpose of informing the public. Interest may be stimulated by press advisories, news releases, personal contacts, press conferences or other forms of public presentation.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="680458">активна громадська інформаційна політика</term>
+                        <descrip type="context">Політика, яка забезпечує здійснення рішучих кроків для стимулювання ЗМІ та інтересу громадськості до певної проблеми або діяльності з метою інформування громадськості. Інтерес може бути стимульований інформаційними повідомленнями, прес-релізами, особистими контактами, прес-конференціями або іншими формами публічних виступів.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="328074">
+                <descrip type="subjectField">102 – стратегічні комунікації</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="682936">information activities</term>
+                        <descrip type="context">Actions designed to affect information or information systems. Note: Information activities can be performed by any actor and include protection measures.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="683278">інформаційна діяльність</term>
+                        <descrip type="context">Заходи, призначені вплинути на інформацію або інформаційні системи. Примітка: Інформаційна діяльність може виконуватись будь-яким суб’єктом та включати заходи захисту.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="328510">
+                <descrip type="subjectField">102 – стратегічні комунікації</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="683928">harassment</term>
+                        <descrip type="context">Repeated, deliberate and intimidating activities intended to discourage, impede and disrupt.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="683954">пригнічення морально-психологічного стану противника</term>
+                        <descrip type="context">Повторюване навмисне залякування з метою підриву морально-психологічного стану противника і перешкоджання його діяльності.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="328536">
+                <descrip type="subjectField">102 – стратегічні комунікації</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="683982">propaganda</term>
+                        <descrip type="context">Information, especially of a biased or misleading nature, used to promote a political cause or point of view.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="684058">пропаганда</term>
+                        <descrip type="context">Інформація, переважно упередженого або недостовірного характеру, що використовується для просування політичних переконань або точки зору.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="328610">
+                <descrip type="subjectField">103 – національно-патріотична підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="684156">reintegration</term>
+                        <descrip type="context">A process whereby former combatants or belligerents receive amnesty and they, together with refugees and internally-displaced persons, re-enter civil society.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="684158">реінтеграція</term>
+                        <descrip type="context">Процес, за допомогою якого колишні комбатанти або воюючі сторони отримують амністію та разом із біженцями і внутрішньо переміщеними особами повертаються до цивільного життя.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="328612">
+                <descrip type="subjectField">101 – морально-психологічне забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="684160">reintegration</term>
+                        <descrip type="context">The operational process of providing medical and psychological care to personnel recovered from isolation, and debriefing them for intelligence and lessons learned purposes.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="684162">реінтеграція</term>
+                        <descrip type="context">Робочий процес надання медичної та психологічної допомоги особовому складу, звільненому з полону, а також проведення опитування з метою отримання розвідувальних даних та відповідного досвіду.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="328688">
+                <descrip type="subjectField">100 – підготовка (загальні положення)</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="684274">operational performance standard</term>
+                        <descrip type="context">A performance standard that an individual or unit must achieve to be able to execute a mission effectively.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="684352">стандарт бойових показників</term>
+                        <descrip type="context">Відповідні показники, які необхідно досягти особі або підрозділу, щоб бути здатним ефективно виконувати завдання за призначенням.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="329544">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="686136">indirectly involved personnel</term>
+                        <descrip type="context">Personnel not involved in activities but benefiting from or depending on activities</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="686184">особовий склад, задіяний опосередковано</term>
+                        <descrip type="context">Особовий склад, який не залучений до діяльності, але який залежить від неї або в інтересах якого вона проводиться</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="330686">
+                <descrip type="subjectField">102 – стратегічні комунікації</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="688652">strategic communication</term>
+                        <descrip type="context">Sharing meaning (i.e., communicating) in support of national objectives (i.e., strategically). This involves listening as much as transmitting and applies not only to information, but also physical communication—action that conveys meaning.</descrip>
+                        <xref type="externalCrossReference" target="jic_strategiccommunications.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="688654">стратегічні комунікації</term>
+                        <descrip type="context">Скоординоване і належне використання комунікативних можливостей держави – публічної дипломатії, зв’язків із громадськістю, військових зв’язків, інформаційних та психологічних операцій, інших суб’єктів інформаційної діяльності з метою виконання заходів, спрямованих на просування цілей держави.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="330692">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="688666">personnel</term>
+                        <descrip type="context">The military and/or civilian human resources required to accomplish an assigned mission or task.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="688668">особовий склад</term>
+                        <descrip type="context">Офіцерський, рядовий, сержантський і старшинський склад, курсанти і працівники Збройних Сил України в органах військового управління, з’єднаннях, військових частинах, вищих військових навчальних закладах та військових навчальних підрозділах вищих навчальних закладів, установах і організаціях, на кораблях і в підрозділах</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/z0611-14"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+        </body>
+    </text>
+</tbx>
