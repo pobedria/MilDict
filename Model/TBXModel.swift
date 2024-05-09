@@ -10,15 +10,15 @@ import Foundation
 import Foundation
 
 struct TBXConcept: Decodable{
-    let _id: String
+    let id: String
     let descrip: Descrip?
     let langSec: [LangElement]
 }
 
 
 struct Descrip: Decodable {
-    let _type: String
-    let __text: String
+    let type: String
+    let _text: String
 }
 
 
@@ -28,7 +28,7 @@ struct LangElement: Decodable{
     
     enum CodingKeys: String, CodingKey {
         case termSec
-        case lang  = "_xml:lang"
+        case lang  = "xml:lang"
     }
 
     init(from decoder: Decoder) throws {
@@ -52,9 +52,9 @@ struct LangElement: Decodable{
 // Stub constructor for testing purposes
 extension LangElement{
     init() {
-        let tbxterm = TBXTerm(_id: "555", __text: "psychological operation")
-        let descrip = Descrip(_type: "context", __text: "Planned activities using methods of communication and other means directed at approved audiences in order to influence perceptions, attitudes and behaviour, affecting the achievement of political and military objectives.")
-        let xref = TBXxref(_type: "externalCrossReference", _target: "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf")
+        let tbxterm = TBXTerm(id: "555", _text: "psychological operation")
+        let descrip = Descrip(type: "context", _text: "Planned activities using methods of communication and other means directed at approved audiences in order to influence perceptions, attitudes and behaviour, affecting the achievement of political and military objectives.")
+        let xref = TBXxref(type: "externalCrossReference", target: "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf")
         
         termSec = TermSecElement(term: tbxterm, descrip: descrip, xref: xref)
         lang="en"
@@ -69,11 +69,11 @@ struct TermSecElement: Decodable {
 }
 
 struct TBXTerm: Decodable{
-    let _id: String
-    let __text: String
+    let id: String
+    let _text: String
 }
 
 struct TBXxref: Decodable {
-    let _type: String
-    let _target: String
+    let type: String
+    let target: String
 }

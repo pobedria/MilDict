@@ -22,8 +22,8 @@ struct TBXView: View {
 
 #Preview {
     let concept = TBXConcept(
-        _id: "0",
-        descrip: Descrip(_type: "subjectField", __text: "102 – стратегічні комунікації"),
+        id: "0",
+        descrip: Descrip(type: "subjectField", _text: "102 – стратегічні комунікації"),
         langSec: [LangElement()]
     )
     
