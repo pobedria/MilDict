@@ -75,6 +75,7 @@ func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
                     let appTerm = AppTerm(
                         id: Int(termElement.term.id)!,
                         conceptId: Int(concept.id)!,
+                        subject: concept.descrip._text,
                         lang: langElement.lang,
                         term: termElement.term._text,
                         description: termElement.descrip?._text,
@@ -86,6 +87,7 @@ func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
                     let appTerm = AppTerm(
                         id: Int(termElement.term.id)!,
                         conceptId: Int(concept.id)!,
+                        subject: concept.descrip._text,
                         lang: langElement.lang,
                         term: termElement.term._text,
                         description: termElement.descrip?._text,

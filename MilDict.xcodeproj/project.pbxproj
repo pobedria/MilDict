@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7702E6642BEB6E590002B149 /* TBXListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6632BEB6E590002B149 /* TBXListView.swift */; };
-		7702E6662BEB74E60002B149 /* TBXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6652BEB74E60002B149 /* TBXView.swift */; };
+		7702E6662BEB74E60002B149 /* TBXPreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6652BEB74E60002B149 /* TBXPreView.swift */; };
 		7702E6682BEB7DE80002B149 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6672BEB7DE80002B149 /* AppModel.swift */; };
 		7702E6742BECD1C70002B149 /* convertor.js in Resources */ = {isa = PBXBuildFile; fileRef = 7702E66A2BECD1C60002B149 /* convertor.js */; };
 		7702E6CB2BEDF2F40002B149 /* J-6 – зв’язок та інформаційні системи.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6C22BEDF2F40002B149 /* J-6 – зв’язок та інформаційні системи.tbx */; };
@@ -72,7 +72,7 @@
 
 /* Begin PBXFileReference section */
 		7702E6632BEB6E590002B149 /* TBXListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXListView.swift; sourceTree = "<group>"; };
-		7702E6652BEB74E60002B149 /* TBXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXView.swift; sourceTree = "<group>"; };
+		7702E6652BEB74E60002B149 /* TBXPreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXPreView.swift; sourceTree = "<group>"; };
 		7702E6672BEB7DE80002B149 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		7702E66A2BECD1C60002B149 /* convertor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = convertor.js; sourceTree = "<group>"; };
 		7702E6C22BEDF2F40002B149 /* J-6 – зв’язок та інформаційні системи.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-6 – зв’язок та інформаційні системи.tbx"; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				7702E6632BEB6E590002B149 /* TBXListView.swift */,
-				7702E6652BEB74E60002B149 /* TBXView.swift */,
+				7702E6652BEB74E60002B149 /* TBXPreView.swift */,
 			);
 			path = TBXViews;
 			sourceTree = "<group>";
@@ -476,7 +476,7 @@
 				776A796B2A7A6915001F268B /* AbbreviationDetailView.swift in Sources */,
 				77AA0A252A77A2CB006D3946 /* TermsModel.swift in Sources */,
 				776A79672A7A5344001F268B /* AbbreviationModel.swift in Sources */,
-				7702E6662BEB74E60002B149 /* TBXView.swift in Sources */,
+				7702E6662BEB74E60002B149 /* TBXPreView.swift in Sources */,
 				77AA0A322A7A3ACF006D3946 /* TerminologyTabView.swift in Sources */,
 				778B07332A723F3100A96821 /* MilDictApp.swift in Sources */,
 			);
