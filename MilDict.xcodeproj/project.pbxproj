@@ -40,7 +40,6 @@
 		776A79802A8625BB001F268B /* terms.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A797F2A8625BB001F268B /* terms.json */; };
 		778B07332A723F3100A96821 /* MilDictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07322A723F3100A96821 /* MilDictApp.swift */; };
 		778B07352A723F3100A96821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07342A723F3100A96821 /* ContentView.swift */; };
-		778B07372A723F3200A96821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B07362A723F3200A96821 /* Assets.xcassets */; };
 		778B073A2A723F3200A96821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B07392A723F3200A96821 /* Preview Assets.xcassets */; };
 		778B07442A723F3200A96821 /* MilDictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07432A723F3200A96821 /* MilDictTests.swift */; };
 		778B074E2A723F3200A96821 /* MilDictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B074D2A723F3200A96821 /* MilDictUITests.swift */; };
@@ -52,6 +51,7 @@
 		77AA0A302A7A38B6006D3946 /* TermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A2F2A7A38B6006D3946 /* TermView.swift */; };
 		77AA0A322A7A3ACF006D3946 /* TerminologyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A312A7A3ACF006D3946 /* TerminologyTabView.swift */; };
 		77AA0A342A7A3B9D006D3946 /* AbbreviationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A332A7A3B9D006D3946 /* AbbreviationTabView.swift */; };
+		77C810F02BEE70680047F36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C810EF2BEE70670047F36E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,7 +106,6 @@
 		778B072F2A723F3100A96821 /* MilDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B07322A723F3100A96821 /* MilDictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictApp.swift; sourceTree = "<group>"; };
 		778B07342A723F3100A96821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		778B07362A723F3200A96821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778B07392A723F3200A96821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		778B073F2A723F3200A96821 /* MilDictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilDictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B07432A723F3200A96821 /* MilDictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictTests.swift; sourceTree = "<group>"; };
@@ -120,6 +119,7 @@
 		77AA0A2F2A7A38B6006D3946 /* TermView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermView.swift; sourceTree = "<group>"; };
 		77AA0A312A7A3ACF006D3946 /* TerminologyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyTabView.swift; sourceTree = "<group>"; };
 		77AA0A332A7A3B9D006D3946 /* AbbreviationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationTabView.swift; sourceTree = "<group>"; };
+		77C810EF2BEE70670047F36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,8 +210,8 @@
 		778B07312A723F3100A96821 /* MilDict */ = {
 			isa = PBXGroup;
 			children = (
+				77C810EF2BEE70670047F36E /* Assets.xcassets */,
 				778B07322A723F3100A96821 /* MilDictApp.swift */,
-				778B07362A723F3200A96821 /* Assets.xcassets */,
 				778B07382A723F3200A96821 /* Preview Content */,
 			);
 			path = MilDict;
@@ -419,6 +419,7 @@
 			files = (
 				7702E6E02BEDF3120002B149 /* J-5 – оборонне планування.json in Resources */,
 				7702E6742BECD1C70002B149 /* convertor.js in Resources */,
+				77C810F02BEE70680047F36E /* Assets.xcassets in Resources */,
 				7702E6E22BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json in Resources */,
 				778B073A2A723F3200A96821 /* Preview Assets.xcassets in Resources */,
 				7702E6DD2BEDF3120002B149 /* J-2 – розвідка.json in Resources */,
@@ -426,7 +427,6 @@
 				7702E6CD2BEDF2F40002B149 /* J-4 – логістика.tbx in Resources */,
 				7702E6D32BEDF2F40002B149 /* J-9 – цивільно-військове співробітництво.tbx in Resources */,
 				7702E6D22BEDF2F40002B149 /* J-5 – оборонне планування.tbx in Resources */,
-				778B07372A723F3200A96821 /* Assets.xcassets in Resources */,
 				7702E6DF2BEDF3120002B149 /* J-6 – зв’язок та інформаційні системи.json in Resources */,
 				7702E6CE2BEDF2F40002B149 /* J-7 – підготовка військ.tbx in Resources */,
 				7702E6D12BEDF2F40002B149 /* J-8 – ресурси і фінанси.tbx in Resources */,

@@ -11,8 +11,8 @@ struct AbbreviationView: View {
     let abbreviation: Abbreviation
     var body: some View {
         HStack{
-            Text(abbreviation.short_title).foregroundColor(Color("Primary"))
-            Text(abbreviation.en_title).foregroundColor(Color("Secondary"))
+            Text(abbreviation.short_title).foregroundColor(Color("Gold"))
+            Text(abbreviation.en_title).foregroundColor(Color("Salad"))
         }
     }
 }
