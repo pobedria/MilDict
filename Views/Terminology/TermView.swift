@@ -15,7 +15,7 @@ struct TermView: View {
             HStack( alignment: .top){
                 Text(term.en_title)
                     .font(.body)
-                    .foregroundColor(Color("Primary"))
+                    .foregroundColor(Color("Gold"))
                     .frame(maxWidth: .infinity, alignment: .topLeading)
                 if term.ua_title.isEmpty{
                     Text("⚠️ Переклад не стандартизовано")
@@ -25,7 +25,7 @@ struct TermView: View {
                 }else {
                     Text(term.ua_title)
                         .font(.body)
-                        .foregroundColor(Color("Secondary"))
+                        .foregroundColor(Color("Salad"))
                         .frame(maxWidth: .infinity, alignment: .topLeading)
                 }
             }

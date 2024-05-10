@@ -43,7 +43,7 @@ struct TerminologyTabView: View {
                 prompt:  Text("Пошук").foregroundColor(Color("LightKhaki"))
             )
             .background(Color("Olive"))
-            .foregroundColor(searchField.isLatin ? Color("Primary") : Color("Secondary"))
+            .foregroundColor(searchField.isLatin ? Color("Gold") : Color("Salad"))
             .textFieldStyle(MDTextFieldStyle())
             Spacer()
         }.background(Color("Olive"))

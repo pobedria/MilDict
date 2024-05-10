@@ -12,13 +12,13 @@ struct TermDetailView: View {
     var body: some View {
         VStack(alignment: .leading){
             Text(term.en_title)
-                .font(.title).foregroundColor(Color("Primary"))
+                .font(.title).foregroundColor(Color("Gold"))
             
             Text(term.en_text)
                 .font(.title3).foregroundColor(Color("LightKhaki"))
             Divider()
             Text(term.ua_title)
-                .font(.title).foregroundColor(Color("Secondary"))
+                .font(.title).foregroundColor(Color("Salad"))
             Text(term.ua_text)
                 .font(.title3).foregroundColor(Color("LightKhaki"))
             Spacer()
