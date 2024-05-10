@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppTerm{
+struct AppTerm: Identifiable {
     var id: Int
     var conceptId: Int
     var subject: String
