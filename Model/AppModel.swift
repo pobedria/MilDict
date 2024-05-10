@@ -12,6 +12,6 @@ struct AppTerm{
     var conceptId: Int
     var lang: String
     var term: String
-    var description: String
-    var xref: String
+    var description: String?
+    var xref: String?
 }

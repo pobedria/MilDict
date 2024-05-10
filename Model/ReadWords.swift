@@ -24,7 +24,7 @@ func load<T: Decodable>(_ filename: String) -> T {
 }
 
 func loadSortedTerms() -> [Term]{
-    decodeConcepts()
+    loadAppTerms()
     let terms:[Term] = load("terms.json")
     let lovercasedTerms = terms.map{
         Term(
@@ -43,7 +43,13 @@ func loadAbbreviations() -> [Abbreviation]{
     return abbreviations
 }
 
-func decodeConcepts(){
+func loadAppTerms() -> [AppTerm]{
+    let concepts = decodeConcepts()
+    
+    return transformConceptsToTerms(concepts)
+}
+
+func decodeConcepts() -> [TBXConcept]{
     
     var concepts:[TBXConcept] = []
     
@@ -55,5 +61,41 @@ func decodeConcepts(){
     concepts.append(contentsOf: load("J-6 – зв’язок та інформаційні системи.json") as [TBXConcept])
     concepts.append(contentsOf: load("J-7 – підготовка військ.json") as [TBXConcept])
     concepts.append(contentsOf: load("J-9 – цивільно-військове співробітництво.json") as [TBXConcept])
-    print(concepts)
+
+    return concepts
+}
+
+func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
+    
+    var terms = [AppTerm]()
+    for concept in concepts {
+        for langElement in concept.langSec{
+            if let termArray = langElement.termSec as? [TermSecElement] {
+                for termElement in termArray{
+                    let appTerm = AppTerm(
+                        id: Int(termElement.term.id)!,
+                        conceptId: Int(concept.id)!,
+                        lang: langElement.lang,
+                        term: termElement.term._text,
+                        description: termElement.descrip?._text,
+                        xref: termElement.xref?.target)
+                    terms.append(appTerm)
+                }
+            } else {
+                if let termElement = langElement.termSec as? TermSecElement {
+                    let appTerm = AppTerm(
+                        id: Int(termElement.term.id)!,
+                        conceptId: Int(concept.id)!,
+                        lang: langElement.lang,
+                        term: termElement.term._text,
+                        description: termElement.descrip?._text,
+                        xref: termElement.xref?.target)
+                    terms.append(appTerm)
+                }
+            }
+        }
+        
+    }
+    print(terms)
+    return terms
 }

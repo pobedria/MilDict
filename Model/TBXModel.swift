@@ -37,10 +37,10 @@ struct LangElement: Decodable{
         
         lang = try values.decode(String.self, forKey: .lang)
         
-        if let str = try? values.decode(TermSecElement.self, forKey: .termSec) {
-            termSec = str
-        } else if let content = try? values.decode([TermSecElement].self, forKey: .termSec) {
-            termSec = content
+        if let termElement = try? values.decode(TermSecElement.self, forKey: .termSec) {
+            termSec = termElement
+        } else if let termArray = try? values.decode([TermSecElement].self, forKey: .termSec) {
+            termSec = termArray
         } else {
             throw DecodingError.dataCorruptedError(forKey:.termSec, in: values, debugDescription: "Value cannot be decoded!")
         }
