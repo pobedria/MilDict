@@ -34,7 +34,7 @@ struct AbbreviationTabView: View {
             TextField("Пошук", text: $searchField,prompt:  Text("Пошук").foregroundColor(Color("LightKhaki")))
                 .background(Color("Olive"))
                 .textFieldStyle(MDTextFieldStyle())
-                .foregroundColor(Color("Primary"))
+                .foregroundColor(Color("Gold"))
             Spacer()
         }.background(Color("Olive"))
     }

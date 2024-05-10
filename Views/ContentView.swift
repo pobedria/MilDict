@@ -11,7 +11,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            TerminologyTabView()
+            TBXTabViewUA()
                 .tabItem {
                     Label("Термінологія", systemImage: "text.book.closed")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
