@@ -11,7 +11,7 @@ import Foundation
 
 struct TBXConcept: Decodable{
     let id: String
-    let descrip: Descrip?
+    let descrip: Descrip
     let langSec: [LangElement]
 }
 

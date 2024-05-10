@@ -50,6 +50,10 @@ func decodeConcepts(){
     concepts.append(contentsOf: load("J-1 – питання персоналу.json") as [TBXConcept])
     concepts.append(contentsOf: load("J-2 – розвідка.json") as [TBXConcept])
     concepts.append(contentsOf: load("J-3 – оперативна діяльність.json") as [TBXConcept])
-    
+    concepts.append(contentsOf: load("J-4 – логістика.json") as [TBXConcept])
+    concepts.append(contentsOf: load("J-5 – оборонне планування.json") as [TBXConcept])
+    concepts.append(contentsOf: load("J-6 – зв’язок та інформаційні системи.json") as [TBXConcept])
+    concepts.append(contentsOf: load("J-7 – підготовка військ.json") as [TBXConcept])
+    concepts.append(contentsOf: load("J-9 – цивільно-військове співробітництво.json") as [TBXConcept])
     print(concepts)
 }

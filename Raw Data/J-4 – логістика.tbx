@@ -1601,7 +1601,7 @@ d) завдань з медичної евакуації повітрям.</desc
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327102">
-                <descrip type="subjectField">400 – логістичне забезпечення</descrip>
+                <descrip type="subjectField">426 – аеронавігаційне забезпечення</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="680436">map sheet</term>
@@ -1757,7 +1757,7 @@ d) завдань з медичної евакуації повітрям.</desc
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327670">
-                <note>426 – аеронавігаційне забезпечення</note>
+                <descrip type="subjectField">426 – аеронавігаційне забезпечення</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="681882">map series</term>
@@ -4907,6 +4907,7 @@ Grenades, mines, pyrotechnic devices</note>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328908">
+                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="684746">energetic material</term>
@@ -5510,6 +5511,7 @@ Grenades, mines, pyrotechnic devices</note>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328982">
+                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
                 <note>може &quot;відсік боєголовки&quot;?</note>
                 <langSec xml:lang="en">
                     <termSec>
@@ -8127,6 +8129,7 @@ Munitions design: To prevent inadvertent explosive functioning through the appli
                 </langSec>
             </conceptEntry>
             <conceptEntry id="329288">
+                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
                 <note>432 – боєприпаси та вибухові речовини</note>
                 <langSec xml:lang="en">
                     <termSec>
