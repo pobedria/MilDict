@@ -16,18 +16,10 @@ struct TBXDetailView: View {
         let engTerms = termsInConcept.filter({ $0.lang == "en"})
         let ukrTerms = termsInConcept.filter({ $0.lang == "uk"})
         VStack {
-            ForEach(engTerms) {
-                Text( $0.term)
-                    .frame(maxWidth: .infinity, alignment: .topLeading)
-                    .foregroundColor(Color("Salad"))
-            }
+            TermDetailView(terms: engTerms)
             Divider()
-            ForEach(ukrTerms) {
-                Text( $0.term)
-                    .frame(maxWidth: .infinity, alignment: .topLeading)
-                    .foregroundColor(Color("Salad"))
-            }
-        }.padding().background(Color("Olive"))
+            TermDetailView(terms: ukrTerms)
+        }.background(Color("Olive"))
         
     }
 }
@@ -35,7 +27,7 @@ struct TBXDetailView: View {
 #Preview {
     let terms = [
         AppTerm(id: 1, conceptId: 10, subject: "102 – стратегічні комунікації", lang: "en", term: "PsyOp"),
-        AppTerm(id: 2, conceptId: 10, subject: "102 – стратегічні комунікації", lang: "en", term: "psychological operation"),
+        AppTerm(id: 2, conceptId: 10, subject: "102 – стратегічні комунікації", lang: "en", term: "psychological operation", description: "Planned activities using methods of communication and other means directed at approved audiences in order to influence perceptions, attitudes and behaviour, affecting the achievement of political and military objectives.", xref: "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"),
         AppTerm(id: 3, conceptId: 10, subject: "102 – стратегічні комунікації", lang: "uk", term: "інформаційно-психологічна операція"),
         AppTerm(id: 4, conceptId: 10, subject: "102 – стратегічні комунікації", lang: "uk", term: "ІПСО"),
         AppTerm(id: 5, conceptId: 20, subject: "500 – оборонне планування", lang: "en", term: "homeland defense"),
