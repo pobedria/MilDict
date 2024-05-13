@@ -24,8 +24,7 @@
 		7702E6E12BEDF3120002B149 /* J-7 – підготовка військ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6D92BEDF3120002B149 /* J-7 – підготовка військ.json */; };
 		7702E6E22BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6DA2BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json */; };
 		7702E6E32BEDF3120002B149 /* J-3 – оперативна діяльність.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6DB2BEDF3120002B149 /* J-3 – оперативна діяльність.json */; };
-		7702E6E52BEE1D0D0002B149 /* TBXTabViewEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6E42BEE1D0D0002B149 /* TBXTabViewEN.swift */; };
-		7721C4652BF1EE230080E06C /* TBXTabViewUA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721C4642BF1EE230080E06C /* TBXTabViewUA.swift */; };
+		7702E6E52BEE1D0D0002B149 /* TBXTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */; };
 		776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A28E92BEA4A40008D4662 /* TBXModel.swift */; };
 		776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A796E2A7BA399001F268B /* SearchTextField.swift */; };
 		776A797E2A8624F4001F268B /* abbreviations.json in Resources */ = {isa = PBXBuildFile; fileRef = 776A797D2A8624F4001F268B /* abbreviations.json */; };
@@ -40,6 +39,7 @@
 		77A02C1B2BF1F5FF0052A3B8 /* J-2 – розвідка.json in Resources */ = {isa = PBXBuildFile; fileRef = 77A02C1A2BF1F5FE0052A3B8 /* J-2 – розвідка.json */; };
 		77A02C272BF20FE20052A3B8 /* J-5 – оборонне планування.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 77A02C262BF20FE20052A3B8 /* J-5 – оборонне планування.tbx */; };
 		77A02C292BF20FEB0052A3B8 /* J-5 – оборонне планування.json in Resources */ = {isa = PBXBuildFile; fileRef = 77A02C282BF20FEB0052A3B8 /* J-5 – оборонне планування.json */; };
+		77A02C2B2BF211BC0052A3B8 /* TDXDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A02C2A2BF211BC0052A3B8 /* TDXDetailView.swift */; };
 		77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A262A77A3CC006D3946 /* ReadWords.swift */; };
 		77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A292A77D5D0006D3946 /* extensions.swift */; };
 		77C810F02BEE70680047F36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C810EF2BEE70670047F36E /* Assets.xcassets */; };
@@ -80,8 +80,7 @@
 		7702E6D92BEDF3120002B149 /* J-7 – підготовка військ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-7 – підготовка військ.json"; sourceTree = "<group>"; };
 		7702E6DA2BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-9 – цивільно-військове співробітництво.json"; sourceTree = "<group>"; };
 		7702E6DB2BEDF3120002B149 /* J-3 – оперативна діяльність.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-3 – оперативна діяльність.json"; sourceTree = "<group>"; };
-		7702E6E42BEE1D0D0002B149 /* TBXTabViewEN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabViewEN.swift; sourceTree = "<group>"; };
-		7721C4642BF1EE230080E06C /* TBXTabViewUA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabViewUA.swift; sourceTree = "<group>"; };
+		7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabView.swift; sourceTree = "<group>"; };
 		776A28E92BEA4A40008D4662 /* TBXModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXModel.swift; sourceTree = "<group>"; };
 		776A796E2A7BA399001F268B /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		776A797D2A8624F4001F268B /* abbreviations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abbreviations.json; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		77A02C1A2BF1F5FE0052A3B8 /* J-2 – розвідка.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-2 – розвідка.json"; sourceTree = "<group>"; };
 		77A02C262BF20FE20052A3B8 /* J-5 – оборонне планування.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-5 – оборонне планування.tbx"; sourceTree = "<group>"; };
 		77A02C282BF20FEB0052A3B8 /* J-5 – оборонне планування.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-5 – оборонне планування.json"; sourceTree = "<group>"; };
+		77A02C2A2BF211BC0052A3B8 /* TDXDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDXDetailView.swift; sourceTree = "<group>"; };
 		77AA0A262A77A3CC006D3946 /* ReadWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWords.swift; sourceTree = "<group>"; };
 		77AA0A292A77D5D0006D3946 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		77C810EF2BEE70670047F36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 			children = (
 				7702E6632BEB6E590002B149 /* TBXListView.swift */,
 				7702E6652BEB74E60002B149 /* TBXPreView.swift */,
-				7702E6E42BEE1D0D0002B149 /* TBXTabViewEN.swift */,
-				7721C4642BF1EE230080E06C /* TBXTabViewUA.swift */,
+				7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */,
+				77A02C2A2BF211BC0052A3B8 /* TDXDetailView.swift */,
 			);
 			path = TBXViews;
 			sourceTree = "<group>";
@@ -420,14 +420,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7721C4652BF1EE230080E06C /* TBXTabViewUA.swift in Sources */,
 				77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */,
 				776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */,
 				7702E6642BEB6E590002B149 /* TBXListView.swift in Sources */,
-				7702E6E52BEE1D0D0002B149 /* TBXTabViewEN.swift in Sources */,
+				7702E6E52BEE1D0D0002B149 /* TBXTabView.swift in Sources */,
 				778B07352A723F3100A96821 /* ContentView.swift in Sources */,
 				776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */,
 				7702E6682BEB7DE80002B149 /* AppModel.swift in Sources */,
+				77A02C2B2BF211BC0052A3B8 /* TDXDetailView.swift in Sources */,
 				77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */,
 				7702E6662BEB74E60002B149 /* TBXPreView.swift in Sources */,
 				778B07332A723F3100A96821 /* MilDictApp.swift in Sources */,

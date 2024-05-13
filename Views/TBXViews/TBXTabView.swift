@@ -7,28 +7,29 @@
 
 import SwiftUI
 
-struct TBXTabViewEN: View {
+struct TBXTabView: View {
     @State private var searchField: String = ""
     var terms: [AppTerm]
+    let lang: String
     
     var body: some View {
         VStack() {
             let sanitizedField = searchField
                 .lowercased()
                 .trimmingCharacters(in: .whitespacesAndNewlines)
-            let engTerms = terms.filter({ $0.lang == "en"}).sorted()
+            
             NavigationView {
                 if sanitizedField.isEmpty{
-                    TBXListView(terms: engTerms)
+                    TBXListView(terms: terms, lang: lang)
                 }
                 else {
-                    let filtered = engTerms.filter(
+                    let filtered = terms.filter(
                         where:{ $0.term.lowercased().contains(sanitizedField)},
                         limit: 20).sorted()
-                    TBXListView(terms: filtered)
+                    TBXListView(terms: filtered, lang: lang)
                 }
             }
-            .navigationTitle("UK")
+            .navigationTitle("Повна інформація")
             TextField("Пошук", text: $searchField,prompt:  Text("Пошук").foregroundColor(Color("LightKhaki")))
                 .background(Color("Olive"))
                 .textFieldStyle(MDTextFieldStyle())
@@ -50,5 +51,5 @@ struct TBXTabViewEN: View {
         AppTerm(id: 9, conceptId: 33, subject: "900 – цивільно-військове співробітництво", lang: "en", term: "humanitarian aid")
     
     ]
-    return TBXTabViewEN(terms: terms)
+    return TBXTabView(terms: terms, lang: "en")
 }

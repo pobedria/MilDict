@@ -9,11 +9,13 @@ import SwiftUI
 
 struct TBXListView: View {
     let terms: [AppTerm]
+    let lang: String
     
     var body: some View {
-        List(terms){ term in
+        let filteredByLanguageTerms = terms.filter({ $0.lang == lang}).sorted()
+        List(filteredByLanguageTerms){ term in
             NavigationLink {
-                Text(term.term)
+                TDXDetailView(terms: terms, chosenTerm: term)
             } label: {
                 TBXPreView(term: term)
             }.listRowBackground(Color("Olive"))
@@ -34,5 +36,5 @@ struct TBXListView: View {
         AppTerm(id: 9, conceptId: 33, subject: "900 – цивільно-військове співробітництво", lang: "en", term: "humanitarian aid")
     
     ]
-    return TBXListView(terms: terms)
+    return TBXListView(terms: terms, lang: "en")
 }

@@ -11,11 +11,11 @@ struct ContentView: View {
     var terms = loadAppTerms()
     var body: some View {
         TabView {
-            TBXTabViewEN(terms:terms)
+            TBXTabView(terms:terms, lang: "en")
                 .tabItem {
                     Label("Англійська🇬🇧", systemImage: "globe.americas.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
-            TBXTabViewUA(terms:terms)
+            TBXTabView(terms:terms, lang: "uk")
                 .tabItem {
                     Label("Українська🇺🇦", systemImage: "globe.europe.africa.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
