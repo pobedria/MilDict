@@ -1148,7 +1148,7 @@ Act or acts with intent to injure, interfere with, or obstruct the national defe
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="688386">cтандарт НАТО</term>
+                        <term id="688386">стандарт НАТО</term>
                         <descrip type="context">Стандарт, розроблений, прийнятий та опублікований Організацією Північноатлантичного договору”</descrip>
                         <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2742-19"></xref>
                     </termSec>
@@ -1183,7 +1183,7 @@ Consists of historically significant documents (non-artifact and other media) fr
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="688642">cпроможність</term>
+                        <term id="688642">спроможність</term>
                         <descrip type="context">Здатність органів військового управління, з’єднань, військових частин, військових навчальних закладів, установ та організацій ЗС України або сукупність сил і засобів оборони виконувати певні завдання (забезпечувати реалізацію визначених військових цілей) за певних умов, ресурсного забезпечення та відповідно до встановлених стандартів.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"></xref>
                     </termSec>
