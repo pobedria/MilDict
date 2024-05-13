@@ -737,9 +737,9 @@ d) доведення – своєчасне надання розвідувал
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                     <termSec>
-                        <term id="681614">ААР-06</term>
+                        <term id="681614">AR</term>
                         <termNote type="administrativeStatus">deprecatedTerm-admn-sts</termNote>
-                        <termNote type="termType">variant</termNote>
+                        <termNote type="termType">abbreviation</termNote>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">

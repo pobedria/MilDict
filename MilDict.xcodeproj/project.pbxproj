@@ -16,12 +16,10 @@
 		7702E6CD2BEDF2F40002B149 /* J-4 – логістика.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6C42BEDF2F40002B149 /* J-4 – логістика.tbx */; };
 		7702E6CE2BEDF2F40002B149 /* J-7 – підготовка військ.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6C52BEDF2F40002B149 /* J-7 – підготовка військ.tbx */; };
 		7702E6CF2BEDF2F40002B149 /* J-3 – оперативна діяльність.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6C62BEDF2F40002B149 /* J-3 – оперативна діяльність.tbx */; };
-		7702E6D02BEDF2F40002B149 /* J-2 – розвідка.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6C72BEDF2F40002B149 /* J-2 – розвідка.tbx */; };
 		7702E6D12BEDF2F40002B149 /* J-8 – ресурси і фінанси.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6C82BEDF2F40002B149 /* J-8 – ресурси і фінанси.tbx */; };
 		7702E6D22BEDF2F40002B149 /* J-5 – оборонне планування.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6C92BEDF2F40002B149 /* J-5 – оборонне планування.tbx */; };
 		7702E6D32BEDF2F40002B149 /* J-9 – цивільно-військове співробітництво.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6CA2BEDF2F40002B149 /* J-9 – цивільно-військове співробітництво.tbx */; };
 		7702E6DC2BEDF3120002B149 /* J-1 – питання персоналу.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6D42BEDF3120002B149 /* J-1 – питання персоналу.json */; };
-		7702E6DD2BEDF3120002B149 /* J-2 – розвідка.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6D52BEDF3120002B149 /* J-2 – розвідка.json */; };
 		7702E6DE2BEDF3120002B149 /* J-4 – логістика.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6D62BEDF3120002B149 /* J-4 – логістика.json */; };
 		7702E6DF2BEDF3120002B149 /* J-6 – зв’язок та інформаційні системи.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6D72BEDF3120002B149 /* J-6 – зв’язок та інформаційні системи.json */; };
 		7702E6E02BEDF3120002B149 /* J-5 – оборонне планування.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6D82BEDF3120002B149 /* J-5 – оборонне планування.json */; };
@@ -45,6 +43,8 @@
 		778B07442A723F3200A96821 /* MilDictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B07432A723F3200A96821 /* MilDictTests.swift */; };
 		778B074E2A723F3200A96821 /* MilDictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B074D2A723F3200A96821 /* MilDictUITests.swift */; };
 		778B07502A723F3200A96821 /* MilDictUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B074F2A723F3200A96821 /* MilDictUITestsLaunchTests.swift */; };
+		77A02C192BF1F5F80052A3B8 /* J-2 – розвідка.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 77A02C182BF1F5F80052A3B8 /* J-2 – розвідка.tbx */; };
+		77A02C1B2BF1F5FF0052A3B8 /* J-2 – розвідка.json in Resources */ = {isa = PBXBuildFile; fileRef = 77A02C1A2BF1F5FE0052A3B8 /* J-2 – розвідка.json */; };
 		77AA0A252A77A2CB006D3946 /* TermsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A242A77A2CB006D3946 /* TermsModel.swift */; };
 		77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A262A77A3CC006D3946 /* ReadWords.swift */; };
 		77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA0A292A77D5D0006D3946 /* extensions.swift */; };
@@ -82,12 +82,10 @@
 		7702E6C42BEDF2F40002B149 /* J-4 – логістика.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-4 – логістика.tbx"; sourceTree = "<group>"; };
 		7702E6C52BEDF2F40002B149 /* J-7 – підготовка військ.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-7 – підготовка військ.tbx"; sourceTree = "<group>"; };
 		7702E6C62BEDF2F40002B149 /* J-3 – оперативна діяльність.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-3 – оперативна діяльність.tbx"; sourceTree = "<group>"; };
-		7702E6C72BEDF2F40002B149 /* J-2 – розвідка.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-2 – розвідка.tbx"; sourceTree = "<group>"; };
 		7702E6C82BEDF2F40002B149 /* J-8 – ресурси і фінанси.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-8 – ресурси і фінанси.tbx"; sourceTree = "<group>"; };
 		7702E6C92BEDF2F40002B149 /* J-5 – оборонне планування.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-5 – оборонне планування.tbx"; sourceTree = "<group>"; };
 		7702E6CA2BEDF2F40002B149 /* J-9 – цивільно-військове співробітництво.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-9 – цивільно-військове співробітництво.tbx"; sourceTree = "<group>"; };
 		7702E6D42BEDF3120002B149 /* J-1 – питання персоналу.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-1 – питання персоналу.json"; sourceTree = "<group>"; };
-		7702E6D52BEDF3120002B149 /* J-2 – розвідка.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-2 – розвідка.json"; sourceTree = "<group>"; };
 		7702E6D62BEDF3120002B149 /* J-4 – логістика.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-4 – логістика.json"; sourceTree = "<group>"; };
 		7702E6D72BEDF3120002B149 /* J-6 – зв’язок та інформаційні системи.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-6 – зв’язок та інформаційні системи.json"; sourceTree = "<group>"; };
 		7702E6D82BEDF3120002B149 /* J-5 – оборонне планування.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-5 – оборонне планування.json"; sourceTree = "<group>"; };
@@ -114,6 +112,8 @@
 		778B07492A723F3200A96821 /* MilDictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilDictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B074D2A723F3200A96821 /* MilDictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictUITests.swift; sourceTree = "<group>"; };
 		778B074F2A723F3200A96821 /* MilDictUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77A02C182BF1F5F80052A3B8 /* J-2 – розвідка.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-2 – розвідка.tbx"; sourceTree = "<group>"; };
+		77A02C1A2BF1F5FE0052A3B8 /* J-2 – розвідка.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-2 – розвідка.json"; sourceTree = "<group>"; };
 		77AA0A242A77A2CB006D3946 /* TermsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsModel.swift; sourceTree = "<group>"; };
 		77AA0A262A77A3CC006D3946 /* ReadWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWords.swift; sourceTree = "<group>"; };
 		77AA0A292A77D5D0006D3946 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 			children = (
 				7702E66A2BECD1C60002B149 /* convertor.js */,
 				7702E6C32BEDF2F40002B149 /* J-1 – питання персоналу.tbx */,
-				7702E6C72BEDF2F40002B149 /* J-2 – розвідка.tbx */,
+				77A02C182BF1F5F80052A3B8 /* J-2 – розвідка.tbx */,
 				7702E6C62BEDF2F40002B149 /* J-3 – оперативна діяльність.tbx */,
 				7702E6C42BEDF2F40002B149 /* J-4 – логістика.tbx */,
 				7702E6C92BEDF2F40002B149 /* J-5 – оборонне планування.tbx */,
@@ -249,7 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				7702E6D42BEDF3120002B149 /* J-1 – питання персоналу.json */,
-				7702E6D52BEDF3120002B149 /* J-2 – розвідка.json */,
+				77A02C1A2BF1F5FE0052A3B8 /* J-2 – розвідка.json */,
 				7702E6DB2BEDF3120002B149 /* J-3 – оперативна діяльність.json */,
 				7702E6D62BEDF3120002B149 /* J-4 – логістика.json */,
 				7702E6D82BEDF3120002B149 /* J-5 – оборонне планування.json */,
@@ -425,17 +425,17 @@
 				77C810F02BEE70680047F36E /* Assets.xcassets in Resources */,
 				7702E6E22BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json in Resources */,
 				778B073A2A723F3200A96821 /* Preview Assets.xcassets in Resources */,
-				7702E6DD2BEDF3120002B149 /* J-2 – розвідка.json in Resources */,
+				77A02C192BF1F5F80052A3B8 /* J-2 – розвідка.tbx in Resources */,
 				776A79802A8625BB001F268B /* terms.json in Resources */,
 				7702E6CD2BEDF2F40002B149 /* J-4 – логістика.tbx in Resources */,
 				7702E6D32BEDF2F40002B149 /* J-9 – цивільно-військове співробітництво.tbx in Resources */,
 				7702E6D22BEDF2F40002B149 /* J-5 – оборонне планування.tbx in Resources */,
 				7702E6DF2BEDF3120002B149 /* J-6 – зв’язок та інформаційні системи.json in Resources */,
 				7702E6CE2BEDF2F40002B149 /* J-7 – підготовка військ.tbx in Resources */,
+				77A02C1B2BF1F5FF0052A3B8 /* J-2 – розвідка.json in Resources */,
 				7702E6D12BEDF2F40002B149 /* J-8 – ресурси і фінанси.tbx in Resources */,
 				776A797E2A8624F4001F268B /* abbreviations.json in Resources */,
 				7702E6E32BEDF3120002B149 /* J-3 – оперативна діяльність.json in Resources */,
-				7702E6D02BEDF2F40002B149 /* J-2 – розвідка.tbx in Resources */,
 				7702E6CC2BEDF2F40002B149 /* J-1 – питання персоналу.tbx in Resources */,
 				7702E6CB2BEDF2F40002B149 /* J-6 – зв’язок та інформаційні системи.tbx in Resources */,
 				7702E6CF2BEDF2F40002B149 /* J-3 – оперативна діяльність.tbx in Resources */,

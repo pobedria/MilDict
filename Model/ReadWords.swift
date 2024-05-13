@@ -98,6 +98,5 @@ func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
         }
         
     }
-    print(terms)
     return terms
 }
