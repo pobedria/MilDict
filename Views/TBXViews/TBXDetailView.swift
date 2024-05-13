@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TDXDetailView: View {
+struct TBXDetailView: View {
     let terms: [AppTerm]
     let chosenTerm: AppTerm
 
@@ -21,13 +21,14 @@ struct TDXDetailView: View {
                     .frame(maxWidth: .infinity, alignment: .topLeading)
                     .foregroundColor(Color("Salad"))
             }
-            
+            Divider()
             ForEach(ukrTerms) {
                 Text( $0.term)
                     .frame(maxWidth: .infinity, alignment: .topLeading)
                     .foregroundColor(Color("Salad"))
             }
-        }
+        }.padding().background(Color("Olive"))
+        
     }
 }
 
@@ -43,5 +44,5 @@ struct TDXDetailView: View {
         AppTerm(id: 9, conceptId: 33, subject: "900 – цивільно-військове співробітництво", lang: "en", term: "humanitarian aid")
     
     ]
-    return TDXDetailView(terms: terms, chosenTerm: terms[0])
+    return TBXDetailView(terms: terms, chosenTerm: terms[0])
 }
