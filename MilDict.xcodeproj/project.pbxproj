@@ -28,7 +28,8 @@
 		7702E6E12BEDF3120002B149 /* J-7 – підготовка військ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6D92BEDF3120002B149 /* J-7 – підготовка військ.json */; };
 		7702E6E22BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6DA2BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json */; };
 		7702E6E32BEDF3120002B149 /* J-3 – оперативна діяльність.json in Resources */ = {isa = PBXBuildFile; fileRef = 7702E6DB2BEDF3120002B149 /* J-3 – оперативна діяльність.json */; };
-		7702E6E52BEE1D0D0002B149 /* TBXTabViewUA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6E42BEE1D0D0002B149 /* TBXTabViewUA.swift */; };
+		7702E6E52BEE1D0D0002B149 /* TBXTabViewEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6E42BEE1D0D0002B149 /* TBXTabViewEN.swift */; };
+		7721C4652BF1EE230080E06C /* TBXTabViewUA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721C4642BF1EE230080E06C /* TBXTabViewUA.swift */; };
 		776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A28E92BEA4A40008D4662 /* TBXModel.swift */; };
 		776A79632A7A460F001F268B /* TermsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79622A7A460F001F268B /* TermsListView.swift */; };
 		776A79672A7A5344001F268B /* AbbreviationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A79662A7A5344001F268B /* AbbreviationModel.swift */; };
@@ -93,7 +94,8 @@
 		7702E6D92BEDF3120002B149 /* J-7 – підготовка військ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-7 – підготовка військ.json"; sourceTree = "<group>"; };
 		7702E6DA2BEDF3120002B149 /* J-9 – цивільно-військове співробітництво.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-9 – цивільно-військове співробітництво.json"; sourceTree = "<group>"; };
 		7702E6DB2BEDF3120002B149 /* J-3 – оперативна діяльність.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "J-3 – оперативна діяльність.json"; sourceTree = "<group>"; };
-		7702E6E42BEE1D0D0002B149 /* TBXTabViewUA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabViewUA.swift; sourceTree = "<group>"; };
+		7702E6E42BEE1D0D0002B149 /* TBXTabViewEN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabViewEN.swift; sourceTree = "<group>"; };
+		7721C4642BF1EE230080E06C /* TBXTabViewUA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabViewUA.swift; sourceTree = "<group>"; };
 		776A28E92BEA4A40008D4662 /* TBXModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXModel.swift; sourceTree = "<group>"; };
 		776A79622A7A460F001F268B /* TermsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsListView.swift; sourceTree = "<group>"; };
 		776A79662A7A5344001F268B /* AbbreviationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbbreviationModel.swift; sourceTree = "<group>"; };
@@ -152,7 +154,8 @@
 			children = (
 				7702E6632BEB6E590002B149 /* TBXListView.swift */,
 				7702E6652BEB74E60002B149 /* TBXPreView.swift */,
-				7702E6E42BEE1D0D0002B149 /* TBXTabViewUA.swift */,
+				7702E6E42BEE1D0D0002B149 /* TBXTabViewEN.swift */,
+				7721C4642BF1EE230080E06C /* TBXTabViewUA.swift */,
 			);
 			path = TBXViews;
 			sourceTree = "<group>";
@@ -465,12 +468,13 @@
 			files = (
 				77AA0A2C2A793298006D3946 /* TermDetailView.swift in Sources */,
 				776A79632A7A460F001F268B /* TermsListView.swift in Sources */,
+				7721C4652BF1EE230080E06C /* TBXTabViewUA.swift in Sources */,
 				776A79692A7A68DC001F268B /* AbbreviationView.swift in Sources */,
 				77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */,
 				776A796D2A7A6939001F268B /* AbbreviationListView.swift in Sources */,
 				776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */,
 				7702E6642BEB6E590002B149 /* TBXListView.swift in Sources */,
-				7702E6E52BEE1D0D0002B149 /* TBXTabViewUA.swift in Sources */,
+				7702E6E52BEE1D0D0002B149 /* TBXTabViewEN.swift in Sources */,
 				778B07352A723F3100A96821 /* ContentView.swift in Sources */,
 				77AA0A342A7A3B9D006D3946 /* AbbreviationTabView.swift in Sources */,
 				776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */,

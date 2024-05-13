@@ -11,13 +11,13 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
+            TBXTabViewEN()
+                .tabItem {
+                    Label("Англійська🇬🇧", systemImage: "globe.americas.fill")
+                }.toolbarBackground(Color("Olive"),for: .tabBar)
             TBXTabViewUA()
                 .tabItem {
-                    Label("Англійська🇬🇧", systemImage: "bus.doubledecker.fill")
-                }.toolbarBackground(Color("Olive"),for: .tabBar)
-            AbbreviationTabView()
-                .tabItem {
-                    Label("Українська🇺🇦", systemImage: "globe")
+                    Label("Українська🇺🇦", systemImage: "globe.europe.africa.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
         }
     }
