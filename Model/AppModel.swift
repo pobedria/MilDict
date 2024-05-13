@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppTerm: Identifiable {
+struct AppTerm: Identifiable, Comparable {
     var id: Int
     var conceptId: Int
     var subject: String
@@ -15,4 +15,9 @@ struct AppTerm: Identifiable {
     var term: String
     var description: String?
     var xref: String?
+    
+    static func < (lhs: AppTerm, rhs: AppTerm) -> Bool {
+        return lhs.term.localizedCaseInsensitiveCompare(rhs.term) == .orderedAscending
+    }
 }
+

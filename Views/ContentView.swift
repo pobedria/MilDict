@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    var terms = loadAppTerms()
     var body: some View {
         TabView {
-            TBXTabViewEN()
+            TBXTabViewEN(terms:terms)
                 .tabItem {
                     Label("Англійська🇬🇧", systemImage: "globe.americas.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
-            TBXTabViewUA()
+            TBXTabViewUA(terms:terms)
                 .tabItem {
                     Label("Українська🇺🇦", systemImage: "globe.europe.africa.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
