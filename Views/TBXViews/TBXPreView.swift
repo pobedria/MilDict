@@ -18,7 +18,8 @@ struct TBXPreView: View {
                 .frame(maxWidth: .infinity, alignment: .topLeading)
             Text(term.subject)
                 .font(.caption)
-                .foregroundColor(Color("Gold"))
+                
+                .foregroundColor(Color("Steppe"))
                 .frame(maxWidth: .infinity, alignment: .topLeading)
         }
     }
