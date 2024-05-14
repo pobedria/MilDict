@@ -15,12 +15,13 @@ struct TBXListView: View {
         let filteredByLanguageTerms = terms.filter({ $0.lang == lang}).sorted()
         List(filteredByLanguageTerms){ term in
             NavigationLink {
-                TBXDetailView(terms: terms, chosenTerm: term)
+                TBXDetailView(chosenTerm: term)
             } label: {
                 TBXPreView(term: term)
             }.listRowBackground(Color("Olive"))
         }.background(Color("Steppe"))
         .scrollContentBackground(.hidden)
+        
     }
 }
 

@@ -7,15 +7,15 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
-    var terms = loadAppTerms()
     var body: some View {
         TabView {
-            TBXTabView(terms:terms, lang: "en")
+            TBXTabView(lang: "en")
                 .tabItem {
                     Label("Англійська🇬🇧", systemImage: "globe.americas.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
-            TBXTabView(terms:terms, lang: "uk")
+            TBXTabView(lang: "uk")
                 .tabItem {
                     Label("Українська🇺🇦", systemImage: "globe.europe.africa.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)

@@ -9,7 +9,8 @@ import SwiftUI
 
 struct TBXTabView: View {
     @State private var searchField: String = ""
-    var terms: [AppTerm]
+
+    
     let lang: String
     
     var body: some View {
@@ -20,10 +21,10 @@ struct TBXTabView: View {
             
             NavigationView {
                 if sanitizedField.isEmpty{
-                    TBXListView(terms: terms, lang: lang)
+                    TBXListView(terms: TermsSorage.terms, lang: lang)
                 }
                 else {
-                    let filtered = terms.filter(
+                    let filtered = TermsSorage.terms.filter(
                         where:{ $0.term.lowercased().contains(sanitizedField)},
                         limit: 20).sorted()
                     TBXListView(terms: filtered, lang: lang)
@@ -51,5 +52,5 @@ struct TBXTabView: View {
         AppTerm(id: 9, conceptId: 33, subject: "900 – цивільно-військове співробітництво", lang: "en", term: "humanitarian aid")
     
     ]
-    return TBXTabView(terms: terms, lang: "en")
+    return TBXTabView(lang: "en")
 }

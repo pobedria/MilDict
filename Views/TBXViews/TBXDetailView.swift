@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct TBXDetailView: View {
-    let terms: [AppTerm]
+
     let chosenTerm: AppTerm
 
     var body: some View {
-        let termsInConcept = terms.filter({ $0.conceptId == chosenTerm.conceptId })
+        let termsInConcept = TermsSorage.terms.filter({ $0.conceptId == chosenTerm.conceptId })
         let engTerms = termsInConcept.filter({ $0.lang == "en"})
         let ukrTerms = termsInConcept.filter({ $0.lang == "uk"})
         let topTerms = chosenTerm.lang == "en" ? engTerms : ukrTerms
@@ -43,5 +43,5 @@ struct TBXDetailView: View {
         AppTerm(id: 9, conceptId: 33, subject: "900 – цивільно-військове співробітництво", lang: "en", term: "humanitarian aid")
     
     ]
-    return TBXDetailView(terms: terms, chosenTerm: terms[0])
+    return TBXDetailView(chosenTerm: terms[0])
 }

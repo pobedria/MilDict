@@ -14,21 +14,24 @@ struct TermDetailView: View {
             ForEach(terms) {
                 Text( $0.term)
                     .frame(maxWidth: .infinity, alignment: .topLeading)
-                    .foregroundColor(Color("Salad")).font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(Color("Gold"))
+                    .font(Font.custom("UAFSans-Regular", size: 25))
             }
 
             Text(getDescription(terms: terms))
                 .frame(maxWidth: .infinity, alignment: .topLeading)
-                .foregroundColor(Color("Gold"))
-            Spacer()
+                .foregroundColor(.white)
+                .font(Font.custom("UAFSans-Regular", size: 15))
+
             
             let link = getXref(terms: terms)
             let linkName = linksDict[link]
-            Text(.init("[🔗\(linkName ?? link)](\(link))"))
+            Text(.init("[\nДжерело: \(linkName ?? link)](\(link)) 🔗"))
                 .frame(maxWidth: .infinity, alignment: .topLeading)
-                .accentColor(Color("LinkColor"))
+                .accentColor(Color("Gold"))
+                .font(Font.custom("UAFSans-Regular", size: 12))
     
-        
+            Spacer()
         }.textSelection(.enabled)
     }
     
