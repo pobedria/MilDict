@@ -15,11 +15,18 @@ struct TBXDetailView: View {
         let termsInConcept = terms.filter({ $0.conceptId == chosenTerm.conceptId })
         let engTerms = termsInConcept.filter({ $0.lang == "en"})
         let ukrTerms = termsInConcept.filter({ $0.lang == "uk"})
+        let topTerms = chosenTerm.lang == "en" ? engTerms : ukrTerms
+        let botomTerms = chosenTerm.lang == "en" ? ukrTerms : engTerms
         VStack {
-            TermDetailView(terms: engTerms)
+            TermDetailView(terms: topTerms)
             Divider()
-            TermDetailView(terms: ukrTerms)
-        }.background(Color("Olive"))
+                .background(Color("Gold"))
+            TermDetailView(terms: botomTerms)
+        }
+        .padding()
+        .background(Color("Olive"))
+        
+        
         
     }
 }

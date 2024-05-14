@@ -21,11 +21,14 @@ struct TermDetailView: View {
                 .frame(maxWidth: .infinity, alignment: .topLeading)
                 .foregroundColor(Color("Gold"))
             Spacer()
+            Text("Джерело:")
+                .frame(maxWidth: .infinity, alignment: .topLeading)
+                .foregroundColor(Color("Salad")).font(.caption)
             Text(getXref(terms: terms))
                 .frame(maxWidth: .infinity, alignment: .topLeading)
                 .foregroundColor(.yellow).font(.caption)
         
-        }.padding()
+        }.textSelection(.enabled)
     }
     
     func getDescription(terms: [AppTerm]) -> String {
