@@ -4414,7 +4414,8 @@ organization of the unit or formation and maintained at the prescribed levels.</
                     <termSec>
                         <term id="684598">break-up-unit</term>
                         <descrip type="context">A constituent part of a missile intended to explosively disrupt the structural integrity of the missile by either command or self initiation</descrip>
-                        <xref type="externalCrossReference" target="Usually associated with telemetered rounds as a safety device"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
+                        <note>Usually associated with telemetered rounds as a safety device</note>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -7166,7 +7167,8 @@ Hand emplaced munitions: The time elapsed from final commitment to the arming pr
                     <termSec>
                         <term id="685234">logistic storage</term>
                         <descrip type="context">The long-term storage of items in depots, usually under controlled relative humidity conditions</descrip>
-                        <xref type="externalCrossReference" target="The items are normally stored in their logistic packages"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
+                        <note>The items are normally stored in their logistic packages</note>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -15687,9 +15689,9 @@ A behavioural, physical, or functional relationship between nodes.</descrip>
                 <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
                 <langSec xml:lang="en">
                     <termSec>
-                        <term id="687964">https://github.com/pobedria/mildictmeta/blob/main/UNMAS_IED_Lexicon.pdf</term>
+                        <term id="687964">high explosive</term>
                         <descrip type="context">A chemical compound or mixture that is designed to deflagrate (rapid burn) and generally require confinement to explode.</descrip>
-                        <xref type="externalCrossReference" target="IED Tech Expl Lexicon"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/UNMAS_IED_Lexicon.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -15732,8 +15734,12 @@ A behavioural, physical, or functional relationship between nodes.</descrip>
                 <langSec xml:lang="uk">
                     <termSec>
                         <term id="687976">механізм сповільненої дії</term>
-                        <descrip type="context">A pyrotechnic burning at a certain rate used to transmit a flame to the nonelectric detonator or a low explosive charge with a predetermined delay.</descrip>
-                        <xref type="externalCrossReference" target="IED Tech Expl Lexicon"></xref>
+                        <descrip type="context">Горіння піротехнічного складу з певною швидкістю, що використовується для передачі форсу вогню на неелектричний детонатор або незначний заряд вибухової речовини із заданою затримкою.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="689226">запобіжник</term>
+                        <termNote type="termType">variant</termNote>
                     </termSec>
                 </langSec>
             </conceptEntry>

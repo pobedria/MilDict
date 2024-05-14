@@ -21,12 +21,13 @@ struct TermDetailView: View {
                 .frame(maxWidth: .infinity, alignment: .topLeading)
                 .foregroundColor(Color("Gold"))
             Spacer()
-            Text("Джерело:")
+            
+            let link = getXref(terms: terms)
+            let linkName = linksDict[link]
+            Text(.init("[🔗\(linkName ?? link)](\(link))"))
                 .frame(maxWidth: .infinity, alignment: .topLeading)
-                .foregroundColor(Color("Salad")).font(.caption)
-            Text(getXref(terms: terms))
-                .frame(maxWidth: .infinity, alignment: .topLeading)
-                .foregroundColor(.yellow).font(.caption)
+                .accentColor(Color("LinkColor"))
+    
         
         }.textSelection(.enabled)
     }

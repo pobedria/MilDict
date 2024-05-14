@@ -51,7 +51,7 @@
                     <termSec>
                         <term id="679094">call sign</term>
                         <descrip type="context">Any combination of characters or pronounceable words, which identifies a communication facility, a command, an authority, an activity, or a unit; used primarily for establishing and maintaining communications.</descrip>
-                        <xref type="externalCrossReference" target="AAP-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                     <termSec>
                         <term id="680292">C/S</term>
@@ -72,7 +72,7 @@
                     <termSec>
                         <term id="679222">electronic warfare</term>
                         <descrip type="context">Military action that exploits electromagnetic energy to provide situational awareness and achieve offensive and defensive effects.</descrip>
-                        <xref type="externalCrossReference" target="AAP-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                     <termSec>
                         <term id="680310">EW</term>
@@ -135,7 +135,7 @@
                     <termSec>
                         <term id="680422">active electronic protective measures</term>
                         <descrip type="context">Detectable measures, such as altering transmitter parameters as necessary, to ensure effective friendly use of the electromagnetic spectrum.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -152,7 +152,7 @@
                     <termSec>
                         <term id="681248">authentication</term>
                         <descrip type="context">The implementation of recordkeeping procedures that control the creation, receipt, transmission, maintenance, management and use of documents, and that prove that the document is official and protected against unauthorized addition, destruction, deletion, alteration, use or concealment.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                         <note>Documents may be authenticated by adding a signature or stamp.</note>
                     </termSec>
                 </langSec>
@@ -190,7 +190,7 @@
                     <termSec>
                         <term id="682098">security clearance</term>
                         <descrip type="context">An administrative determination by competent national authority that an individual is eligible, from a security standpoint, for access to classified information.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -224,7 +224,7 @@
                     <termSec>
                         <term id="682178">taboo frequency</term>
                         <descrip type="context">A friendly frequency on which jamming or other intentional inteference is prohibited.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -258,7 +258,7 @@
                     <termSec>
                         <term id="682318">electronic warfare support measures</term>
                         <descrip type="context">That division of electronic warfare involving actions taken to search for, intercept and identify electromagnetic emissions and to locate their sources for the purpose of immediate threat recognition. It provides a source of information required for immediate decisions involving electronic countermeasures, electronic protective measures and other tactical actions.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -304,7 +304,7 @@
                     <termSec>
                         <term id="682356">electronic countermeasures</term>
                         <descrip type="context">That division of electronic warfare involving actions taken to prevent or reduce an enemy’s effective use of the electromagnetic spectrum through the use of electromagnetic energy. There are three subdivisions of electronic countermeasures: electronic jamming, electronic deception and electronic neutralization.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                     <termSec>
                         <term id="688304">ECM</term>
@@ -346,7 +346,7 @@
                     <termSec>
                         <term id="682938">information system</term>
                         <descrip type="context">An assembly of equipment, methods and procedures and, if necessary, personnel, organized to accomplish information processing functions.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -380,7 +380,7 @@
                     <termSec>
                         <term id="683892">common electronic order of battle</term>
                         <descrip type="context">A standardized data exchange format containing electronic order of battle information.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -414,7 +414,7 @@
                     <termSec>
                         <term id="684070">electronic masking</term>
                         <descrip type="context">The controlled radiation of electromagnetic energy on friendly frequencies in a manner to protect the emissions of friendly communications and electronic systems against enemy electronic warfare support measures/signals intelligence, without significantly degrading the operation of friendly systems.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -448,7 +448,7 @@
                     <termSec>
                         <term id="684076">airborne radio relay</term>
                         <descrip type="context">A technique employing aircraft fitted with radio relay stations for the purpose of increasing the range, flexibility or physical security of communication systems.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -487,7 +487,7 @@
                     <termSec>
                         <term id="684250">command and control communication system</term>
                         <descrip type="context">A communication system which conveys information between military authorities for command and control purposes.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -521,7 +521,7 @@
                     <termSec>
                         <term id="684278">electronic jamming</term>
                         <descrip type="context">The deliberate radiation, reradiation or reflection of electromagnetic energy with the object of impairing the effectiveness of hostile electronic devices, equipment or systems.</descrip>
-                        <xref type="externalCrossReference" target="ААР-06"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -555,7 +555,7 @@
                     <termSec>
                         <term id="684518">sneak analysis</term>
                         <descrip type="context">Analyses designed to identify paths (control signals, information, etc.) not initially intended, and their consequences</descrip>
-                        <xref type="externalCrossReference" target="AOP-38"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -602,23 +602,6 @@
                     <termSec>
                         <term id="687502">спрямоване подавлення</term>
                         <descrip type="context">Подавлення визначеного каналу чи частоти.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="330212">
-                <descrip type="subjectField">602 – електромагнітна та кіберборотьба</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="687572">radio detection</term>
-                        <descrip type="context">The detection of the presence of an object by radiolocation without precise determination of its position.</descrip>
-                        <xref type="externalCrossReference" target="IED Tech Expl Lexicon"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="687598">визначення за допомогою радіотехнічних засобів</term>
-                        <descrip type="context">Визначення наявності об’єкта за допомогою радіолокаційних засобів без точного визначення його розташування.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
                     </termSec>
                 </langSec>
