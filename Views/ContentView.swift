@@ -19,7 +19,8 @@ struct ContentView: View {
                 .tabItem {
                     Label("Українська🇺🇦", systemImage: "globe.europe.africa.fill")
                 }.toolbarBackground(Color("Olive"),for: .tabBar)
-        }
+        }.background(Color("Olive"))
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 

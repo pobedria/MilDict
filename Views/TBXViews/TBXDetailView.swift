@@ -18,10 +18,16 @@ struct TBXDetailView: View {
         let topTerms = chosenTerm.lang == "en" ? engTerms : ukrTerms
         let botomTerms = chosenTerm.lang == "en" ? ukrTerms : engTerms
         VStack {
+           
+            
             TermDetailView(terms: topTerms)
             Divider()
                 .background(Color("Gold"))
             TermDetailView(terms: botomTerms)
+            Text(chosenTerm.subject)
+                .font(Font.custom("UAFSans-Bold", size: 15))
+                .foregroundColor(Color("Steppe"))
+                .frame(maxWidth: .infinity, alignment: .topLeading)
         }
         .padding()
         .background(Color("Olive"))

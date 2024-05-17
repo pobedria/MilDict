@@ -53,7 +53,6 @@ func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
         for langElement in concept.langSec{
             if let termArray = langElement.termSec as? [TermSecElement] {
                 for termElement in termArray{
-                    print(termElement.xref?.target)
                     let appTerm = AppTerm(
                         id: Int(termElement.term.id)!,
                         conceptId: Int(concept.id)!,
@@ -66,7 +65,6 @@ func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
                 }
             } else {
                 if let termElement = langElement.termSec as? TermSecElement {
-                    print(termElement.xref?.target)
                     let appTerm = AppTerm(
                         id: Int(termElement.term.id)!,
                         conceptId: Int(concept.id)!,

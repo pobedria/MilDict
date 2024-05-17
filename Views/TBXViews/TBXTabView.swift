@@ -27,7 +27,11 @@ struct TBXTabView: View {
                     let filtered = TermsSorage.terms.filter(
                         where:{ $0.term.lowercased().contains(sanitizedField)},
                         limit: 20).sorted()
-                    TBXListView(terms: filtered, lang: lang)
+                    if filtered.isEmpty {
+                        EmptySearchView()
+                    } else {
+                        TBXListView(terms: filtered, lang: lang)
+                    }
                 }
             }
             .navigationTitle("Повна інформація")

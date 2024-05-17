@@ -13,7 +13,7 @@ struct TBXPreView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(term.term)
-                .font(Font.custom("UAFSans-Regular", size: 20))
+                .font(Font.custom("UAFSans-Medium", size: 20))
                 .foregroundColor(Color("Gold"))
                 .frame(maxWidth: .infinity, alignment: .topLeading)
             Text(term.subject)

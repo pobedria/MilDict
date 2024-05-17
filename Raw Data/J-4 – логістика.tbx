@@ -665,7 +665,7 @@ d) завдань з медичної евакуації повітрям.</desc
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326570">
-                <descrip type="subjectField">421 – інженерно-інфраструктурне забезпечення</descrip>
+                <descrip type="subjectField">411 – технічне забезпечення по службах підтримки</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="678948">battle damage assessment</term>
@@ -686,7 +686,7 @@ d) завдань з медичної евакуації повітрям.</desc
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326572">
-                <descrip type="subjectField">421 – інженерно-інфраструктурне забезпечення</descrip>
+                <descrip type="subjectField">411 – технічне забезпечення по службах підтримки</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="678952">damage assessment</term>
@@ -938,14 +938,10 @@ d) завдань з медичної евакуації повітрям.</desc
                 <descrip type="subjectField">420 – транспортне забезпечення</descrip>
                 <langSec xml:lang="en">
                     <termSec>
-                        <term id="679236">landing area</term>
+                        <term id="679236">amphibious assault area</term>
                         <descrip type="context">The part of the objective area within which the landing operations of an amphibious force are conducted.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                         <note>It includes the beach, the approaches to the beach, the transport areas, the fire support areas, the airspace occupied by aircraft in close support and the land included in the advance inland to the initial objective.</note>
-                    </termSec>
-                    <termSec>
-                        <term id="679238">amphibious assault area</term>
-                        <termNote type="termType">variant</termNote>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -961,15 +957,15 @@ d) завдань з медичної евакуації повітрям.</desc
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="679244">landing area</term>
-                        <descrip type="context">The area used for air landing of troops and materiel.</descrip>
+                        <descrip type="context">The part of the objective area within which the landing operations of an amphibious force are conducted.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="679246">район висадки з повітря</term>
-                        <descrip type="context">Район повітряної висадки військ та техніки й озброєння.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
+                        <term id="679246">район висадки</term>
+                        <descrip type="context">Частина території, де здійснюються операції з висадки морського десанту.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -1170,27 +1166,6 @@ d) завдань з медичної евакуації повітрям.</desc
                     <termSec>
                         <term id="680312">стале функціонування логістики</term>
                         <descrip type="context">Процеси та механізми досягнення стійкості логістичної системи, які полягають у своєчасному забезпеченні військ витратними матеріалами, поповненні втраченого у ході бойових дій та заміні пошкодженого військового майна для підтримки боєздатності військ протягом часу, необхідного для виконання поставлених завдань.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326892">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679774">final protective fire</term>
-                        <descrip type="context">An immediately available prearranged barrier of fire designed to impede enemy movement across defensive lines or areas.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="680318">FPF</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="680320">суцільний загороджувальний вогонь</term>
-                        <descrip type="context">Заздалегідь підготовлена вогнева завіса, призначена для запобігання проникненню противника крізь рубежі чи райони оборони.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -2189,7 +2164,7 @@ d) завдань з медичної евакуації повітрям.</desc
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327904">
-                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
+                <descrip type="subjectField">431 – живучість та вибухопожежобезпека</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="682380">minefield record</term>
@@ -3165,40 +3140,6 @@ d) завдань з медичної евакуації повітрям.</desc
                     <termSec>
                         <term id="683888">повітряна операція логістичної підтримки</term>
                         <descrip type="context">Повітряна операція, за винятком повітряно-десантних, яка проводиться в районі бойових дій з метою постачання та/або відновлення особового складу, озброєння та витратних матеріалів.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="328470">
-                <descrip type="subjectField">426 – аеронавігаційне забезпечення</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683844">air corridor</term>
-                        <descrip type="context">A restricted air route of travel specified for use by friendly aircraft and established for the purpose of preventing friendly aircraft from being fired on by friendly forces.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683894">повітряний коридор</term>
-                        <descrip type="context">Обмежений повітряний маршрут руху дружнього повітряного судна, встановлений для запобігання обстрілу дружніми силами.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="328476">
-                <descrip type="subjectField">431 – живучість та вибухопожежобезпека</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683856">follow-on mine countermeasures</term>
-                        <descrip type="context">Mine countermeasures operations carried out after the initial amphibious landing during the amphibious assault and post-assault phases in order to expand the areas cleared during the pre-assault mine countermeasures operations.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683898">подальші заходи мінної протидії</term>
-                        <descrip type="context">Операції з розмінування, які проводяться після попередньої висадки морського десанту, протягом та після висадки десанту з метою розширення території, розмінованої під час бойових дій з підготовки до висадки десанту.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -6244,13 +6185,9 @@ The five sensitivity groups (SG) are:
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="685074">додатковий заряд</term>
-                        <descrip type="context">Обов&#039;язковий компонент пострілу, призначений для додання початкової швидкості боєприпасу (міні), що вистрелюється із міномета. Заряд являє собою тканинні картузи прямокутної (кільцевої) форми, в які поміщений піроксиліновий порох</descrip>
-                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/rada/show/v0665322-18"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="685076">метальний заряд</term>
-                        <termNote type="termType">variant</termNote>
+                        <term id="685074">додатковий метальний заряд</term>
+                        <descrip type="context">Призначений для збільшення дальності стрільби.</descrip>
+                        <xref type="externalCrossReference" target="https://sprotyvg7.com.ua/lesson/postril-minometnij-kalibru-60-milimetriv"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -7106,40 +7043,6 @@ Hand emplaced munitions: The time elapsed from final commitment to the arming pr
                     <termSec>
                         <term id="685428">захищене укриття для літальних апаратів</term>
                         <descrip type="context">Укриття для літальних апаратів, що призначене для їх захисту від засобів ураження</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="329166">
-                <descrip type="subjectField">431 – живучість та вибухопожежобезпека</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="685222">security</term>
-                        <descrip type="context">The condition achieved when designated information, materiel, personnel, activities and installations are protected against espionage, sabotage, subversion, terrorism and damage, as well as against loss or unauthorized disclosure</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="685224">захищеність</term>
-                        <descrip type="context">Умови, за яких визначена інформація, бойова техніка, особовий склад, діяльність та об’єкти, захищені від шпигунства, саботажу, підривної діяльності, тероризму та ураження, потенційних втрат або несанкціонованого доступу</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="329168">
-                <descrip type="subjectField">431 – живучість та вибухопожежобезпека</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="685226">security</term>
-                        <descrip type="context">The measures necessary to ensure designated information, materiel, personnel, activities and installations are protected against espionage, sabotage, subversion, terrorism and damage, as well as against loss or unauthorized disclosure</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="685228">заходи охорони</term>
-                        <descrip type="context">Заходи, які потрібно вжити для захисту інформації з обмеженим доступом, матеріальних засобів, персоналу, певної діяльності та об’єктів від шпигунства, саботажу, диверсії, тероризму та пошкодженню, а також недопущенню втрат або несанкціонованого витоку</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -8786,12 +8689,10 @@ Fuzing systems: The deflagration train beginning with the initiator and terminat
                 <langSec xml:lang="uk">
                     <termSec>
                         <term id="685744">метальний заряд</term>
-                        <descrip type="context">Обов&#039;язковий компонент пострілу, призначений для додання початкової швидкості боєприпасу (міні), що вистрелюється із міномета. Заряд являє собою тканинні картузи прямокутної (кільцевої) форми, в які поміщений піроксиліновий порох</descrip>
-                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/rada/show/v0665322-18"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="685746">додатковий заряд</term>
-                        <termNote type="termType">variant</termNote>
+                        <descrip type="context">Навіска пороху, яка використовується для викидання міни із каналу ствола міномета із початково заданою швидкістю.
+</descrip>
+                        <xref type="externalCrossReference" target="https://sprotyvg7.com.ua/lesson/postril-minometnij-kalibru-60-milimetriv"></xref>
+                        <note>Метальний заряд складається із основного та додаткового зарядів</note>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -9425,23 +9326,6 @@ Sea mines: An explosive device laid in the water with the intention of damaging 
                     <termSec>
                         <term id="686016">незведений</term>
                         <descrip type="context">Стан в якому всі запобіжні пристрої знаходяться в своєму звичайному стані</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="329462">
-                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="685964">neutralisation</term>
-                        <descrip type="context">To restore a munition from an armed to a nonarmed condition, either reversibly to permit reactivation, or irreversibly and permanently (by sterilization or demilitarization)</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="686018">нейтралізування</term>
-                        <descrip type="context">Переведення боєприпасу зі зведеного до початкового стану з можливістю подальшого його використання за призначенням без можливості проведення дій розряджання або демілітаризації</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -10092,13 +9976,9 @@ e. використання за призначенням (збройні ком
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="686124">запалювальний заряд</term>
-                        <descrip type="context">Засіб займання додаткового пучка пороху або додаткових пакетів метального заряду. Заряд являє собою паперову гільзу з металевим цоколем, у дно якого вставлений капсуль-запальник.</descrip>
-                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/rada/show/v0665322-18"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="686126">основний заряд</term>
-                        <termNote type="termType">variant</termNote>
+                        <term id="686124">основний метальний заряд</term>
+                        <descrip type="context">Призначений для надання міні необхідної початкової швидкості та є засобом займання пакетів додаткового заряду.</descrip>
+                        <xref type="externalCrossReference" target="https://sprotyvg7.com.ua/lesson/postril-minometnij-kalibru-60-milimetriv"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -14969,26 +14849,6 @@ High gain antennas can further boost range and some systems can transmit and rec
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="330204">
-                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="687532">explosive</term>
-                        <descrip type="context">A substance or mixture of substances which, under external influences, is capable of rapidly releasing energy in the form of gases and heat.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="687558">вибухові речовини</term>
-                        <descrip type="context">хімічні сполуки або суміші таких речовин, що під дією певних зовнішніх впливів здатні до вибуху. Примітка. Розрізняють три основні групи вибухових речовин:
-а) ініціюючі – високочутливі до зовнішньої дії; їх вибух детонує бризантні та метальні речовини; до ініціюючих вибухових речовин відносять гримучу ртуть, азид свинцю, тенерес;
-б) бризантні – що вибухають під впливом ініціюючих речовин та здатні дробити, руйнувати предмети, що стискаються з ними; до бризантних вибухових речовин відносять гексоген, тен, тетрил, тротил, мелініт, пластид;
-в) метальні – різні види порохів: чорний димний, бездимний піроксиліновий та нітрогліцериновий”</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Oblik-yadernogo-materialu.pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="330210">
                 <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
                 <langSec xml:lang="en">
@@ -15007,24 +14867,6 @@ High gain antennas can further boost range and some systems can transmit and rec
                         <term id="687584">вибухонебезпечні предмети - наслідки війни</term>
                         <descrip type="context">Боєприпаси,   які   не   вибухнули,   а  також  залишені  вибухонебезпечні боєприпаси</descrip>
                         <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/995_c78"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="330230">
-                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="687618">safety fuze</term>
-                        <descrip type="context">Pyrotechnics contained in a flexible and weatherproof sheath burning at a constant rate, used to transmit a flame to the detonator with a predetermined delay.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="687630">вогнепровідний шнур</term>
-                        <descrip type="context">Піротехнічна сполука в гнучкій водонепроникній оболонці, що має визначений час горіння та використовується для передачі горіння до детонатора з передбаченим сповільненням.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
-                        <note>Див. також ДСТУ EN 13857-1</note>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -15338,23 +15180,6 @@ A behavioural, physical, or functional relationship between nodes.</descrip>
                     <termSec>
                         <term id="687800">звичайні боєприпаси</term>
                         <descrip type="context">Боєприпаси які не містять хімічних, біологічних, радіологічних чи ядерних матеріалів і застосовуються при проведенні військових операцій, включно з підривними роботами.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="330318">
-                <descrip type="subjectField">431 – живучість та вибухопожежобезпека</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="687808">minefield record</term>
-                        <descrip type="context">A complete written record of all pertinent information concerning a minefield, submitted on a standard form by the officer in charge of the laying operations.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="687810">звітна картка мінного поля</term>
-                        <descrip type="context">Повний запис усієї відповідної інформації щодо мінного поля, подана в стандартній формі офіцером, що відповідає за проведення операцій.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -15685,23 +15510,6 @@ A behavioural, physical, or functional relationship between nodes.</descrip>
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="330386">
-                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="687964">high explosive</term>
-                        <descrip type="context">A chemical compound or mixture that is designed to deflagrate (rapid burn) and generally require confinement to explode.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/UNMAS_IED_Lexicon.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="687966">метальна речовина</term>
-                        <descrip type="context">Хімічний складник чи суміш, що створена для запалювання (швидкого загорання) та, як правило, вимагають стискання, щоб вибухнути.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="330388">
                 <descrip type="subjectField">426 – аеронавігаційне забезпечення</descrip>
                 <langSec xml:lang="en">
@@ -15716,30 +15524,6 @@ A behavioural, physical, or functional relationship between nodes.</descrip>
                         <term id="687970">метеорологічний</term>
                         <descrip type="context">Умови, що задіюють явища атмосфери чи погоди.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="330390">
-                <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="687972">time fuse</term>
-                        <descrip type="context">A pyrotechnic burning at a certain rate used to transmit a flame to the nonelectric detonator or a low explosive charge with a predetermined delay.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/UNMAS_IED_Lexicon.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="687974">safety fuse</term>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="687976">механізм сповільненої дії</term>
-                        <descrip type="context">Горіння піротехнічного складу з певною швидкістю, що використовується для передачі форсу вогню на неелектричний детонатор або незначний заряд вибухової речовини із заданою затримкою.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="689226">запобіжник</term>
-                        <termNote type="termType">variant</termNote>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -16465,6 +16249,40 @@ Submunitions are classified as bomblets, grenades, or mines.</descrip>
                     <termSec>
                         <term id="688448">активна протиповітряна оборона</term>
                         <descrip type="context">Активні заходи, що вживаються проти атакуючих сил противника з метою знищення або нейтралізації будь-якої повітряної або ракетної загрози та зниження ефективності їх наступу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="330968">
+                <descrip type="subjectField">401 – забезпечення засобами ураження</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="689282">deployment</term>
+                        <descrip type="context">Weapon systems, munitions: The actions that are required to prepare a weapon system for use.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="689284">розгортання</term>
+                        <descrip type="context">Збройні комплекси, боєприпаси: Дії, потрібні для підготовки збройних комплексів до використання.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="330978">
+                <descrip type="subjectField">411 – технічне забезпечення по службах підтримки</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="689318">battle damage repair</term>
+                        <descrip type="context">Essential repair, which may be improvised, carried out rapidly in a battle environment in order to return damaged or disabled equipment to temporary service.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="689320">усунення бойових ушкоджень</term>
+                        <descrip type="context">Важливі ремонтні роботи, які можуть бути довільними та здійснюватися швидко в бойових умовах з метою відновлення пошкодженого або несправного обладнання для його тимчасового використання.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
                     </termSec>
                 </langSec>

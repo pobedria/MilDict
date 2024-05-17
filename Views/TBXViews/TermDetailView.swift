@@ -15,7 +15,7 @@ struct TermDetailView: View {
                 Text( $0.term)
                     .frame(maxWidth: .infinity, alignment: .topLeading)
                     .foregroundColor(Color("Gold"))
-                    .font(Font.custom("UAFSans-Regular", size: 25))
+                    .font(Font.custom("UAFSans-Medium", size: 25))
             }
 
             Text(getDescription(terms: terms))

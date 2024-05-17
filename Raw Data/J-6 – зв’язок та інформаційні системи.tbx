@@ -11,23 +11,6 @@
     </tbxHeader>
     <text>
         <body>
-            <conceptEntry id="326400">
-                <descrip type="subjectField">600  – комунікаційні та інформаційні системи</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="678606">lines of communications</term>
-                        <descrip type="context">All the land, water, and air routes that connect an operating military force with one or more bases of operations, and along which supplies and reinforcements move.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="678610">комунікації</term>
-                        <descrip type="context">Всі наземні, водні та повітряні маршрути, що з’єднують оперативне угруповання військ з однією чи більше операційними базами, якими здійснюється перевезення для забезпечення військ та поповнення особовим складом.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326620">
                 <descrip type="subjectField">600 – комунікаційні та інформаційні системи</descrip>
                 <langSec xml:lang="en">

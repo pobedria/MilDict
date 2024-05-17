@@ -574,23 +574,6 @@ national territory and neighbouring areas, the free exercise of national soverei
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328212">
-                <descrip type="subjectField">500 – оборонне планування</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683336">decisive point</term>
-                        <descrip type="context">A point from which a hostile or friendly centre of gravity can be threatened. This point may exist in time, space or the information environment.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683494">критична точка</term>
-                        <descrip type="context">Момент, з настанням якого, будь- яка із протидіючих сторін може отримати відчутну перевагу. Цей момент може існувати у часі, просторі або інформаційному середовищі.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328262">
                 <descrip type="subjectField">500 – оборонне планування</descrip>
                 <langSec xml:lang="en">
@@ -674,9 +657,9 @@ national territory and neighbouring areas, the free exercise of national soverei
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="683742">основні принципи бойового застосування тактичної авіації</term>
-                        <descrip type="context">Основоположні принципи, які слугують керівництвом для застосування військово- повітряних сил в операціях тактичної авіації з метою досягнення поставленої цілі.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                        <term id="683742">принципи бойового застосування тактичної авіації</term>
+                        <descrip type="context">Принципи, що складають основу застосування військово-повітряних сил в операціях тактичної авіації для досягнення поставленої мети.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -1241,6 +1224,23 @@ Consists of historically significant documents (non-artifact and other media) fr
                         <term id="688692">національна безпека</term>
                         <descrip type="context">Захищеність державного суверенітету, територіальної цілісності, демократичного конституційного ладу та інших національних інтересів України від реальних та потенційних загроз</descrip>
                         <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2469-19"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="330982">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="689328">security</term>
+                        <descrip type="context">The condition achieved when designated information, materiel, personnel, activities and installations are protected against espionage, sabotage, subversion, terrorism and damage, as well as against loss or unauthorized disclosure</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="689330">захищеність</term>
+                        <descrip type="context">Умови, за яких визначена інформація, бойова техніка, особовий склад, діяльність та об’єкти, захищені від шпигунства, саботажу, підривної діяльності, тероризму та ураження, потенційних втрат або несанкціонованого доступу</descrip>
+                        <xref type="externalCrossReference" target="link https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>

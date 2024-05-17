@@ -487,7 +487,7 @@ c) прикриття шляхів тилового забезпечення п�
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326154">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
+                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="678122">liaison</term>
@@ -1527,23 +1527,6 @@ d) примусити противника ввести резерви пере�
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326346">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="678524">security</term>
-                        <descrip type="context">The measures necessary to ensure designated information, materiel, personnel, activities and installations are protected against espionage, sabotage, subversion, terrorism and damage, as well as against loss or unauthorized disclosure.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="678596">заходи безпеки</term>
-                        <descrip type="context">Заходи, необхідні для забезпечення захисту інформації, військової техніки, особового складу, діяльності та об’єктів від шпигунства, саботажу, підривних дій, тероризму та ураження, а також від втрати або несанкціонованого розголошення.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326348">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -1700,23 +1683,6 @@ d) примусити противника ввести резерви пере�
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326372">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="678558">separation zone</term>
-                        <descrip type="context">An area between two adjacent horizontal or vertical areas into which units are not to proceed unless certain safety measures can be fulfilled.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="678640">зона розділу</term>
-                        <descrip type="context">Територія між двома прилеглими горизонтальними або вертикальними зонами, на якій підрозділи не мають права діяти, допоки не будуть вжиті відповідні заходи безпеки.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326374">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -1855,23 +1821,6 @@ d) примусити противника ввести резерви пере�
                     <termSec>
                         <term id="678686">ключовий пункт</term>
                         <descrip type="context">Локальне місце чи споруда, знищення або захоплення якої може суттєво вплинути на військовий потенціал та успішність операції.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326394">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="678588">detachment</term>
-                        <descrip type="context">A part of a unit separated from its main organization for duty elsewhere.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="678590">команда</term>
-                        <descrip type="context">Частина підрозділу, відокремленого від свого основного формування для несення служби в іншому місці.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -2080,7 +2029,7 @@ c) і/або забезпечує з цією метою відповідну п
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326438">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
+                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="678672">rendezvous point</term>
@@ -2555,10 +2504,6 @@ c) і/або забезпечує з цією метою відповідну п
                         <term id="678878">operational requirement</term>
                         <descrip type="context">An established need justifying the timely allocation of resources to achieve a capability to accomplish approved military or civil objectives, operations, missions or actions.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="678982">OR</term>
-                        <termNote type="termType">abbreviation</termNote>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -3076,44 +3021,6 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326586">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="678996">deployment</term>
-                        <descrip type="context">The movement of forces within areas of operations.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="678998">перегрупування</term>
-                        <descrip type="context">Переміщення військ у межах районів бойових дій.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326588">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679000">forward edge of the battle area</term>
-                        <descrip type="context">The foremost limits of a series of areas in which ground combat units are deployed, excluding the areas in which the covering or screening forces are operating, designated to coordinate fire support, the positioning of forces, or the manoeuvre of units.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="679272">FEBA</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679274">передній край району бойових дій</term>
-                        <descrip type="context">Передові межі низки районів, у яких розгорнуто бойові підрозділи сухопутних військ, за винятком територій, де діють сили забезпечення або прикриття, призначені для координування вогневої підтримки, розташування сил або маневрів підрозділів.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326590">
                 <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
@@ -3190,6 +3097,10 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                     <termSec>
                         <term id="679014">передислокація</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                    <termSec>
+                        <term id="689280">перегрупування</term>
                         <termNote type="termType">variant</termNote>
                     </termSec>
                 </langSec>
@@ -3823,23 +3734,6 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326698">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679160">tactical air doctrine</term>
-                        <descrip type="context">Fundamental principles designed to provide guidance for the employment of air power in tactical air operations to attain established objectives.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679858">принципи бойового застосування тактичної авіації</term>
-                        <descrip type="context">Принципи, що складають основу застосування військово-повітряних сил в операціях тактичної авіації для досягнення поставленої мети.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326700">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -3888,23 +3782,6 @@ c) сприяння сухопутним або морським силам у �
                         <term id="679864">прорив</term>
                         <descrip type="context">Форма маневру, при якій атакуючі підрозділи бригади намагаються проникнути в глибину оборони противника на вузькій ділянці фронту і в подальшому порушити його оборони . Командир бригади використовує прорив у тому випадку, коли наносити удари по флангах противника неможливо або недоцільно, а для організації дій з використанням інших форм маневру недостатньо часу. При успішному прориві створюються проломи в обороні противника з метою створення відкритих флангів і виходу в його тил. З огляду на те, що прорив використовується, як правило, для наступу на підготовлену оборону, при його реалізації значно збільшується ризик втрат серед атакуючих підрозділів бригади у порівнянні з охопленням і оточенням.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-3-(01%2C04)11(55).01.pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326706">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679168">limit of fire</term>
-                        <descrip type="context">Safe angular limits for firing at aerial targets.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679170">просторові межі вогню</term>
-                        <descrip type="context">Безпечні кутові межі для обстрілу повітряних цілей.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -3980,23 +3857,6 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326736">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679260">staging area</term>
-                        <descrip type="context">An area located between the mounting area and the objective area through which all or part of the forces pass after mounting, for the purpose of refuelling, regrouping, training, inspection and distribution of troops and matériel.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679266">район зосередження</term>
-                        <descrip type="context">Район, розташований між районом формування і районом призначення, через який після відповідної підготовки проходять усі війська або їх певна частина для поповнення запасів пального, перегрупування, навчання, перевірки та розподілу особового складу та техніки.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326740">
                 <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
@@ -4010,44 +3870,6 @@ c) сприяння сухопутним або морським силам у �
                     <termSec>
                         <term id="679874">район оборони</term>
                         <descrip type="context">Для будь-якого угруповання військ – ділянка від переднього краю оборони до тилової межі. На ній ведуться вирішальні оборонні бої.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326742">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679296">staging area</term>
-                        <descrip type="context">A general locality established for the concentration of troop units and transient personnel between movements over lines of communications.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679298">район очікування</term>
-                        <descrip type="context">Місцевість, відведена для зосередження військових підрозділів та транзитного особового складу між пересуваннями шляхами сполучення.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326744">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679302">objective area</term>
-                        <descrip type="context">A defined geographical area within which is located an objective to be captured or reached by the military forces. This area is defined by the competent authority for purposes of command and control.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="679876">OA</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679878">район цілі</term>
-                        <descrip type="context">Визначений географічний район, в межах якого знаходиться ціль, яку потрібно захопити або досягти. Він визначається уповноваженим органом для здійснення командування й управління.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -4125,40 +3947,6 @@ c) сприяння сухопутним або морським силам у �
                         <term id="679892">задум операції</term>
                         <descrip type="context">У цьому пункті командир висловлює своє бачення мети (чому), способу її реалізації (як він має намір реалізувати план дій для виконання свого завдання) і кому він доручає його виконання. Таким чином підлеглі розуміють, яку роль вони повинні відігравати в операції і якого результату мають досягти. Задум операцій полягає в тому, щоб оголосити вибір командира між можливими планами дій. Він має бути виражений таким чином, щоб виключити будь-яку двозначність щодо законності будь-якого завдання чи дії. Порядок дій або інструкція, що деталізує формат та зміст бойових наказів, повинні містити такі питання: y y роз’яснення командира щодо способів, якими він має намір досягти своєї мети з мінімальним ризиком нанесення побічної шкоди або негативного гуманітарного впливу; y y загальні заходи, спрямовані як на контроль маневрів, так і відкриття вогню, щоб уникнути або хоча б звести до мінімуму побічну шкоду.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Process_pryinyatya_rishen.pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326756">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679320">exploitation</term>
-                        <descrip type="context">An offensive operation that usually follows a successful attack and is designed to disorganize the enemy in depth.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679322">розвиток наступу</term>
-                        <descrip type="context">Наступальна операція, що зазвичай є продовженням успішної атаки та проводиться для дезорганізації противника в глибині [його бойових порядків].</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326758">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679324">exploitation</term>
-                        <descrip type="context">Taking full advantage of success in battle and following up initial gains.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679326">розвиток успіху</term>
-                        <descrip type="context">Досягнення повного успіху в ході бою та розвиток здобутої переваги.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -4315,23 +4103,6 @@ c) сприяння сухопутним або морським силам у �
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                         <note>1. На цьому рубежі формується колона шляхом послідовного проходження у визначений час кожного з її елементів.
 2. Крім основного, можуть бути додаткові рубежі для різних елементів колони.</note>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326814">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679642">demolition</term>
-                        <descrip type="context">The destruction of structures, facilities or materiel by use of fire, water, explosives, mechanical, or other means.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679944">руйнування</term>
-                        <descrip type="context">Знищення будівель, об’єктів або військової техніки через вплив вогню, води, вибухових речовин, механічних чи інших чинників.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -4905,7 +4676,7 @@ c) сприяння сухопутним або морським силам у �
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326938">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
+                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="679842">decision point</term>
@@ -5123,27 +4894,6 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="327000">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="680088">time on target</term>
-                        <descrip type="context">Time at which aircraft are scheduled to attack or photograph a target.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="680106">TOT</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="680096">час появи літака над ціллю</term>
-                        <descrip type="context">Час, коли повітряне судно атакує або фотографує ціль.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="327002">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -5191,48 +4941,6 @@ c) сприяння сухопутним або морським силам у �
                     <termSec>
                         <term id="680244">час розчищення дороги</term>
                         <descrip type="context">Загальний час, потрібний колоні для об’їзду та розчищенню ділянки дороги.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="327008">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="680098">time on target</term>
-                        <descrip type="context">In other than air operations, the time of the first weapons effect on the target groups.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="680100">TOT</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="680102">час удару по групі цілей</term>
-                        <descrip type="context">Під час проведення всіх видів операцій крім повітряних – час першого вогневого впливу на групи цілей.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="327010">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="680110">time on target</term>
-                        <descrip type="context">In coordinated maritime operations, the time of arrival of the first warhead in a specified target area.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="680112">TOT</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="680114">час удару по зоні цілей</term>
-                        <descrip type="context">Під час проведення узгоджених морських операцій – час підльоту першої боєголовки до визначеної зони цілей.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -5895,23 +5603,6 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="327668">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="681880">liaison</term>
-                        <descrip type="context">That contact or intercommunication maintained between elements of military forces to ensure mutual understanding and unity of purpose and action.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="681958">взаємодія</term>
-                        <descrip type="context">Контакт, або внутрішній зв’язок, що підтримується між елементами збройних сил з метою досягнення взаєморозуміння, єдності цілей і дій.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="327672">
                 <descrip type="subjectField">306 – пошуково-рятувальна діяльність</descrip>
                 <langSec xml:lang="en">
@@ -6441,23 +6132,6 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="327794">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="682116">follow-on echelon</term>
-                        <descrip type="context">In amphibious operations, that echelon of the assault troops, vehicles, aircraft equipment, and supplies which, though not needed to initiate the assault, is required to support and sustain the assault.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="682144">ешелон першої підтримки</term>
-                        <descrip type="context">В десантних операціях – ешелон штурмових сил, що включає транспортні засоби, авіаційну техніку та матеріальні засоби, які, хоча й не є необхідними для розгортання наступу, все ж потрібні для його підтримки.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="327796">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -6619,12 +6293,16 @@ c) сприяння сухопутним або морським силам у �
                         <descrip type="context">An immediately available prearranged barrier of fire designed to impede enemy movement across defensive lines or areas.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
+                    <termSec>
+                        <term id="689286">FPF</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="682270">загороджувальний вогонь</term>
-                        <descrip type="context">Заздалегідь підготовлений вогневий вал, призначений для запобігання проникненню противника через лінії або в райони оборони.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                        <term id="682270">суцільний загороджувальний вогонь</term>
+                        <descrip type="context">Заздалегідь підготовлена вогнева завіса, призначена для запобігання проникненню противника крізь рубежі чи райони оборони.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -6747,23 +6425,6 @@ c) сприяння сухопутним або морським силам у �
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="327898">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="682366">requisition</term>
-                        <descrip type="context">An authoritative demand or request especially for personnel, supplies, or services authorized but not made available without specific request.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="682682">заявка</term>
-                        <descrip type="context">Офіційна заявка або запит, насамперед, щодо погодженого поповнення особового складу, предметів постачання або послуг, які не можна отримати без спеціального запиту.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="327902">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -6777,23 +6438,6 @@ c) сприяння сухопутним або морським силам у �
                     <termSec>
                         <term id="682700">зближення з противником</term>
                         <descrip type="context">Наступальні дії, метою яких є встановлення чи відновлення контакту з противником.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="327906">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="682382">sustainability</term>
-                        <descrip type="context">The ability of a force to maintain the necessary level of combat power for the duration required to achieve its objectives.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="682710">здатність до тривалих дій</term>
-                        <descrip type="context">Здатність військового формування підтримувати необхідний рівень бойової сили протягом часу, необхідного для досягнення поставлених перед ним цілей.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -7191,23 +6835,6 @@ and the operations of facilities within a specified sector of an air defence are
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328164">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683204">command post</term>
-                        <descrip type="context">In operations or exercises, a location from which command is exercised.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683392">командний пункт</term>
-                        <descrip type="context">У ході бойових дій або військових навчань – місце, з якого здійснюється командування.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328166">
                 <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
@@ -7486,23 +7113,6 @@ and the operations of facilities within a specified sector of an air defence are
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328228">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683352">forward line of own troops</term>
-                        <descrip type="context">A line which indicates the most forward positions of friendly forces in any kind of military operation at a specific time.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683416">лінія розташування своїх передових військ</term>
-                        <descrip type="context">Лінія, що показує крайні передові позиції дружніх сил, у будь-якій операції у певний час.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328232">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -7639,23 +7249,6 @@ and the operations of facilities within a specified sector of an air defence are
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328286">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683516">rendezvous point</term>
-                        <descrip type="context">A given location at which to regroup before, during or after an operation at a specified time or in a specified situation.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683584">місце зустрічі</term>
-                        <descrip type="context">Визначене місце для перегрупування до, під час або після проведення операції у визначений час або ситуації.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328298">
                 <descrip type="subjectField">302 – оперативні (бойові, спеціальні) спроможності</descrip>
                 <langSec xml:lang="en">
@@ -7669,24 +7262,6 @@ and the operations of facilities within a specified sector of an air defence are
                     <termSec>
                         <term id="683586">мобільність</term>
                         <descrip type="context">Спроможність збройних сил, що дозволяє їм пересуватись з місця на місце, зберігаючи здатність виконувати основне завдання.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="328300">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683532">decision point</term>
-                        <descrip type="context">A point in space and time, identified during the planning process, where it is anticipated that the commander must make a decision concerning a specific course of action.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683588">момент прийняття рішення</term>
-                        <descrip type="context">Точка у просторі і часі, яку було визначено у ході планування, та
-відповідно до якої передбачено, що командир повинен ухвалити відповідне рішення щодо конкретного ходу бою.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -8053,12 +7628,16 @@ and the operations of facilities within a specified sector of an air defence are
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328428">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
+                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
                     <termSec>
                         <term id="683774">forward edge of the battle area</term>
                         <descrip type="context">The foremost limits of a series of areas in which ground combat units are deployed, excluding the areas in which the covering or screening forces are operating, designated to coordinate fire support, the positioning of forces, or the manoeuvre of units.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="689296">FEBA</term>
+                        <termNote type="termType">abbreviation</termNote>
                     </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
@@ -8642,25 +8221,6 @@ and the operations of facilities within a specified sector of an air defence are
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328578">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="684080">landing area</term>
-                        <descrip type="context">The part of the objective area within which the landing operations of an amphibious force are conducted.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                        <note>It includes the beach, the approaches to the beach, the transport areas, the fire support areas, the airspace occupied by aircraft in close support and the land included in the advance inland to the initial objective.</note>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="684118">район висадки</term>
-                        <descrip type="context">Частина території, де здійснюються операції з висадки морського десанту.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                        <note>Вона включає в себе берег, підходи до берегу, райони стоянки транспорту, райони вогневої підтримки, повітряний простір, що займає літальний апарат, що забезпечує безпосередню підтримку та території вглиб до найближчого об’єкту.</note>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328582">
                 <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
                 <langSec xml:lang="en">
@@ -8805,6 +8365,10 @@ and the operations of facilities within a specified sector of an air defence are
                         <descrip type="context">A defined geographical area within which is located an objective to be captured or reached by the military forces. This area is defined by the competent authority for purposes of command and control.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
+                    <termSec>
+                        <term id="689326">OA</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
@@ -8899,23 +8463,6 @@ and the operations of facilities within a specified sector of an air defence are
                     <termSec>
                         <term id="684216">розпізнавання «свій-чужий»</term>
                         <descrip type="context">Застосування заходів розпізнавання з метою зменшення випадків дружнього вогню та підвищення оперативної ефективності військ та систем озброєння.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="328638">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="684210">target discrimination</term>
-                        <descrip type="context">The ability of a surveillance or guidance system to identify or engage any one target when multiple targets are present.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="684218">розпізнавання цілі</term>
-                        <descrip type="context">Здатність системи спостереження і наведення ідентифікувати або завдавати удару по будь-якій цілі за умови присутності багатьох цілей.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
                     </termSec>
                 </langSec>
@@ -9247,23 +8794,6 @@ and the operations of facilities within a specified sector of an air defence are
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328746">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="684340">battle damage repair</term>
-                        <descrip type="context">Essential repair, which may be improvised, carried out rapidly in a battle environment in order to return damaged or disabled equipment to temporary service.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="684402">усунення бойових ушкоджень</term>
-                        <descrip type="context">Важливі ремонтні роботи, які можуть бути довільними та здійснюватися швидко в бойових умовах з метою відновлення пошкодженого або несправного обладнання для його тимчасового використання.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328748">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -9442,27 +8972,6 @@ and the operations of facilities within a specified sector of an air defence are
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="329518">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="686088">operational requirements</term>
-                        <descrip type="context">An established need justifying the timely allocation of resources to achieve a capability to accomplish approved military or civil objectives, operations, missions or actions</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="686186">OR</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="686188">оперативні вимоги</term>
-                        <descrip type="context">Визначена потреба, що виправдовує завчасне переміщення ресурсів для досягнення спроможності виконувати затверджені задачі, цілі, місії або дії військового або цивільного характеру</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="329612">
                 <descrip type="subjectField">304 – мінна війна на водному просторі</descrip>
                 <langSec xml:lang="en">
@@ -9493,23 +9002,6 @@ and the operations of facilities within a specified sector of an air defence are
                     <termSec>
                         <term id="687280">побічні втрати</term>
                         <descrip type="context">Випадкові бойові втрати, пошкодження та/або руйнування під час проведення військових операцій.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="329836">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="686696">deployment</term>
-                        <descrip type="context">Weapon systems, munitions: The actions that are required to prepare a weapon system for use.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AOP-38.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="686698">розгортання</term>
-                        <descrip type="context">Збройні комплекси, боєприпаси: Дії, потрібні для підготовки збройних комплексів до використання.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
                     </termSec>
                 </langSec>

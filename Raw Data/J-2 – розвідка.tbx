@@ -489,23 +489,6 @@ d) доведення – своєчасне надання розвідувал
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326840">
-                <descrip type="subjectField">200 – розвідка</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679688">security</term>
-                        <descrip type="context">The organizations responsible for protecting against espionage, sabotage, subversion and terrorism, as well as against loss or unauthorized disclosure.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679690">служби безпеки</term>
-                        <descrip type="context">Організації, відповідальні за захист від шпигунства, саботажу, ураження і тероризму, а також проти втрати чи несанкціонованого розголошення інформації.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326846">
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <note>Можливо - розвідка сил спеціальних операцій?</note>
@@ -1083,23 +1066,6 @@ d) доведення – своєчасне надання розвідувал
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328416">
-                <descrip type="subjectField">201 – воєнна розвідка</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="683760">battle damage assessment</term>
-                        <descrip type="context">The assessment of effects resulting from the application of military action, either lethal or non-lethal, against a military objective.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="683786">оцінка ступеня бойових пошкоджень</term>
-                        <descrip type="context">Оцінка наслідків застосування військової сили, з летальним чи нелетальним результатом, проти визначеної військової цілі.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328426">
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
@@ -1283,23 +1249,6 @@ d) доведення – своєчасне надання розвідувал
                     <termSec>
                         <term id="684178">розвідка за допомогою всіх наявних сил та засобів</term>
                         <descrip type="context">Розвідка, яка здійснюється з використанням усіх наявних сил та засобів.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="328626">
-                <descrip type="subjectField">201 – воєнна розвідка</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="684180">target acquisition</term>
-                        <descrip type="context">The detection, identification, and location of a target in sufficient detail to permit the effective employment of weapons.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="684198">розвідка та виявлення цілі</term>
-                        <descrip type="context">Розпізнання, ідентифікація та визначення місця розташування цілі у потрібних деталях для ефективного застосування зброї.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
                     </termSec>
                 </langSec>
