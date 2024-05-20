@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TermDetailView: View {
     let terms: [AppTerm]
+    
     var body: some View {
         VStack{
             ForEach(terms) {
@@ -25,11 +26,28 @@ struct TermDetailView: View {
 
             
             let link = getXref(terms: terms)
-            let linkName = linksDict[link]
-            Text(.init("[\nДжерело: \(linkName ?? link)](\(link)) 🔗"))
-                .frame(maxWidth: .infinity, alignment: .topLeading)
-                .accentColor(Color("Gold"))
-                .font(Font.custom("UAFSans-Regular", size: 12))
+            if let linkName = linksDict[link] {
+                Text(.init("[\nДжерело: \(linkName)](\(link)) 🔗"))
+                    .frame(maxWidth: .infinity, alignment: .topLeading)
+                    .accentColor(Color("Gold"))
+                    .font(Font.custom("UAFSans-Regular", size: 12))
+            } else {
+                if let url = NSURL(string: link) {
+                    if UIApplication.shared.canOpenURL(url as URL){
+                        Text(.init("[\nДжерело: \(link)](\(link)) 🔗"))
+                            .frame(maxWidth: .infinity, alignment: .topLeading)
+                            .accentColor(Color("Gold"))
+                            .font(Font.custom("UAFSans-Regular", size: 12))
+                    }
+                    else {
+                        Text("\nДжерело: \(link)")
+                            .frame(maxWidth: .infinity, alignment: .topLeading)
+                            .foregroundColor(Color("Gold"))
+                            .font(Font.custom("UAFSans-Regular", size: 12))
+                    }
+                }
+            }
+            
     
             Spacer()
         }.textSelection(.enabled)
