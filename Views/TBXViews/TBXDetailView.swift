@@ -12,6 +12,8 @@ struct TBXDetailView: View {
     let chosenTerm: AppTerm
 
     var body: some View {
+        let chosenConcept = TermsSorage.allConcepts.filter({ $0.id == chosenTerm.conceptId})
+
         let termsInConcept = TermsSorage.allTerms.filter({ $0.conceptId == chosenTerm.conceptId })
         let engTerms = termsInConcept.filter({ $0.lang == "en"})
         let ukrTerms = termsInConcept.filter({ $0.lang == "uk"})

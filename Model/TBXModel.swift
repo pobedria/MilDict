@@ -10,9 +10,24 @@ import Foundation
 import Foundation
 
 struct TBXConcept: Decodable{
-    let id: String
+    let id: Int
     let descrip: Descrip
     let langSec: [LangElement]
+    
+    
+    enum CodingKeys:  CodingKey {
+        case id, descrip, langSec
+    }
+
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+
+        
+        id = Int(try values.decode(String.self, forKey: .id))!
+        descrip = try values.decode(Descrip.self, forKey: .descrip)
+        langSec = try values.decode([LangElement].self, forKey: .langSec)
+        
+    }
     
     func enTermsOfConcept () -> [AppTerm] {
         return termsOfLangElement(langElement: langSec[0])
@@ -28,7 +43,7 @@ struct TBXConcept: Decodable{
             for termElement in termArray{
                 let appTerm = AppTerm(
                     id: Int(termElement.term.id)!,
-                    conceptId: Int(id)!,
+                    conceptId: id,
                     subject: descrip._text,
                     lang: langElement.lang,
                     term: termElement.term._text,
@@ -40,7 +55,7 @@ struct TBXConcept: Decodable{
             if let termElement = langElement.termSec as? TermSecElement {
                 let appTerm = AppTerm(
                     id: Int(termElement.term.id)!,
-                    conceptId: Int(id)!,
+                    conceptId: id,
                     subject: descrip._text,
                     lang: langElement.lang,
                     term: termElement.term._text,
