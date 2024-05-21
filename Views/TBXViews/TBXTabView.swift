@@ -21,10 +21,10 @@ struct TBXTabView: View {
             
             NavigationView {
                 if sanitizedField.isEmpty{
-                    TBXListView(terms: TermsSorage.terms, lang: lang)
+                    TBXListView(terms: TermsSorage.allTerms, lang: lang)
                 }
                 else {
-                    let filtered = TermsSorage.terms.filter(
+                    let filtered = TermsSorage.allTerms.filter(
                         where:{ $0.term.lowercased().contains(sanitizedField)},
                         limit: 20).sorted()
                     if filtered.isEmpty {
