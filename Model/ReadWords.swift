@@ -49,35 +49,10 @@ func decodeConcepts() -> [TBXConcept]{
 func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
     
     var terms = [AppTerm]()
+    
     for concept in concepts {
-        for langElement in concept.langSec{
-            if let termArray = langElement.termSec as? [TermSecElement] {
-                for termElement in termArray{
-                    let appTerm = AppTerm(
-                        id: Int(termElement.term.id)!,
-                        conceptId: Int(concept.id)!,
-                        subject: concept.descrip._text,
-                        lang: langElement.lang,
-                        term: termElement.term._text,
-                        description: termElement.descrip?._text,
-                        xref: termElement.xref?.target)
-                    terms.append(appTerm)
-                }
-            } else {
-                if let termElement = langElement.termSec as? TermSecElement {
-                    let appTerm = AppTerm(
-                        id: Int(termElement.term.id)!,
-                        conceptId: Int(concept.id)!,
-                        subject: concept.descrip._text,
-                        lang: langElement.lang,
-                        term: termElement.term._text,
-                        description: termElement.descrip?._text,
-                        xref: termElement.xref?.target)
-                    terms.append(appTerm)
-                }
-            }
-        }
-        
+        terms.append(contentsOf: concept.enTermsOfConcept())
+        terms.append(contentsOf: concept.ukTermsOfConcept())
     }
     return terms
 }

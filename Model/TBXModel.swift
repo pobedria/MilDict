@@ -13,6 +13,45 @@ struct TBXConcept: Decodable{
     let id: String
     let descrip: Descrip
     let langSec: [LangElement]
+    
+    func enTermsOfConcept () -> [AppTerm] {
+        return termsOfLangElement(langElement: langSec[0])
+    }
+    
+    func ukTermsOfConcept () -> [AppTerm] {
+        return termsOfLangElement(langElement: langSec[1])
+    }
+    
+    func termsOfLangElement(langElement: LangElement) -> [AppTerm] {
+        var terms = [AppTerm]()
+        if let termArray = langElement.termSec as? [TermSecElement] {
+            for termElement in termArray{
+                let appTerm = AppTerm(
+                    id: Int(termElement.term.id)!,
+                    conceptId: Int(id)!,
+                    subject: descrip._text,
+                    lang: langElement.lang,
+                    term: termElement.term._text,
+                    description: termElement.descrip?._text,
+                    xref: termElement.xref?.target)
+                terms.append(appTerm)
+            }
+        } else {
+            if let termElement = langElement.termSec as? TermSecElement {
+                let appTerm = AppTerm(
+                    id: Int(termElement.term.id)!,
+                    conceptId: Int(id)!,
+                    subject: descrip._text,
+                    lang: langElement.lang,
+                    term: termElement.term._text,
+                    description: termElement.descrip?._text,
+                    xref: termElement.xref?.target)
+                terms.append(appTerm)
+            }
+        }
+        return terms
+        
+    }
 }
 
 
