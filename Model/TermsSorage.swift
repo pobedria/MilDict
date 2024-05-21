@@ -9,7 +9,12 @@ import Foundation
 
 struct TermsSorage{
     static let allConcepts = decodeConcepts()
-    static let allTerms = transformConceptsToTerms(allConcepts)
-//    static let enTerms = allTerms.filter({ $0.lang == "en"})
-//    static let ukTerms = allTerms.filter({ $0.lang == "uk"})
+
+    static var enTerms: [AppTerm] {  var terms = [AppTerm]()
+        return allConcepts.flatMap { $0.enTermsOfConcept()}.sorted()
+    }
+    
+    static var ukTerms: [AppTerm] {
+        return allConcepts.flatMap { $0.ukTermsOfConcept()}.sorted()
+    }
 }

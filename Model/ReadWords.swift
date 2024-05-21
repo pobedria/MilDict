@@ -23,13 +23,6 @@ func load<T: Decodable>(_ filename: String) -> T {
     } catch { fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)") }
 }
 
-
-func loadAppTerms() -> [AppTerm]{
-    let concepts = decodeConcepts()
-    
-    return transformConceptsToTerms(concepts)
-}
-
 func decodeConcepts() -> [TBXConcept]{
     
     var concepts:[TBXConcept] = []
@@ -46,13 +39,4 @@ func decodeConcepts() -> [TBXConcept]{
     return concepts
 }
 
-func transformConceptsToTerms(_ concepts:[TBXConcept]) -> [AppTerm]{
-    
-    var terms = [AppTerm]()
-    
-    for concept in concepts {
-        terms.append(contentsOf: concept.enTermsOfConcept())
-        terms.append(contentsOf: concept.ukTermsOfConcept())
-    }
-    return terms
-}
+
