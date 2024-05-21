@@ -19,7 +19,7 @@ struct TBXListView: View {
             } label: {
                 TBXPreView(term: term)
             }.listRowBackground(Color("Olive"))
-        }.background(Color("Steppe"))
+        }.background(Color("Olive"))
         .scrollContentBackground(.hidden)
         
     }
