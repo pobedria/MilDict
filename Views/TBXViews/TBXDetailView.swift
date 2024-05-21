@@ -12,16 +12,12 @@ struct TBXDetailView: View {
     let chosenTerm: AppTerm
 
     var body: some View {
-        let chosenConcept = TermsSorage.allConcepts.filter({ $0.id == chosenTerm.conceptId})
-
-        let termsInConcept = TermsSorage.allTerms.filter({ $0.conceptId == chosenTerm.conceptId })
-        let engTerms = termsInConcept.filter({ $0.lang == "en"})
-        let ukrTerms = termsInConcept.filter({ $0.lang == "uk"})
+        let chosenConcept = TermsSorage.allConcepts.filter({ $0.id == chosenTerm.conceptId})[0]
+        let engTerms = chosenConcept.enTermsOfConcept()
+        let ukrTerms = chosenConcept.ukTermsOfConcept()
         let topTerms = chosenTerm.lang == "en" ? engTerms : ukrTerms
         let botomTerms = chosenTerm.lang == "en" ? ukrTerms : engTerms
         VStack {
-           
-            
             TermDetailView(terms: topTerms)
             Divider()
                 .background(Color("Gold"))

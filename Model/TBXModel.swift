@@ -21,12 +21,9 @@ struct TBXConcept: Decodable{
 
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-
-        
         id = Int(try values.decode(String.self, forKey: .id))!
         descrip = try values.decode(Descrip.self, forKey: .descrip)
         langSec = try values.decode([LangElement].self, forKey: .langSec)
-        
     }
     
     func enTermsOfConcept () -> [AppTerm] {
