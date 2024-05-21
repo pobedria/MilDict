@@ -14,6 +14,7 @@ struct QuizTabView: View {
         }
         .frame(maxWidth: .infinity,maxHeight: .infinity)
         .background(Color("Steppe"))
+        .font(Font.custom("UAFSans-Medium", size: 20))
     }
 }
 
