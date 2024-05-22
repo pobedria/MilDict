@@ -8,18 +8,23 @@
 import SwiftUI
 
 struct TBXListView: View {
+    
     let terms: [AppTerm]
 
     var body: some View {
-        List(terms){ term in
-            NavigationLink {
-                TBXDetailView(chosenTerm: term)
-            } label: {
-                TBXPreView(term: term)
-            }.listRowBackground(Color("Olive"))
-        }.background(Color("Olive"))
-        .scrollContentBackground(.hidden)
-        
+        NavigationView {
+            List(terms){ term in
+                NavigationLink {
+                    TBXDetailView(chosenTerm: term)
+                    
+                } label: {
+                    TBXPreView(term: term)
+                }.listRowBackground(Color("Olive"))
+            }.background(Color("Olive"))
+            .scrollContentBackground(.hidden)
+           
+        }
+        .foregroundColor(Color("Gold"))
     }
 }
 

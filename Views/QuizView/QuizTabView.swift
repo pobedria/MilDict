@@ -23,40 +23,43 @@ struct QuizTabView: View {
         }
         VStack {
             Text(concepts[correctNumber].enTermsOfConcept().first!.term)
-//                .frame(maxWidth: .infinity,maxHeight: .infinity)
+                .frame(maxWidth: .infinity,maxHeight: .infinity)
                 .foregroundColor(Color("Gold"))
                 .background(Color("Olive"))
                 .padding(.top).padding(.top).padding(.top)
-            Spacer()
-            if let selection {
-                if selection == correctNumber{
-                    Text ("Вірно")
-                        .foregroundColor(.green)
-                        .font(Font.custom("UAFSans-Bold", size: 30))
-                } else {
-                    Text ("Правильна відповідь:\n\(options[correctNumber].name)")
-                        .foregroundColor(.red)
-                        .font(Font.custom("UAFSans-Medium", size: 30))
-                }
-                
-            }
-            ForEach(Array(zip(options.indices, options)), id: \.0) { index, option in
-                Button(option.name){
-                    if !blockedButtons {
-                        blockedButtons = true
-                        selection = index
-                        Task {
-                            await delayPageUpdate()
-                        }
+            
+            VStack {
+                Spacer()
+                if let selection {
+                    if selection == correctNumber{
+                        Text ("Вірно")
+                            .foregroundColor(.green)
+                            .font(Font.custom("UAFSans-Bold", size: 30))
+                    } else {
+                        Text ("Правильна відповідь:\n\(options[correctNumber].name)")
+                            .foregroundColor(.red)
+                            .font(Font.custom("UAFSans-Medium", size: 30))
                     }
                     
-                }.frame(maxWidth: .infinity)
-                .padding()
-                .background(Color("Steppe"))
-                .clipShape(Capsule())
-                
-            }.scrollContentBackground(.hidden)
+                }
+                ForEach(Array(zip(options.indices, options)), id: \.0) { index, option in
+                    Button(option.name){
+                        if !blockedButtons {
+                            blockedButtons = true
+                            selection = index
+                            Task {
+                                await delayPageUpdate()
+                            }
+                        }
+                        
+                    }.frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color("Steppe"))
+                        .clipShape(Capsule())
+                    
+                }
                 .padding(.horizontal)
+            }
             
 
         }
