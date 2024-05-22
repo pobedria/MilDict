@@ -23,9 +23,11 @@ struct QuizTabView: View {
         }
         VStack {
             Text(concepts[correctNumber].enTermsOfConcept().first!.term)
-                .frame(maxWidth: .infinity,maxHeight: .infinity)
+//                .frame(maxWidth: .infinity,maxHeight: .infinity)
                 .foregroundColor(Color("Gold"))
                 .background(Color("Olive"))
+                .padding(.top).padding(.top).padding(.top)
+            Spacer()
             if let selection {
                 if selection == correctNumber{
                     Text ("Вірно")
