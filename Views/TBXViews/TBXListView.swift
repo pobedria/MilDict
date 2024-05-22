@@ -12,17 +12,46 @@ struct TBXListView: View {
     let terms: [AppTerm]
 
     var body: some View {
-        NavigationView {
-            List(terms){ term in
-                NavigationLink {
-                    TBXDetailView(chosenTerm: term)
-                } label: {
-                    TBXPreView(term: term)
-                }.listRowBackground(Color("Olive"))
+//        NavigationView {
+//            List(terms){ term in
+//                NavigationLink {
+//                    TBXDetailView(chosenTerm: term)
+//                } label: {
+//                    TBXPreView(term: term)
+//                }.listRowBackground(Color("Olive"))
+//            }.background(Color("Olive"))
+//            .scrollContentBackground(.hidden)
+//           
+//        }
+//        .foregroundColor(Color("Gold"))
+        
+        NavigationStack {
+            List(terms) { term in
+   
+                NavigationLink(term.term, value: term)
+    
+                    .foregroundColor(Color("Gold"))
+                    .listRowBackground(Color("Olive"))
+                
+            }
+            .navigationDestination(for: AppTerm.self) { term in
+                TBXDetailView(chosenTerm: term)
             }.background(Color("Olive"))
-            .scrollContentBackground(.hidden)
+                .scrollContentBackground(.hidden)
         }
-        .foregroundColor(Color("Gold"))
+        
+//        NavigationSplitView {
+//            List(terms, selection: $selectedTerm) { term in
+//                NavigationLink(term.term, value: term)
+//                    .foregroundColor(Color("Gold"))
+//                    .listRowBackground(Color("Olive"))
+//            }
+//        } detail: {
+//            TBXDetailView(chosenTerm: selectedTerm ?? terms[0])
+//        }.navigationTitle("Terms")
+//            .background(Color("Olive"))
+//            .scrollContentBackground(.hidden)
+//        
     }
 }
 

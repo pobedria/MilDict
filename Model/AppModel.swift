@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppTerm: Identifiable, Comparable {
+struct AppTerm: Identifiable, Comparable, Hashable {
     var id: Int
     var conceptId: Int
     var subject: String

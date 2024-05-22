@@ -12,6 +12,8 @@ struct QuizTabView: View {
     @State private var correctNumber: Int = Int.random(in: 0..<4)
     @State private var selection: Int?
     @State private var blockedButtons = false
+    @State private var buttonBackgrouns = Array(repeating: Color("Steppe"), count: 4)
+    
     
     var body: some View {
 
@@ -36,26 +38,37 @@ struct QuizTabView: View {
                             .foregroundColor(.green)
                             .font(Font.custom("UAFSans-Bold", size: 30))
                     } else {
-                        Text ("Правильна відповідь:\n\(options[correctNumber].name)")
-                            .foregroundColor(.red)
-                            .font(Font.custom("UAFSans-Medium", size: 30))
+                        VStack {
+                            Text ("Не вірно")
+                                .foregroundColor(.red)
+                                .font(Font.custom("UAFSans-Medium", size: 30))
+//                            Text ("\(options[correctNumber].name)")
+//                                .foregroundColor(.green)
+//                                .font(Font.custom("UAFSans-Medium", size: 20))
+                        }
                     }
-                    
                 }
                 ForEach(Array(zip(options.indices, options)), id: \.0) { index, option in
-                    Button(option.name){
+                    Button(action:{
                         if !blockedButtons {
                             blockedButtons = true
                             selection = index
+                            buttonBackgrouns[index] = .red
+                            buttonBackgrouns[correctNumber] = .green
+                            
                             Task {
                                 await delayPageUpdate()
                             }
                         }
                         
-                    }.frame(maxWidth: .infinity)
-                        .padding()
-                        .background(Color("Steppe"))
-                        .clipShape(Capsule())
+                    }){
+                        Text(option.name)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(buttonBackgrouns[index])
+                            .foregroundColor(.white)
+                            .clipShape(Capsule())
+                    }
                     
                 }
                 .padding(.horizontal)
@@ -80,6 +93,7 @@ struct QuizTabView: View {
             correctNumber = Int.random(in: 0..<4)
             selection = nil
             concepts = TermsSorage.allConcepts.choose(4)
+            buttonBackgrouns = Array(repeating: Color("Steppe"), count: 4)
         }
         
         
