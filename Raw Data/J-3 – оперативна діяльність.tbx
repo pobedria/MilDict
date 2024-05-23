@@ -9177,6 +9177,70 @@ and the operations of facilities within a specified sector of an air defence are
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="330990">
+                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="689344">after-action review</term>
+                        <descrip type="context">Professional discussion of an event, focused on performance standards, that enables soldiers to discover for themselves what happened, why it happened, and how to sustain strengths and improve on weaknesses. It is a tool leaders and units can use to get maximum benefit from every mission or task.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AFTER_ACTION_REVIEWS.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="689346">AAR</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="689348">аналіз проведених дій</term>
+                        <descrip type="context">Динамічне, об’єктивне, обговорення особливостей виконання завдань особовим складом відповідно до стандартів. Кожен військовослужбовець може і повинен брати участь в АПД, якщо в нього є розуміння, інформація, погляди чи питання, що допоможуть підрозділу визначити і подолати слабкі сторони та зміцнити сильні.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВП-7(3)-00(01).01.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="689350">АПД</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="330992">
+                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="689352">mission-essential task list</term>
+                        <descrip type="context">Contains the complete task, conditions, and standards for each task.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AFTER_ACTION_REVIEWS.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="689354">METL</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="689356">перелік завдань</term>
+                        <descrip type="context">Перелік основних (додаткових, додаткових супутніх) завдань (підзавдань) необхідний для виконання загальної задачі, яка(-і) визначаються органу військового управління, військовій частині (підрозділу, військовослужбовцю) для відпрацювання під час заходів підготовки з метою набуття необхідних оперативних (бойових, спеціальних, індивідуальних) спроможностей для виконання загальних завдань, передбачених оперативними (бойовими) планами та програмами індивідуальної підготовки.
+Специфікація навчання – документ</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВП-7(3)-00(01).01.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="330998">
+                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="689368">defence</term>
+                        <descrip type="context">Something that provides protection against attack from enemies, or against something dangerous such as weather or an infection</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/defence"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="689366">оборона</term>
+                        <descrip type="context">Основний вид бою, мета якого – зірвати або відбити наступ (удар) переважаючих сил противника та завдати йому значних втрат, утримати важливі райони (рубежі, об’єкти) і цим створити сприятливі умови для пе-реходу до рішучого наступу,</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Taktychna_pidhotovka_artyleriiskykh_pidrozdiliv.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>

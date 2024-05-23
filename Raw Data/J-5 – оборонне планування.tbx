@@ -1240,7 +1240,7 @@ Consists of historically significant documents (non-artifact and other media) fr
                     <termSec>
                         <term id="689330">захищеність</term>
                         <descrip type="context">Умови, за яких визначена інформація, бойова техніка, особовий склад, діяльність та об’єкти, захищені від шпигунства, саботажу, підривної діяльності, тероризму та ураження, потенційних втрат або несанкціонованого доступу</descrip>
-                        <xref type="externalCrossReference" target="link https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>

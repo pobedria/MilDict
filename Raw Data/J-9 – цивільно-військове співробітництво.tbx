@@ -325,6 +325,23 @@
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331000">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="689372">inviolability</term>
+                        <descrip type="context">The fact of having to be respected and not removed or ignored:</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/inviolability"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="689370">недоторканність</term>
+                        <descrip type="context">У широкому розумінні – гарантія від будь-яких посягань від будь-кого; у вузькому – спеціальний правовий захист певних категорій посадових осіб публічної влади (глав держав, депутатів, суддів). Н. виключає юрид. відповідальність за прийняття рішень та/чи висловлювання при виконанні служб. повноважень, можливість притягнення до юрид. відповідальності за вчинення злочину або ін. правопорушення, а також застосування примус. процесуал. заходів забезпечення (затримання, арешту, взяття під варту) та передбачає особл. порядок притягнення до кримінал. чи ін. юрид. відповідальності, а також застосування примус. процесуал. заходів забезпечення.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-72883"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>
