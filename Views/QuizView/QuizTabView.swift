@@ -42,9 +42,6 @@ struct QuizTabView: View {
                             Text ("Не правильно")
                                 .foregroundColor(.red)
                                 .font(Font.custom("UAFSans-Bold", size: 25))
-//                            Text ("\(options[correctNumber].name)")
-//                                .foregroundColor(.green)
-//                                .font(Font.custom("UAFSans-Medium", size: 20))
                         }
                     }
                 }
@@ -55,7 +52,11 @@ struct QuizTabView: View {
                             selection = index
                             buttonBackgrouns[index] = .red
                             buttonBackgrouns[correctNumber] = .green
-                            
+                            if selection == correctNumber {
+                                UINotificationFeedbackGenerator().notificationOccurred(.success)
+                            } else {
+                                UINotificationFeedbackGenerator().notificationOccurred(.error)
+                            }
                             Task {
                                 await delayPageUpdate()
                             }
