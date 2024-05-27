@@ -26,13 +26,18 @@ struct TBXConcept: Decodable{
         langSec = try values.decode([LangElement].self, forKey: .langSec)
     }
     
-    func enTermsOfConcept () -> [AppTerm] {
+    func enTermsOfConcept() -> [AppTerm] {
         return termsOfLangElement(langElement: langSec[0])
     }
     
-    func ukTermsOfConcept () -> [AppTerm] {
+    func ukTermsOfConcept() -> [AppTerm] {
         return termsOfLangElement(langElement: langSec[1])
     }
+    
+    func allTermsOfConcept() -> [AppTerm] {
+        return ukTermsOfConcept() + enTermsOfConcept()
+    }
+    
     
     func termsOfLangElement(langElement: LangElement) -> [AppTerm] {
         var terms = [AppTerm]()

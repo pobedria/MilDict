@@ -10,11 +10,15 @@ import Foundation
 struct TermsSorage{
     static let allConcepts = decodeConcepts()
 
-    static var enTerms: [AppTerm] {  var terms = [AppTerm]()
+    static var enTerms: [AppTerm] {
         return allConcepts.flatMap { $0.enTermsOfConcept()}.sorted()
     }
     
     static var ukTerms: [AppTerm] {
         return allConcepts.flatMap { $0.ukTermsOfConcept()}.sorted()
+    }
+    
+    static var allTerms: [AppTerm] {
+        return allConcepts.flatMap { $0.allTermsOfConcept()}.sorted()
     }
 }

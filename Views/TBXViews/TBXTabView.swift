@@ -14,15 +14,17 @@ struct TBXTabView: View {
     var body: some View {
         VStack() {
             
-            let terms = lang == "en" ? TermsSorage.enTerms : TermsSorage.ukTerms
+            
             let sanitizedField = searchField
                 .lowercased()
                 .trimmingCharacters(in: .whitespacesAndNewlines)
             if sanitizedField.isEmpty{
-                TBXListView(terms: terms)
+                let termsByLanguge = lang == "en" ? TermsSorage.enTerms : TermsSorage.ukTerms
+                TBXListView(terms: termsByLanguge)
             }
             else {
-                let filtered = terms.filter(
+                let allTerms = TermsSorage.allTerms
+                let filtered = allTerms.filter(
                     where:{ $0.term.lowercased().contains(sanitizedField)},
                     limit: 20).sorted()
                 if filtered.isEmpty {
