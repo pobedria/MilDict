@@ -35,7 +35,7 @@ func decodeConcepts() -> [TBXConcept]{
     concepts.append(contentsOf: load("J-6 – зв’язок та інформаційні системи.json") as [TBXConcept])
     concepts.append(contentsOf: load("J-7 – підготовка військ.json") as [TBXConcept])
     concepts.append(contentsOf: load("J-9 – цивільно-військове співробітництво.json") as [TBXConcept])
-
+    // print("Number of concepts: \(concepts.count)")
     return concepts
 }
 
