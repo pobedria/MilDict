@@ -34,14 +34,14 @@ struct QuizTabView: View {
                 Spacer()
                 if let selection {
                     if selection == correctNumber{
-                        Text ("Вірно")
+                        Text ("Правильно")
                             .foregroundColor(.green)
-                            .font(Font.custom("UAFSans-Bold", size: 30))
+                            .font(Font.custom("UAFSans-Bold", size: 25))
                     } else {
                         VStack {
-                            Text ("Не вірно")
+                            Text ("Не правильно")
                                 .foregroundColor(.red)
-                                .font(Font.custom("UAFSans-Medium", size: 30))
+                                .font(Font.custom("UAFSans-Bold", size: 25))
 //                            Text ("\(options[correctNumber].name)")
 //                                .foregroundColor(.green)
 //                                .font(Font.custom("UAFSans-Medium", size: 20))
