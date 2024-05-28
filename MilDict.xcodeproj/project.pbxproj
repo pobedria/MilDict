@@ -12,6 +12,7 @@
 		7702E6682BEB7DE80002B149 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6672BEB7DE80002B149 /* AppModel.swift */; };
 		7702E6742BECD1C70002B149 /* convertor.js in Resources */ = {isa = PBXBuildFile; fileRef = 7702E66A2BECD1C60002B149 /* convertor.js */; };
 		7702E6E52BEE1D0D0002B149 /* TBXTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */; };
+		771CF1682C04AF6C002E362E /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CF1672C04AF6C002E362E /* AppHeader.swift */; };
 		776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A28E92BEA4A40008D4662 /* TBXModel.swift */; };
 		776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A796E2A7BA399001F268B /* SearchTextField.swift */; };
 		777D46FC2BF75606006EA0A0 /* EmptySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */; };
@@ -80,6 +81,7 @@
 		7702E6672BEB7DE80002B149 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		7702E66A2BECD1C60002B149 /* convertor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = convertor.js; sourceTree = "<group>"; };
 		7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabView.swift; sourceTree = "<group>"; };
+		771CF1672C04AF6C002E362E /* AppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
 		776A28E92BEA4A40008D4662 /* TBXModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXModel.swift; sourceTree = "<group>"; };
 		776A796E2A7BA399001F268B /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchView.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				77A02C2A2BF211BC0052A3B8 /* TBXDetailView.swift */,
 				77A02C2C2BF235910052A3B8 /* TermDetailView.swift */,
 				777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */,
+				771CF1672C04AF6C002E362E /* AppHeader.swift */,
 			);
 			path = TBXViews;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				77A02C652BF3A6230052A3B8 /* TermsSorage.swift in Sources */,
 				7702E6682BEB7DE80002B149 /* AppModel.swift in Sources */,
 				77A02C2B2BF211BC0052A3B8 /* TBXDetailView.swift in Sources */,
+				771CF1682C04AF6C002E362E /* AppHeader.swift in Sources */,
 				77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */,
 				77A02C2D2BF235910052A3B8 /* TermDetailView.swift in Sources */,
 				777D47012BFC9589006EA0A0 /* QuizOption.swift in Sources */,
