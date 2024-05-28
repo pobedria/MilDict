@@ -9,9 +9,11 @@ import SwiftUI
 
 
 struct ContentView: View {
+    
     var body: some View {
         VStack{
             AppHeader()
+            Divider()
             TabView {
                 TBXTabView(lang: "en")
                     .tabItem {

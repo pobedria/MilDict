@@ -28,7 +28,7 @@ struct AppHeader: View {
                     .resizable()
                     .frame(width: 80.0, height: 40.0)
             }.padding(.horizontal)
-        }
+        }.padding(.bottom, -10)
     }
 }
 
