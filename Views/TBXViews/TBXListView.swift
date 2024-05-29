@@ -47,15 +47,16 @@ struct TBXListView: View {
                             TBXPreView(term: term)
                         }.listRowBackground(Color("Olive"))
                     }
-                    .background(Color("Olive"))
                     .scrollContentBackground(.hidden)
                     .frame(width: g.size.width, height: g.size.height, alignment: .center)
                 }
+                .background(Color("Olive"))
             }
         } detail: {
             TBXDetailView(chosenTerm: selectedTerm ?? terms[0])
         }
         .navigationBarColor(UIColor(Color("Olive")))
+        
     }
 }
 
