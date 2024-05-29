@@ -12,7 +12,7 @@ struct AppHeader: View {
         ZStack{
             Rectangle()
                 .fill(Color("Olive"))
-                .frame(width: UIScreen.main.bounds.width, height: 60)
+                .frame(width: .infinity, height: 60)
                 .shadow( radius: 2,  x: 0, y:3)
             HStack{
                 

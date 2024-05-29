@@ -36,19 +36,24 @@ struct TBXListView: View {
 //            }.background(Color("Olive"))
 //                .scrollContentBackground(.hidden)
 //        }
-        ScrollView{
-            NavigationSplitView {
-                List(terms, selection: $selectedTerm) { term in
-                    NavigationLink {
-                        TBXDetailView(chosenTerm: term)
-                    } label: {
-                        TBXPreView(term: term)
-                    }.listRowBackground(Color("Olive"))
-                }.background(Color("Olive"))
+
+        NavigationSplitView {
+            GeometryReader { g in
+                ScrollView{
+                    List(terms, selection: $selectedTerm) { term in
+                        NavigationLink {
+                            TBXDetailView(chosenTerm: term)
+                        } label: {
+                            TBXPreView(term: term)
+                        }.listRowBackground(Color("Olive"))
+                    }
+                    .background(Color("Olive"))
                     .scrollContentBackground(.hidden)
-            } detail: {
-                TBXDetailView(chosenTerm: selectedTerm ?? terms[0])
-            }.navigationTitle("Terms")
+                    .frame(width: g.size.width, height: g.size.height, alignment: .center)
+                }
+            }
+        } detail: {
+            TBXDetailView(chosenTerm: selectedTerm ?? terms[0])
         }
     }
 }
