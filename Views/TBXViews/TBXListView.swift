@@ -55,6 +55,7 @@ struct TBXListView: View {
         } detail: {
             TBXDetailView(chosenTerm: selectedTerm ?? terms[0])
         }
+        .navigationBarColor(UIColor(Color("Olive")))
     }
 }
 
