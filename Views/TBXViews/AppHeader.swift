@@ -27,7 +27,9 @@ struct AppHeader: View {
                 Image("LRDD")
                     .resizable()
                     .frame(width: 80.0, height: 40.0)
-            }.padding(.horizontal)
+            }
+            .padding(.horizontal)
+            .shadow( radius: 2,  x: 0, y:3)
         }.padding(.bottom, -10)
     }
 }
