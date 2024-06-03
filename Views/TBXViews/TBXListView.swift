@@ -15,8 +15,7 @@ struct TBXListView: View {
     
     init(lang: String) {
         self.lang = lang
-        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = UIColor(Color("Steppe"))
-        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).tintColor = UIColor(Color("Gold"))
+        configureSearchBarAppearance()
     }
     
     var body: some View {
@@ -29,15 +28,16 @@ struct TBXListView: View {
                     TBXPreView(term: term)
                 }.listRowBackground(Color("Olive"))
             }.navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
-//                .navigationBarTitleDisplayMode(.inline)
-            .scrollContentBackground(.hidden)
-            .background(Color("Olive"))
+                .scrollContentBackground(.hidden)
+                .background(Color("Olive"))
         } detail: {
             TBXDetailView(chosenTerm: selectedTerm ?? TermsSorage.enTerms[0])
         }
         
         .navigationBarColor(UIColor(Color("Olive")))
         .searchable(text: $searchText, prompt: "Пошук термінів")
+        .foregroundColor(Color("Gold"))
+        .font(Font.custom("UAFSans-Medium", size: 18))
     }
     
     var searchResults: [AppTerm] {
@@ -48,6 +48,12 @@ struct TBXListView: View {
             let sanitizedField = searchText.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
             return TermsSorage.allTerms.filter({ $0.term.lowercased().contains(sanitizedField)}).sorted()
         }
+    }
+    
+    private func configureSearchBarAppearance() {
+        let textFieldAppearance = UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self])
+        textFieldAppearance.backgroundColor = UIColor(Color("Steppe"))
+        textFieldAppearance.tintColor = UIColor(Color("Gold"))
     }
 }
 
