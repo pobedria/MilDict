@@ -10,34 +10,9 @@ import SwiftUI
 struct TBXListView: View {
     @State private var selectedTerm: AppTerm?
     @State private var searchText = ""
-//    let terms: [AppTerm]
     let lang: String
 
     var body: some View {
-//        NavigationView {
-//            List(terms){ term in
-//                NavigationLink {
-//                    TBXDetailView(chosenTerm: term)
-//                } label: {
-//                    TBXPreView(term: term)
-//                }.listRowBackground(Color("Olive"))
-//            }.background(Color("Olive"))
-//            .scrollContentBackground(.hidden)
-//           
-//        }
-//        .foregroundColor(Color("Gold"))
-        
-//        NavigationStack {
-//            List(terms) { term in
-//                
-//                NavigationLink {
-//                    TBXDetailView(chosenTerm: term)
-//                } label: {
-//                    TBXPreView(term: term)
-//                }.listRowBackground(Color("Olive"))
-//            }.background(Color("Olive"))
-//                .scrollContentBackground(.hidden)
-//        }
 
         NavigationSplitView {
             GeometryReader { g in

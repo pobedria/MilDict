@@ -15,11 +15,11 @@ struct ContentView: View {
             AppHeader()
             Divider()
             TabView {
-                TBXTabView(lang: "en")
+                TBXListView(lang: "en")
                     .tabItem {
                         Label("Англійська🇬🇧", systemImage: "globe.americas.fill")
                     }.toolbarBackground(Color("Olive"),for: .tabBar)
-                TBXTabView(lang: "uk")
+                TBXListView(lang: "uk")
                     .tabItem {
                         Label("Українська🇺🇦", systemImage: "globe.europe.africa.fill")
                     }.toolbarBackground(Color("Olive"),for: .tabBar)

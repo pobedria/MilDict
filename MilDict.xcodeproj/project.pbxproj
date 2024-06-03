@@ -11,7 +11,6 @@
 		7702E6662BEB74E60002B149 /* TBXPreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6652BEB74E60002B149 /* TBXPreView.swift */; };
 		7702E6682BEB7DE80002B149 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6672BEB7DE80002B149 /* AppModel.swift */; };
 		7702E6742BECD1C70002B149 /* convertor.js in Resources */ = {isa = PBXBuildFile; fileRef = 7702E66A2BECD1C60002B149 /* convertor.js */; };
-		7702E6E52BEE1D0D0002B149 /* TBXTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */; };
 		771CF1682C04AF6C002E362E /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CF1672C04AF6C002E362E /* AppHeader.swift */; };
 		771CF1AC2C060576002E362E /* Volja-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 771CF1A92C060538002E362E /* Volja-Regular.ttf */; };
 		771CF1AE2C06058F002E362E /* Volja-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 771CF1AD2C06058B002E362E /* Volja-Black.ttf */; };
@@ -82,7 +81,6 @@
 		7702E6652BEB74E60002B149 /* TBXPreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXPreView.swift; sourceTree = "<group>"; };
 		7702E6672BEB7DE80002B149 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		7702E66A2BECD1C60002B149 /* convertor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = convertor.js; sourceTree = "<group>"; };
-		7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXTabView.swift; sourceTree = "<group>"; };
 		771CF1672C04AF6C002E362E /* AppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
 		771CF1A92C060538002E362E /* Volja-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Volja-Regular.ttf"; sourceTree = "<group>"; };
 		771CF1AD2C06058B002E362E /* Volja-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Volja-Black.ttf"; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 			children = (
 				7702E6632BEB6E590002B149 /* TBXListView.swift */,
 				7702E6652BEB74E60002B149 /* TBXPreView.swift */,
-				7702E6E42BEE1D0D0002B149 /* TBXTabView.swift */,
 				77A02C2A2BF211BC0052A3B8 /* TBXDetailView.swift */,
 				77A02C2C2BF235910052A3B8 /* TermDetailView.swift */,
 				777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */,
@@ -491,7 +488,6 @@
 				77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */,
 				776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */,
 				7702E6642BEB6E590002B149 /* TBXListView.swift in Sources */,
-				7702E6E52BEE1D0D0002B149 /* TBXTabView.swift in Sources */,
 				778B07352A723F3100A96821 /* ContentView.swift in Sources */,
 				776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */,
 				77A02C652BF3A6230052A3B8 /* TermsSorage.swift in Sources */,
