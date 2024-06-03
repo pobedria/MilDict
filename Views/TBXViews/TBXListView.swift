@@ -11,24 +11,19 @@ struct TBXListView: View {
     @State private var selectedTerm: AppTerm?
     @State private var searchText = ""
     let lang: String
-
+    
     var body: some View {
-
+        
         NavigationSplitView {
-            GeometryReader { g in
-                ScrollView{
-                    List(searchResults, selection: $selectedTerm) { term in
-                        NavigationLink {
-                            TBXDetailView(chosenTerm: term)
-                        } label: {
-                            TBXPreView(term: term)
-                        }.listRowBackground(Color("Olive"))
-                    }
-                    .scrollContentBackground(.hidden)
-                    .frame(width: g.size.width, height: g.size.height, alignment: .center)
-                }
-                .background(Color("Olive"))
+            List(searchResults, selection: $selectedTerm) { term in
+                NavigationLink {
+                    TBXDetailView(chosenTerm: term)
+                } label: {
+                    TBXPreView(term: term)
+                }.listRowBackground(Color("Olive"))
             }
+            .scrollContentBackground(.hidden)
+            .background(Color("Olive"))
         } detail: {
             TBXDetailView(chosenTerm: selectedTerm ?? TermsSorage.enTerms[0])
         }
@@ -58,7 +53,7 @@ struct TBXListView: View {
         AppTerm(id: 6, conceptId: 326718, subject: "602 – електромагнітна та кіберборотьба", lang: "en", term: "electronic warfare"),
         AppTerm(id: 7, conceptId: 326944, subject: "701 – навчально-бойові завдання", lang: "en", term: "OPFOR"),
         AppTerm(id: 9, conceptId: 326262, subject: "900 – цивільно-військове співробітництво", lang: "en", term: "humanitarian aid")
-    
+        
     ]
     return TBXListView(lang: "en")
 }
