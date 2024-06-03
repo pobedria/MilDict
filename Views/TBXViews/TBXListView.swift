@@ -9,7 +9,9 @@ import SwiftUI
 
 struct TBXListView: View {
     @State private var selectedTerm: AppTerm?
-    let terms: [AppTerm]
+    @State private var searchText = ""
+//    let terms: [AppTerm]
+    let lang: String
 
     var body: some View {
 //        NavigationView {
@@ -40,7 +42,7 @@ struct TBXListView: View {
         NavigationSplitView {
             GeometryReader { g in
                 ScrollView{
-                    List(terms, selection: $selectedTerm) { term in
+                    List(searchResults, selection: $selectedTerm) { term in
                         NavigationLink {
                             TBXDetailView(chosenTerm: term)
                         } label: {
@@ -53,10 +55,21 @@ struct TBXListView: View {
                 .background(Color("Olive"))
             }
         } detail: {
-            TBXDetailView(chosenTerm: selectedTerm ?? terms[0])
+            TBXDetailView(chosenTerm: selectedTerm ?? TermsSorage.enTerms[0])
         }
         .navigationBarColor(UIColor(Color("Olive")))
-        
+        .searchable(text: $searchText, prompt: "Look for something")
+    }
+    
+    var searchResults: [AppTerm] {
+        if searchText.isEmpty {
+            return lang == "en" ? TermsSorage.enTerms : TermsSorage.ukTerms
+        } else {
+            let sanitizedField = searchText.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+            return TermsSorage.allTerms.filter(
+                where:{ $0.term.lowercased().contains(sanitizedField)},
+                limit: 20).sorted()
+        }
     }
 }
 
@@ -72,5 +85,5 @@ struct TBXListView: View {
         AppTerm(id: 9, conceptId: 326262, subject: "900 – цивільно-військове співробітництво", lang: "en", term: "humanitarian aid")
     
     ]
-    return TBXListView(terms: terms)
+    return TBXListView(lang: "en")
 }
