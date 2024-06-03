@@ -12,6 +12,13 @@ struct TBXListView: View {
     @State private var searchText = ""
     let lang: String
     
+    
+    init(lang: String) {
+        self.lang = lang
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = UIColor(Color("Steppe"))
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).tintColor = UIColor(Color("Gold"))
+    }
+    
     var body: some View {
         
         NavigationSplitView {
@@ -32,6 +39,7 @@ struct TBXListView: View {
     }
     
     var searchResults: [AppTerm] {
+        
         if searchText.isEmpty {
             return lang == "en" ? TermsSorage.enTerms : TermsSorage.ukTerms
         } else {
