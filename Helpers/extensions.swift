@@ -108,10 +108,17 @@ struct NavigationBarColorModifier: ViewModifier {
                 let coloredAppearance = UINavigationBarAppearance()
                 coloredAppearance.configureWithOpaqueBackground()
                 coloredAppearance.backgroundColor = color
-
+                
+                let uiColor = UIColor(.white)
+                let inlineTitleFont = UIFont(name: "UAFSans-OnBoardStencil", size: 15)
+                let largeTitleFont = UIFont(name: "UAFSans-OnBoardStencil", size: 28)
+                coloredAppearance.titleTextAttributes  = [.foregroundColor: uiColor, .font:  inlineTitleFont!]
+                coloredAppearance.largeTitleTextAttributes = [.foregroundColor: uiColor,  .font:  largeTitleFont! ]
+                
                 UINavigationBar.appearance().standardAppearance = coloredAppearance
                 UINavigationBar.appearance().compactAppearance = coloredAppearance
                 UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
+                
             }
     }
 }

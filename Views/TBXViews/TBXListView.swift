@@ -28,12 +28,14 @@ struct TBXListView: View {
                 } label: {
                     TBXPreView(term: term)
                 }.listRowBackground(Color("Olive"))
-            }
+            }.navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
+//                .navigationBarTitleDisplayMode(.inline)
             .scrollContentBackground(.hidden)
             .background(Color("Olive"))
         } detail: {
             TBXDetailView(chosenTerm: selectedTerm ?? TermsSorage.enTerms[0])
         }
+        
         .navigationBarColor(UIColor(Color("Olive")))
         .searchable(text: $searchText, prompt: "Пошук термінів")
     }

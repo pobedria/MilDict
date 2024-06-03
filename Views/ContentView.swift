@@ -12,8 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
-            AppHeader()
-            Divider()
+//            AppHeader()
+//            Divider()
             TabView {
                 TBXListView(lang: "en")
                     .tabItem {
