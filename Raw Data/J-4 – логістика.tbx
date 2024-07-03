@@ -450,14 +450,8 @@ e. medical and health service support.</descrip>
                 <langSec xml:lang="uk">
                     <termSec>
                         <term id="678778">логістика</term>
-                        <descrip type="context">Теорія планування та здійснення перевезень і забезпечення військ. У найширшому розумінні включає всі аспекти військових операцій, пов’язані з:
-a) проєктуванням, розробкою, придбанням, зберіганням, транспортуванням, розподілом, технічним обслуговуванням, евакуацією та утилізацією військового майна;
-b) перевезенням особового складу;
-c) придбанням, виробництвом, технічним обслуговуванням, експлуатацією та утилізацією матеріально-технічних засобів;
-d) придбанням або наданням послуг;
-e) медичним і санітарним забезпеченням.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                        <note>У Збройних Силах України медичне і санітарне забезпечення не входить до логістики.</note>
+                        <descrip type="context">Наука і практика з планування та реалізації процесів з розгортання на місцевості, переміщення військ (сил) та забезпечення їх необхідним ОВСТ і матеріально-технічними засобами. В більш широкому сенсі – це аспекти військових операцій, які стосуються: проектування та розроблення, закупівлі (постачання), зберігання, перевезення, розподілу, утримання, евакуації, використання, вилучення та утилізації ОВСТ і матеріально-технічних засобів; перевезення особового складу; закупівля, будівництво, обслуговування, експлуатація та розміщення (розгортання) об'єктів інфраструктури; закупівлі чи надання послуг.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-4-32(11).01.pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -1164,9 +1158,9 @@ d) завдань з медичної евакуації повітрям.</desc
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="680312">стале функціонування логістики</term>
-                        <descrip type="context">Процеси та механізми досягнення стійкості логістичної системи, які полягають у своєчасному забезпеченні військ витратними матеріалами, поповненні втраченого у ході бойових дій та заміні пошкодженого військового майна для підтримки боєздатності військ протягом часу, необхідного для виконання поставлених завдань.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
+                        <term id="680312">матеріально-технічне забезпечення</term>
+                        <descrip type="context">Комплекс заходів щодо своєчасного і повного забезпечення військових частин і підрозділів військовим майном, збереження та відновлення його функціонального стану</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/z1140-16"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -16284,6 +16278,67 @@ Submunitions are classified as bomblets, grenades, or mines.</descrip>
                         <term id="689320">усунення бойових ушкоджень</term>
                         <descrip type="context">Важливі ремонтні роботи, які можуть бути довільними та здійснюватися швидко в бойових умовах з метою відновлення пошкодженого або несправного обладнання для його тимчасового використання.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331490">
+                <descrip type="subjectField">417 – технічне забезпечення кораблів (суден)</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690640">aircraft carrier</term>
+                        <descrip type="context">Naval vessel from which airplanes may take off and on which they may land. As early as November 1910, an American civilian pilot, Eugene Ely, flew a plane off a specially built platform on the deck of the U.S. cruiser Birmingham at Hampton Roads, Virginia. On January 18, 1911, in San Francisco Bay, Ely landed on a platform built on the quarterdeck of the battleship Pennsylvania, using wires attached to sandbags on the platform as arresting gear; he then took off from the same ship.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/technology/aircraft-carrier"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690642">авіаносець</term>
+                        <descrip type="context">Бойовий надводний корабель, основною ударною силою якого є авіація. Має польотну палубу та інші засоби забезпечення злету, посадки і базування літаків та/або вертольотів (ангари, технічні засоби обслуговування і заправки авіатехніки), засоби управління та забезпечення польотів.</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Авіаносець"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331614">
+                <descrip type="subjectField">401 – забезпечення засобами ураження</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690918">weapon of mass destruction</term>
+                        <descrip type="context">Weapon with the capacity to inflict death and destruction on such a massive scale and so indiscriminately that its very presence in the hands of a hostile power can be considered a grievous threat. Modern weapons of mass destruction are either nuclear, biological, or chemical weapons—frequently referred to collectively as NBC weapons.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/technology/weapon-of-mass-destruction"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690920">WMD</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690922">зброя масового ураження</term>
+                        <descrip type="context">Засоби ведення війни, які за силою руйнування та ураження у багато разів переважають звичайні озброєння.
+Об’єктами ураження зброєю масового знищення є люди, продукти їхньої праці, а також природне середовище їхнього проживання (кліматичні та географічні умови, рослини, тварини, ґрунти). Фактори ураження зброєю масового знищення, як правило, мають певну інерцію дії після її застосування, тому можуть справляти негативний морально-психологічний вплив на супротивну сторону.
+Головні принципи застосування зброї масового знищення — раптовість і масованість на вирішальних напрямках військових дій. Серед наявних видів зброї масового знищення — біологічна зброя, хімічна зброя, ядерна зброя.</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Зброя_масового_ураження"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690924">зброя масового знищення</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331616">
+                <descrip type="subjectField">407 – авіаційно-технічне забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690926">bomber</term>
+                        <descrip type="context">Military aircraft designed to drop bombs on surface targets. Aerial bombardment can be traced to the Italo-Turkish War, in which early in December 1911 an Italian pilot on an observation mission reached over the side of his airplane and dropped four grenades on two Turkish targets. </descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/technology/bomber-aircraft"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690928">бомбардувальник</term>
+                        <descrip type="context">Бомбардувальний літак.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=бомбардувальник"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>

@@ -342,6 +342,245 @@
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331472">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690606">guerrilla warfare</term>
+                        <descrip type="context">type of warfare fought by irregulars in fast-moving, small-scale actions against Orthodox military and police forces and, on occasion, against rival insurgent forces, either independently or in conjunction with a larger political-military strategy. The word guerrilla (the diminutive of Spanish guerra, “war”) stems from the duke of Wellington’s campaigns during the Peninsular War (1808–14), in which Spanish and Portuguese irregulars, or guerrilleros, helped drive the French from the Iberian Peninsula. Over the centuries the practitioners of guerrilla warfare have been called rebels, irregulars, insurgents, partisans, and mercenaries. Frustrated military commanders have consistently damned them as barbarians, savages, terrorists, brigands, outlaws, and bandits.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/guerrilla-warfare"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690608">партизанщина</term>
+                        <descrip type="context">Партизанська боротьба (як стихійна, неорганізована боротьба на протилежність організованим діям регулярної армії).</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=%CF%C0%D0%D2%C8%C7%C0%CD%D9%C8%CD%C0"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331486">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690632">combatants</term>
+                        <descrip type="context">Persons who are authorized to use force in situations of armed conflict by international humanitarian law. Conversely, they constitute legitimate military targets in times of armed conflict. But, contrary to civilians, they may not be subject to criminal prosecutions for their participation in hostilities as long as their use of force is in conformity with the provisions of the law of armed conflict, also named humanitarian law</descrip>
+                        <xref type="externalCrossReference" target="https://guide-humanitarian-law.org/content/article/3/combatants/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690634">комбатанти</term>
+                        <descrip type="context">Особи, що входять до складу будь-яких організованих збройних сил, груп і підрозділів, які знаходяться під командуванням особи, відповідальної за поведінку своїх підлеглих; підкоряються внутр. дисциплінарній системі, яка, серед іншого, забезпечує дотримання норм міжнародного права, що застосовуються в період збройних конфліктів (п. 1 ст. 43 1 -го Додаткового протоколу 1977 до Женевських конвенцій з міжнародного гуманітарного права). К. є суб'єктами воєнних дій (лише вони мають право застосовувати збройн. силу) та об'єктами воєнних дій (до них допускається застосування під час бойових дій вищої міри насильства, тобто фізичного знищення). У випадку отримання поранення, захоплення в полон, переведення для роботи в тил або завершення воєнних дій вони перестають бути об'єктами воєнних дій, тобто проти них не може застосовуватись зброя. У полоні К. користуються статусом військовополоненого. К. захищені від судового переслідування за участь у законних бойових діях, навіть якщо в мирний час їхні дії кваліфікувалися б як злочини. Вони несуть відповідальність за порушення норм міжнар. гуманітарного права, зокрема за вчинення злочинів воєнних.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Ukrainska_dyplomatychna_entsyklopediia_Tom_1-2.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331488">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690636">noncombatants</term>
+                        <descrip type="context">Under humanitarian law, all persons who are not or no longer taking part in hostilities are protected. In the context of international armed conflicts, they are referred to as “protected persons,” but they benefit from protection under humanitarian law in non-international conflicts as well. The Geneva Conventions make a distinction between several categories of persons: the wounded and sick (whether military or civilian), prisoners of war, interned or detained civilians, and civilians in occupied or enemy territory. All individuals must be treated humanely. Each category of persons benefits from a general regime of protection, which is specifically adapted to their situation. Fundamental guarantees are also provided as a minimum to all persons.</descrip>
+                        <xref type="externalCrossReference" target="https://guide-humanitarian-law.org/content/article/3/non-combatants/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690638">некомбатанти</term>
+                        <descrip type="context">Законні учасники збройних конфліктів, які належать до складу збройних сил держави, однак не мають права брати безпосередню участь у бойових діях. До Н. відноситься мед., інтендантський і дух. персонал, військ, юристи, кореспонденти, репортери. Розмежування учасників збройних конфліктів на комбатантів і Н. закріплюється в ст. 43 1-го Додаткового протоколу до Женевських конвенцій 1977 (див. Женевські конвенції з міжнародного гуманітарного права). На відміну від комбатантів, Н. не мають права застосовувати до ворога найвищу міру насилля під час збройного конфлікту (знищувати його), а лише обслуговують та забезпечують бойову діяльність збройних сил і вправі застосовувати зброю лише з метою самозахисту. У іншому випадку Н. отримає статус комбатанта. Н. не можуть бути
+безпосереднім об'єктом збройного нападу супротивника. На Н. розповсюджується режим військ, полону за винятком дух. та мед. персоналу. Згідно зі ст. 33 Женевської конвенції про поводження з військовополоненими, у випадку захоплення в полон їм надаються всі можливості, необхідні для надання мед. та дух. допомоги військовополоненим, а також певні пільги. До Н. також відноситься екіпаж військ, госпітальних суден, екіпаж санітарних та госпітальних повітр. суден, а також екіпаж госпітальних мор. і повітр. суден</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Ukrainska_dyplomatychna_entsyklopediia_Tom_1-2.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331492">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690644">paramilitary</term>
+                        <descrip type="context">Group or organization that operates outside a country’s formal military structure. Paramilitaries are typically modeled after military organizations and may have similar training and equipment. These groups often have political or ideological aims and may be involved in activities such as counterinsurgency, anti-terrorism, or internal security. They are often associated with governments but can also be used by non-state actors such as extremist groups or criminal organizations. Paramilitary organizations can be found in many countries, and their role and actions vary depending on their context.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/paramilitary-armed-force"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690646">воєнізовані формування</term>
+                        <descrip type="context">Формування, які мають організаційну структуру військового типу, а саме: єдиноначальність, підпорядкованість та дисципліну, і в яких проводиться військова або стройова чи фізична підготовка.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2341-14"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331494">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690650">armed groups</term>
+                        <descrip type="context">armed wing of a non-state party to a non-international armed conflict, and may be comprised of either:
+a) dissident armed forces (for example, breakaway parts of state armed forces); or
+b) other organized armed groups which recruit their members primarily from the civilian population but have developed a sufficient degree of military organization to conduct hostilities on behalf of a party to the conflict.
+The term organized armed group refers exclusively to the armed or military wing of a non-state party to a non-international armed conflict. It does not include those segments of the civilian population that are supportive of the non-state party such as its political wing.</descrip>
+                        <xref type="externalCrossReference" target="https://casebook.icrc.org/a_to_z/glossary/armed-groups"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690652">збройні формування</term>
+                        <descrip type="context">Воєнізовані групи, які незаконно мають на озброєнні придатну для використання вогнепальну, вибухову чи іншу зброю</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2341-14"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331520">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690706">pacifism</term>
+                        <descrip type="context">The principled opposition to war and violence as a means of settling disputes. Pacifism may entail the belief that the waging of war by a state and the participation in war by an individual are absolutely wrong, under any circumstances.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/pacifism"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690708">пацифізм</term>
+                        <descrip type="context">1) доктрина антивоєнного руху, що закликає до цілковитого припинення війн, пропагує ненасильницькі форми спротиву та активну миротворчість;
+2) життєва позиція ненасильства, неучасті у будь-яких військових діях;
+3) міжнародний антивоєнний рух, який сформувався в другій половині 19 ст. і виступає принципово проти будь-яких воєн, незалежно від їхнього характеру</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Пацифізм"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331522">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690710">pacifist</term>
+                        <descrip type="context">someone who believes in pacifism</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/pacifist"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690712">пацифіст</term>
+                        <descrip type="context">Прихильник пацифізму</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=пацифіст"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331532">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690732">non-governmental organization</term>
+                        <descrip type="context">A non-profit organization, group or institution that operates independently from a Government and has humanitarian or development objectives. If a NGO is designated to implement a UNDP project, the NGO must have the legal status to operate in accordance with the laws governing NGOs in the programme country.</descrip>
+                        <xref type="externalCrossReference" target="https://popp.undp.org/taxonomy/term/6216"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690736">NGO</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690734">неурядова організація</term>
+                        <descrip type="context">добровільне об’єднання громадян за інтересами, що не мають на меті боротьбу за державну владу та отримання прибутку. Н. о. не належать до держ. (уряд.) і бізнес. (прибутк.) секторів, через що їх називають третім сектором суспільства. Оскільки їхню діяльність забезпечують громадяни на громад. засадах, Н. о. називають громадськими організаціями, або організаціями грома­дян­ського суспільства. В Україні діяльність Н. о. регламентована Законом «Про громадські об’єд­нання» (2013), згідно з яким гро­мад. організацією є об’єднання громадян для задоволення та захисту своїх законних соц., екон., твор., вікових, нац.-культур., спорт. та ін. спіл. інтересів. Н. о. розрізняють за напрямами діяльності, до кола їхньої уваги входять: боротьба за роззброєння; допомога біженцям; дослідн. проекти з проблем сім’ї та молоді, соц. питань, прав людини тощо. Серед ін. видів діяльності – правовий захист інтересів громадян, тренінги та консультування; зв’я­зок між держ. органами влади, громадськістю та незалеж. експертами; моніторинг діяльності влас. уряду або ін. інститутів влади та інформування громадськості про отримані результати. Осн. джерела фінансування Н. о. – нац. бізнес, зарубіжні фонди.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-71886"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331542">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690762">International Court of Justice</term>
+                        <descrip type="context">Principal judicial organ of the United Nations (UN). It was established in June 1945 by the Charter of the United Nations and began work in April 1946.
+The seat of the Court is at the Peace Palace in The Hague (Netherlands). Of the six principal organs of the United Nations, it is the only one not located in New York (United States of America).
+The Court’s role is to settle, in accordance with international law, legal disputes submitted to it by States and to give advisory opinions on legal questions referred to it by authorized United Nations organs and specialized agencies.
+The Court is composed of 15 judges, who are elected for terms of office of nine years by the United Nations General Assembly and the Security Council. It is assisted by a Registry, its administrative organ. Its official languages are English and French.</descrip>
+                        <xref type="externalCrossReference" target="https://www.icj-cij.org/court"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690766">ICJ</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690764">Міжнародний Суд ООН</term>
+                        <descrip type="context">Головний судовий орган Організації Об’єднаних Націй, який розглядає спори між державами та надає консультативні висновки за міжнародним правом. Суд розміщений у Палаці миру, м.Гаага, і таким чином є єдиним із головних органів ООН, який розташований не в Нью-Йорку.</descrip>
+                        <xref type="externalCrossReference" target="https://netherlands.mfa.gov.ua/spivrobitnictvo/spivrobitnictvo-z-mizhnarodnimi-organizaciyami/mizhnarodnij-sud-oon"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331544">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690770">ad hoc</term>
+                        <descrip type="context">Made or happening only for a particular purpose or need, not planned before it happens</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/ad-hoc"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690772">ад гок</term>
+                        <descrip type="context">Для цього, стосовно цього, для певного випадку, конкретної цілі, спеціально) — принцип юридичної практики в міжнародному праві, згідно з яким для виконання спеціальних завдань утворюються спеціальні місії, організації, комітети або робочі групи тимчасового характеру та яким регулюється їхня діяльність.
+Найбільшого поширення практика ад гок набула в системі ООН. Правова методологія ад гок широко використовується і в міжнародній арбітражній практиці, коли для вирішення конкретної справи сторони утворюють арбітражний або судовий орган, який після винесення рішення припиняє своє існування. Нюрнберзький і Токійський міжнародні військові трибунали, створені 1945 для суду над німецькими і японськими воєнними злочинцями та їх покарання, теж діяли як органи ад гок. У певних сферах своєї юрисдикції арбітражні органи ад гок мають тенденцію до поступового перетворення їх на постійно діючі, якими стали, наприклад, Палата міжнародного правосуддя Ліги Націй та її спадкоємець Міжнародний суд ООН. За Статутом останнього у певних випадках сторони, які беруть участь у розв’язанні спорів, що виникли між ними, мають право обирати до складу Міжнародного суду суддів ад гок з числа громадянин своєї країни або іншої осіб на свій вибір.</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Ад_гок"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331570">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690820">referendum</term>
+                        <descrip type="context">A vote in which all the people in a country or an area are asked to give their opinion about or decide an important political or social question:</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/referendum"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690822">референдум</term>
+                        <descrip type="context">Всенародний опит з найважливіших питань державного життя</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=референдум"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331574">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690828">lawlessness</term>
+                        <descrip type="context">behaviour that is illegal or not controlled by laws</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/ru/словарь/английский/lawlessness"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690830">беззаконня</term>
+                        <descrip type="context">Порушення правового порядку, законів, установлених у певному суспільстві, державі, в певну епоху</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=%C1%C5%C7%C7%C0%CA%CE%CD%CD%DF"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331586">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690850">freedom of movement</term>
+                        <descrip type="context">The right to freedom of movement includes the right to move freely within a country for those who are lawfully within the country, the right to leave any country and the right to enter a country of which you are a citizen. The right may be restricted in certain circumstances.</descrip>
+                        <xref type="externalCrossReference" target="https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/human-rights-scrutiny/public-sector-guidance-sheets/right-freedom-movement"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690852">свобода пересування</term>
+                        <descrip type="context">Право громадянина України, а також іноземця та особи без громадянства, які на законних підставах перебувають в Україні, вільно та безперешкодно за своїм бажанням переміщатися по території України у будь-якому напрямку, у будь-який спосіб, у будь-який час, за винятком обмежень, які встановлюються законом</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/1382-15"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>

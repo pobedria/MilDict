@@ -223,9 +223,8 @@
                 <langSec xml:lang="uk">
                     <termSec>
                         <term id="681862">боротьба з тероризмом</term>
-                        <descrip type="context">Усі наступальні дії, виконані з метою нейтралізації тероризму до та після здійснення ворожих дій.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                        <note>Такі дії передбачають здійснення контрзаходів для захисту окремих осіб, а також заходи стримування, вжиті збройними силами або цивільними організаціями.</note>
+                        <descrip type="context">Діяльність щодо запобігання, виявлення, припинення, мінімізації наслідків терористичної діяльності</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/638-15"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>
@@ -854,23 +853,6 @@ national territory and neighbouring areas, the free exercise of national soverei
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328696">
-                <descrip type="subjectField">500 – оборонне планування</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="684282">deterrence</term>
-                        <descrip type="context">The convincing of a potential aggressor that the consequences of coercion or armed conflict would outweigh the potential gains. This requires the maintenance of a credible military capability and strategy with the clear political will to act.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="684438">стримування</term>
-                        <descrip type="context">Переконування потенційного агресора, що негативні наслідки використання ним сили або збройного конфлікту переважать його потенційні здобутки. Це потребує надійного військового потенціалу та стратегії разом із чіткою політичною волею до дії.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328724">
                 <descrip type="subjectField">500 – оборонне планування</descrip>
                 <langSec xml:lang="en">
@@ -1187,7 +1169,7 @@ Consists of historically significant documents (non-artifact and other media) fr
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
-                        <term id="688660">стратегія національної безпеки України</term>
+                        <term id="688660">стратегія національної безпеки</term>
                         <descrip type="context">Документ довгострокового планування, що визначає актуальні загрози національній безпеці України та відповідні цілі, завдання, механізми захисту національних інтересів України та є основою для планування і реалізації державної політики у сфері національної безпеки.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"></xref>
                     </termSec>
@@ -1241,6 +1223,1204 @@ Consists of historically significant documents (non-artifact and other media) fr
                         <term id="689330">захищеність</term>
                         <descrip type="context">Умови, за яких визначена інформація, бойова техніка, особовий склад, діяльність та об’єкти, захищені від шпигунства, саботажу, підривної діяльності, тероризму та ураження, потенційних втрат або несанкціонованого доступу</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.052.008-2021(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331362">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690344">threat</term>
+                        <descrip type="context">Source of danger</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english-ukrainian/threat"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690346">загроза</term>
+                        <descrip type="context">Можливість або неминучість виникнення чогось небезпечного, прикрого, тяжкого для кого-, чого-небудь.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=загроза"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331364">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690348">challenge</term>
+                        <descrip type="context">An invitation to a contest</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english-ukrainian/challenge"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690350">виклик</term>
+                        <descrip type="context">Заклик до змагання, до участі в чому-небудь.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=виклик"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331366">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690352">nation</term>
+                        <descrip type="context">A large number of people who share the same history, ancestors, culture. </descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english-ukrainian/nation"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690354">країна</term>
+                        <descrip type="context">Територія, що становить єдність із погляду історії, природних умов, населення тощо.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=країна"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690356">держава</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331368">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690358">international security</term>
+                        <descrip type="context">Action taken to prevent and deal with conflicts, and protect people and their way of life. This may involve military action, peacekeeping, capacity building and diplomatic agreements such as treaties and conventions.</descrip>
+                        <xref type="externalCrossReference" target="https://www.mfat.govt.nz/en/peace-rights-and-security/international-security"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690360">міжнародна безпека</term>
+                        <descrip type="context">Стан міжнародних відносин, заснований на дотриманні всіма державами норм міжнародного права й загальновизнаних принципів, за якого створюються умови, необхідні для існування та функціонування держав, забезпечення їхнього повного суверенітету, політичної та економічної незалежності, можливої відсічі воєнно-політичному натиску й агресії, рівноправних відносин з іншими країнами; універсальна система механізмів, заходів і гарантій, сукупність яких унеможливлює застосування сили. Міжнародну безпеку розуміють у широкому й вузькому значенні слова.
+У широкому контексті вона передбачає комплекс політичних, економічних, гуманітарних, інформаційних, екологічних та інших аспектів безпеки; у вузькому — лише військово-політичні аспекти.
+Міжнародна безпека покликана формувати політику, що сприяє створенню ефективних гарантій миру як для окремої країни, так і всього світового співтовариства.</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Безпека_міжнародна"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331370">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690362">collective security</term>
+                        <descrip type="context">Agreement among a group of nations to act on behalf of each other</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/collective-security"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690364">колективна безпека</term>
+                        <descrip type="context">система закріплених у Статуті ООН норм міжнародного пра­­ва, що регулює Порядок колективного прийняття на державному рівні рішень щодо застосування сили з метою підтримання або відновлення міжнародного миру та безпеки. Термін «К. б.» запроваджено у прак­­тику міжнар. відносин 1922 у рамках Ліги Націй.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-5527"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331386">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690396">stabilization</term>
+                        <descrip type="context">Inherently political endeavor that requires aligning U.S. Government efforts —diplomatic engagement, foreign assistance, and defense —toward supporting locally legitimate authorities and systems to peaceably manage conflict and prevent violence.</descrip>
+                        <xref type="externalCrossReference" target="https://pksoi.armywarcollege.edu/index.php/stabilization/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690398">стабілізаційні дії</term>
+                        <descrip type="context">Форма дій військових частин (підрозділів), які ведуться з метою встановлення контролю над кризовими районами, підтримання в них безпеки і стабільності та створення умов, що унеможливлюють ескалацію (відновлення) воєнного конфлікту, у взаємодії з іншими складовими сил оборони, органами державної влади та місцевого самоврядування.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-3-(01%2C04)11(55).01.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331388">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690402">future security environment</term>
+                        <descrip type="context">Examines current and past trends with the intent of providing context to Department of National Defence (DND) and Canadian Armed Forces (CAF) strategic level long-term Force Development activities.</descrip>
+                        <xref type="externalCrossReference" target="https://publications.gc.ca/collections/collection_2015/mdn-dnd/D4-8-2-2014-eng.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690406">FSE</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690404">майбутнє безпекове середовище</term>
+                        <descrip type="context">Об’єктивний стан середовища у майбутньому, породжений соціальною взаємодією, розвитком технологій, глобальними політичними та економічними процесами, а також процесами, зумовленими природними та екологічними чинниками, які впливатимуть та можуть становити в майбутньому небезпеку національним інтересам та фундаментальним цінностям держави, нейтралізація яких потребує залучення (застосування) сил оборони.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-3-(01%2C04)11(55).01.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331392">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690412">National Security Council</term>
+                        <descrip type="context">President’s principal forum for national security and foreign policy decision making with his or her senior national security advisors and cabinet officials, and the President’s principal arm for coordinating these policies across federal agencies.</descrip>
+                        <xref type="externalCrossReference" target="https://www.whitehouse.gov/nsc/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690416">NSC</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690414">Рада національної безпеки США</term>
+                        <descrip type="context">головний міжвідомчий консультативний та координаційний орган з питань військ, та зовнішньої політики при Президентові США; створена в 1947. Очолює РНБ Президент США; до її складу належать віце-президент, державний секретар США, міністр оборони й міністр фінансів; директор ЦРУ і голова Комітету начальників штабів мають в РНБ статус офіц. радників. РНБ розробляє рекомендації щодо питань нац. безпеки та зовн. політики для Президента США. Апарат РНБ очолює помічник з нац. безпеки Президента США. У структурі РНБ діють 3 головні міжвідомчі групи: з питань зовн. політики, політики в галузі оборони та з питань розвідки. їхня діяльність доповнюється територ. та функціональними міжвідомчими групами, до яких належать представники держдепартаменту, мін-ва оборони, Комітету начальників штабів, ЦРУ та ІНШИХ ВІДОМСТВ США.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Ukrainska_dyplomatychna_entsyklopediia_Tom_1-2.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690494">РНБ</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331394">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690418">National Security and Defense Council of Ukraine</term>
+                        <descrip type="context">Сoordinating body in matters pertaining to national security and defense under the President of Ukraine. The National Security and Defense Council of Ukraine shall coordinate and supervise the activities of organs of executive authority in the sphere of national security and defense. The President of Ukraine is the Chairman of the Council of National Security and Defense of Ukraine.</descrip>
+                        <xref type="externalCrossReference" target="https://www.rnbo.gov.ua/en/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690420">Рада національної безпеки і оборони України</term>
+                        <descrip type="context">Координаційний орган з питань національної безпеки і оборони при Президентові України. Рада національної безпеки і оборони України координує і контролює діяльність органів виконавчої влади у сфері національної безпеки і оборони. Головою Ради національної безпеки і оборони України є Президент України</descrip>
+                        <xref type="externalCrossReference" target="https://www.rnbo.gov.ua"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690422">РНБО</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331398">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690428">Security Service of Ukraine</term>
+                        <descrip type="context">Centre of the national effort to counter terrorism and is also responsible for the protection of state secrets, national information space and cyber security.</descrip>
+                        <xref type="externalCrossReference" target="https://ssu.gov.ua/en/istoriia-ssu"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690430">SSU</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690432">Служба Безпеки України</term>
+                        <descrip type="context">Державний орган спеціального призначення з правоохоронними функціями, який забезпечує державну безпеку України.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2229-12"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690434">СБУ</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331400">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690436">Secretary of Defense</term>
+                        <descrip type="context">Oversees the Defense Department and acts as the principal defense policymaker and adviser.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/About/office-of-the-secretary-of-defense/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690438">міністр оборони</term>
+                        <descrip type="context">Очолює Міноборони, здійснює керівництво його діяльністю, військово-політичне і адміністративне керівництво Збройними Силами безпосередньо та через підпорядкованих йому першого заступника Міністра, заступників Міністра та Головнокомандувача Збройних Сил;</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/671-2014-п"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331402">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690440">alliance</term>
+                        <descrip type="context">Group of countries, political parties, or people who have agreed to work together because of shared interests or aims</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/alliance"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690442">альянс</term>
+                        <descrip type="context">Об’єднання окремих акторів політичних (д-в, політ, партій, громад, оргцій,
+окремих осіб) на основі договірних зобов’язань для досягнення
+спільної мети.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Politychna_entsyklopediia.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331404">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690444">aggression</term>
+                        <descrip type="context">In international relations, an act or policy of expansion carried out by one state at the expense of another by means of an unprovoked military attack. For purposes of reparation or punishment after hostilities, aggression has been defined in international law as any use of armed force in international relations not justified by defensive necessity, international authority, or consent of the state in which force is used. </descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/aggression"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690446">агресія</term>
+                        <descrip type="context">застосування державою військ, сили проти суверенітету, територіальної цілісності й недоторканності або політ, незалежності ін. д-ви. Агресивна війна є злочином проти міжнар. миру й тягне міжнар. відповідальність; вона не може бути виправдана будь-якими міркуваннями політ., екон., військ, чи ін. характеру; ніяке тер. надбання чи особлива вигода, одержані внаслідок А., не є і не можуть бути визнані законними. Відповідно до гл. VII Статуту ООН, кваліфікувати дії д-ви як А. уповноважується Рада Безпеки ООН. Як А. може визначатися: вторгнення або напад збройних сил однієї д-ви на територію ін.; окупація воєнна; анексія із застосуванням сили; блокада портів або узбережжя д-ви збройними силами ін. д-ви; напад збройних сил д-ви на повітряні, морські або сухопутні сили ін. д-ви; надання д-вою своєї території ін. д-ві для здійснення акту А. проти третьої д-ви; надсилання д-вою збройних формувань для здійснення насильства проти ін. д-ви.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Politychna_entsyklopediia.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331406">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690448">united nations</term>
+                        <descrip type="context">The Purposes of the United Nations are:
+1) To maintain international peace and security, and to that end: to take effective collective measures for the prevention and removal of threats to the peace, and for the suppression of acts of aggression or other breaches of the peace, and to bring about by peaceful means, and in conformity with the principles of justice and international law, adjustment or settlement of international disputes or situations which might lead to a breach of the peace;
+2) To develop friendly relations among nations based on respect for the principle of equal rights and self-determination of peoples, and to take other appropriate measures to strengthen universal peace;
+3) To achieve international co-operation in solving international problems of an economic, social, cultural, or humanitarian character, and in promoting and encouraging respect for human rights and for fundamental freedoms for all without distinction as to race, sex, language, or religion; and
+4) To be a centre for harmonizing the actions of nations in the attainment of these common ends.</descrip>
+                        <xref type="externalCrossReference" target="https://www.un.org/en/about-us/un-charter/full-text"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690454">UN</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690450">організація обʼєднаних націй</term>
+                        <descrip type="context">Організація та її Члени діють у відповідності з такими Принципами:
+1.. Організація заснована на принципі суве- ренної рівності всіх її Членів.
+2. Усі Члени Організації Об’єднаних Націй сумлінно виконують узяті на себе за цим Статутом зобов’язання, щоб забезпечити їм усім у сукупності права й переваги, що випливають із належності до складу Чле- нів Організації;
+3. Усі Члени Організації Об’єднаних Націй розв’язують свої міжнародні суперечки мирними засобами таким чином, щоб не наражати на загрозу міжнародний мир та безпеку і справедливість;
+4. Усі Члени Організації Об’єднаних На- цій утримуються в своїх міжнародних відносинах від погрози силою або її за- стосування як проти територіальної не- доторканності або політичної незалеж- ності будь-якої держави, так і якимось</descrip>
+                        <xref type="externalCrossReference" target="https://unic.un.org/aroundworld/unics/common/documents/publications/uncharter/UN%20Charter_Ukrainian.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690456">ООН</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331412">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690468">North Atlantic Treaty Organization</term>
+                        <descrip type="context">Alliance of countries from Europe and North America. It provides a unique link between these two continents, enabling them to consult and cooperate in the field of defence and security, and conduct multinational crisis-management operations together.</descrip>
+                        <xref type="externalCrossReference" target="https://www.nato.int/cps/en/natohq/official_texts_17120.htm"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690472">NATO</term>
+                        <termNote type="administrativeStatus">admittedTerm-admn-sts</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690474">Організація Північноатлантичного договору</term>
+                        <descrip type="context">Міжнар. військово-політ. орг-ція, заснована за Вашингтонським договором 1949
+згідно з правом держав на колективну оборону (ст. 51 Статуту 00Н). Згідно зі ст. 10 Вашингтонського дог-ру Альянс є відкритим для вступу інших європ. д-ав, які готові дотримуватись його принципів та сприяти безпеці Півн. -атлантичного регіону.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Ukrainska_dyplomatychna_entsyklopediia_Tom_1-2.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690476">НАТО</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331414">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690478">Organization for Security and Co-operation in Europe</term>
+                        <descrip type="context">The OSCE has a comprehensive approach to security that encompasses politico-military, economic and environmental, and human aspects. It therefore addresses a wide range of security-related concerns, including arms control, confidence- and security-building measures, human rights, national minorities, democratization, policing strategies, counter-terrorism and economic and environmental activities. All 57 participating States enjoy equal status, and decisions are taken by consensus on a politically, but not legally binding basis.</descrip>
+                        <xref type="externalCrossReference" target="https://www.osce.org/whatistheosce"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690482">OSCE</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690480">Організація з безпеки і співробітництва в Європі</term>
+                        <descrip type="context">Найбільша регіональна організацієя, яка об’єднує 57 держав Європи, Центральної Азії та Північної Америки для розвитку політичного діалогу та співробітництва у сфері безпеки в усіх її вимірах – військово-політичному, економіко-довкільному та людському. Регіон відповідальності Організації охоплює Європу, Далекий Схід, Центральну Азію та Північну Америку. Крім того, з ОБСЄ підтримують зв’язки різного рівня та інтенсивності низка держав інших регіонів - Алжир, Єгипет, Ізраїль, Йорданія, Марокко, Туніс (середземноморські партнери); Афганістан, Республіка Корея, Таїланд і Японія (азійські партнери).</descrip>
+                        <xref type="externalCrossReference" target="https://mfa.gov.ua/mizhnarodni-vidnosini/organizaciya-z-bezpeki-i-spivrobitnictva-v-yevropi"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690484">ОБСЄ</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331416">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690486">European Union</term>
+                        <descrip type="context">International organization comprising 27 European countries and governing common economic, social, and security policies. Originally confined to western Europe, the EU undertook a robust expansion into central and eastern Europe in the early 21st century. The EU’s members are Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, and Sweden.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/European-Union"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690492">EU</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690488">Європейський Союз</term>
+                        <descrip type="context">Унікальне партнерство 27 європейських країн, які називають державами-членами або країнами ЄС. Разом вони охоплюють більшу частину європейського континенту. У ЄС мешкає близько 447 мільйонів осіб або майже 6 % населення світу. Громадяни країн ЄС також є громадянами ЄС.</descrip>
+                        <xref type="externalCrossReference" target="https://op.europa.eu/webpub/com/eu-and-me/uk/WHAT_IS_THE_EUROPEAN_UNION.html"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690490">ЄС</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331418">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690496">war</term>
+                        <descrip type="context">Armed fighting between two or more countries or groups, or a particular example of this</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/war"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690498">війна</term>
+                        <descrip type="context">Соціально-політичне явище, що являє собою одну з форм розв’язування засобами збройного насильства суспільно-політичних, економічних, ідеологічних, національних, територіальних, релігійних та інших суперечностей між державами, народами, націями, класами, соціальними групами. В. є продовженням політики насильницькими засобами і пов’язана зі зміною відносин між суб’єктами політики.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-34448"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331420">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690500">civil war</term>
+                        <descrip type="context">A war fought by different groups of people living in the same country</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/civil-war"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690502">громадянська війна</term>
+                        <descrip type="context">Збройна боротьба всередині країни між різними сусп.-політ. силами заради реалізації своїх програмних цілей і здобуття повноти влади як інструменту цієї реалізації. Причини Г. в. полягають в антагонізмі позицій її учасників, їхній нетерпимості, загостренні соціальних конфліктів, наявності кризової ситуації, яка не піддається розв’язанню мирними засобами. У поліетн. сусп-вах підґрунтям Г. в. може бути, крім іншого, етн. нерівноправність, нерозв’язаність нац. питання, що призводить до воєнного протиборства різних нац. груп.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Politychna_entsyklopediia.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331422">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690504">cold war</term>
+                        <descrip type="context">A state of extreme unfriendliness existing between countries, especially countries with opposing political systems, that expresses itself not through fighting but through political pressure and threats. The expression is usually used of the relationship between the US and the Soviet Union after the Second World War.</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/cold-war"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690506">холодна війна</term>
+                        <descrip type="context">Термін, який використовується для визначення конфронтації між СРСР і зах. країнами на чолі із США в період після закінчення Другої світової війни; характеризує стан міжнародних відносин, що визначались постійною взаємною ворожістю й недовірою та грунтувались на політ., ідеолог., екон. та сусп. відмінностях між наддержавами. Термін «Холодна війна» вперше було вжито брит. часописом «Триб'юн» восени 1945 в коментарі відомого письменника</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Ukrainska_dyplomatychna_entsyklopediia_Tom_1-2.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331426">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690510">warfare</term>
+                        <descrip type="context">The activity of fighting a war, often including the weapons and methods that are used</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/warfare"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690512">воєнні дії</term>
+                        <descrip type="context">Організоване застосування сил оборони та сил безпеки для виконання завдань з оборони України</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/1932-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331436">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690530">conflict</term>
+                        <descrip type="context">Fighting between two or more groups of people or countries</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/conflict"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690532">конфлікт</term>
+                        <descrip type="context">Зіткнення протилежних інтересів, поглядів, оцінок, цінностей. Це протиріччя, що виникає між людьми чи колективами у процесі спілкування, їхньої спіл. діяльності через непорозуміння або протилежність інтересів, від­­сутність згоди між двома та біль­­ше сторонами.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-3235"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331440">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690538">confrontation</term>
+                        <descrip type="context">A fight or argument</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/confrontation"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690540">конфронтація</term>
+                        <descrip type="context">Протиборство, протиставлення соціальних систем, класових інтересів, ідейно-політичних принципів і т. ін.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=конфронтація"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331444">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690550">revolution</term>
+                        <descrip type="context">(the act of making) a successful, violent attempt to change or remove a government etc</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english-ukrainian/revolution"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690552">революція</term>
+                        <descrip type="context">Термін "революція" зʼявився із публікацією в 1543 книги М. Коперніка "De revolutionibus orbium coelestium" ("Про обертання небесних сфер"). Він мав кілька значень – обертання, поворот, переворот. Утвердилася пара слів, якими позначалася динаміка розвитку: "еволюція" як поступовість і "революція" як раптове прискорення, розрив поступовості, якісна зміна попереднього стану в розвиткові природи, суспільства, пізнання. Зміна династії в Англії 1688-89 дістала назву "славної революції".</descrip>
+                        <xref type="externalCrossReference" target="http://history.org.ua/LiberUA/978-966-00-1290-5/978-966-00-1290-5.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331446">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690554">coup d'état</term>
+                        <descrip type="context">Sudden defeat of a government through illegal force by a small group, often a military one</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/coup-d-etat"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690556">державний переворот</term>
+                        <descrip type="context">Одна з форм насильницької зміни існуючого політичного режиму неконституційним шляхом. Як різновид політ. перевороту, вихід політ. боротьби за межі легальності Д. п. супроводжується захопленням держ. влади. На відміну від соц. революції, його наслідком є не докорінна зміна екон. базису, а лише суб’єкта політ. влади. </descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-26181"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331448">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690558">insurrection</term>
+                        <descrip type="context">An organized attempt by a group of people to defeat their government and take control of their country, usually by violence</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/insurrection"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690560">масові заворушення</term>
+                        <descrip type="context">Протиправні дії фізичних осіб, які вчиняються одночасно на території однієї або декількох адміністративно-територіальних одиниць, порушують громадський порядок, становлять загрозу громадській безпеці та у зв’язку з їх кількістю, інтенсивністю і рівнем суспільної небезпеки (супроводжуються насильством над особами, погромами, підпалами, знищенням майна, захопленням будівель або споруд, насильницьким виселенням громадян, опором представникам влади із застосуванням зброї або інших предметів, які використовувалися як зброя, а також призвели до загибелі людей або до інших тяжких наслідків) потребують для відновлення громадського порядку та усунення загроз громадській безпеці комплексного залучення сил і засобів компетентних суб’єктів сил безпеки і оборони</descrip>
+                        <xref type="externalCrossReference" target=" https://zakon.rada.gov.ua/laws/show/894-2021-п"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331450">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690562">terrorism</term>
+                        <descrip type="context">(threats of) violent action for political purposes</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/terrorism"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690564">тероризм</term>
+                        <descrip type="context">суспільно небезпечна діяльність, яка полягає у свідомому, цілеспрямованому застосуванні насильства шляхом захоплення заручників, підпалів, убивств, тортур, залякування населення та органів влади або вчинення інших посягань на життя чи здоров'я ні в чому не винних людей або погрози вчинення злочинних дій з метою досягнення злочинних цілей</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/638-15"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331452">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690566">armed conflict</term>
+                        <descrip type="context">'An armed conflict is said to exist when there is an armed confrontation between the armed forces of States (international armed conflict), or between governmental authorities and organised armed groups or between such groups within a State (non-international armed conflict). Other situations of violence, such as internal disturbances and tensions are not considered to be armed conflicts.</descrip>
+                        <xref type="externalCrossReference" target="https://www.europarl.europa.eu/RegData/etudes/ATAG/2023/757582/EPRS_ATA(2023)757582_EN.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690568">збройний конфлікт</term>
+                        <descrip type="context">Збройне зіткнення між державами (міжнародний збройний конфлікт, збройний конфлікт на державному кордоні) або між ворогуючими сторонами в межах території однієї держави, як правило, за підтримки ззовні (внутрішній збройний конфлікт)</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2469-19"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331454">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690570">rebellion</term>
+                        <descrip type="context">violent action organized by a group of people who are trying to change the political system in their country</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/rebellion"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690572">повстання</term>
+                        <descrip type="context">Масовий збройний виступ</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=%CF%CE%C2%D1%D2%C0%CD%CD%DF"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331462">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690586">treaty</term>
+                        <descrip type="context">A written agreement between two or more countries, formally approved and signed by their leaders</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/treaty"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690588">міжнародний договір</term>
+                        <descrip type="context">Укладений у письмовій формі з іноземною державою або іншим суб'єктом міжнародного права, який регулюється міжнародним правом, незалежно від того, міститься договір в одному чи декількох пов'язаних між собою документах, і незалежно від його конкретного найменування (договір, угода, конвенція, пакт, протокол тощо)</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/1906-15"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331464">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690590">religious conflict</term>
+                        <descrip type="context">Intolerance of other religions and discrimination against members of other religions, religious war, intellectual conflict and conflict between church and state. Such conflict is harmful to the overall credibility of religion and may cause religious apathy or disintegration. It may arise in the attempt to religiously convert tribal society and may result in ethnic disintegration and loss of cultural heritage. Religious conflict can ensue from political conflict.</descrip>
+                        <xref type="externalCrossReference" target="http://encyclopedia.uia.org/en/problem/142081"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690592">релігійний конфлікт</term>
+                        <descrip type="context">Процес зіткнення суб’єктів релігійних відносин (вірян, церков, релігійних громад тощо) у намірах реалізувати власні інтереси і цінності, зберегти або перерозподілити владу, вплив, ресурси, статуси, привілеї тощо, захистити власну ідентичність</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Конфлікт_релігійний"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331466">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690594">strategy</term>
+                        <descrip type="context">In warfare, the science or art of employing all the military, economic, political, and other resources of a country to achieve the objects of war</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/strategy-military"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690596">стратегія</term>
+                        <descrip type="context">Визначає пріоритетні напрями державної військово-промислової політики, цілі реформи оборонно-промислового комплексу та очікувані результати їх досягнення з урахуванням актуальних воєнно-політичних загроз і викликів.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/372/2021"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331478">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690618">defence</term>
+                        <descrip type="context">Systems, organizations, parts of a country's government, etc. that are involved in a country protecting itself against attack</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/defence"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690620">оборона</term>
+                        <descrip type="context">Система політичних, економічних, соціальних, воєнних, наукових, науково-технічних, інформаційних, правових, організаційних, інших заходів держави щодо підготовки до збройного захисту та її захист у разі збройної агресії або збройного конфлікту</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/1932-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331480">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690622">propaganda</term>
+                        <descrip type="context">Information, ideas, opinions, or images, often only giving one part of an argument, that are broadcast, published, or in some other way spread with the intention of influencing people's opinions</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/propaganda"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690624">пропаганда</term>
+                        <descrip type="context">Поширення різних політичних, філософських, наукових, художніх, мистецьких, інших ідей з метою їхнього впровадження в свідомість масову суспільства та активізації масової практичної діяльності населення; систематичні спроби маніпулювання переконаннями, поглядами чи діями інших за допомогою слів, знаків, символів (прапорів, пам’ятників, музики, одягу, жестів, знаків розрізнення, зачісок, зображень на монетах і поштових марках тощо). До пропаганди належать повідомлення, які поширюють для здійснення вигідного впливу на суспільну думку, провокування запрограмованих емоцій та зміни ставлення чи поводження певної групи людей в напрямі, безпосередньо чи опосередковано вигідному організаторам.</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Пропаганда"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331496">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690654">armed forces</term>
+                        <descrip type="context">A country's military forces, usually an army, navy, and air forcewarfare.</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/armed-forces"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690656">збройні сили</term>
+                        <descrip type="context">Визначний компонент системи воєнної безпеки держави чи групи держав, що здійснює захист їхнього суверенітету, незалежності, територіальної цілісності й національних інтересів. ЗС також залучають для забезпечення виконання рішень міжнар. організацій (див. Збройні сили ООН), під час ліквідації наслідків гуманітар. і техноген. катастроф, стихій. лих та ін. надзвич. ситуацій. Сучасні ЗС більшості держав світу – Сухопутні війська, Військово-повітряні сили, Військово-морські сили, які поділяють на роди військ (авіація військова, аеромобільні війська, артилерія, танкові війська та ін.), спец. війська, озброєння і тил.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-16559"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331498">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690658">Army</term>
+                        <descrip type="context">The Army is composed of an active duty component and a reserve component that comprises the Army Reserve and Army National Guard. The operational Army conducts full-spectrum operations around the world, supported by institutional units. Without the institutional Army, the operational side can’t function. Without the operational Army, the institutional side has no purpose.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690660">Сухопутні війська</term>
+                        <descrip type="context">Моноліт механізованих і танкових військ, ракетних військ і артилерії, армійської авіації, частин і підрозділів протиповітряної оборони, спеціальних військ, частин логістичного забезпечення, а також бригад територіальної оборони.</descrip>
+                        <xref type="externalCrossReference" target="https://www.mil.gov.ua/ministry/sklad-zbrojnix-sil-ukraini/suhoputni-vijska/"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331500">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690662">Navy</term>
+                        <descrip type="context">The Navy’s structure is not as straightforward as the other military services — it’s pretty complex. There are two chains of command: operational and administrative. These sometimes overlap, and depending on assignment, a sailor can be part of both.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Navy/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690664">Військово-Морські Сили</term>
+                        <descrip type="context">Військово-Морські Сили Збройних Сил України призначені для стримування або відсічі у взаємодії з іншими видами Збройних Сил, іншими військовими формуваннями та правоохоронними органами збройної агресії проти України з моря та на приморських напрямках.</descrip>
+                        <xref type="externalCrossReference" target="https://www.mil.gov.ua/ministry/sklad-zbrojnix-sil-ukraini/vijskovo-morski-sili/"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331502">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690666">Air Force</term>
+                        <descrip type="context">The Air Force structure is a bit of a mix of the Army and Marine Corps structures. The elements of command might change based on the type of unit, but the basic elements remain constant.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Air-Force/#intro"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690668">Повітряні сили</term>
+                        <descrip type="context">Основні завдання, які сьогодні стоять перед Повітряними Силами, це є, насамперед, забезпечення необхідного рівня бойової готовності авіаційних військових частин, військових частин зенітних ракетних, радіотехнічних та спеціальних військ, підготовка льотного складу до виконання завдань за призначенням вдень та вночі, у простих і складних метеоумовах, забезпечення сил, задіяних в ООС, авіаційна підтримка, повітряні перевезення військ та вантажів.</descrip>
+                        <xref type="externalCrossReference" target="https://www.mil.gov.ua/ministry/sklad-zbrojnix-sil-ukraini/povitryani-sili/"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331504">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690670">national interest</term>
+                        <descrip type="context">The interest of a state, usually as defined by its government. Two broad usages may be identified.1 Use by politicians in seeking support for a particular course of action, especially in foreign policy. Given the widespread attachment to the nation as a social and political organization, national interest is a powerful device for invoking support. The term is used by politicians to seek support for domestic policy objectives, but here it is less persuasive given the normal extent of differences on domestic policy and hence employed less. In foreign policy in contrast, the term invokes an image of the nation, or the nation‐state, defending its interests within the anarchic international system where dangers abound and the interests of the nation are always at risk.2 Use as a tool for analysing foreign policy, particularly by political realists, such as Hans Morgenthau. Here national interest is used as a sort of foreign policy version of the term ‘public interest’—indicating what is best for the nation in its relations with other states. This use of the term emphasizes not merely the threat to the nation from the international anarchy, but also the external constraints on the freedom of manoeuvre of the state from treaties, the interests and power of other states, and other factors beyond the control of the nation such as geographical location and dependence on foreign trade. This analytical usage of the term places much emphasis on the role of the state as the embodiment of the nation's interest. The realists' use of the term national interest in evaluating foreign policy has focused on national security as the core of national interest. ‘Interest of state’ and ‘national security interest’ are closely allied terms.The difficulty with the analytical usage of the term is the absence of any agreed methodology by which the best interests of the nation can be tested. Some writers have argued that the best interests are, nevertheless, objectively determined by the situation of the state within the international system and can be deduced from a study of history and the success/failure of policies. Other writers concede that national interest is subjectively interpreted by the government of the day. In this version, national interest is similar to the politician's rhetorical usage of the term—the national interest is merely what the politician says the national interest is.</descrip>
+                        <xref type="externalCrossReference" target="https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100224268"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690672">національні інтереси</term>
+                        <descrip type="context">Життєво важливі інтереси людини, суспільства і держави, реалізація яких забезпечує державний суверенітет України, її прогресивний демократичний розвиток, а також безпечні умови життєдіяльності і добробут її громадян</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2469-19"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331508">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690676">national security policy</term>
+                        <descrip type="context">A framework describing how a country provides security for the state and its citizens. National security policy is a formal description of a country’s understanding of its guiding principles, values, interests, goals, strategic environment, threats, risks, and challenges in view of protecting and promoting national security. Typically, national security policy is based on a country’s constitution, founding documents, and legislation. The policy clarifies behaviours and responsibilities of state institutions in providing security and upholding the rule of law</descrip>
+                        <xref type="externalCrossReference" target="https://securitysectorintegrity.com/defence-management/policy/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690678">national security doctrine</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690680">політика національної безпеки</term>
+                        <descrip type="context">Основа, що визначає, як країна гарантує безпеку держави та її громадян. Політика національної безпеки формально описує розуміння країною своїх керівних принципів, цінностей, інтересів, цілей, стратегічної ситуації, загроз, ризиків і викликів в розрізі захисту та підтримання національної безпеки. Політика національної безпеки зазвичай ґрунтується на конституції, засадничих документах і законодавстві країни. Політика роз’яснює дії та обов’язки державних інститутів у гарантуванні безпеки та забезпеченні верховенства права</descrip>
+                        <xref type="externalCrossReference" target="https://securitysectorintegrity.com/uk/оборонний-менеджмент/політика-національної-безпеки/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690682">доктрина національної безпеки</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331510">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690684">prime minister</term>
+                        <descrip type="context">The head of government in a country with a parliamentary or semipresidential political system. In such systems, the prime minister—literally the “first,” or most important, minister—must be able to command a continuous majority in the legislature (usually the lower house in a bicameral system) to remain in office.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/prime-minister"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690686">прем’єр-міністр</term>
+                        <descrip type="context">У ряді країн - особа, що очолює уряд, стоїть на чолі кабінету міністрів, ради міністрів.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=прем%27єр-міністр"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331512">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690688">Verkhovna Rada of Ukraine</term>
+                        <descrip type="context">The sole legislative authority in Ukraine shall be the parliament – the Verkhovna Rada of Ukraine.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/en/254к/96-вр/parast75"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690690">Верховна Рада України</term>
+                        <descrip type="context">Єдиним органом законодавчої влади в Україні є парламент - Верховна Рада України.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/254к/96-вр#n4404"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331516">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690698">Chairman of the Verkhovna Rada of Ukraine</term>
+                        <descrip type="context">The Chairman of the Verkhovna Rada of Ukraine shall:
+1) preside at meetings of the Verkhovna Rada of Ukraine;
+2) organise the operation and proceedings of the Verkhovna Rada of Ukraine and co-ordinate the activities of its bodies;
+3) sign acts adopted by the Verkhovna Rada of Ukraine;
+4) represent the Verkhovna Rada of Ukraine in relations with other government authorities of Ukraine and with the government authorities of other states;
+5) organise the work of the Secretariat of the Verkhovna Rada of Ukraine.
+The Chairman of the Verkhovna Rada of Ukraine shall exercise the powers stipulated by this Constitution in the manner established by the Rules of Procedure of the Verkhovna Rada of Ukraine.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/en/254к/96-вр/conv/paran4512#n4512"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690700">Голова Верховної Ради України</term>
+                        <descrip type="context">Голова Верховної Ради України:
+1) веде засідання Верховної Ради України;
+2) організовує роботу Верховної Ради України, координує діяльність її органів;
+3) підписує акти, прийняті Верховною Радою України;
+4) представляє Верховну Раду України у зносинах з іншими органами державної влади України та органами влади інших держав;
+5) організовує роботу апарату Верховної Ради України.
+Голова Верховної Ради України здійснює повноваження, передбачені цією Конституцією, у порядку, встановленому Регламентом Верховної Ради України.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/254к/96-вр#n4512"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331518">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690702">collective security</term>
+                        <descrip type="context">System by which states have attempted to prevent or stop wars. Under a collective security arrangement, an aggressor against any one state is considered an aggressor against all other states, which act together to repel the aggressor.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/collective-security"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690704">колективна безпека</term>
+                        <descrip type="context">Система закріплених у Статуті ООН норм міжнародного пра­­ва, що регулює порядок колективного прийняття на державному рівні рішень щодо застосування сили з метою підтримання або відновлення міжнародного миру та безпеки. Термін «К. б.» запроваджено у прак­­тику міжнар. відносин 1922 у рамках Ліги Націй.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-5527"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331528">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690722">disarmament</term>
+                        <descrip type="context">Reduction in or limitation of the number of weapons in the armed forces of a country:</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/disarmament"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690724">роззброєння</term>
+                        <descrip type="context">Принцип міжнародного права, встановлений у Статуті ООН як обов'язок держав — членів Організації співробітничати між собою у сфері Р. та регулювання озброєнь з метою сприяння досягненню і підтриманню міжнар. миру та безпеки з найменшим відтягненням світ, людських і екон. ресурсів для справи озброєння. </descrip>
+                        <xref type="externalCrossReference" target="https://leksika.com.ua/10501222/legal/rozzbroyennya"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331530">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690726">actor</term>
+                        <descrip type="context">a person or an organization that is involved in or important in politics, society, etc. in some way because of their actions</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/actor"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690728">учасник</term>
+                        <descrip type="context">Держава, яка погодилась на обов'язковість для неї договору і для якої договір є чинним</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/995_118"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331534">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690738">United Nations Security Council</term>
+                        <descrip type="context">The Security Council has primary responsibility for the maintenance of international peace and security. It has 15 Members, and each Member has one vote. Under the Charter of the United Nations, all Member States are obligated to comply with Council decisions.
+
+The Security Council takes the lead in determining the existence of a threat to the peace or act of aggression. It calls upon the parties to a dispute to settle it by peaceful means and recommends methods of adjustment or terms of settlement. In some cases, the Security Council can resort to imposing sanctions or even authorize the use of force to maintain or restore international peace and security.</descrip>
+                        <xref type="externalCrossReference" target="https://www.un.org/securitycouncil/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690740">UNSC</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690742">Рада Безпеки ООН</term>
+                        <descrip type="context">Один із головних органів Організації Об'єднаних Націй (ООН), на який покладено основну відповідальність за підтримання міжнар. миру й безпеки. РБ ООН складається з 15 членів: 5 постійних і 10 непостійних. Постійними членами є США, Росія, Велика Британія, Франція і Китай. Непостійні члени обираються на 2 роки без права негайного переобрання. Кожен член РБ ООН має одного представника і один голос. Голови Ради змінюються щомісячно відповідно до списку держав-членів, розташованих в алфавітному порядку за англ. назвами. Рішення з питань процедури вважається ухваленим, якщо за нього подано не менше 9 голосів. Для ухвалення рішень з інших питань також потрібно не менше 9 голосів, але включаючи співпадаючі голоси всіх 5 постійних членів. Це правило одержало назву «принцип одноголосності великих д-ав». Якщо постійний член відсутній або утримався від голосування, то це не впливає на ухвалення рішень. Існує також правило, що член РБ ООН, задіяний у конфлікті, повинен утриматися від голосування, коли рішення ухвалюється на основі гл. VI Статуту ООН, яка передбачає мирні засоби врегулювання спорів. Статут зобов'язує членів орг-ції виконувати рішення РБ ООН. Рада має широкі функції та повноваження у сфері збереження і зміцнення миру й безпеки. У разі виникнення небезпечного спору або конфлікту РБ ООН уповноважена спочатку рекомендувати конфліктуючим сторонам врегулювати його за допомогою засобів мирного розв'язання відповідно до ст. 33 гл. VI</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Ukrainska_dyplomatychna_entsyklopediia_Tom_1-2.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331536">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690744">United Nations Charter</term>
+                        <descrip type="context">WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our lifetime has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbours, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS. Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.</descrip>
+                        <xref type="externalCrossReference" target="https://www.un.org/en/about-us/un-charter/full-text"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690746">Статут Організації Об’єднаних Націй</term>
+                        <descrip type="context">Ми, народи Об’єднаних Націй, сповнені рішучості позбавити прийдешні покоління нещасть ві- йни, яка двічі в нашому житті принесла люд- ству невимовне горе, і знову утвердити віру в основні права людини, у гідність і цінність людської особистості, у рівноправність чоловіків та жінок і в рівність прав більших та малих націй, та створити умови, за яких можуть дотриму- ватися справедливість і повага до зобов’язань, що випливають із договорів та інших джерел міжнародного права, і сприяти соціальному прогресу й поліпшенню умов життя при більшій свободі, і заради цих цілей виявляти терпимість і жити разом, у мирі один з одним, як добрі сусіди, і об’єднати наші сили для підтримки міжна- родного миру й безпеки, і забезпечити прийняттям принципів і вста- новленням методів, щоб збройні сили вико- ристовувалися не інакше, як у спільних інтер- есах, і використати міжнародний апарат для сприяння економічному й соціальному розви- тку всіх народів, вирішили об’єднати наші зусилля для досягнення цих цілей. Відповідно до цього наші уряди через пред- ставників, що зібралися в місті Сан- Франциско і пред’явили свої повноваження в належній формі, погодилися прийняти цей Статут Організації Об’єднаних Націй і цим засновують міжнародну організацію під на- звою «Об’єднані Нації».</descrip>
+                        <xref type="externalCrossReference" target="https://unic.un.org/aroundworld/unics/common/documents/publications/uncharter/UN%20Charter_Ukrainian.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331538">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690748">General Assembly</term>
+                        <descrip type="context">Main policy-making organ of the Organization. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations. Each of the 193 Member States of the United Nations has an equal vote.
+The UNGA also makes key decisions for the UN, including:
+1) appointing the Secretary-General on the recommendation of the Security Council
+2) electing the non-permanent members of the Security Council
+3) approving the UN budget</descrip>
+                        <xref type="externalCrossReference" target="https://www.un.org/en/ga/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690750">UN General Assembly</term>
+                        <termNote type="termType">shortForm</termNote>
+                    </termSec>
+                    <termSec>
+                        <term id="690752">UNGA</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690756">Генеральна Асамблея ООН</term>
+                        <descrip type="context">один із гол. органів Організації Об'єднаних Націй, який визначає її політику. До складу ГА ООН входять усі д-ви-чл. ООН. Кожна д-ва має однаковий з ін. правовий статус, незалежно від її площі, чисельності нас., рівня екон. розвитку. Діяльність ГА ООН регулює Статут ООН. Пріоритетними напря-мами у роботі ГА ООН є міжнар. співробітництво з підтримання миру та безпеки, роззброєння, соціального, екон. і нац.-культ. розвитку всіх д-в, охорони довкілля. Згідно зі Статутом ООН, ГА ООН здійснює важливі повноваження щодо внутр. життя ООН: обирає непостійних чл. Ради безпеки Організації Об'єднаних Націй та чл. Економічної і соціальної ради Організації Об'єднаних Націй спільно з Радою безпеки – суддів Міжнар. суду ООН, призначає Ген. секретаря ООН, приймає до ООН нових чл., схвалює бюджет ООН, контролює її фінансову діяльність, розглядає щорічні звіти про роботу всіх органів ООН та її спеціалізованих установ. Кожний чл. має в ГА ООН один голос. Рішення з найважливіших питань приймаються більшістю у дві третини голосів присутніх і тих д-в, що беруть участь у голосуванні. Осн. форма діяльності ГА ООН – щорічні чергові сесії. На вимогу Ради безпеки чи більшості членів ООН скликаються спец., або надзвичайні сесії ГА ООН. Робота кожної сесії відбувається на пленарних засіданнях і в к-тах. Рішення з питань, які розглядаються к-тами, ухвалюються на пленарних засіданнях і мають рекомендаційний характер. Офіц. і робочі мови ГА ООН – англ., франц., іспанська, рос., араб. і китайс. Засідання відбуваються у Нью-Йорку (США). Україна як одна з д-в – засн. ООН бере активну участь у роботі ГА ООН та її органів, вирішенні питань забезпечення миру, міжнар. співробітництва в галузі економіки, дослідження і використання космосу, Світового океану, охорони довкілля, збереження нац. і світ. культ. цінностей та ін. гол. питань діяльності ООН. У верес. 1998 на посаду Голови 52-ї сесії ГА ООН було обрано представника України, тодішнього міністра закордонних справ Г.Удовенка.</descrip>
+                        <xref type="externalCrossReference" target="http://resource.history.org.ua/cgi-bin/eiu/history.exe?Z21ID=&amp;I21DBN=DOP&amp;P21DBN=EIU&amp;S21STN=1&amp;S21REF=10&amp;S21FMT=eiu_all&amp;C21COM=S&amp;S21CNR=20&amp;S21P01=0&amp;S21P02=0&amp;S21P03=TRN=&amp;S21COLORTERMS=0&amp;S21STR=Generalna_asambleja_OON"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331540">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690758">Secretary-General</term>
+                        <descrip type="context">Equal parts diplomat and advocate, civil servant and CEO, the Secretary-General is a symbol of United Nations ideals and a spokesperson for the interests of the world's peoples, in particular the poor and vulnerable among them. </descrip>
+                        <xref type="externalCrossReference" target="https://www.un.org/sg/en/content/the-role-of-the-secretary-general"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690760">Генеральний секретар ООН</term>
+                        <descrip type="context">Найвища адміністративна посадова особа в ООН</descrip>
+                        <xref type="externalCrossReference" target="https://vue.gov.ua/Генеральний_секретар_ООН"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331550">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690782">preventive diplomacy</term>
+                        <descrip type="context">Preventive diplomacy refers to diplomatic action taken to prevent disputes from escalating into conflicts and to limit the spread of conflicts when they occur. While it is conducted in different forms and fora, both public and private, the most common expression of preventive diplomacy is found in the work of envoys dispatched to crisis areas to encourage dialogue, compromise and the peaceful resolution of tensions. Preventive diplomacy can also encompass the involvement of the Security Council, the Secretary-General and other actors to discourage the use of violence at critical moments.</descrip>
+                        <xref type="externalCrossReference" target="https://dppa.un.org/en/prevention-and-mediation"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690784">превентивна дипломатія</term>
+                        <descrip type="context">Форма діяльності держав і міжнар. орг-цій, що передбачає широкий спектр заходів, спрямованих на встановлення та зміцнення взаємної довіри, раннє попередження конфліктів, превентивне розгортання миротворчих контингентів, створення демілітаризованих зон. Термін «превентивна дипломатія» виник у часи «Холодної війни», коли наприкінці 1950-х — на поч. 1960-х Ген. секретар ООН Д. Хаммаршельд визначав П. д. як одну з основних функцій Організації Об'єднаних Націй (ООН) у біполярному світі. П. д. спрямована на усунення причин конфлікту до того, як він увійшов у фазу активного збройного протистояння. Це зумовлює специфіку заходів П. д. і за формами, і за змістом, і за терміном їх реалізації. За змістом і характером заходи П. д. можна поділити на політичні, дипломатичні, економічні та воєнні.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Ukrainska_dyplomatychna_entsyklopediia_Tom_1-2.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331554">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690790">diplomacy</term>
+                        <descrip type="context">The established method of influencing the decisions and behaviour of foreign governments and peoples through dialogue, negotiation, and other measures short of war or violence. Modern diplomatic practices are a product of the post-Renaissance European state system. Historically, diplomacy meant the conduct of official (usually bilateral) relations between sovereign states. By the 20th century, however, the diplomatic practices pioneered in Europe had been adopted throughout the world, and diplomacy had expanded to cover summit meetings and other international conferences, parliamentary diplomacy, the international activities of supranational and subnational entities, unofficial diplomacy by nongovernmental elements, and the work of international civil servants.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/diplomacy"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690792">дипломатія</term>
+                        <descrip type="context">Офіційна діяльність глав держав і урядів, відомств закордонних справ, дипломатичних представництв та інших органів зовнішніх зносин з реалізації цілей і завдань зовнішньої політики держави, а також захисту прав та інтересів держави, її установ і громадян за кордоном. Д. є одним із найважливіших засобів здійснення зовн. політики держави. Якщо зовн. політика, як заг. курс держави у міжнар. відносинах, у низці випадків може здійснюватись військ., агресив. методами, то гол. призначення й визначал. особливість Д. – вирішення спірних питань лише мирним шляхом, засобами переговорів і домовленостей. Більшість науковців розглядають Д. як науку міжнар. відносин і мистецтво ведення переговорів, що передбачає переговор. процес, підписання міжнар. угод для запобігання чи врегулювання міжнар. конфліктів, пошуки компромісів та взаємоприйнят. рішень, вивчення осн. тенденцій і перспектив розвитку регіон. й глобал. міжнар. відносин із метою розширення та поглиблення міжнар. співробітництва тощо. Гол. ознаки Д.: приналежність до сфери міжнар. відносин та зовн. політики держави; застосування механізму переговорів і домовленостей якосн. інструмента врегулювання міждерж. стосунків мирними засобами; наявність інституту держ. службовців – дипломатів, які безпосередньо виконують обов’язки, передбачені статусом дипломат. служби держави. Найпоширенішими дипломат. методами є офіц. та ін. візити на вищому й високому рівнях, двосторонні та багатосторонні переговори, підготовка й укладення міжнар. договорів, ін. дипломат. документів, дипломат. конгреси, конф., наради і зустрічі, представництво держави за кордоном, участь у роботі міжнар. організацій та їхніх органів, дипломат. листування і публікація дипломат. документів тощо. Заг. керівництво дипломат. діяльністю держави здійснюють її глава та уряд, безпосереднє – відомство закордон. справ. Повсякденну дипломат. роботу виконують зазвичай дипломати, які для успішного вирішення покладених на них завдань повинні мати високий рівень заг. освіченості й культури, широкий політ. кругозір, здатність оцінювати будь-яку проблему крізь призму нац. інтересів.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-24350"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331558">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690798">mediation</term>
+                        <descrip type="context">The process of talking to two separate people or groups involved in a disagreement to try to help them to agree or find a solution to their problems</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/mediation"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690804">посередництво</term>
+                        <descrip type="context">У міжнародному праві — один з мирних засобів розв'язання міжнародних спорів. Це ведення переговорів д-вою або групою держав, міжнар. організацією, окремою особою (напр., главою д-ви, посадовою особою міжнар. організації, відомим громад, діячем), що не бере участі у спорі, з метою знаходження компромісних шляхів мир. врегулювання міжнар. спору. Інститут П. закріплений у ст. 33 Статуту ООН, ст. З Хартії ОАЄ, ст. 21 Статуту ОАД, ін. міжнар.-прав, док-тах. Міжнар.-прав, регламентація правил застосування П. міститься у Гаазьких конвенціях про закони та звичаї війни 1899 і 1907. Процедура П. не пов'язана з суворо визначеними процес, нормами і повинна грунтуватися на неухильному додержанні осн. принципів і норм сучас. міжнар. права. П. може здійснюватися як за запитом держав, що беруть участь у спорі, так і за власною ініціативою, але при згоді обох сторін спору. Пропозиція П. не повинна розглядатися як втручання у внутр. справи сторін, що беруть участь у спорі. П. тісно пов'язане з добрими послугами, але передбачає більшу міру участі третьої сторони в мир. вирішенні спору. В міжнар. практиці бувають випадки, коли добрі послуги переростають у П. Беручи участь у переговорах сторін, посередник повинен сприяти розробці прийнятного для них варіанта мир. вирішення спору шляхом внесення своїх пропозицій. Пропозиції посередника не є обов'язковими, і вирішальне слово щодо суті спору завжди залишається за сторонами спору, які можуть прийняти або відхилити пропозиції посередника.</descrip>
+                        <xref type="externalCrossReference" target="https://leksika.com.ua/10050711/legal/poserednitstvo"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331564">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690810">negotiation</term>
+                        <descrip type="context">A strategic discussion intended to resolve an issue that both parties find acceptable. Negotiations involve give and take, where one or both parties will usually need to make some concessions. Negotiation occurs between buyers and sellers, employers and prospective employees, two or more governments, and other parties.</descrip>
+                        <xref type="externalCrossReference" target="https://www.investopedia.com/terms/n/negotiation.asp"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690812">переговори</term>
+                        <descrip type="context">Розмова, бесіда з метою обмінятися думками або домовитися про що-небудь з кимсь.</descrip>
+                        <xref type="externalCrossReference" target="http://www.inmo.org.ua/sum.html?wrd=Переговори"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331566">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690814">demobilization</term>
+                        <descrip type="context">The action of releasing someone from one of the armed forces, especially at the end of a war</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/demobilization"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690816">демобілізація</term>
+                        <descrip type="context">комплекс  заходів,  рішення  про  порядок  і  терміни проведення яких приймає Президент України,  спрямованих на  планомірне  переведення національної економіки,  органів державної  влади,  інших державних органів, органів місцевого самоврядування,  підприємств,  установ  і  організацій на роботу і функціонування в умовах мирного часу,  а Збройних  Сил  України,  інших  військових  формувань, сил цивільного захисту - на організацію і штати мирного часу;</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/3543-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331572">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690824">deterrence</term>
+                        <descrip type="context">Military strategy under which one power uses the threat of reprisal effectively to preclude an attack from an adversary power. With the advent of nuclear weapons, the term deterrence largely has been applied to the basic strategy of the nuclear powers and of the major alliance systems. The premise of the strategy is that each nuclear power maintains a high level of instant and overwhelming destructive capability against any aggression—i.e., the ability, visible and credible to a would-be attacker, to inflict unacceptable damage upon the attacker with forces that survive a surprise attack. An essential element in successful deterrence is a degree of uncertainty on the part of a would-be aggressor as to whether the target power, although attacked and badly damaged, will nonetheless retaliate—even at the risk of suffering further, crippling damage in a second attack. Thus, nuclear-deterrence strategy relies on two basic conditions: the ability to retaliate after a surprise attack must be perceived as credible; and the will to retaliate must be perceived as a possibility, though not necessarily as a certainty.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/deterrence-political-and-military-strategy"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690826">стримування</term>
+                        <descrip type="context">Загроза застосування сили з метою розохочення опонента здійснювати небажані дії. Цього можна досягти загрозою помсти (стримування покаранням) або позбавленням опонента цілей ведення війни (стримування відмовою). Ця проста дефініція часто призводить до висновку, що для стримування достатньо продемонструвати значну силу. Доки обидві сторони діють «раціонально», тобто відповідно до розрахунку витрат і вигід, якщо жоден з них не є самогубцею, їхні військові потенціали будуть стримувати їх обох.</descrip>
+                        <xref type="externalCrossReference" target="https://www.nato.int/docu/review/uk/articles/2015/04/20/strimuvannya-shcho-vono-moyoe-ne-moyoe-zrobiti/index.html"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331580">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690838">mandate</term>
+                        <descrip type="context">support for action given to someone by the people voting for them</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/ru/словарь/англо-русский/mandate"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690840">мандат</term>
+                        <descrip type="context">(лат. mandatum – доручення, від mandare – доручати, довіряти, передавати) – документ, що посвідчує повноваження особи, органу, установи тощо, яким вони надані, із зазначенням строку дії цих повноважень. У широкому розумінні М. – повноваження, наказ, доручення бути представником волі та інтересів особи, об’єднання людей, суспільства, держави та її органів, виступати від їхнього імені; правові відносини, що виникають та існують у зв’язку із представництвом за відповід. </descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-63375"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331604">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690894">branch</term>
+                        <descrip type="context">An arm or service of the Army. 
+
+</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/DOD%20Dictionary.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690896">рід військ</term>
+                        <descrip type="context">Складова частина виду збройних сил д-ви, яка об'єднує підрозділи, частини і з'єднання з властивими тільки їм осн. озброєнням та бойовою технікою. Кожний Р. в. має свої специф. бойові властивості й грунтується на застосуванні окр. тактики, призначається для виконання певних тактичних та операт.-тактичних завдань.
+До 20 ст. в арміях фактично всіх держав світу існувало три роди сухопутних військ як історично найдавнішого виду ЗС — піхота, кавалерія і артилерія (з 16 ст.). Зі створенням у 20 ст. нових видів зброї, військ, техніки, способів ведення бойових дій, з'явилися нові Р. в. Згідно з чинним зак-вом України до ЗС належать такі Р. в.: у Сухопут. військах — механіз. війська, танкові війська, ракетні війська і артилерія, війська протиповітр. оборони сухопут. військ, аеромобільні війська, армійська авіація; у Військ.-повітр. силах — бомбардувальна, винищувальна, штурмова, розвідувальна, транспортна авіація; у Військах протиповітр. оборони — радіотех. війська, зенітні ракетні війська та винищувальна авіація; у Військ.-мор. силах — надводні сили, підводні сили, мор. авіація, берегові ракетно-арт. війська, мор. піхота. Всі Р. в. функціонують відповідно до положень і вимог зак-ва про ЗС України.</descrip>
+                        <xref type="externalCrossReference" target="https://leksika.com.ua/13270221/legal/rid_viysk"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331606">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690898">armed force</term>
+                        <descrip type="context">Constituent element of a country’s combined military services. Modern armed forces are commonly divided into specialized branches dealing with land, naval, and air warfare.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/armed-force"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690900">вид збройних сил</term>
+                        <descrip type="context">Сухопутні війська, Повітряні Сили, Військово-Морські Сили</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/term/48427"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331618">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690930">Strategic Arms Reduction Treaty</term>
+                        <descrip type="context">Signed in 1991, was a bilateral arms control treaty between the United States and the Soviet Union. The result of the agreement was the first significant reduction in the number of strategic nuclear weapons in both the U.S. and the Soviet stockpiles. It entered into force in 1994, after the Soviet Union’s dissolution, and eventually expired in 2009. </descrip>
+                        <xref type="externalCrossReference" target="https://armscontrolcenter.org/strategic-arms-reduction-treaty-start-i/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690932">START I</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690934">Договір про скорочення й обмеження стратегічних наступальних озброєнь</term>
+                        <descrip type="context">Договір між Союзом Радянських Соціалістичних Республік і Сполученими Штатами Америки про скорочення й обмеження стратегічних наступальних озброєнь 1991 року</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/840_050"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331620">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690936">Comprehensive Nuclear Test-Ban Treaty</term>
+                        <descrip type="context">The Comprehensive Nuclear-Test-Ban Treaty bans all nuclear explosion tests on Earth. It needs eight key countries to ratify before entry into force.</descrip>
+                        <xref type="externalCrossReference" target="https://www.nti.org/education-center/treaties-and-regimes/comprehensive-nuclear-test-ban-treaty-ctbt/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690940">CTBT</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690938">Договор про всеосяжну заборону ядерних випробовань</term>
+                        <descrip type="context">Багато-стор. міжнар. договір, за яким держави-учас-ниці зобов'язалися не проводити будь-якого випробувального ядерного вибуху, а також запобігати будь-якому такому вибуху в будь-якому місці, що не перебуває під їх юрисдикцією або контролем. Схвалений ГА ООН 10.IX 1996. Договір підписали 152 д-ви, в т. ч. Україна (27.ІХ 1996); на 24.ІІІ.1999 його ратифікували 35 держав. Для набуття чинності Договору необхідна ратифікація його 44 д-вами, перелік яких міститься у ст. 4. З-поміж останніх Договір ратифікували поки що 19 держав. Україна входить до переліку тих 44 країн, ратифікація якими є умовою набуття чинності Договору.
+Договір 1996 принципово відрізняється від усіх поперед, міжнар. угод у сфері ядер, роззброєння, оскільки вперше ставить за мету назавжди припинити будь-які випробування вибухів ядерної зброї під ефективним міжнар. контролем. Держави-учасниці зобов'язалися створити Організацію по виконанню Договору. її членами мають бути всі держави-учасниці. Органи: Конференція держав-учасниць, Викон. комітет і Тех. секретаріат, у складі якого — Міжнар. центр даних. Місцеперебування Організації — м. Відень (Австрія).</descrip>
+                        <xref type="externalCrossReference" target="https://cyclop.com.ua/content/view/1056/58/1/14/#38191"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331622">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690942">Treaty on the Non-Proliferation of Nuclear Weapons</term>
+                        <descrip type="context">The NPT is a landmark international treaty whose objective is to prevent the spread of nuclear weapons and weapons technology, to promote cooperation in the peaceful uses of nuclear energy and to further the goal of achieving nuclear disarmament and general and complete disarmament. The Treaty represents the only binding commitment in a multilateral treaty to the goal of disarmament by the nuclear-weapon States. Opened for signature in 1968, the Treaty entered into force in 1970. On 11 May 1995, the Treaty was extended indefinitely.  A total of 191 States have joined the Treaty, including the five nuclear-weapon States. More countries have ratified the NPT than any other arms limitation and disarmament agreement, a testament to the Treaty’s significance.</descrip>
+                        <xref type="externalCrossReference" target="https://disarmament.unoda.org/wmd/nuclear/npt/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690946">NPT</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690944">Договір про нерозповсюдження ядерної зброї</term>
+                        <descrip type="context">Договір про нерозповсюдження ядерної зброї від 1 липня 1968 року</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/cgi-bin/laws/main.cgi?nreg=995_098"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331626">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690956">fleet</term>
+                        <descrip type="context">A group of ships, or all of the ships in a country's navy</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/ru/словарь/английский/fleet"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690958">флот</term>
+                        <descrip type="context">Сукупність суден певного призначення, що плавають на воді, а також апаратів, що літають у повітрі (Ф. повітряний). За призначенням і технічним оснащенням розрізняють Ф. військово-морський, транспортний (торговий), промисловий, експедиційний (дослідницький) та ін. Відносини, пов'язані з використанням Ф., регулюються ПК України, КТМ України та іншими нормативно-правовими актами.</descrip>
+                        <xref type="externalCrossReference" target="https://leksika.com.ua/16740118/legal/flot"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>

@@ -276,6 +276,95 @@
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331592">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690862">commander-in-chief</term>
+                        <descrip type="context">A commander in charge of all the armed forces of a country or of all the forces fighting in a particular area or operation</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/commander-in-chief"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690866">CINC</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                    <termSec>
+                        <term id="690868">C-in-C</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690864">головнокомандувач</term>
+                        <descrip type="context">Головнокомандувач Збройних Сил України є найвищою військовою посадовою особою у Збройних Силах України.
+Головнокомандувач Збройних Сил України здійснює через Генеральний штаб Збройних Сил України безпосереднє військове керівництво Збройними Силами України.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/1934-12#n97"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331594">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690870">Secretary of Defense</term>
+                        <descrip type="context">The secretary of defense oversees the Defense Department and acts as the principal defense policymaker and adviser.
+The Office of the Secretary of Defense (OSD) is responsible for policy development, planning, resource management and program evaluation. OSD includes the offices of top civilian defense decision-makers with regard to personnel, weapons acquisition, research, intelligence and fiscal policy, as well as offices the Secretary establishes to assist in carrying out assigned responsibilities.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/About/office-of-the-secretary-of-defense/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690878">SECDEF</term>
+                        <termNote type="termType">shortForm</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690872">Міністр оборони</term>
+                        <descrip type="context">Міністр оборони України здійснює військово-політичне та адміністративне керівництво Збройними Силами України, а також інші повноваження, передбачені законодавством.
+Військово-політичне керівництво Збройними Силами України - діяльність, спрямована на забезпечення реалізації політики держави у Збройних Силах України, політичних та стратегічних цілей у сфері оборони, принципів і напрямів розвитку Збройних Сил України.
+Адміністративне керівництво Збройними Силами України - діяльність, спрямована на всебічне забезпечення життєдіяльності Збройних Сил України, їх функціонування та розвитку в межах виконання основних завдань державної політики у сфері оборони.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/1934-12#n97"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331596">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690874">Department of Defense</term>
+                        <descrip type="context">Provides the military forces needed to deter war, and to protect the security of the United States.</descrip>
+                        <xref type="externalCrossReference" target="https://www.usa.gov/agencies/u-s-department-of-defense"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690880">DOD</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690876">Міністерство оборони</term>
+                        <descrip type="context">Міністерство оборони України є головним органом у системі центральних органів виконавчої влади, що забезпечує формування та реалізує державну політику з питань національної безпеки у воєнній сфері, сферах оборони і військового будівництва у мирний час та особливий період.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2469-19#n134"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331608">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <note>Просто "Штаб"</note>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690902">general staff</term>
+                        <descrip type="context">In the military, a group of officers that assists the commander of a division or larger unit by formulating and disseminating his policies, transmitting his orders, and overseeing their execution. Normally a general staff is organized along functional lines, with separate sections for administration, intelligence, operations, training, logistics, and other categories. In many countries a similar but more elaborately organized staff assists the supreme military authority. While a general staff contains specialists as well as more broadly trained officers, it is distinguished in character and functions from special staffs (in the U.S. Army) consisting of technical specialists in the various services: medical, police, communications, supply, and others</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/armed-force"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690904">генеральний штаб</term>
+                        <descrip type="context">Головний орган військового управління з планування оборони держави, стратегічного планування застосування Збройних Сил України (далі - Збройні Сили) та визначених сил і засобів інших складових сил оборони (далі - інші складові сил оборони), координації і контролю за виконанням завдань у сфері оборони органами виконавчої влади, органами місцевого самоврядування та силами оборони у межах, визначених законами України, актами Президента України та Кабінету Міністрів України.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/23/2019"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>

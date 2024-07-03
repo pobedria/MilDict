@@ -116,6 +116,23 @@
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331598">
+                <descrip type="subjectField">700 – підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690882">military service</term>
+                        <descrip type="context">Army training that young people must do in some countries</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/ru/словарь/английский/military-service"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690888">військова служба</term>
+                        <descrip type="context">Державна служба особливого характеру, яка полягає у професійній діяльності придатних до неї за станом здоров’я і віком громадян України (за винятком випадків, визначених законом), іноземців та осіб без громадянства, пов’язаній із обороною України, її незалежності та територіальної цілісності. Час проходження військової служби зараховується громадянам України до їх страхового стажу, стажу роботи, стажу роботи за спеціальністю, а також до стажу державної служби.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2232-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>
