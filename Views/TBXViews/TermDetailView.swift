@@ -47,8 +47,6 @@ struct TermDetailView: View {
                     }
                 }
             }
-            
-    
             Spacer()
         }.textSelection(.enabled)
     }

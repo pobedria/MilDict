@@ -29,7 +29,6 @@ struct QuizTabView: View {
                 .foregroundColor(Color("Gold"))
                 .background(Color("Olive"))
                 .padding(.top).padding(.top).padding(.top)
-            
             VStack {
                 Spacer()
                 if let selection {
@@ -74,8 +73,6 @@ struct QuizTabView: View {
                 }
                 .padding(.horizontal)
             }
-            
-
         }
         .padding(.bottom)
         .padding(.bottom)
@@ -83,7 +80,6 @@ struct QuizTabView: View {
         .frame(maxWidth: .infinity,maxHeight: .infinity)
         .background(Color("Olive"))
         .font(Font.custom("UAFSans-Medium", size: 20))
-        
     }
     private func delayPageUpdate() async {
         // Delay of 7.5 seconds (1 second = 1_000_000_000 nanoseconds)
@@ -96,8 +92,6 @@ struct QuizTabView: View {
             concepts = TermsSorage.allConcepts.choose(4)
             buttonBackgrouns = Array(repeating: Color("Steppe"), count: 4)
         }
-        
-        
     }
 }
 

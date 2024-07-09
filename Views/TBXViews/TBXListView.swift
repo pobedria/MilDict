@@ -27,9 +27,10 @@ struct TBXListView: View {
                 } label: {
                     TBXPreView(term: term)
                 }.listRowBackground(Color("Olive"))
-            }.navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
-                .scrollContentBackground(.hidden)
-                .background(Color("Olive"))
+            }
+            .navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
+            .scrollContentBackground(.hidden)
+            .background(Color("Olive"))
         } detail: {
             TBXDetailView(chosenTerm: selectedTerm ?? TermsSorage.enTerms[0])
         }
