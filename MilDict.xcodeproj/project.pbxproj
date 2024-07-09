@@ -31,6 +31,7 @@
 		776C6B152C359D3400168A1C /* J-1 – питання персоналу.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 776C6B0D2C359D3400168A1C /* J-1 – питання персоналу.tbx */; };
 		776C6B162C359D3400168A1C /* J-2 – розвідка.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 776C6B0E2C359D3400168A1C /* J-2 – розвідка.tbx */; };
 		776C6B172C359D3400168A1C /* J-9 – цивільно-військове співробітництво.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 776C6B0F2C359D3400168A1C /* J-9 – цивільно-військове співробітництво.tbx */; };
+		776C6B192C3D700100168A1C /* TermTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C6B182C3D700100168A1C /* TermTextView.swift */; };
 		777D46FC2BF75606006EA0A0 /* EmptySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */; };
 		777D46FF2BFC84B4006EA0A0 /* QuizTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D46FE2BFC84B4006EA0A0 /* QuizTabView.swift */; };
 		777D47012BFC9589006EA0A0 /* QuizOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D47002BFC9589006EA0A0 /* QuizOption.swift */; };
@@ -100,6 +101,7 @@
 		776C6B0D2C359D3400168A1C /* J-1 – питання персоналу.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-1 – питання персоналу.tbx"; sourceTree = "<group>"; };
 		776C6B0E2C359D3400168A1C /* J-2 – розвідка.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-2 – розвідка.tbx"; sourceTree = "<group>"; };
 		776C6B0F2C359D3400168A1C /* J-9 – цивільно-військове співробітництво.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-9 – цивільно-військове співробітництво.tbx"; sourceTree = "<group>"; };
+		776C6B182C3D700100168A1C /* TermTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermTextView.swift; sourceTree = "<group>"; };
 		777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchView.swift; sourceTree = "<group>"; };
 		777D46FE2BFC84B4006EA0A0 /* QuizTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTabView.swift; sourceTree = "<group>"; };
 		777D47002BFC9589006EA0A0 /* QuizOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOption.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				77A02C2A2BF211BC0052A3B8 /* TBXDetailView.swift */,
 				77A02C2C2BF235910052A3B8 /* TermDetailView.swift */,
 				777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */,
+				776C6B182C3D700100168A1C /* TermTextView.swift */,
 			);
 			path = TBXViews;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 				777D46FC2BF75606006EA0A0 /* EmptySearchView.swift in Sources */,
 				77AA0A2A2A77D5D0006D3946 /* extensions.swift in Sources */,
 				776A796F2A7BA399001F268B /* SearchTextField.swift in Sources */,
+				776C6B192C3D700100168A1C /* TermTextView.swift in Sources */,
 				7702E6642BEB6E590002B149 /* TBXListView.swift in Sources */,
 				778B07352A723F3100A96821 /* ContentView.swift in Sources */,
 				776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */,

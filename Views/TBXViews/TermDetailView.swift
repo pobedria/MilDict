@@ -13,12 +13,8 @@ struct TermDetailView: View {
     var body: some View {
         VStack{
             ForEach(terms) {
-                Text( $0.term)
-                    .frame(maxWidth: .infinity, alignment: .topLeading)
-                    .foregroundColor(Color("Gold"))
-                    .font(Font.custom("UAFSans-Medium", size: 25))
+                TermTextView(term: $0)
             }
-
             Text(getDescription(terms: terms))
                 .frame(maxWidth: .infinity, alignment: .topLeading)
                 .foregroundColor(.white)
