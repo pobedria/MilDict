@@ -22,10 +22,10 @@ struct TermTextView: View {
                 let utterance = AVSpeechUtterance(string: term.term)
                 if term.lang == "en"{
                     utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-                    utterance.rate = 0.25
+                    utterance.rate = 0.5
                 } else {
                     utterance.voice = AVSpeechSynthesisVoice(language: "uk-UA")
-                    utterance.rate = 0.3
+                    utterance.rate = 0.5
                 }
                 
                 synthesizer.speak(utterance)
