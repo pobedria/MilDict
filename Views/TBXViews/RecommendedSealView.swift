@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct RecommendedSealView: View {
-    var kerning: CGFloat = 30
+    @State private var opacity: Double = 1.0
+    var kerning: CGFloat = 10
     var size: CGSize = .init(width: 180, height: 180)
     var radius: Double = 150
-    var text: String = "Стандартизований термін".uppercased()
+    var text: String = "Рекомендований термін".uppercased()
+    
     var texts: [(offset: Int, element: Character)] {
         return Array(text.enumerated())
     }
@@ -35,23 +37,35 @@ struct RecommendedSealView: View {
                         
                         
                         Spacer()
-                    }.rotationEffect(angle(at: index))
+                    }
+                    .rotationEffect(angle(at: index))
                 }
                 
             }.frame(width: size.width, height: size.height)
+            .rotationEffect(-angle(at: texts.count-5))
             Circle()
-                .strokeBorder(.cyan, lineWidth: 4)
-                .frame(width: 200, height: 200)
+                .strokeBorder(.cyan, lineWidth: 3)
+                .frame(width: 190, height: 190)
             Circle()
-                .strokeBorder(.cyan, lineWidth: 4)
+                .strokeBorder(.cyan, lineWidth: 3)
                 .frame(width: 150, height: 150)
-            Image(systemName: "hand.thumbsup.fill")
+            Image(systemName: "checkmark.seal.fill")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 80, height: 80)
                 .foregroundColor(.cyan)
 
-        }.font(.system(size: 13, design: .monospaced)).bold()
+        }
+        .font(.system(size: 13, design: .monospaced))
+        .bold()
+        .opacity(opacity)
+//        .onAppear {
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//                withAnimation(.linear(duration: 2)) {
+//                    opacity = 0.2
+//                }
+//            }
+//        }
     }
     
     func angle(at index: Int) -> Angle {

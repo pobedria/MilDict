@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct StandartizedSealView: View {
-    var kerning: CGFloat = 30
-    var size: CGSize = .init(width: 150, height: 150)
-    var radius: Double
-    var text: String
+    @State private var opacity: Double = 1.0
+    var kerning: CGFloat = 10
+    var size: CGSize = .init(width: 180, height: 180)
+    var radius: Double = 150
+    var text: String = "Стандартизований термін".uppercased()
     var texts: [(offset: Int, element: Character)] {
         return Array(text.enumerated())
     }
@@ -21,18 +22,52 @@ struct StandartizedSealView: View {
     
     
     var body: some View {
-        ZStack {
-            ForEach(texts, id: \.offset) { index, letter in
-                VStack {
-                    Text(String(letter))
-                        .background(Sizeable())
-                        .onPreferenceChange(WidthPreferenceKey.self, perform: { width in
-                            textWidths[index] = width
-                        }).kerning(kerning)
-                    Spacer()
-                }.rotationEffect(angle(at: index))
-            }
-        }.frame(width: size.width, height: size.height)
+        ZStack{
+            ZStack {
+                ForEach(texts, id: \.offset) { index, letter in
+                    VStack {
+                        Text(String(letter))
+                            .background(Sizeable())
+                            .onPreferenceChange(WidthPreferenceKey.self, perform: { width in
+                                textWidths[index] = width
+                            })
+                            .foregroundColor(.green)
+                            .kerning(kerning)
+                        
+                        
+                        Spacer()
+                    }
+                    .rotationEffect(angle(at: index))
+                    
+                        
+                }
+                
+            }.frame(width: size.width, height: size.height)
+                .rotationEffect(-angle(at: texts.count-5))
+            Circle()
+                .strokeBorder(.green,lineWidth: 3)
+                .frame(width: 190, height: 190)
+            Circle()
+                .strokeBorder(.green,lineWidth: 3)
+                .frame(width: 150, height: 150)
+            
+            Image("ZSU")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 80, height: 80)
+                .foregroundColor(.green)
+
+        }
+        .font(.system(size: 13, design: .monospaced))
+        .bold()
+        .opacity(opacity)
+//        .onAppear {
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//                withAnimation(.linear(duration: 2)) {
+//                    opacity = 0.2
+//                }
+//            }
+//        }
     }
     
     func angle(at index: Int) -> Angle {
@@ -69,7 +104,6 @@ struct Sizeable: View {
 
 #Preview {
     StandartizedSealView(
-        radius: 150,
-        text: "Стандартизований термін".uppercased()
-    ).font(.system(size: 13, design: .monospaced)).bold()
+        
+    )
 }

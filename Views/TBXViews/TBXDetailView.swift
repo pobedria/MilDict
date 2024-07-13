@@ -17,21 +17,49 @@ struct TBXDetailView: View {
         let ukrTerms = chosenConcept.ukTermsOfConcept()
         let topTerms = chosenTerm.lang == "en" ? engTerms : ukrTerms
         let botomTerms = chosenTerm.lang == "en" ? ukrTerms : engTerms
-        VStack {
-            TermDetailView(terms: topTerms)
-            Divider()
-                .background(Color("Gold"))
-            TermDetailView(terms: botomTerms)
-            Text(chosenTerm.subject)
-                .font(Font.custom("UAFSans-Bold", size: 15))
-                .foregroundColor(Color("Steppe"))
-                .frame(maxWidth: .infinity, alignment: .topLeading)
+        
+        ZStack{
+            
+            VStack {
+                
+                TermDetailView(terms: topTerms)
+                Divider()
+                    .background(Color("Gold"))
+                TermDetailView(terms: botomTerms)
+                Text(chosenTerm.subject)
+                    .font(Font.custom("UAFSans-Bold", size: 15))
+                    .foregroundColor(Color("Steppe"))
+                    .frame(maxWidth: .infinity, alignment: .topLeading)
+            }
+            .padding()
+            .background(Color("Olive"))
+            let link = getXref(terms: ukrTerms)
+            if let linkName = linksDict[link] {
+                if linkName.contains("ВСТ"){
+                   StandartizedSealView()
+                        .opacity(0.2)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                        .padding(.bottom, -30)
+                        .padding(.trailing, -50)
+                    
+                }
+            }else {
+                RecommendedSealView()
+                    .opacity(0.2)
+                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                     .padding(.bottom, -30)
+                     .padding(.trailing, -50)
+            }
         }
-        .padding()
-        .background(Color("Olive"))
-        
-        
-        
+    }
+    
+    func getXref(terms: [AppTerm]) -> String {
+        for term in terms {
+            if let xref = term.xref{
+                return xref
+            }
+        }
+        return ""
     }
 }
 
