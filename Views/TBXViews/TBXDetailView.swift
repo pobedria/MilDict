@@ -19,9 +19,7 @@ struct TBXDetailView: View {
         let botomTerms = chosenTerm.lang == "en" ? ukrTerms : engTerms
         
         ZStack{
-            
             VStack {
-                
                 TermDetailView(terms: topTerms)
                 Divider()
                     .background(Color("Gold"))
@@ -41,7 +39,6 @@ struct TBXDetailView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                         .padding(.bottom, -30)
                         .padding(.trailing, -50)
-                    
                 }
             }
         }
