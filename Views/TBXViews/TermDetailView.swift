@@ -12,8 +12,11 @@ struct TermDetailView: View {
     
     var body: some View {
         VStack{
-            ForEach(terms) {
-                TermTextView(term: $0)
+            ForEach(terms) { term in
+                TermTextView(term: term)
+//                if term.id != terms.last?.id {
+//                   Divider()
+//                }
             }
             Text(getDescription(terms: terms))
                 .frame(maxWidth: .infinity, alignment: .topLeading)

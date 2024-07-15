@@ -43,12 +43,6 @@ struct TBXDetailView: View {
                         .padding(.trailing, -50)
                     
                 }
-            }else {
-                RecommendedSealView()
-                    .opacity(0.2)
-                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-                     .padding(.bottom, -30)
-                     .padding(.trailing, -50)
             }
         }
     }

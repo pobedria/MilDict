@@ -33,7 +33,6 @@
 		776C6B172C359D3400168A1C /* J-9 – цивільно-військове співробітництво.tbx in Resources */ = {isa = PBXBuildFile; fileRef = 776C6B0F2C359D3400168A1C /* J-9 – цивільно-військове співробітництво.tbx */; };
 		776C6B192C3D700100168A1C /* TermTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C6B182C3D700100168A1C /* TermTextView.swift */; };
 		776C6B1B2C41531500168A1C /* StandartizedSealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C6B1A2C41531500168A1C /* StandartizedSealView.swift */; };
-		776C6B1D2C415E8300168A1C /* RecommendedSealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C6B1C2C415E8300168A1C /* RecommendedSealView.swift */; };
 		777D46FC2BF75606006EA0A0 /* EmptySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */; };
 		777D46FF2BFC84B4006EA0A0 /* QuizTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D46FE2BFC84B4006EA0A0 /* QuizTabView.swift */; };
 		777D47012BFC9589006EA0A0 /* QuizOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D47002BFC9589006EA0A0 /* QuizOption.swift */; };
@@ -105,7 +104,6 @@
 		776C6B0F2C359D3400168A1C /* J-9 – цивільно-військове співробітництво.tbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "J-9 – цивільно-військове співробітництво.tbx"; sourceTree = "<group>"; };
 		776C6B182C3D700100168A1C /* TermTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermTextView.swift; sourceTree = "<group>"; };
 		776C6B1A2C41531500168A1C /* StandartizedSealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartizedSealView.swift; sourceTree = "<group>"; };
-		776C6B1C2C415E8300168A1C /* RecommendedSealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedSealView.swift; sourceTree = "<group>"; };
 		777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchView.swift; sourceTree = "<group>"; };
 		777D46FE2BFC84B4006EA0A0 /* QuizTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTabView.swift; sourceTree = "<group>"; };
 		777D47002BFC9589006EA0A0 /* QuizOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOption.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 				777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */,
 				776C6B182C3D700100168A1C /* TermTextView.swift */,
 				776C6B1A2C41531500168A1C /* StandartizedSealView.swift */,
-				776C6B1C2C415E8300168A1C /* RecommendedSealView.swift */,
 			);
 			path = TBXViews;
 			sourceTree = "<group>";
@@ -504,7 +501,6 @@
 				77A02C2D2BF235910052A3B8 /* TermDetailView.swift in Sources */,
 				777D47012BFC9589006EA0A0 /* QuizOption.swift in Sources */,
 				7702E6662BEB74E60002B149 /* TBXPreView.swift in Sources */,
-				776C6B1D2C415E8300168A1C /* RecommendedSealView.swift in Sources */,
 				777D46FF2BFC84B4006EA0A0 /* QuizTabView.swift in Sources */,
 				776C6B1B2C41531500168A1C /* StandartizedSealView.swift in Sources */,
 				778B07332A723F3100A96821 /* MilDictApp.swift in Sources */,
