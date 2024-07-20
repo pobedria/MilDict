@@ -93,32 +93,66 @@ extension Collection {
 }
 
 
-extension View {
-    func navigationBarColor(_ color: UIColor) -> some View {
-        self.modifier(NavigationBarColorModifier(color: color))
+struct NavigationBarModifier: ViewModifier {
+
+    var backgroundColor: UIColor?
+    var titleColor: UIColor?
+    
+
+    init(backgroundColor: Color, titleColor: UIColor?) {
+        self.backgroundColor = UIColor(backgroundColor)
+        
+        let inlineTitleFont = UIFont(name: "UAFSans-OnBoardStencil", size: 15)
+        let largeTitleFont = UIFont(name: "UAFSans-OnBoardStencil", size: 28)
+        
+        let standardAppearance = UINavigationBarAppearance()
+        standardAppearance.configureWithOpaqueBackground()
+        standardAppearance.backgroundColor = self.backgroundColor // The key is here. Change the actual bar to clear.
+        standardAppearance.titleTextAttributes = [.foregroundColor: titleColor ?? .white, .font:  inlineTitleFont!]
+        standardAppearance.largeTitleTextAttributes = [.foregroundColor: titleColor ?? .white, .font:  largeTitleFont!]
+//        standardAppearance.shadowColor = .clear
+        
+        UINavigationBar.appearance().standardAppearance = standardAppearance
+        
+        let compactAppearance = UINavigationBarAppearance()
+        compactAppearance.configureWithTransparentBackground()
+        compactAppearance.backgroundColor = .clear // The key is here. Change the actual bar to clear.
+        compactAppearance.titleTextAttributes = [.foregroundColor: titleColor ?? .white, .font:  inlineTitleFont!]
+        compactAppearance.largeTitleTextAttributes = [.foregroundColor: titleColor ?? .white, .font:  largeTitleFont!]
+//        compactAppearance.shadowColor = .clear
+        
+        UINavigationBar.appearance().compactAppearance = compactAppearance
+        
+        
+        let scrollEdgeAppearance = UINavigationBarAppearance()
+        scrollEdgeAppearance.configureWithTransparentBackground()
+        scrollEdgeAppearance.backgroundColor = .clear // The key is here. Change the actual bar to clear.
+        scrollEdgeAppearance.titleTextAttributes = [.foregroundColor: titleColor ?? .white, .font:  inlineTitleFont!]
+        scrollEdgeAppearance.largeTitleTextAttributes = [.foregroundColor: titleColor ?? .white, .font:  largeTitleFont!]
+//        scrollEdgeAppearance.shadowColor = .clear
+        
+        
+        UINavigationBar.appearance().scrollEdgeAppearance = scrollEdgeAppearance
+        UINavigationBar.appearance().tintColor = titleColor
+    }
+
+    func body(content: Content) -> some View {
+        ZStack{
+            content
+            VStack {
+                GeometryReader { geometry in
+                    Color(self.backgroundColor ?? .clear)
+                        .frame(height: geometry.safeAreaInsets.top)
+                        .edgesIgnoringSafeArea(.top)
+                    Spacer()
+                }
+            }
+        }
     }
 }
 
-struct NavigationBarColorModifier: ViewModifier {
-    var color: UIColor
-
-    func body(content: Content) -> some View {
-        content
-            .onAppear {
-                let coloredAppearance = UINavigationBarAppearance()
-                coloredAppearance.configureWithOpaqueBackground()
-                coloredAppearance.backgroundColor = color
-                
-                let uiColor = UIColor(.white)
-                let inlineTitleFont = UIFont(name: "UAFSans-OnBoardStencil", size: 15)
-                let largeTitleFont = UIFont(name: "UAFSans-OnBoardStencil", size: 28)
-                coloredAppearance.titleTextAttributes  = [.foregroundColor: uiColor, .font:  inlineTitleFont!]
-                coloredAppearance.largeTitleTextAttributes = [.foregroundColor: uiColor,  .font:  largeTitleFont! ]
-                
-                UINavigationBar.appearance().standardAppearance = coloredAppearance
-                UINavigationBar.appearance().compactAppearance = coloredAppearance
-                UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
-                
-            }
+extension View {
+    func navigationBarColor(backgroundColor: Color, titleColor: UIColor?) -> some View {
+        self.modifier(NavigationBarModifier(backgroundColor: backgroundColor, titleColor: titleColor))
     }
 }

@@ -29,13 +29,16 @@ struct TBXListView: View {
                 }.listRowBackground(Color("Olive"))
             }
             .navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
+            
             .scrollContentBackground(.hidden)
             .background(Color("Olive"))
         } detail: {
             TBXDetailView(chosenTerm: selectedTerm ?? TermsSorage.enTerms[0])
+                .navigationTitle(" ")// stub fro correct detail alignment
+                .navigationBarTitleDisplayMode(.automatic)
         }
-        
-        .navigationBarColor(UIColor(Color("Olive")))
+//        .toolbarBackground(.hidden)
+        .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
         .searchable(text: $searchText, prompt: "Пошук термінів")
         .foregroundColor(Color("Gold"))
         .font(Font.custom("UAFSans-Medium", size: 18))
