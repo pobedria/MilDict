@@ -56,7 +56,7 @@ struct TBXListView: View {
                 .scrollContentBackground(.hidden)
                 .background(Color.olive)
                 .searchable(text: $searchText, prompt: "Пошук термінів")
-                .foregroundColor(.olive)
+                .foregroundColor(.gold)
                 .font(Font.custom("UAFSans-Medium", size: 18))
                 .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
             }.onAppear(){

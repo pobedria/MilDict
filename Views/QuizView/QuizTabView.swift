@@ -84,11 +84,32 @@ struct QuizTabView: View {
     }
     
     private func setupNewQuestion() {
-        isButtonsDisabled = false
-        selection = nil
-        concepts = Array(TermsStorage.allConcepts.choose(4))
-        correctNumber = Int.random(in: 0..<concepts.count)
-    }
+            isButtonsDisabled = false
+            selection = nil
+            
+            // Обираємо випадковий концепт як правильну відповідь
+            guard let correctConcept = TermsStorage.allConcepts.randomElement() else {
+                return
+            }
+            
+            // Отримуємо всі концепти з тим самим descrip._text, виключаючи правильний концепт
+            let sameSubjectConcepts = TermsStorage.allConcepts.filter { $0.descrip._text == correctConcept.descrip._text && $0.id != correctConcept.id }
+            
+            // Якщо концептів з тим самим subject менше ніж 3, доповнюємо іншими випадковими концептами
+            var otherConcepts = sameSubjectConcepts.shuffled()
+            if otherConcepts.count < 3 {
+                let remaining = 3 - otherConcepts.count
+                let otherRandomConcepts = TermsStorage.allConcepts.filter { $0.descrip._text != correctConcept.descrip._text && $0.id != correctConcept.id }.shuffled().prefix(remaining)
+                otherConcepts.append(contentsOf: otherRandomConcepts)
+            } else {
+                otherConcepts = Array(otherConcepts.prefix(3))
+            }
+            
+            // Формуємо масив концептів для поточного питання
+            concepts = [correctConcept] + otherConcepts
+            concepts.shuffle() // Перемішуємо, щоб правильна відповідь була на випадковій позиції
+            correctNumber = concepts.firstIndex(where: { $0.id == correctConcept.id }) ?? 0
+        }
     
     // MARK: - Computed Properties
     private var questionTerm: String? {
