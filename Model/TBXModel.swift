@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct TBXConcept: Decodable{
     let id: Int
     let descrip: Descrip
@@ -21,7 +19,10 @@ struct TBXConcept: Decodable{
 
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        id = Int(try values.decode(String.self, forKey: .id))!
+        guard let idString = try? values.decode(String.self, forKey: .id), let idInt = Int(idString) else {
+            throw DecodingError.dataCorruptedError(forKey: .id, in: values, debugDescription: "Id не є коректним Int значенням.")
+        }
+        id = idInt
         descrip = try values.decode(Descrip.self, forKey: .descrip)
         langSec = try values.decode([LangElement].self, forKey: .langSec)
     }
