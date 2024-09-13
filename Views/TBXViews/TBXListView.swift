@@ -15,33 +15,54 @@ struct TBXListView: View {
     
     init(lang: String) {
         self.lang = lang
-        configureSearchBarAppearance()
     }
     
+    @ViewBuilder
     var body: some View {
-        
-        NavigationSplitView {
-            List(searchResults, selection: $selectedTerm) { term in
-                NavigationLink {
-                    TBXDetailView(chosenTerm: term)
-                } label: {
-                    TBXPreView(term: term)
-                }.listRowBackground(Color("Olive"))
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            // Використовуємо NavigationSplitView для iPad
+            NavigationSplitView {
+                List(searchResults, selection: $selectedTerm) { term in
+                    NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                        TBXPreView(term: term)
+                    }
+                    .listRowBackground(Color("Olive"))
+                }
+                .navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
+                .scrollContentBackground(.hidden)
+                .background(Color("Olive"))
+                .searchable(text: $searchText, prompt: "Пошук термінів")
+                .foregroundColor(Color("Gold"))
+                .font(Font.custom("UAFSans-Medium", size: 18))
+            } detail: {
+                TBXDetailView(chosenTerm: selectedTerm ?? TermsStorage.enTerms.first!)
+                    .navigationTitle(" ") // Заглушка для коректного вирівнювання
+                    .navigationBarTitleDisplayMode(.automatic)
             }
-            .navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
-            
-            .scrollContentBackground(.hidden)
-            .background(Color("Olive"))
-        } detail: {
-            TBXDetailView(chosenTerm: selectedTerm ?? TermsStorage.enTerms[0])
-                .navigationTitle(" ")// stub fro correct detail alignment
-                .navigationBarTitleDisplayMode(.automatic)
+            .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
+            .onAppear(){
+                configureSearchBarAppearance()
+            }
+        } else {
+            // Використовуємо NavigationStack для iPhone
+            NavigationStack {
+                List(searchResults) { term in
+                    NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                        TBXPreView(term: term)
+                    }
+                    .listRowBackground(Color("Olive"))
+                }
+                .navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
+                .scrollContentBackground(.hidden)
+                .background(Color("Olive"))
+                .searchable(text: $searchText, prompt: "Пошук термінів")
+                .foregroundColor(Color("Gold"))
+                .font(Font.custom("UAFSans-Medium", size: 18))
+                .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
+            }.onAppear(){
+                configureSearchBarAppearance()
+            }
         }
-//        .toolbarBackground(.hidden)
-        .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
-        .searchable(text: $searchText, prompt: "Пошук термінів")
-        .foregroundColor(Color("Gold"))
-        .font(Font.custom("UAFSans-Medium", size: 18))
     }
     
     var searchResults: [AppTerm] {

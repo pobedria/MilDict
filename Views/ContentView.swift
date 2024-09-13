@@ -11,9 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        VStack{
-//            AppHeader()
-//            Divider()
+
             TabView {
                 TBXListView(lang: "en")
                     .tabItem {
@@ -30,8 +28,7 @@ struct ContentView: View {
                         Label("Перевір себе", systemImage: "checklist")
                     }
                     .toolbarBackground(Color("Olive"),for: .tabBar)
-            }
-        }.background(Color("Olive"))
+            }.background(Color("Olive"))
     }
 }
 
