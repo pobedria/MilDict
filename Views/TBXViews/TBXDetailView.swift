@@ -16,14 +16,15 @@ struct TBXDetailView: View {
         let engTerms = chosenConcept.enTermsOfConcept()
         let ukrTerms = chosenConcept.ukTermsOfConcept()
         let topTerms = chosenTerm.lang == "en" ? engTerms : ukrTerms
-        let botomTerms = chosenTerm.lang == "en" ? ukrTerms : engTerms
+        let bottomTerms = chosenTerm.lang == "en" ? ukrTerms : engTerms
+        let link = getXref(terms: ukrTerms)
         
         ZStack{
             VStack {
                 TermDetailView(terms: topTerms)
                 Divider()
                     .background(Color.gold)
-                TermDetailView(terms: botomTerms)
+                TermDetailView(terms: bottomTerms)
                 Text(chosenTerm.subject)
                     .font(Font.custom("UAFSans-Bold", size: 15))
                     .foregroundColor(.steppe)
@@ -31,7 +32,7 @@ struct TBXDetailView: View {
             }
             .padding()
             .background(Color.olive)
-            let link = getXref(terms: ukrTerms)
+            
             if let linkName = linksDict[link] {
                 if linkName.contains("ВСТ"){
                    StandartizedSealView()

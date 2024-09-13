@@ -20,7 +20,6 @@ struct TBXPreView: View {
                 .font(Font.custom("UAFSans-Medium", size: 12))
                 .foregroundColor(.steppe)
                 .frame(maxWidth: .infinity, alignment: .topLeading)
-
         }
     }
 }
