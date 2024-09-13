@@ -28,7 +28,7 @@ struct TBXListView: View {
                     }
                     .listRowBackground(Color("Olive"))
                 }
-                .navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
+                .navigationTitle(navigationTitle)
                 .scrollContentBackground(.hidden)
                 .background(Color("Olive"))
                 .searchable(text: $searchText, prompt: "Пошук термінів")
@@ -36,7 +36,7 @@ struct TBXListView: View {
                 .font(Font.custom("UAFSans-Medium", size: 18))
             } detail: {
                 TBXDetailView(chosenTerm: selectedTerm ?? TermsStorage.enTerms.first!)
-                    .navigationTitle(" ") // Заглушка для коректного вирівнювання
+//                    .navigationTitle(" ") // Заглушка для коректного вирівнювання
                     .navigationBarTitleDisplayMode(.automatic)
             }
             .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
@@ -52,7 +52,7 @@ struct TBXListView: View {
                     }
                     .listRowBackground(Color("Olive"))
                 }
-                .navigationTitle(lang == "en" ? "Англійські терміни" : "Українські терміни")
+                .navigationTitle(navigationTitle)
                 .scrollContentBackground(.hidden)
                 .background(Color("Olive"))
                 .searchable(text: $searchText, prompt: "Пошук термінів")
@@ -65,7 +65,12 @@ struct TBXListView: View {
         }
     }
     
-    var searchResults: [AppTerm] {
+    // MARK: - Computed Properties
+    private var navigationTitle: String {
+        lang == "en" ? "Англійські терміни" : "Українські терміни"
+    }
+    
+    private var searchResults: [AppTerm] {
         
         if searchText.isEmpty {
             return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
@@ -75,6 +80,7 @@ struct TBXListView: View {
         }
     }
     
+    // MARK: - Methods
     private func configureSearchBarAppearance() {
         let textFieldAppearance = UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self])
         textFieldAppearance.backgroundColor = UIColor(Color("Steppe"))
