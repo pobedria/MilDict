@@ -41,33 +41,32 @@ struct TBXConcept: Decodable{
     
     func termsOfLangElement(langElement: LangElement) -> [AppTerm] {
         var terms = [AppTerm]()
-        if let termArray = langElement.termSec as? [TermSecElement] {
-            for termElement in termArray{
-                let appTerm = AppTerm(
-                    id: Int(termElement.term.id)!,
-                    conceptId: id,
-                    subject: descrip._text,
-                    lang: langElement.lang,
-                    term: termElement.term._text,
-                    description: termElement.descrip?._text,
-                    xref: termElement.xref?.target)
+        switch langElement.termSec {
+        case .single(let termElement):
+            if let appTerm = createAppTerm(from: termElement, langElement: langElement) {
                 terms.append(appTerm)
             }
-        } else {
-            if let termElement = langElement.termSec as? TermSecElement {
-                let appTerm = AppTerm(
-                    id: Int(termElement.term.id)!,
-                    conceptId: id,
-                    subject: descrip._text,
-                    lang: langElement.lang,
-                    term: termElement.term._text,
-                    description: termElement.descrip?._text,
-                    xref: termElement.xref?.target)
-                terms.append(appTerm)
+        case .multiple(let termArray):
+            for termElement in termArray {
+                if let appTerm = createAppTerm(from: termElement, langElement: langElement) {
+                    terms.append(appTerm)
+                }
             }
         }
         return terms
-        
+    }
+
+    private func createAppTerm(from termElement: TermSecElement, langElement: LangElement) -> AppTerm? {
+        guard let termId = Int(termElement.term.id) else { return nil }
+        return AppTerm(
+            id: termId,
+            conceptId: id,
+            subject: descrip._text,
+            lang: langElement.lang,
+            term: termElement.term._text,
+            description: termElement.descrip?._text,
+            xref: termElement.xref?.target
+        )
     }
 }
 
@@ -79,42 +78,28 @@ struct Descrip: Decodable {
 
 
 struct LangElement: Decodable{
-    let termSec: Any
+    let termSec: TermSec
     let lang: String
     
     enum CodingKeys: String, CodingKey {
         case termSec
         case lang  = "xml:lang"
     }
-
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-
-        
-        lang = try values.decode(String.self, forKey: .lang)
-        
-        if let termElement = try? values.decode(TermSecElement.self, forKey: .termSec) {
-            termSec = termElement
-        } else if let termArray = try? values.decode([TermSecElement].self, forKey: .termSec) {
-            termSec = termArray
-        } else {
-            throw DecodingError.dataCorruptedError(forKey:.termSec, in: values, debugDescription: "Value cannot be decoded!")
-        }
-    }
-    
-    
 }
 
-// Stub constructor for testing purposes
-extension LangElement{
-    init() {
-        let tbxterm = TBXTerm(id: "555", _text: "psychological operation")
-        let descrip = Descrip(type: "context", _text: "Planned activities using methods of communication and other means directed at approved audiences in order to influence perceptions, attitudes and behaviour, affecting the achievement of political and military objectives.")
-        let xref = TBXxref(type: "externalCrossReference", target: "https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf")
-        
-        termSec = TermSecElement(term: tbxterm, descrip: descrip, xref: xref)
-        lang="en"
-        
+enum TermSec: Decodable {
+    case single(TermSecElement)
+    case multiple([TermSecElement])
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        if let singleTermSec = try? container.decode(TermSecElement.self) {
+            self = .single(singleTermSec)
+        } else if let multipleTermSec = try? container.decode([TermSecElement].self) {
+            self = .multiple(multipleTermSec)
+        } else {
+            throw DecodingError.typeMismatch(TermSec.self, DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Не вдалося декодувати termSec"))
+        }
     }
 }
 
