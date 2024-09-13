@@ -8,83 +8,112 @@
 import SwiftUI
 
 struct QuizTabView: View {
-    @State private var concepts = TermsStorage.allConcepts.choose(4)
-    @State private var correctNumber: Int = Int.random(in: 0..<4)
+    // MARK: - Properties
+    @State private var concepts: [TBXConcept] = []
+    @State private var correctNumber: Int = 0
     @State private var selection: Int?
-    @State private var blockedButtons = false
-    @State private var buttonBackgrounds = Array(repeating: Color("Steppe"), count: 4)
+    @State private var isButtonsDisabled = false
     
-    
+    // MARK: - Body
     var body: some View {
-
-        let options = concepts.enumerated().map { offset, element in
-            QuizOption(
-                name: element.ukTermsOfConcept().first!.term,
-                isCorrect: offset == correctNumber
-            )
-        }
         VStack {
-            Text(concepts[correctNumber].enTermsOfConcept().first!.term)
-                .frame(maxWidth: .infinity,maxHeight: .infinity)
-                .foregroundColor(Color("Gold"))
-                .background(Color("Olive"))
-                .padding(.top).padding(.top).padding(.top)
-            VStack {
-                Spacer()
-                if let selection = selection {
-                    Text(selection == correctNumber ? "Правильно" : "Неправильно")
-                        .foregroundColor(selection == correctNumber ? .green : .red)
-                        .font(Font.custom("UAFSans-Bold", size: 25))
+            if let question = questionTerm {
+                Text(question)
+                    .frame(maxWidth: .infinity)
+                    .foregroundColor(.gold)
+                    .background(Color.olive)
+                    .padding(.top, 60)
+            } else {
+                Text("Завантаження...")
+                    .foregroundColor(.gray)
+            }
+            
+            Spacer()
+            
+            if let selection = selection {
+                Text(selection == correctNumber ? "Правильно" : "Неправильно")
+                    .foregroundColor(selection == correctNumber ? .green : .red)
+                    .font(Font.custom("UAFSans-Bold", size: 25))
+                    .padding()
+            }
+            
+            ForEach(options.indices, id: \.self) { index in
+                Button(action: {
+                    handleSelection(at: index)
+                }) {
+                    Text(options[index])
+                        .frame(maxWidth: .infinity)
                         .padding()
+                        .background(buttonColor(for: index))
+                        .foregroundColor(.white)
+                        .clipShape(Capsule())
                 }
-                ForEach(Array(zip(options.indices, options)), id: \.0) { index, option in
-                    Button(action:{
-                        if !blockedButtons {
-                            blockedButtons = true
-                            selection = index
-                            buttonBackgrounds[index] = .red
-                            buttonBackgrounds[correctNumber] = .green
-                            if selection == correctNumber {
-                                UINotificationFeedbackGenerator().notificationOccurred(.success)
-                            } else {
-                                UINotificationFeedbackGenerator().notificationOccurred(.error)
-                            }
-                            Task {
-                                await delayPageUpdate()
-                            }
-                        }
-                        
-                    }){
-                        Text(option.name)
-                            .frame(maxWidth: .infinity)
-                            .padding()
-                            .background(buttonBackgrounds[index])
-                            .foregroundColor(.white)
-                            .clipShape(Capsule())
-                    }
-                    
-                }
+                .disabled(isButtonsDisabled)
                 .padding(.horizontal)
             }
+        
         }
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .frame(maxWidth: .infinity,maxHeight: .infinity)
-        .background(Color("Olive"))
+        .padding(.bottom, 60)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.olive)
         .font(Font.custom("UAFSans-Medium", size: 20))
-    }
-    private func delayPageUpdate() async {
-        // Delay of 7.5 seconds (1 second = 1_000_000_000 nanoseconds)
-        sleep(2)
-        withAnimation(){
-            print("Block false")
-            blockedButtons = false
-            correctNumber = Int.random(in: 0..<4)
-            selection = nil
-            concepts = TermsStorage.allConcepts.choose(4)
-            buttonBackgrounds = Array(repeating: Color("Steppe"), count: 4)
+        .onAppear {
+            setupNewQuestion()
         }
+    }
+    
+    // MARK: - Methods
+    private func handleSelection(at index: Int) {
+        guard !isButtonsDisabled else { return }
+        selection = index
+        isButtonsDisabled = true
+        
+        if index == correctNumber {
+            UINotificationFeedbackGenerator().notificationOccurred(.success)
+        } else {
+            UINotificationFeedbackGenerator().notificationOccurred(.error)
+        }
+        
+        // Затримка перед наступним питанням
+        Task {
+            try? await Task.sleep(nanoseconds: 2_000_000_000) // 2 секунди
+            withAnimation {
+                setupNewQuestion()
+            }
+        }
+    }
+    
+    private func setupNewQuestion() {
+        isButtonsDisabled = false
+        selection = nil
+        concepts = Array(TermsStorage.allConcepts.choose(4))
+        correctNumber = Int.random(in: 0..<concepts.count)
+    }
+    
+    // MARK: - Computed Properties
+    private var questionTerm: String? {
+        guard concepts.indices.contains(correctNumber),
+              let term = concepts[correctNumber].enTermsOfConcept().first?.term else {
+            return nil
+        }
+        return term
+    }
+    
+    private var options: [String] {
+        concepts.compactMap { concept in
+            concept.ukTermsOfConcept().first?.term
+        }
+    }
+    
+    private func buttonColor(for index: Int) -> Color {
+        if let selection = selection {
+            if index == correctNumber {
+                return .green
+            } else if index == selection {
+                return .red
+            }
+        }
+        return Color("Steppe")
     }
 }
 
