@@ -156,3 +156,9 @@ extension View {
         self.modifier(NavigationBarModifier(backgroundColor: backgroundColor, titleColor: titleColor))
     }
 }
+
+extension Color {
+    static let gold = Color("Gold")
+    static let olive = Color("Olive")
+    static let steppe = Color("Steppe")
+}

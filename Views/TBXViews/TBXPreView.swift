@@ -14,11 +14,11 @@ struct TBXPreView: View {
         VStack(alignment: .leading) {
             Text(term.term)
                 .font(Font.custom("UAFSans-Medium", size: 20))
-                .foregroundColor(Color("Gold"))
+                .foregroundColor(.gold)
                 .frame(maxWidth: .infinity, alignment: .topLeading)
             Text(term.subject)
                 .font(Font.custom("UAFSans-Medium", size: 12))
-                .foregroundColor(Color("Steppe"))
+                .foregroundColor(.steppe)
                 .frame(maxWidth: .infinity, alignment: .topLeading)
 
         }

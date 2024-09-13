@@ -28,20 +28,20 @@ struct TermDetailView: View {
             if let linkName = linksDict[link] {
                 Text(.init("[\nДжерело: \(linkName)](\(link)) 🔗"))
                     .frame(maxWidth: .infinity, alignment: .topLeading)
-                    .accentColor(Color("Gold"))
+                    .accentColor(.gold)
                     .font(Font.custom("UAFSans-Regular", size: 12))
             } else {
                 if let url = NSURL(string: link) {
                     if UIApplication.shared.canOpenURL(url as URL){
                         Text(.init("[\nДжерело: \(link)](\(link)) 🔗"))
                             .frame(maxWidth: .infinity, alignment: .topLeading)
-                            .accentColor(Color("Gold"))
+                            .accentColor(.gold)
                             .font(Font.custom("UAFSans-Regular", size: 12))
                     }
                     else {
                         Text("\nДжерело: \(link)")
                             .frame(maxWidth: .infinity, alignment: .topLeading)
-                            .foregroundColor(Color("Gold"))
+                            .foregroundColor(.gold)
                             .font(Font.custom("UAFSans-Regular", size: 12))
                     }
                 }

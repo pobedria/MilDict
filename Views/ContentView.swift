@@ -17,18 +17,18 @@ struct ContentView: View {
                     .tabItem {
                         Label("Англійська🇬🇧", systemImage: "globe.americas.fill")
                     }
-                    .toolbarBackground(Color("Olive"),for: .tabBar)
+                    .toolbarBackground(Color.olive,for: .tabBar)
                 TBXListView(lang: "uk")
                     .tabItem {
                         Label("Українська🇺🇦", systemImage: "globe.europe.africa.fill")
                     }
-                    .toolbarBackground(Color("Olive"),for: .tabBar)
+                    .toolbarBackground(Color.olive,for: .tabBar)
                 QuizTabView()
                     .tabItem {
                         Label("Перевір себе", systemImage: "checklist")
                     }
-                    .toolbarBackground(Color("Olive"),for: .tabBar)
-            }.background(Color("Olive"))
+                    .toolbarBackground(Color.olive,for: .tabBar)
+            }.background(Color.olive)
     }
 }
 

@@ -26,20 +26,20 @@ struct TBXListView: View {
                     NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
                         TBXPreView(term: term)
                     }
-                    .listRowBackground(Color("Olive"))
+                    .listRowBackground(Color.olive)
                 }
                 .navigationTitle(navigationTitle)
                 .scrollContentBackground(.hidden)
-                .background(Color("Olive"))
+                .background(Color.olive)
                 .searchable(text: $searchText, prompt: "Пошук термінів")
-                .foregroundColor(Color("Gold"))
+                .foregroundColor(.gold)
                 .font(Font.custom("UAFSans-Medium", size: 18))
             } detail: {
                 TBXDetailView(chosenTerm: selectedTerm ?? TermsStorage.enTerms.first!)
 //                    .navigationTitle(" ") // Заглушка для коректного вирівнювання
                     .navigationBarTitleDisplayMode(.automatic)
             }
-            .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
+            .navigationBarColor(backgroundColor: .olive, titleColor: .white)
             .onAppear(){
                 configureSearchBarAppearance()
             }
@@ -50,13 +50,13 @@ struct TBXListView: View {
                     NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
                         TBXPreView(term: term)
                     }
-                    .listRowBackground(Color("Olive"))
+                    .listRowBackground(Color.olive)
                 }
                 .navigationTitle(navigationTitle)
                 .scrollContentBackground(.hidden)
-                .background(Color("Olive"))
+                .background(Color.olive)
                 .searchable(text: $searchText, prompt: "Пошук термінів")
-                .foregroundColor(Color("Gold"))
+                .foregroundColor(.olive)
                 .font(Font.custom("UAFSans-Medium", size: 18))
                 .navigationBarColor(backgroundColor: Color("Olive"), titleColor: .white)
             }.onAppear(){
@@ -83,8 +83,8 @@ struct TBXListView: View {
     // MARK: - Methods
     private func configureSearchBarAppearance() {
         let textFieldAppearance = UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self])
-        textFieldAppearance.backgroundColor = UIColor(Color("Steppe"))
-        textFieldAppearance.tintColor = UIColor(Color("Gold"))
+        textFieldAppearance.backgroundColor = UIColor(.steppe)
+        textFieldAppearance.tintColor = UIColor(.gold)
     }
 }
 

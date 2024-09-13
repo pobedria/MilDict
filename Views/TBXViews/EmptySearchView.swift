@@ -12,8 +12,8 @@ struct EmptySearchView: View {
         Text("Не знайдено \(Image(systemName: "exclamationmark.bubble"))")
             
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color("Olive"))
-            .foregroundColor(Color("Gold"))
+            .background(Color.olive)
+            .foregroundColor(.gold)
             .font(Font.custom("UAFSans-Medium", size: 20))
     }
 }

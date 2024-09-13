@@ -16,7 +16,7 @@ struct TermTextView: View {
         HStack{
             Text( term.term)
                 .frame(maxWidth: .infinity, alignment: .topLeading)
-                .foregroundColor(Color("Gold"))
+                .foregroundColor(.gold)
                 .font(Font.custom("UAFSans-Medium", size: 25))
             Button("", systemImage: "airpodsmax", action: {
                 let utterance = AVSpeechUtterance(string: term.term)

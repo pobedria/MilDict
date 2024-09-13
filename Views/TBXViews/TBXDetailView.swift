@@ -22,15 +22,15 @@ struct TBXDetailView: View {
             VStack {
                 TermDetailView(terms: topTerms)
                 Divider()
-                    .background(Color("Gold"))
+                    .background(Color.gold)
                 TermDetailView(terms: botomTerms)
                 Text(chosenTerm.subject)
                     .font(Font.custom("UAFSans-Bold", size: 15))
-                    .foregroundColor(Color("Steppe"))
+                    .foregroundColor(.steppe)
                     .frame(maxWidth: .infinity, alignment: .topLeading)
             }
             .padding()
-            .background(Color("Olive"))
+            .background(Color.olive)
             let link = getXref(terms: ukrTerms)
             if let linkName = linksDict[link] {
                 if linkName.contains("ВСТ"){
