@@ -30,7 +30,7 @@ struct TBXDetailView: View {
                     .foregroundColor(.steppe)
                     .frame(maxWidth: .infinity, alignment: .topLeading)
             }
-            .padding()
+            .padding(.horizontal)
             .background(Color.olive)
             
             if let linkName = linksDict[link] {

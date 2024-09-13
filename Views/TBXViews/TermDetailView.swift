@@ -8,64 +8,53 @@
 import SwiftUI
 
 struct TermDetailView: View {
+    // MARK: - Properties
     let terms: [AppTerm]
     
+    // MARK: - Body
     var body: some View {
-        VStack{
+        VStack(alignment: .leading) {
             ForEach(terms) { term in
                 TermTextView(term: term)
-//                if term.id != terms.last?.id {
-//                   Divider()
-//                }
             }
-            Text(getDescription(terms: terms))
-                .frame(maxWidth: .infinity, alignment: .topLeading)
-                .foregroundColor(.white)
-                .font(Font.custom("UAFSans-Regular", size: 15))
-
             
-            let link = getXref(terms: terms)
-            if let linkName = linksDict[link] {
-                Text(.init("[\nДжерело: \(linkName)](\(link)) 🔗"))
-                    .frame(maxWidth: .infinity, alignment: .topLeading)
+            if let description = termDescription {
+                Text(description)
+                    .foregroundColor(.white)
+                    .font(.custom("UAFSans-Regular", size: 15))
+            }
+            
+            if let sourceText = sourceText {
+                Text(.init(sourceText))
                     .accentColor(.gold)
-                    .font(Font.custom("UAFSans-Regular", size: 12))
-            } else {
-                if let url = NSURL(string: link) {
-                    if UIApplication.shared.canOpenURL(url as URL){
-                        Text(.init("[\nДжерело: \(link)](\(link)) 🔗"))
-                            .frame(maxWidth: .infinity, alignment: .topLeading)
-                            .accentColor(.gold)
-                            .font(Font.custom("UAFSans-Regular", size: 12))
-                    }
-                    else {
-                        Text("\nДжерело: \(link)")
-                            .frame(maxWidth: .infinity, alignment: .topLeading)
-                            .foregroundColor(.gold)
-                            .font(Font.custom("UAFSans-Regular", size: 12))
-                    }
-                }
+                    .font(.custom("UAFSans-Regular", size: 12))
             }
+            
             Spacer()
-        }.textSelection(.enabled)
+        }
+    
+        .textSelection(.enabled)
     }
     
-    func getDescription(terms: [AppTerm]) -> String {
-        for term in terms {
-            if let description = term.description{
-                return description.trimmingCharacters(in: .whitespacesAndNewlines)
-            }
-        }
-        return ""
+    // MARK: - Computed Properties
+    private var termDescription: String? {
+        terms.first(where: { $0.description != nil })?.description?.trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
-    func getXref(terms: [AppTerm]) -> String {
-        for term in terms {
-            if let xref = term.xref{
-                return xref
-            }
+    private var xrefLink: String? {
+        terms.first(where: { $0.xref != nil })?.xref
+    }
+    
+    private var sourceText: String? {
+        guard let link = xrefLink else { return nil }
+        
+        if let linkName = linksDict[link] {
+            return "[\nДжерело: \(linkName)](\(link)) 🔗"
+        } else if let url = URL(string: link), UIApplication.shared.canOpenURL(url) {
+            return "[\nДжерело: \(link)](\(link)) 🔗"
+        } else {
+            return "\nДжерело: \(link)"
         }
-        return ""
     }
 }
 
