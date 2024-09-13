@@ -31,18 +31,11 @@ struct QuizTabView: View {
                 .padding(.top).padding(.top).padding(.top)
             VStack {
                 Spacer()
-                if let selection {
-                    if selection == correctNumber{
-                        Text ("Правильно")
-                            .foregroundColor(.green)
-                            .font(Font.custom("UAFSans-Bold", size: 25))
-                    } else {
-                        VStack {
-                            Text ("Не правильно")
-                                .foregroundColor(.red)
-                                .font(Font.custom("UAFSans-Bold", size: 25))
-                        }
-                    }
+                if let selection = selection {
+                    Text(selection == correctNumber ? "Правильно" : "Неправильно")
+                        .foregroundColor(selection == correctNumber ? .green : .red)
+                        .font(Font.custom("UAFSans-Bold", size: 25))
+                        .padding()
                 }
                 ForEach(Array(zip(options.indices, options)), id: \.0) { index, option in
                     Button(action:{
