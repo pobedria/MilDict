@@ -33,7 +33,7 @@ struct TBXListView: View {
             .scrollContentBackground(.hidden)
             .background(Color("Olive"))
         } detail: {
-            TBXDetailView(chosenTerm: selectedTerm ?? TermsSorage.enTerms[0])
+            TBXDetailView(chosenTerm: selectedTerm ?? TermsStorage.enTerms[0])
                 .navigationTitle(" ")// stub fro correct detail alignment
                 .navigationBarTitleDisplayMode(.automatic)
         }
@@ -47,10 +47,10 @@ struct TBXListView: View {
     var searchResults: [AppTerm] {
         
         if searchText.isEmpty {
-            return lang == "en" ? TermsSorage.enTerms : TermsSorage.ukTerms
+            return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
         } else {
             let sanitizedField = searchText.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-            return TermsSorage.allTerms.filter({ $0.term.lowercased().contains(sanitizedField)}).sorted()
+            return TermsStorage.allTerms.filter({ $0.term.lowercased().contains(sanitizedField)}).sorted()
         }
     }
     

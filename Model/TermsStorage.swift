@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TermsSorage{
+struct TermsStorage{
     static let allConcepts = decodeConcepts()
 
     static var enTerms: [AppTerm] {

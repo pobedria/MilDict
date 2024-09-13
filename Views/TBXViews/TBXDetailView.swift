@@ -12,7 +12,7 @@ struct TBXDetailView: View {
     let chosenTerm: AppTerm
 
     var body: some View {
-        let chosenConcept = TermsSorage.allConcepts.first(where: { $0.id == chosenTerm.conceptId})!
+        let chosenConcept = TermsStorage.allConcepts.first(where: { $0.id == chosenTerm.conceptId})!
         let engTerms = chosenConcept.enTermsOfConcept()
         let ukrTerms = chosenConcept.ukTermsOfConcept()
         let topTerms = chosenTerm.lang == "en" ? engTerms : ukrTerms

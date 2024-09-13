@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct QuizTabView: View {
-    @State private var concepts = TermsSorage.allConcepts.choose(4)
+    @State private var concepts = TermsStorage.allConcepts.choose(4)
     @State private var correctNumber: Int = Int.random(in: 0..<4)
     @State private var selection: Int?
     @State private var blockedButtons = false
-    @State private var buttonBackgrouns = Array(repeating: Color("Steppe"), count: 4)
+    @State private var buttonBackgrounds = Array(repeating: Color("Steppe"), count: 4)
     
     
     var body: some View {
@@ -49,8 +49,8 @@ struct QuizTabView: View {
                         if !blockedButtons {
                             blockedButtons = true
                             selection = index
-                            buttonBackgrouns[index] = .red
-                            buttonBackgrouns[correctNumber] = .green
+                            buttonBackgrounds[index] = .red
+                            buttonBackgrounds[correctNumber] = .green
                             if selection == correctNumber {
                                 UINotificationFeedbackGenerator().notificationOccurred(.success)
                             } else {
@@ -65,7 +65,7 @@ struct QuizTabView: View {
                         Text(option.name)
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(buttonBackgrouns[index])
+                            .background(buttonBackgrounds[index])
                             .foregroundColor(.white)
                             .clipShape(Capsule())
                     }
@@ -89,8 +89,8 @@ struct QuizTabView: View {
             blockedButtons = false
             correctNumber = Int.random(in: 0..<4)
             selection = nil
-            concepts = TermsSorage.allConcepts.choose(4)
-            buttonBackgrouns = Array(repeating: Color("Steppe"), count: 4)
+            concepts = TermsStorage.allConcepts.choose(4)
+            buttonBackgrounds = Array(repeating: Color("Steppe"), count: 4)
         }
     }
 }
