@@ -84,6 +84,7 @@ struct QuizTabView: View {
                        Image(systemName: isMuted ? "speaker.slash.fill" : "speaker.wave.2.fill")
                            .foregroundColor(.gold)
                    }
+                   .accessibilityLabel(isMuted ? "Звук вимкнено" : "Звук увімкнено")
                }
             }
             .padding(.bottom, 60)
