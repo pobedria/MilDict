@@ -22,11 +22,18 @@ struct TBXListView: View {
         if UIDevice.current.userInterfaceIdiom == .pad {
             // Використовуємо NavigationSplitView для iPad
             NavigationSplitView {
-                List(searchResults, selection: $selectedTerm) { term in
-                    NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
-                        TBXPreView(term: term)
+                List(selection: $selectedTerm) {
+                    ForEach(groupedTerms, id: \.key) { section in
+                        Section(header: SectionHeaderView(headerText:section.key)) {
+                            ForEach(section.values) { term in
+                                NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                                    TBXPreView(term: term)
+                                }
+                                .listRowBackground(Color.olive)
+                            }
+                        }
+                        .headerProminence(.increased)
                     }
-                    .listRowBackground(Color.olive)
                 }
                 .navigationTitle(navigationTitle)
                 .scrollContentBackground(.hidden)
@@ -46,11 +53,18 @@ struct TBXListView: View {
         } else {
             // Використовуємо NavigationStack для iPhone
             NavigationStack {
-                List(searchResults) { term in
-                    NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
-                        TBXPreView(term: term)
+                List {
+                    ForEach(groupedTerms, id: \.key) { section in
+                        Section(header: SectionHeaderView(headerText:section.key)) {
+                            ForEach(section.values) { term in
+                                NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                                    TBXPreView(term: term)
+                                }
+                                .listRowBackground(Color.olive)
+                            }
+                        }
+                        .headerProminence(.standard)
                     }
-                    .listRowBackground(Color.olive)
                 }
                 .navigationTitle(navigationTitle)
                 .scrollContentBackground(.hidden)
@@ -76,7 +90,7 @@ struct TBXListView: View {
             return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
         } else {
             let sanitizedField = searchText.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-            return TermsStorage.allTerms.filter({ $0.term.lowercased().contains(sanitizedField)}).sorted()
+            return TermsStorage.allTerms.filter({ $0.term.lowercased().starts(with:sanitizedField)}).sorted()
         }
     }
     
@@ -85,6 +99,29 @@ struct TBXListView: View {
         let textFieldAppearance = UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self])
         textFieldAppearance.backgroundColor = UIColor(.steppe)
         textFieldAppearance.tintColor = UIColor(.gold)
+    }
+    
+    private var groupedTerms: [(key: String, values: [AppTerm])] {
+        let terms = searchResults
+        let grouped = Dictionary(grouping: terms) { term -> String in
+            let firstLetter = term.term.prefix(1).uppercased()
+            return firstLetter
+        }
+        let ukrainianLocale = Locale(identifier: "uk_UA")
+            return grouped.sorted { (lhs, rhs) -> Bool in
+                return lhs.key.compare(rhs.key, locale: ukrainianLocale) == .orderedAscending
+            }.map { (key: $0.key, values: $0.value) }
+    }
+}
+
+struct SectionHeaderView: View {
+    var headerText: String
+
+    var body: some View {
+        Text(headerText)
+            .foregroundColor(.steppe)
+            .font(.custom("Volja-Regular", size: 30))
+
     }
 }
 
