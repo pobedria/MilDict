@@ -16,115 +16,113 @@ struct QuizTabView: View {
 
     // MARK: - Body
     var body: some View {
-        NavigationView {
-            GeometryReader { geometry in
-                let isLandscape = geometry.size.width > geometry.size.height
-
-                VStack {
-                    // Відображення прогрес-бару з повідомленням зворотного зв'язку
-                    Last20ResultsBar(progress: currentProgress, feedbackText: feedbackText, feedbackColor: feedbackColor)
-                        .frame(height: 20)
-                        .padding()
-                    if let question = questionTerm {
-                        Text(question)
-                            .frame(maxWidth: .infinity)
-                            .foregroundColor(.gold)
-                            .background(Color.olive)
-                            .onTapGesture {
-                                speak(text: question)
-                            }
-                    } else {
-                        Text("Завантаження...")
-                            .foregroundColor(.gray)
-                    }
-                    Text(questionSubject)
-                        .foregroundColor(.steppe)
-                        .font(Font.custom("UAFSans-Medium", size: 12))
-
+        GeometryReader { geometry in
+            let isLandscape = geometry.size.width > geometry.size.height
+            VStack {
+                HStack{
                     Spacer()
-
-                    // Видаляємо окремий Text з повідомленням зворотного зв'язку
-
-                    if isLandscape {
-                        // Горизонтальна орієнтація: кнопки в сітці 2x2
-                        let columns = [GridItem(.flexible()), GridItem(.flexible())]
-                        LazyVGrid(columns: columns, spacing: 16) {
-                            ForEach(options.indices, id: \.self) { index in
-                                Button(action: {
-                                    handleSelection(at: index)
-                                }) {
-                                    Text(options[index])
-                                        .frame(maxWidth: .infinity)
-                                        .padding()
-                                        .background(buttonColor(for: index))
-                                        .foregroundColor(.white)
-                                        .clipShape(Capsule())
-                                }
-                                .disabled(isButtonsDisabled)
-                            }
-                        }
-                        .padding(.horizontal)
-                    } else {
-                        // Вертикальна орієнтація: кнопки в одній колонці
-                        VStack {
-                            ForEach(options.indices, id: \.self) { index in
-                                Button(action: {
-                                    handleSelection(at: index)
-                                }) {
-                                    Text(options[index])
-                                        .frame(maxWidth: .infinity)
-                                        .padding()
-                                        .background(buttonColor(for: index))
-                                        .foregroundColor(.white)
-                                        .clipShape(Capsule())
-                                }
-                                .disabled(isButtonsDisabled)
-                                .padding(.horizontal)
-                            }
-                        }
-                    }
-                }
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbar {
-                   // Кнопка mute/unmute
-                   ToolbarItem(placement: .navigationBarTrailing) {
-                       Button(action: {
-                           isMuted.toggle()
-                           if isMuted {
-                              if synthesizer.isSpeaking {
-                                  synthesizer.stopSpeaking(at: .immediate)
-                              }
-                           } else {
-                              if let question = questionTerm {
-                                  speak(text: question)
-                              }
-                          }
-                       }) {
-                           Image(systemName: isMuted ? "speaker.slash.fill" : "speaker.wave.2.fill")
-                               .foregroundColor(.gold)
+                    Button(action: {
+                        isMuted.toggle()
+                        if isMuted {
+                           if synthesizer.isSpeaking {
+                               synthesizer.stopSpeaking(at: .immediate)
+                           }
+                        } else {
+                           if let question = questionTerm {
+                               speak(text: question)
+                           }
                        }
-                       .accessibilityLabel(isMuted ? "Звук вимкнено" : "Звук увімкнено")
-                   }
-                }
-                .padding(.bottom, 100)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.olive)
-                .font(Font.custom("UAFSans-Medium", size: 20))
-                .onAppear {
-                    self.isLandscape = isLandscape
-                    setupNewQuestion()
-                }
-                .onChange(of: isLandscape) { newValue in
-                    self.isLandscape = newValue
-                }
-                // Додаємо алерт
-                .alert("Вітаємо! 🥳", isPresented: $showAlert) {
-                    Button("OK", role: .cancel) {
-                        resetProgress()
+                    }) {
+                        Image(systemName: isMuted ? "speaker.slash.fill" : "speaker.wave.2.fill")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 24, height: 24)
+                            .foregroundColor(.gold)
+                            
                     }
-                } message: {
-                    Text("Ви успішно відповіли на 20 питань! Продовжуйте в тому ж дусі.")
+                    .accessibilityLabel(isMuted ? "Звук вимкнено" : "Звук увімкнено")
+                }.padding([.top, .trailing])
+                // Відображення прогрес-бару з повідомленням зворотного зв'язку
+                Last20ResultsBar(progress: currentProgress, feedbackText: feedbackText, feedbackColor: feedbackColor)
+                    .frame(height: 20)
+                    .padding()
+                if let question = questionTerm {
+                    Text(question)
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(.gold)
+                        .background(Color.olive)
+                        .onTapGesture {
+                            speak(text: question)
+                        }
+                } else {
+                    Text("Завантаження...")
+                        .foregroundColor(.gray)
                 }
+                Text(questionSubject)
+                    .foregroundColor(.steppe)
+                    .font(Font.custom("UAFSans-Medium", size: 12))
+
+                Spacer()
+
+                // Видаляємо окремий Text з повідомленням зворотного зв'язку
+
+                if isLandscape {
+                    // Горизонтальна орієнтація: кнопки в сітці 2x2
+                    let columns = [GridItem(.flexible()), GridItem(.flexible())]
+                    LazyVGrid(columns: columns, spacing: 16) {
+                        ForEach(options.indices, id: \.self) { index in
+                            Button(action: {
+                                handleSelection(at: index)
+                            }) {
+                                Text(options[index])
+                                    .frame(maxWidth: .infinity)
+                                    .padding()
+                                    .background(buttonColor(for: index))
+                                    .foregroundColor(.white)
+                                    .clipShape(Capsule())
+                            }
+                            .disabled(isButtonsDisabled)
+                        }
+                    }
+                    .padding(.horizontal)
+                } else {
+                    // Вертикальна орієнтація: кнопки в одній колонці
+                    VStack {
+                        ForEach(options.indices, id: \.self) { index in
+                            Button(action: {
+                                handleSelection(at: index)
+                            }) {
+                                Text(options[index])
+                                    .frame(maxWidth: .infinity)
+                                    .padding()
+                                    .background(buttonColor(for: index))
+                                    .foregroundColor(.white)
+                                    .clipShape(Capsule())
+                            }
+                            .disabled(isButtonsDisabled)
+                            .padding(.horizontal)
+                        }
+                    }
+                }
+            }
+            .padding(.bottom, 100)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.olive)
+            .font(Font.custom("UAFSans-Medium", size: 20))
+            .onAppear {
+                self.isLandscape = isLandscape
+                setupNewQuestion()
+            }
+            .onChange(of: isLandscape) { newValue in
+                self.isLandscape = newValue
+            }
+            // Додаємо алерт
+            .alert("Вітаємо! 🥳", isPresented: $showAlert) {
+                Button("OK", role: .cancel) {
+                    resetProgress()
+                }
+            } message: {
+                Text("Ви успішно відповіли на 20 питань! Продовжуйте в тому ж дусі.")
             }
         }
     }
