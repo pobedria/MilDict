@@ -1544,23 +1544,6 @@ d) примусити противника ввести резерви пере�
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326350">
-                <descrip type="subjectField">301 – операції, бойові дії</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="678528">advance to contact</term>
-                        <descrip type="context">An offensive operation designed to gain or re-establish contact with the enemy.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="678608">зближення з противником</term>
-                        <descrip type="context">Наступальні дії, метою яких є встановлення чи відновлення контакту з противником.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326352">
                 <descrip type="subjectField">301 – операції, бойові дії</descrip>
                 <langSec xml:lang="en">
@@ -3813,27 +3796,6 @@ c) сприяння сухопутним або морським силам у �
                     <termSec>
                         <term id="679868">пускова установка</term>
                         <descrip type="context">Будь-яка стартова позиція або об’єкт із можливістю запуску ракет “поверхня-повітря” або “поверхня-поверхня”.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
-            <conceptEntry id="326732">
-                <descrip type="subjectField">300 – оперативне управління (штабні процедури)</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679250">area of operations</term>
-                        <descrip type="context">An area within a joint operations area defined by the joint force commander for conducting tactical level operations.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="679870">AOO</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="679872">район дій</term>
-                        <descrip type="context">Район у межах зони спільних дій, визначений командувачем об’єднаних сил для проведення воєнних дій тактичного рівня.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
                     </termSec>
                 </langSec>

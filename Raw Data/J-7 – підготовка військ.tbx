@@ -133,6 +133,111 @@
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331687">
+                <descrip type="subjectField">700 – підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691109">oath of enlistment</term>
+                        <descrip type="context">I, _____, do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same; and that I will obey the orders of the President of the United States and the orders of the officers appointed over me, according to regulations and the Uniform Code of Military Justice. So help me God. </descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/values/oath.html"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691111">військова присяга</term>
+                        <descrip type="context">Я, (прізвище, ім'я та  по  батькові),  вступаю  на  військову  службу і урочисто клянусь народу  України  завжди  бути  вірним  і  відданим йому, сумлінно і чесно виконувати  військовий  обов'язок,  накази командирів, неухильно дотримуватись Конституції  і  законів  України, зберігати державну і військову таємницю. 
+Я клянусь захищати українську державу,  непохитно  стояти  на  сторожі її свободи і незалежності. 
+Я присягаю ніколи не зрадити народу України. </descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/1936-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331695">
+                <descrip type="subjectField">700 – підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691135">salute</term>
+                        <descrip type="context">Saluting is a military custom by which a soldier signals acknowledgement of the respect due to a superior rank.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.gov.au/about-us/history-and-research/traditions/salute"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691137">військове вітання</term>
+                        <descrip type="context">Усі військовослужбовці зобов'язані під час зустрічі (обгону) вітати один одного, суворо додержуючись правил, викладених у статтях Стройового статуту Збройних Сил України.
+Підлеглі та молодші за військовим званням вітають першими, а за умови рівного становища першим вітається той, хто вважає себе більш вихованим і ввічливим.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/549-14"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331881">
+                <descrip type="subjectField">700 – підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691523">Disciplinary Regulations of the Armed Forces of Ukraine</term>
+                        <descrip type="context">Regulations described in "On the Disciplinary Regulations of the Armed Forces of Ukraine" law</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/550-14?lang=en#Text"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691525">Дисциплінарний статут Збройних Сил України</term>
+                        <descrip type="context">Цей Статут визначає сутність військової дисципліни, обов’язки військовослужбовців, а також військовозобов’язаних та резервістів під час проходження навчальних (перевірочних) і спеціальних зборів щодо її додержання, види заохочень та дисциплінарних стягнень, права командирів щодо їх застосування, а також порядок подання і розгляду заяв, пропозицій та скарг.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/551-14#Text"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331883">
+                <descrip type="subjectField">700 – підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691527">Regulations of the Internal Service of the Armed Forces of Ukraine</term>
+                        <descrip type="context">Regulations described in "On the Regulations of the Internal Service of the Armed Forces of Ukraine" law</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/548-14?lang=en#Text"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691529">Статут внутрішньої служби Збройних Сил України</term>
+                        <descrip type="context">Цей Статут визначає загальні права та обов’язки військовослужбовців Збройних Сил України і їх взаємовідносини, обов’язки основних посадових осіб бригади (полку, корабля 1 і 2 рангу, окремого батальйону) та її підрозділів, правила внутрішнього порядку у військовій частині та її підрозділах.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/548-14#Text"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331889">
+                <descrip type="subjectField">700 – підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691537">Regulations for Garrison Duty and Guard Duty of the Armed Forces of Ukraine</term>
+                        <descrip type="context">Regulations described in "On the Regulations for Garrison Duty and Guard Duty of the Armed Forces of Ukraine" law</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/550-14?lang=en#n12"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691539">Статут гарнізонної та вартової служб Збройних Сил України</term>
+                        <descrip type="context">Цей Статут визначає організацію і порядок несення гарнізонної та вартової служб, права і обов’язки посадових осіб гарнізону та військовослужбовців, які залучаються для несення цих служб.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/550-14?lang=en#Text"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331893">
+                <descrip type="subjectField">700 – підготовка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691545">field manual</term>
+                        <descrip type="context">A book giving information to soldiers about their work</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/field-manual"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691547">бойовий статут</term>
+                        <descrip type="context">Офіційний документ, що визначає теоретичні і практичні положення щодо основ, підготовки і ведення воєнних дій тактичного рівня підрозділами, частинами і з’єднаннями. Б. с. ЗС України поділяють на Б. с. заг.-військ. формувань (механізов., танк., аеромобіл.) і статути формувань родів військ і сил видів ЗС України. Б. с. родів військ визначають основи, підготовку і ведення ними самост. боїв і спільних бойових дій; розробляються на основі положень воєн. доктрини держави, досвіду зброй. боротьби, оператив., бойової і спец. підготовки ЗС України та провід. держав світу, рівня розвитку озброєння і техніки та перспектив оснащення ними військ і сил, а також розвитку воєн. мистецтва. Положення Б. с. вивчаються й перевіряються в процесі операт. та бойової підготовки.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-36154"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>

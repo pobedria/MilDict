@@ -581,6 +581,44 @@ The Court is composed of 15 judges, who are elected for terms of office of nine 
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331685">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691105">conscription</term>
+                        <descrip type="context">The act or process of forcing people by law to join the armed services:</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/ru/словарь/английский/conscription"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691107">військовий обов’язок</term>
+                        <descrip type="context">Установлюється з метою підготовки громадян України до захисту Вітчизни, забезпечення особовим складом Збройних Сил України, інших утворених відповідно до законів України військових формувань, а також правоохоронних органів спеціального призначення, посади в яких комплектуються військовослужбовцями.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2232-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331699">
+                <descrip type="subjectField">900 – цивільно-військове співробітництво</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691141">Military Entrance Processing Station</term>
+                        <descrip type="context">As an enlisted recruit, you’ll go to a Military Entrance Processing Station (MEPS) to determine if you meet all the standards to join the Army, choose your job, sign your contract, and take the oath. The process takes one to two days and includes lodging and meals.</descrip>
+                        <xref type="externalCrossReference" target="https://www.goarmy.com/how-to-join/steps/processing-station"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691143">MEPS</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691145">територіальний центр комплектування та соціальної підтримки</term>
+                        <descrip type="context">Органвійськового управління, що забезпечує виконання законодавства з питань військового обов’язку і військової служби, мобілізаційної підготовки та мобілізації.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/154-2022-п"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>

@@ -3609,6 +3609,10 @@ organization of the unit or formation and maintained at the prescribed levels.</
                         <descrip type="context">The support provided to combat forces, primarily in the fields of administration and logistics.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
                     </termSec>
+                    <termSec>
+                        <term id="692517">CSS</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
                 </langSec>
                 <langSec xml:lang="uk">
                     <termSec>
@@ -16339,6 +16343,276 @@ Submunitions are classified as bomblets, grenades, or mines.</descrip>
                         <term id="690928">бомбардувальник</term>
                         <descrip type="context">Бомбардувальний літак.</descrip>
                         <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=бомбардувальник"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332267">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692453">utility uniform</term>
+                        <descrip type="context">Uniforms normally worn in the field, during training, or while performing duties where it is not practical or appropriate to wear a service uniform.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AR670-1.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692471">спеціальна форма одягу</term>
+                        <descrip type="context">одяг, взуття та засоби індивідуального захисту, що видаються військовослужбовцям за штатними посадами, якими передбачено виконання певних робіт з обслуговування техніки, під час роботи зі шкідливими речовинами чи повязаної з небезпечними умовами праці або робіт, що здійснюються в несприятливих метеорологічних умовах та умовах, передбачених нормативно-правовими актами з питань охорони праці та для виконання господарських і будівельних робіт;</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/nakaz_238.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332269">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692455">service uniform</term>
+                        <descrip type="context">Worn in garrison environments when the wear of utility or dress uniforms is not required or appropriate. Service uniforms consist of the Army blue (Class A and Class B) uniforms.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AR670-1.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692469">повсякденна форма одягу</term>
+                        <descrip type="context">під час роботи (чергувань, якщо при цьому не передбачено носіння зброї) у штабах, управліннях, установах і закладах, а також у всіх інших випадках, коли не передбачено носіння парадної, парадно-вихідної, польової (службової морської) форми одягу та спеціального одягу;</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/nakaz_238.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332271">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692457">mess uniform</term>
+                        <descrip type="context">Uniforms worn for formal social occasions, when prescribed by the host. They include the blue and white mess and evening mess uniforms for males. For females, they include the blue and white mess and evening mess uniforms, the all-white evening mess, and the black mess and evening mess uniforms.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AR670-1.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692467">парадно-вихідна форма одягу</term>
+                        <descrip type="context">у святкові дні; на урочистих засіданнях та офіційних прийомах; під час покладання квітів (вінків) до пам’ятників і на могили воїнів; в інших випадках за рішенням командира військової частини;</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/nakaz_238.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332273">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692459">field uniform</term>
+                        <descrip type="context">Utility and organizational uniforms, excluding the garrison culinary uniform, that are worn in field, training, or combat environments.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/nakaz_238.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692463">польова форма одягу</term>
+                        <descrip type="context">під час виконання бойових (навчально-бойових) завдань, проведення навчань, маневрів, навчальних занять (польових або на військовій техніці), на бойових чергуваннях (чергуваннях) та вахті під час несення служби у добовому наряді (зі зброєю), у період ліквідації аварій та катастроф, надзвичайних ситуацій;</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/nakaz_238.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332275">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692461">dress uniform</term>
+                        <descrip type="context">Uniforms worn as formal duty attire, or that are worn at formal or informal social functions, before or after retreat. They include the Army blue and white uniforms.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AR670-1.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692465">парадна  форма одягу</term>
+                        <descrip type="context">на парадах та під час: вручення військовим частинам державних нагород, бойових прапорів та інших відзнак одержання державних нагород, прийняття військової присяги,
+проведення ритуалу випуску з військового навчального закладу;
+річного свята військової частини;
+відрекомендування визначеним Статутом внутрішньої служби
+Збройних Сил України посадовим особам під час призначення на посаду і
+присвоєння військового звання;
+підйому військово-морського прапора на кораблі, який стає до
+бойового складу Військово-Морських Сил Збройних Сил України, вручення
+кораблю державної нагороди або іншої відзнаки;
+призначення до складу почесної варти;</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/nakaz_238.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332277">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692473">physical fitness uniform</term>
+                        <descrip type="context">The physical fitness uniforms are authorized for year-round wear by all personnel, when prescribed by the commander.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AR670-1.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692475">спортивна форма одягу</term>
+                        <descrip type="context">Під час проведення спортивних занять і змагань, а також під час індивідуальних тренувань (спортивний одяг і взуття).</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/nakaz_238.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332279">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692477">cap</term>
+                        <descrip type="context">a very broad term that covers many military headdress but not a hat (which
+normally has a brim), nor a helmet, nor correctly a beret. Examples are:-
+(a) Bearskin Cap worn by Foot Guards: this evolved from the Mitre Cap worn by
+Grenadiers etc. (allowing the throwing of grenades otherwise hindered by a wider
+hat). The final equivalent for Fusiliers is best termed a Fusilier (Fur) Cap.
+(b) Peaked Forage Cap (coloured or khaki)
+(c) Side Cap (also termed Cap, Field Service), coloured or khaki.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/BRITISH_ARMY_DRESS_REGULATIONS.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692479">кашкет польовий</term>
+                        <descrip type="context">Кашкет польовий складається з головки та козирка. Головка з денцем овальної форми та подвійною стінкою. На зовнішню стінку нашиті деталі бортика, які у передній частині утворюють V-подібний виріз. Козирок із двох частин (горішньої та нижньої) оздоблений рядами строчок. На передній стінці нашита текстильна кокарда.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Nakaz_370.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="692481">кепі бойове</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332281">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692483">bucket hat</term>
+                        <descrip type="context">a simple soft hat, usually made of canvas (strong cotton cloth), with a soft brim (a bottom part that sticks out)</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/bucket-hat"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692485">панама літня польова</term>
+                        <descrip type="context">Панама літня польова складається з денця округлої форми, подвійної стінки, полів та шнура з фіксатором. Поля панами складаються з чотирьох частин (двох зовнішніх та двох внутрішніх) та оздоблені рядами строчок.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Nakaz_370.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332283">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692487">beanie</term>
+                        <descrip type="context">A small hat that fits closely to the head</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/beanie"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692489">шапка-феска</term>
+                        <descrip type="context">Шапка-феска з трикотажного полотна типу &quot;фліс&quot; захисного, оливкового, чорного, синього кольору або камуфльована. Складається з головки та подвійної нижньої частини, може бути з вушками або без них. На нижній частині з обох боків виробу можуть бути оброблені прорізні петлі.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Nakaz_370.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332285">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692491">balaclava</term>
+                        <descrip type="context">A closely fitting covering for the head and neck, usually made from wool</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/ru/словарь/английский/balaclava"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692493">балаклава</term>
+                        <descrip type="context">Балаклава з гладкофарбованого трикотажного бавовняного кулірного полотна захисного, оливкового, синього кольору або камуфльована. Виріб складається з трьох деталей: задньої, передньої верхньої та передньої нижньої.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Nakaz_370.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332287">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692495">beret</term>
+                        <descrip type="context">A round, flat hat made of soft material</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/beret"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692497">берет</term>
+                        <descrip type="context">Берет із вовняного прядива захисного, чорного, синього, світло-сірого, блакитного або малинового кольору, в&#039;язаний із подальшою валкою та формовкою.
+Берет із бейкою і шнуром або без нього. Бейка із натуральної або штучної шкіри чорного кольору.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Nakaz_370.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332289">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692499">coat</term>
+                        <descrip type="context">An outer piece of clothing with sleeves that is worn over other clothes, usually for warmth</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/coat"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692501">кітель</term>
+                        <descrip type="context">Кітель на підкладці, з відкладним коміром та лацканами, із центральною бортовою застібкою на чотири петлі та формені ґудзики встановленого зразка. Пілки з відрізними бочками, виточками по лінії талії, двома нагрудними накладними кишенями з трапецієподібними клапанами, які застібаються на петлі і формені ґудзики встановленого зразка, і двома боковими прорізними кишенями з обшивками та клапанами. Нагрудні кишені з бантовими складками, на підкладці. Спинка із середнім швом та шліцом. Рукави вшивні, двошовні. У шви вшивання рукавів вшито погони з основної тканини, які застібаються на петлі і формені ґудзики встановленого зразка.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Nakaz_370.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332291">
+                <descrip type="subjectField">415 – речове забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692503">army combat shirt</term>
+                        <descrip type="context">The Fire Resistant (FR) Army Combat Shirt (ACS) provides the Soldier improved comfort and enhanced flame and thermal protection. The torso is made of a moisture- wicking cotton/rayon blend that increases moisture vapor transmission, heat stress relief, and comfort when worn with the Interceptor Body Armor. The FR sleeves are in the universal camouflage pattern and have integrated anti-abrasion elbow pads, cargo pockets, infrared identification tags, and hook-and-loop fasteners for the name, rank, unit patch, and American flag. The shirt also features flat-seam shoulders and side panels for comfort, and is treated using a state-of-the-art FR process that fuses to the fibers. It is washable and maintains its flame resistance for the life of the garment.</descrip>
+                        <xref type="externalCrossReference" target="https://web.archive.org/web/20081031102335/http://peosoldier.army.mil/factsheets/SEQ_CIE_ACS.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="692507">ACS</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                    <termSec>
+                        <term id="692509">UBACS</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                    <termSec>
+                        <term id="692511">under body army combat shirt</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692505">бойова сорочка</term>
+                        <descrip type="context">Сорочка бойова з трикотажного гладкофарбованого полотна захисного кольору, рукав-реглан з бавовняної або змішаної гладкофарбованої чи набивної тканини. Виріб має застібку-блискавку у верхній частині пілки, що переходить на комір, на захисній планці з трикотажного полотна. На обох рукавах оброблені напівоб&#039;ємні накладні кишені, що застібаються на застібку-блискавку. На кишенях нашиті текстильні застібки для кріплення ідентифікаторів та знаків розрізнення.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Nakaz_370.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332299">
+                <descrip type="subjectField">400 – логістичне забезпечення</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692523">class of supply</term>
+                        <descrip type="context">system that categorizes supplies and equipment into ten major classes. This classification helps streamline logistics planning and operations by providing a common terminology across the Department of Defense. Each class is depicted by Roman numerals and covers different types of materials, such as subsistence, fuel, ammunition, construction materials, and more.</descrip>
+                        <xref type="externalCrossReference" target="https://www.moore.army.mil/armor/eARMOR/content/issues/2016/OCT_DEC/4Johnson-Coryell16.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692525">клас предметів постачання</term>
+                        <descrip type="context">Основною класифікаційною ознакою на рівні груп предметів постачання є їх призначення, а на рівні класів – технічні характеристики та належність складових частин до предметів вищого рівня класифікації для яких вони були спеціально розроблені (створені).</descrip>
+                        <xref type="externalCrossReference" target="https://www.mil.gov.ua/content/standarts/DK_020_2016_zmina_1.pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>

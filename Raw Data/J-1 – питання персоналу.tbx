@@ -365,6 +365,1280 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331628">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690960">fire team</term>
+                        <descrip type="context">Four soldiers make up a team — a noncommissioned officer and three junior enlisted soldiers. Teams with special functions may also include officers or warrant officers. An infantry fire team might include two riflemen, one of whom is the team leader; a grenadier and an automatic rifleman, who is used when small reconnaissance or special missions are required. Teams can serve as a base-of-fire or as a maneuver element.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690962">fireteam</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690964">вогнева група</term>
+                        <descrip type="context">Піхотний підрозділ з чотирьох солдатів: командира вогневої групи, автоматника, гранатометника та стрільця</descrip>
+                        <xref type="externalCrossReference" target="https://www.uakron.edu/armyrotc/MS1/10.pdf"></xref>
+                        <note>Переклад англійського визначення</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331630">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690966">squad</term>
+                        <descrip type="context">Two teams make up a squad, which has four to 10 soldiers. In an infantry squad, the teams divide duties: one serves as a base-of-fire element, while the other serves as the maneuver element. A staff sergeant is often in charge.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="690968">section</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690970">відділення</term>
+                        <descrip type="context">Первинне військове формування, складовий елемент взводу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/СБП-3-(01%2C02%2C04).58(59)-part3.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331632">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690972">platoon</term>
+                        <descrip type="context">A platoon consists of a few squads and up to a few dozen soldiers. They’re generally run by a lieutenant, often with a noncommissioned officer as second in command. An infantry platoon might include a weapons squad, which is divided into two M240 machine gun teams, and two close-combat missile teams armed with Javelin missiles.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690974">взвод</term>
+                        <descrip type="context">Військове формування, складовий елемент роти</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/СБП-3-(01%2C02%2C04).58(59)-part3.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331634">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690976">company</term>
+                        <descrip type="context">A company has anywhere from a few dozen to 200 soldiers. It’s a tactical-sized unit that can perform a battlefield function on its own. A company consists of three or four platoons and is generally commanded by a captain. It can also go by different names, depending on the function: Company-sized artillery units are called batteries, while in armor and air cavalry units, they are called troops.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690978">рота</term>
+                        <descrip type="context">Нижча тактична одиниця, несамостійне військове формування, що складається із взводів і відділень, призначене для виконання тактичних бойових завдань.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/СБП-3-(01%2C02%2C04).56(57)-part2.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331636">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690980">battalion</term>
+                        <descrip type="context">Battalions consist of four to six companies and can include up to about 1,000 soldiers. They can conduct independent operations of limited scope and duration and are usually commanded by a lieutenant colonel. There are combat arms battalions, as well as combat support and combat service support battalions. An armor or air cavalry unit of equivalent size is known as a squadron.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690982">батальйон</term>
+                        <descrip type="context">Тактична одиниця механізованих (танкових) військ, самостійне військове формуванням, що складається із підрозділів і призначене для виконання тактичних бойових завдань;</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/СБП-3-(01%2C02%2C04).56(57)-part2.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331638">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690984">brigade</term>
+                        <descrip type="context">A brigade consists of a few battalions and anywhere from 3,000 to 5,000 soldiers. A colonel is generally in command. For historical reasons, armor and Ranger units of brigade size are called regiments, and the equivalent Special Forces units are called groups. In 2016, the Army reorganized its brigades into brigade combat teams, which are autonomous modular brigades that most commonly include one combat arms brigade and its assigned support and fire units.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690986">бригада</term>
+                        <descrip type="context">Призначена для ведення наземних бойових дій в складі угрупування військ або самостійно шляхом знищення противника з використанням штатного озброєння спільно з підрозділами підтримки  та нанесення вогневого ураження противнику, мінімізуючи супутній збиток і жертви серед цивільного населення, на відстані до 20 км</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-3-(01%2C04)11(55).01.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331640">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690988">regiment</term>
+                        <descrip type="context">In most armies, a body of troops headed by a colonel and organized for tactical control into companies, battalions, or squadrons. French cavalry units were called regiments as early as 1558. The word is derived from the Latin regimen, a rule or system of order, and describes the regiment’s functions of raising, equipping, and training troops. As a regiment acquired individuality, colours, coat of arms, distinctive uniform and insignia, and achievements in battle, it also became a central object of loyalty, pride, and esprit de corps of its soldiers.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/regiment"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690990">полк</term>
+                        <descrip type="context">Військова одиниця з самостійним управлінням і господарством, яка входить переважно до складу дивізії або бригади.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=полк"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331642">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690992">division</term>
+                        <descrip type="context">Usually commanded by a major general, divisions are made up of three or four brigades and include 10,000 to 15,000 soldiers. Current divisions include airborne, armored, infantry and mountain divisions. Each can conduct major tactical operations and sustained battlefield operations. They are numbered and assigned missions based on their structures.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690994">дивізія</term>
+                        <descrip type="context">основне тактичне з’єднання збройних сил більшості країн. Існують практично у всіх видах ЗС, родах військ і спец. військах. Залежно від призначення, можуть вести бій у складі корпусу, армії, фронту, флоту й ін. формувань, а також самостійно. Д., як правило, складається із декількох полків або бригад, окремих дивізіонів, батальйонів, частин і підрозділів забезпечення, обслуговування та тилу. На флоті до їх складу можуть входити бригади чи дивізіони кораблів різних класів і призначення. Д. вперше з’явились у парус. флотах держав Європи в 17 ст. як складова частина ескадри кораблів. У армії Рос. імперії попередниками Д. стали 3 генеральства по 9 полків кожне, які утворив 1699 Петро І. Починаючи від 1-ї пол. 18 ст. Д. з’явились в арміях Франції, Австрії, Пруссії, а від 19 ст. стали складовою частиною більшості армій країн світу.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-24222"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331644">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="690996">corps</term>
+                        <descrip type="context">A corps includes two to five divisions with anywhere between 20,000 and 45,000 soldiers. A lieutenant general is in command. The corps is the highest level of command that can provide operational direction for actual combat. Higher levels are concerned with administration rather than operations. The current active corps are I Corps at Fort Lewis, Washington; III Corps at Fort Hood, Texas; and XVIII Airborne Corps at Fort Bragg, North Carolina.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="690998">корпус</term>
+                        <descrip type="context">До складу корпусу входить від двох до п'яти дивізій чисельністю від 20 000 до 45 000 солдатів. Командує корпусом генерал-лейтенант. Корпус - це найвищий рівень командування, який може забезпечити оперативне керівництво бойовими діями. Вищі рівні займаються адмініструванням, а не операціями. Нині діючими корпусами є I корпус у Форт-Льюїсі, штат Вашингтон; III корпус у Форт-Худ, штат Техас; і XVIII повітряно-десантний корпус у Форт-Брегг, штат Північна Кароліна.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                        <note>Переклад англійського визначення</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331646">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691000">field army</term>
+                        <descrip type="context">https://www.defense.gov/Multimedia/Experience/Military-Units/Army/</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                        <note>A field army consists of two or more corps and is run by a general or lieutenant general. First Army serves as a mobilization, readiness and training command; Third Army, or U.S. Army Central, commands all Army forces for U.S. Central Command; Fifth Army, or U.S. Army North, commands all Army forces for U.S. Northern Command; Sixth Army, or U.S. Army South, commands all Army forces for U.S. Southern Command; Seventh Army, or U.S. Army Europe, commands all Army forces for U.S. European Command; Eighth Army commands all U.S. Army forces in South Korea; and Ninth Army, or U.S. Army Africa, commands all Army forces for U.S. Africa Command.</note>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691002">армія</term>
+                        <descrip type="context">Польова армія складається з двох або більше корпусів і очолюється генералом або генерал-лейтенантом. Перша армія виконує функції командування з мобілізації, готовності та підготовки; Третя армія, або Центральна армія США, командує всіма військами армії для Центрального командування США; П'ята армія, або Північна армія США, командує всіма військами армії для Північного командування США; Шоста армія, або Південна армія США, командує всіма військами армії для Південного командування США; Сьома армія, або армія "Південь", командує усіма сухопутними військами Південного командування США; сьома армія, або армія США в Європі, командує усіма сухопутними військами Європейського командування США; восьма армія командує усіма сухопутними військами США в Південній Кореї; і дев'ята армія, або армія США в Африці, командує усіма сухопутними військами Африканського командування Збройних сил США.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Army/"></xref>
+                        <note>Переклад англійського визначення</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331648">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691004">squadron</term>
+                        <descrip type="context">Squadrons consist of two or more flights. They are the lowest level of command with a headquarters element, usually identified by number and function. The 1st Reconnaissance Squadron is an example.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Air-Force/#air-force"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691006">ескадрилья</term>
+                        <descrip type="context">Ескадрильї складаються з двох або більше літаків. Це найнижчий рівень командування зі штабним елементом, який зазвичай ідентифікується за номером і функцією. Прикладом є 1-а розвідувальна ескадрилья.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Air-Force/#air-force"></xref>
+                        <note>Переклад англійського визначення</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331650">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691008">group</term>
+                        <descrip type="context">A group consists of two or more squadrons whose functions are similar to what the group is named, such as two or more squadrons supporting medical functions being part a medical group. Groups mostly take on the number of the wing to which they’re assigned. For instance, the 9th Medical Group is part of the 9th Reconnaissance Wing.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Air-Force/#air-force"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691010">група</term>
+                        <descrip type="context">Група складається з двох або більше ескадрилій, функції яких подібні до назви групи, наприклад, дві або більше ескадрилій, що виконують медичні функції, входять до складу медичної групи. Групи здебільшого отримують номер крила, до якого вони приписані. Наприклад, 9-та медична група входить до складу 9-го розвідувального крила.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Air-Force/#air-force"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331652">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691012">wing</term>
+                        <descrip type="context">Wings comprise two or more groups. There are two types of wings: composite and objective. Composite wings operate more than one kind of aircraft, and may be configured as self-contained units designated for quick air intervention anywhere in the world. Others are based on objective: operational, air base or specialized mission. Wings typically contain an operations group, a maintenance group, a support group and a medical group. The 165th Airlift Wing is an example.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Air-Force/#air-force"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691014">крило</term>
+                        <descrip type="context">Крила складаються з двох або більше груп. Існує два типи крил: комбіновані та цільові. Комбіновані крила експлуатують більше одного типу літаків і можуть бути сконфігуровані як автономні одиниці, призначені для швидкого повітряного втручання в будь-якій точці світу. Інші крила базуються на цілях: оперативних, авіабазових або спеціалізованих місіях. До складу крила зазвичай входять оперативна група, група технічного обслуговування, група забезпечення і медична група. Прикладом може слугувати 165-те повітряно-транспортне крило.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Multimedia/Experience/Military-Units/Air-Force/#air-force"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331658">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691032">battery</term>
+                        <descrip type="context">A battery is an artillery unit equivalent to an infantry company. Sub-units of batteries are called troops. An administrative collection of artillery batteries was called a battalion in the 18th century, a brigade until 1938, and since then a regiment. Tactical artillery regiments all belong to the Royal Regiment of Artillery. Batteries are commanded by a captain or major.</descrip>
+                        <xref type="externalCrossReference" target="https://www.nam.ac.uk/explore/army-organisation"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691048">артилерійська батарея</term>
+                        <descrip type="context">Вогневий артилерійський підрозділ артилерійського дивізіону,</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-3-07(11)56(57).01.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331664">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691052">battalion</term>
+                        <descrip type="context">The main firing artillery unit of artillery units and artillery of a combined arms unit.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-3-07(11)56(57).01.pdf"></xref>
+                        <note>Translation of Ukrainian definition</note>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691054">aртилерійський дивізіон</term>
+                        <descrip type="context">Основний вогневий артилерійський підрозділ артилерійських частин та артилерії загальновійськової частини.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/БП-3-07(11)56(57).01.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331689">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691113">Military Occupational Specialty</term>
+                        <descrip type="context">The duty or related group of duties that a soldier by training, skill, and experience is best qualified to perform and that is a basis for the classification, assignment, and advancement of enlisted personnel </descrip>
+                        <xref type="externalCrossReference" target="https://www.merriam-webster.com/dictionary/military%20occupational%20specialty"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691119">MOS</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691115">Військово-облікова спеціальність</term>
+                        <descrip type="context">це категорія військового обліку, яка визначає військовослужбовцям та військовозобов’язаним військову спеціальність та належність до виду (роду) військ (сил) </descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/z1562-23"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691117">ВОС</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331691">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691121">military rank</term>
+                        <descrip type="context">A position in an organization, such as the army, showing the importance of the person having it</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/rank"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691129">rank</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691123">військове звання</term>
+                        <descrip type="context">Персональни ранг військовослужбовця чи військовозобов’язаного запасу, який визначаює його службово-правовий стан і підпорядкування.</descrip>
+                        <xref type="externalCrossReference" target="https://esu.com.ua/article-34476"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691127">звання</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331693">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691131">rank insignia</term>
+                        <descrip type="context">Military rank is a badge of leadership. Responsibility for personnel, equipment and mission grows with each advancement.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691133">знаки розрізнення</term>
+                        <descrip type="context">знаки на форменому одязі військовослужбовців, що показують їхні персональні звання військові, вид збройних сил, рід військ. служби.</descrip>
+                        <xref type="externalCrossReference" target="https://leksika.com.ua/11200508/ure/znaki_rozriznennya_viyskovosluzhbovtsiv"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331697">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691139">enlisted</term>
+                        <descrip type="context">An enlisted member is one who has joined the military or "enlisted." A minimum of a high school diploma is required.</descrip>
+                        <xref type="externalCrossReference" target="https://www.va.gov/vetsinworkplace/docs/em_rank.html"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691147">рядовий склад</term>
+                        <descrip type="context">Рекрут, солдат, старший солдат, матрос, старший матрос</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2232-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331701">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691149">noncommissioned officer</term>
+                        <descrip type="context">An NCO is an enlisted member who has risen through the ranks through promotion. NCOs serve as the link between enlisted personnel and commissioned officers. They hold responsibility for training troops to execute missions. Training for NCOs includes leadership, management, specific skills, and combat training.</descrip>
+                        <xref type="externalCrossReference" target="https://www.va.gov/vetsinworkplace/docs/em_rank.html"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691151">NCO</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691153">сержантський і старшинський склад</term>
+                        <descrip type="context">Молодший сержантський і старшинський склад:
+- молодший сержант
+- сержант
+
+- старшина 2 статті
+- старшина 1 статті
+
+Старший сержантський і старшинський склад:
+- старший сержант
+- головний сержант
+- штаб-сержант
+
+- головний старшина
+- головний корабельний старшина
+- штаб-старшина</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2232-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331703">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691155">commissioned officer</term>
+                        <descrip type="context">An commissioned officer's primary function is to provide management and leadership in his or her area of responsibility. Requires a bachelor's degree and later, as one progresses through the ranks, a master's degree for promotions. Specific commissioning programs exist (e.g., military academies, Reserve Officer Training Corps [ROTC])</descrip>
+                        <xref type="externalCrossReference" target="https://www.va.gov/vetsinworkplace/docs/em_rank.html"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691157">офіцерський склад</term>
+                        <descrip type="context">Молодший офіцерський склад:
+молодший лейтенант, лейтенант, старший лейтенант, капітан, капітан-лейтенант
+Старший офіцерський склад:
+майор, підполковник, полковник, капітан 3 рангу, капітан 2 рангу, капітан 1 рангу
+Вищий офіцерський склад:
+бригадний генерал, генерал-майор, генерал-лейтенант, генерал, коммодор, контр-адмірал, віце-адмірал, адмірал</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/2232-12"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331705">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691159">pay grade</term>
+                        <descrip type="context">An administrative label that makes it easier to process the thousands of paychecks issued every month to every Private First Class, every four-star General and everyone in between.
+
+Pay grades are assigned to enlisted members, officers, and warrant officers. An enlisted member who has an E-1 pay grade is at the bottom of the ladder, so to speak, of both rank and pay, A Second Lieutenant, the lowest officer rank, would hold the pay grade O-1, where the higher-ranked First Lieutenant would also be considered an O-1 in spite of the higher rank. A Captain is an O-2, a Major is O-3, etc.</descrip>
+                        <xref type="externalCrossReference" target="https://veteran.com/pay-grade-vs-rank/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691161">тарифний розряд</term>
+                        <descrip type="context">Посадовий оклад, що визначається штатом військової частини</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/z1095-19"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331715">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691185">Private</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-1". (A) stands for Army rank.
+Pay grade E-1
+• A trainee starting Basic Combat Training.
+• The most junior rank in the Army.
+• Abbreviated PV1.
+• Eligible for promotion to private E-2 (PV2) after six-months time in service.
+• Primary role is to carry out orders issued to them.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691189">Recruit</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691187">рекрут</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-1". Армійське звання рядового складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331717">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691191">Private</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-2". (A) stands for Army rank.
+Pay grade E-2 
+• A trainee starting Basic Combat Training. 
+• The most junior rank in the Army. • Abbreviated PV1. 
+• Eligible for promotion to private E-2 (PV2) after six-months time in service. 
+• Primary role is to carry out orders issued to them.</descrip>
+                        <xref type="externalCrossReference" target=" https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691193">солдат</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-2". Армійське звання рядового складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331719">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691195">Private First Class</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-3". (A) stands for Army rank.
+Pay grade E-3 
+• Start BCT with experience or prior military training. 
+• Abbreviated PFC. • Carries out orders issued to them. 
+• Eligible for promotion to specialist after six months time in rank and 24 months time in service.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691197">старший солдат</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-3". Армійське звання рядового складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331721">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691199">Corporal</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-4". (A) stands for Army rank.
+Pay grade E-4
+• Base of the noncommissioned officer ranks and abbreviated
+CPL.
+• Serve as team leader of the smallest Army units.
+• Responsible for individual training, personal appearance and cleanliness of Soldiers.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691201">молодший сержант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-4".  Армійське звання молодшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331723">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691203">Sergeant</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-5". (A) stands for Army rank.
+Pay grade E-5
+• Typically leads a team of section.
+• First line leaders who have the most direct impact on Soldiers.
+• Oversee Soldiers in their daily tasks.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691205">сержант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-5". Армійське звання молодшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331731">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691217">Staff Sergeant</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-6". (A) stands for Army rank.
+Pay grade E-6
+• Leads a squad (8 to 16 Soldiers).
+• Enforces standards, develop and train Soldiers in MOS skills and unit missions.
+• Often has one or more sergeants under their leadership.
+• Responsible for developing, maintaining and utilizing the full range of the Soldier's potential.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691219">старший-сержант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-6". Армійське звання старшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331807">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691369">Sergeant First Class</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-7". (A) stands for Army rank.
+Pay grade E-7
+• Key assistant and advisor to the platoon leader with the responsibility of training and caring for Soldiers.
+• Generally has 10 to 15 years of Army experience.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691371">головний сержант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-7". Армійське звання старшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331809">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691373">Master Sergeant</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-8". (A) stands for Army rank.
+Pay grade E-8
+Principal NCO at the battalion level and often higher.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691375">штаб-сержант</term>
+                        <descrip type="context">Код НАТО OR-8. 
+Армійське звання старшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331811">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691377">Sergeant Major</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-9". (A) stands for Army rank.
+Pay Grade E-9
+• Subject matter expert in his/her technical field, primary advisor on policy development and analytical reviewer of regulatory guidance.
+• Experience and abilities are equal to that of the command sergeant major, but serves as the senior enlisted adviser to a primary staff officer at the battalion or higher.
+• Assists officers at the battalion level (300 to 1,000 Soldiers).</descrip>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691379">майстер-сержант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-9". Армійське звання вищого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331813">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691381">Command Sergeant Major</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-9". (A) stands for Army rank.
+Pay grade E-9
+• Senior NCO of the command at battalion or higher levels.
+• Without supervision, a CSM's counsel is expected to be calm, settled and accurate-with unflagging enthusiasm.
+• Supplies recommendations to the commander and staff, and carries out policies and standards on the performance, training, appearance and conduct of enlisted personnel.
+• Training professional within the unit, overseeing and driving the entire training program.
+• Assists officers at the brigade level (1,500 to 3,200 Soldiers) and above.</descrip>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691383">старший майстер-сержант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-9". Армійське звання вищого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331815">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691385">Sergeant Major of the Army</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OR-9". (A) stands for Army rank.
+Pay grade E-9
+• Only one sergeant major of the Army.
+• The epitome of what it means to be a sergeant and oversees all NCOs.
+• Serves as the senior enlisted advisor and consultant to the chief of Staff of the Army (four-star general).</descrip>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691387">головний майстер-сержант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OR-9". Армійське звання вищого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331817">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691389">Second Lieutenant</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-1". (A) stands for Army rank.
+Pay grade O-1.
+• Typically the entry-level rank for most commissioned officers.
+• Leads platoon-size elements with a platoon sergeant and two or more squads (16 to 44 Soldiers).</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691391">лейтенант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-1". Армійське звання молодшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691393">молодший лейтенант</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331819">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691395">First Lieutenant</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-1". (A) stands for Army rank.
+Pay grade O-2.
+• A seasoned lieutenant with 18 to 24 months of service.
+• Leads more specialized weapons platoons and indirect fire computation centers.
+• Often selected to be the executive officer of a company-sized unit.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691397">старший лейтенант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-1". Армійське звання молодшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331821">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691399">Captain</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-2". (A) stands for Army rank.
+Pay grade O-3
+• Commands and controls company-sized units (60-200 Soldiers), together with a principal NCO assistant.
+• Instructs skills at service schools, U.S. Army combat training centers and is often a staff officer at the battalion level (300-
+1,000 Soldiers).</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691401">капітан</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-2". Армійське звання молодшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331823">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691403">Major</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-3". (A) stands for Army rank.
+Pay grade O-4
+• Serves as the primary staff officer for brigade and task force command regarding personnel, logistical and operational missions.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691405">майор</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-3". Армійське звання старшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331825">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691407">Lieutenant Colonel</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-4". (A) stands for Army rank.
+Pay grade O-5
+• Typically commands battalion-sized units (300 to 1,000
+Soldiers), with a command sergeant major as the principal NCO assistant.
+• May also be selected for brigade and task force Executive
+Officer.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691409">підполковник</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-4". Армійське звання старшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331827">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691411">Colonel</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-5". (A) stands for Army rank.
+Pay grade O-6
+• Typically commands brigade-sized units (1,500 to 3,200
+Soldiers), with a command sergeant major as the principal NCO assistant.
+• Typically the chief of divisional-level staff agencies.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691413">полковник</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-5". Армійське звання старшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331829">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691415">Brigadier General</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-6". (A) stands for Army rank.
+Pay grade O-7
+• Serves as deputy commander to the commanding general for Army divisions. Assists in overseeing the staff's planning and coordination of a mission.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691417">бригадний генерал</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-6". Армійське звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331831">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691419">Major General</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-7". (A) stands for Army rank.
+Pay grade O-8
+• Typically commands division-sized units (10,000 to 16,000
+Soldiers).</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691421">генерал-майор</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-7". Армійське звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331833">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691423">Lieutenant General</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-8". (A) stands for Army rank.
+Pay grade O-9
+• Typically commands corps-sized units (20,000 to 40,000
+Soldiers).</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691425">генерал-лейтенант</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-8". Армійське звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331835">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691427">General</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (A) OF-9".  (A) stands for Army rank.
+Pay grade O-10
+• The senior level of commissioned officer typically has over 30 years of experience and service.</descrip>
+                        <xref type="externalCrossReference" target="https://www.army.mil/ranks/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691429">генерал</term>
+                        <descrip type="context">Код НАТО: "UKR (A) OF-9". Армійське звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331837">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691431">Seaman Recruit</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-1". (N) stands for Naval rank. 
+Pay grade E-1</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691433">рекрут</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-1". Корабельне звання рядового складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331839">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691435">Seaman Apprentice</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-2". (N) stands for Naval rank. 
+Pay grade E-2</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691437">матрос</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-2". Корабельне звання рядового складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331841">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691439">Seaman</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-3". (N) stands for Naval rank. 
+Pay grade E-3</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691441">старший матрос</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-3". Корабельне звання рядового складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331843">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691443">Petty Officer Third Class</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-4". (N) stands for Naval rank. 
+Pay grade E-4</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691445">старшина 2-ої статті</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-4". Корабельне звання молодшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331845">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691447">Petty Officer Second Class</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-5". (N) stands for Naval rank. 
+Pay grade E-5</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691449">старшина 1-ої статті</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-5". Корабельне звання молодшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331847">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691451">Petty Officer First Class</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-6". (N) stands for Naval rank. 
+Pay grade E-6</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691453">головний старшина</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-6". Корабельне звання старшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331849">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691455">Chief Petty Officer</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-7". (N) stands for Naval rank. 
+Pay grade E-7</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691457">головний корабельний старшина</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-7". Корабельне звання старшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331851">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691459">Senior Chief Petty Officer</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-8". (N) stands for Naval rank. 
+Pay grade E-8</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691461">штаб-старшина</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-8". Корабельне звання старшого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331853">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691463">Master Chief Petty Officer</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-9". (N) stands for Naval rank. 
+Pay grade E-9</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691465">майстер-старшина</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-9". Корабельне звання вищого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331855">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691467">Command Master Chief Petty Officer</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-9". (N) stands for Naval rank. 
+Pay grade E-9</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691469">Fleet Master Chief Petty Officer</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691471">старший майстер-старшина</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-9". Корабельне звання вищого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331857">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691473">Master Chief Petty Officer of the Navy</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OR-9". (N) stands for Naval rank. 
+Pay grade E-9</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691475">головний майстер-старшина</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OR-9". Корабельне звання вищого сержантського і старшинського складу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331859">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691477">Ensign</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-1". (N) stands for Naval rank. 
+Pay grade O-1.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691479">лейтенант</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-1". Корабельне звання молодшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691481">молодший лейтенант</term>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331861">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691483">Lieutenant Junior Grade</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-1". (N) stands for Naval rank. 
+Pay grade O-2.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691485">старший лейтенант</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-1". Корабельне звання молодшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331863">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691487">Lieutenant</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-2". (N) stands for Naval rank. 
+Pay grade O-3.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691489">капітан-лейтенант</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-2". Корабельне звання молодшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331865">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691491">Lieutenant Commander</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-3". (N) stands for Naval rank. 
+Pay grade O-4.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691493">капітан 3-го рангу</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-3". Корабельне звання старшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331867">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691495">Commander</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-4". (N) stands for Naval rank. 
+Pay grade O-5.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691497">капітан 2-го рангу</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-4". Корабельне звання старшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331869">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691499">Captain</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-5". (N) stands for Naval rank. 
+Pay grade O-6.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691501">капітан 1-го рангу</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-5". Корабельне звання старшого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331871">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691503">Rear Admiral Lower Half</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-6". (N) stands for Naval rank. 
+Pay grade O-7.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691505">коммодор</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-6". Корабельне звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331873">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691507">Rear Admiral</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-7". (N) stands for Naval rank. 
+Pay grade O-8.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691509">контр-адмірал</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-7". Корабельне звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331875">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691511">Vice Admiral</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-8". (N) stands for Naval rank. 
+Pay grade O-9.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691513">віце-адмірал</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-8". Корабельне звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331877">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691515">Admiral</term>
+                        <descrip type="context">STANAG 2116 NATO code: "USA (N) OF-9". (N) stands for Naval rank. 
+Pay grade O-10.</descrip>
+                        <xref type="externalCrossReference" target="https://www.defense.gov/Resources/Insignia/"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691517">адмірал</term>
+                        <descrip type="context">Код НАТО: "UKR (N) OF-9". Корабельне звання вищого офіцерського складу.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/Прирівняння_звань_до_кодів_НАТО.pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="332297">
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="692519">enlistment</term>
+                        <descrip type="context">The action of accepting someone into the armed forces or of joining the armed forces</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/dictionary/english/enlistment"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="692521">призов</term>
+                        <descrip type="context">Оголошення про набір на військову службу; Набір на військову службу</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=Призов"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>

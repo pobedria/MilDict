@@ -2424,6 +2424,163 @@ The UNGA also makes key decisions for the UN, including:
                     </termSec>
                 </langSec>
             </conceptEntry>
+            <conceptEntry id="331666">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691056">infantry</term>
+                        <descrip type="context">Soldiers who fight on foot</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/ru/словарь/англо-русский/infantry"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691058">піхота</term>
+                        <descrip type="context">Рід військ, що діє в пішому строю.</descrip>
+                        <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=піхота"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331668">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691060">air defense artillery</term>
+                        <descrip type="context">A combat arms branch that defends geopolitical assets and provides maneuver forces with the freedom to move on the battlefield by deterring the enemy and destroying aerial threats, missile attacks, and surveillance platforms.</descrip>
+                        <xref type="externalCrossReference" target="https://sill-www.army.mil/ocada/ada.html"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691064">ADA</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691062">зенітна артилерія</term>
+                        <descrip type="context">Рід військ, який захищає геополітичні об'єкти та забезпечує маневрені сили свободою пересування на полі бою, стримуючи ворога та знищуючи повітряні загрози, ракетні атаки та платформи спостереження.</descrip>
+                        <xref type="externalCrossReference" target="https://sill-www.army.mil/ocada/ada.html"></xref>
+                        <note>Переклад англійського визначення</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331670">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691066">field artillery</term>
+                        <descrip type="context">Large-calibre, crew-operated, mounted firearm designed for easy movement in the field</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/technology/field-artillery"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691068">польова артилерія</term>
+                        <descrip type="context">Великокаліберна, керована екіпажем, навісна вогнепальна зброя, призначена для легкого переміщення в польових умовах.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/technology/field-artillery"></xref>
+                        <note>Переклад англійського визначення</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331672">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691070">Special Forces</term>
+                        <descrip type="context">military groups who have been specially trained to work in a particular area of security, often using methods that are different from the usual ones:</descrip>
+                        <xref type="externalCrossReference" target="https://dictionary.cambridge.org/uk/dictionary/english/special-forces"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691074">SF</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691072">Сили спеціальних операцій</term>
+                        <descrip type="context">окремий  рід  сил, є складовою ЗСУ, який відповідно до Закону України “Про Збройні Сили України”, може залучатися до здійснення заходів правового режиму воєнного і надзвичайного стану, організації та підтримання дій руху опору, проведення військових інформаційно-психологічних операцій, боротьби з тероризмом і піратством, заходів щодо здійснення захисту життя, здоров’я громадян та об’єктів (майна) державної власності за межами України, забезпечення їх безпеки та евакуації (повернення), посилення охорони державного кордону, захисту суверенних прав України в її виключній (морській) економічній зоні і континентального шельфу України та їх правового оформлення, забезпечення безпеки національного морського судноплавства України у відкритому морі чи у будь-якому місці, що знаходиться поза межами юрисдикції будь-якої держави, заходів щодо запобігання розповсюдженню зброї масового ураження, протидії незаконним перевезенням зброї і наркотичних засобів, психотропних речовин, їх аналогів або прекурсорів у відкритому морі, ліквідації надзвичайних ситуацій природного та техногенного характеру, надання військової допомоги іншим державам, а також брати участь у міжнародному військовому співробітництві, міжнародних антитерористичних, антипіратських та інших міжнародних операціях з підтримання миру і безпеки, на підставі міжнародних договорів України та в порядку і на умовах, визначених законодавством України. </descrip>
+                        <xref type="externalCrossReference" target="https://www.zsu.gov.ua/pro-nas/struktura-zsu/syly-speczialnyh-operaczij-zbrojnyh-syl-ukrayiny/"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691076">ССО</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331674">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691078">Corps of Engineers</term>
+                        <descrip type="context">Combatant arm and a technical service of the United States Army. Alone among the armed services it engages in extensive civil as well as military activities.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/US-Army-Corps-of-Engineers"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691080">інженерні війська</term>
+                        <descrip type="context">Спеціальні війська, призначені для оперативного та бойового забезпечення воєнних дій. Є у складі ЗС більшості країн і включають формування різноманіт. призначення: інж.-саперні, штурм., інж.-дорожні, мостобуд. (мостові), понтонно-мостові (понтонні), переправочно-десантні (амфібійні), позиц., маскувал., польового водопостачання (добування і очищення води), інж.-буд. тощо.</descrip>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331678">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691086">Signal Corps</term>
+                        <descrip type="context">branch of the U.S. Army whose mission is to manage all aspects of communications and information systems support.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/Signal-Corps"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691088">війська зв'язку та кібербезпеки</term>
+                        <descrip type="context">Спеціальні війська, призначені для планування та забезпечення розгортання, згортання, функціонування системи зв’язку та інформаційних систем, систем бойового управління та оповіщення, їх нарощування в мирний час, в особливий період, в умовах надзвичайного та воєнного стану з метою вирішення завдань забезпечення управління військами (силами) ЗС України, а також здійснення заходів з функціонування національної системи кібербезпеки та відбиття воєнної агресії у кіберпросторі (кібероборони). Частини та підрозділи ВЗ та КБ ЗС України входять до складу всіх видів та окремих родів військ, сил ЗС України.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВКП-6-00(01).01.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691090">ВЗ та КБ</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331680">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691092">military police</term>
+                        <descrip type="context">Disciplinary force, composed of soldiers, that exercises police and related functions in armies. Generally, their principal duty is to maintain law and order, prevent and investigate crime within the army, and operate confinement facilities. They also engage in combat as infantry when required.</descrip>
+                        <xref type="externalCrossReference" target="https://www.britannica.com/topic/military-police"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691094">Військова служба правопорядку</term>
+                        <descrip type="context">Спеціальне правоохоронне формування у складі Збройних Сил України, призначене для забезпечення правопорядку і військової дисципліни серед військовослужбовців Збройних Сил України у місцях дислокації військових частин, у військових навчальних закладах, установах та організаціях (далі - військові частини), військових містечках, на вулицях і в громадських місцях; для запобігання кримінальним та іншим правопорушенням у Збройних Силах України, їх припинення; для захисту життя, здоров'я, прав і законних інтересів військовослужбовців, військовозобов'язаних під час проходження ними зборів, працівників Збройних Сил України, а також для захисту майна Збройних Сил України від розкрадання та інших протиправних посягань, а так само для участі у протидії диверсійним проявам і терористичним актам на військових об'єктах.</descrip>
+                        <xref type="externalCrossReference" target="https://zakon.rada.gov.ua/laws/show/3099-14"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="331682">
+                <descrip type="subjectField">500 – оборонне планування</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="691096">Chemical Corps</term>
+                        <descrip type="context">Conducts operations to protect the force and the nation from WMD/CBRN threats and hazards</descrip>
+                        <xref type="externalCrossReference" target="https://home.army.mil/wood/application/files/2516/1240/1452/CMBranchBrief.pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="691098">війська радіаційного, хімічного, біологічного захисту</term>
+                        <descrip type="context">призначені для РХБ захисту бойових дій з’єднань та частин родів військ, спеціальних військ і тилу, для РХБ захисту дій військ під час участі у міжнародних миротворчих операціях, а також участі військ у ліквідації наслідків надзвичайних ситуацій.</descrip>
+                        <xref type="externalCrossReference" target="https://sprotyvg7.com.ua/wp-content/uploads/2024/05/Бойове_застосування_підрозділів_військ_РХБ_захисту.pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="691100">РХБ</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
         </body>
     </text>
 </tbx>
