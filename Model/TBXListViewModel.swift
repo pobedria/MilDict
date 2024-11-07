@@ -117,48 +117,39 @@ class TBXListViewModel: ObservableObject {
     }
 
     func performSearch(with searchText: String) -> [AppTerm] {
-           if searchText.isEmpty {
-               return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
-           } else {
-               let sanitizedField = searchText.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-               let searchWords = sanitizedField.components(separatedBy: .whitespacesAndNewlines).filter { !$0.isEmpty }
-               guard !searchWords.isEmpty else {
-                   return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
-               }
+        if searchText.isEmpty {
+            return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
+        } else {
+            let sanitizedField = searchText.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+            let searchWords = sanitizedField.components(separatedBy: .whitespacesAndNewlines).filter { !$0.isEmpty }
+            guard !searchWords.isEmpty else {
+                return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
+            }
 
-               let totalSearchLength = searchWords.reduce(0) { $0 + $1.count }
-               let maximumTotalDistance = Int(Double(totalSearchLength) * 0.5) // Налаштуйте відсоток за потреби
+            let totalSearchLength = searchWords.reduce(0) { $0 + $1.count }
+            let maximumTotalDistance = Int(Double(totalSearchLength) * 0.5) // Налаштуйте відсоток за потреби
 
-               let firstSearchWord = searchWords.first!
+            let results = TermsStorage.allTerms
+                .map { term -> (AppTerm, Int, Int) in
+                    let termLowercased = term.term.lowercased()
+                    let termWords = termLowercased.components(separatedBy: .whitespacesAndNewlines).filter { !$0.isEmpty }
 
-               let results = TermsStorage.allTerms
-                   .map { term -> (AppTerm, Int, Int, Bool) in
-                       let termLowercased = term.term.lowercased()
-                       let termWords = termLowercased.components(separatedBy: .whitespacesAndNewlines).filter { !$0.isEmpty }
+                    let letterDistance = totalMinimumLevenshteinDistanceUnordered(searchWords: searchWords, termWords: termWords)
+                    let wordSequenceDistance = levenshteinDistanceBetweenWordSequences(searchWords, termWords)
 
-                       let letterDistance = totalMinimumLevenshteinDistanceUnordered(searchWords: searchWords, termWords: termWords)
-                       let wordSequenceDistance = levenshteinDistanceBetweenWordSequences(searchWords, termWords)
-                       let termStartsWithFirstSearchWord = termWords.first?.hasPrefix(firstSearchWord) ?? false
+                    return (term, letterDistance, wordSequenceDistance)
+                }
+                .filter { $0.1 <= maximumTotalDistance }
+                .sorted {
+                    if $0.2 != $1.2 {
+                        return $0.2 < $1.2
+                    } else {
+                        return $0.1 < $1.1
+                    }
+                }
+                .map { $0.0 }
 
-                       return (term, letterDistance, wordSequenceDistance, termStartsWithFirstSearchWord)
-                   }
-                   .filter { $0.1 <= maximumTotalDistance }
-                   .sorted {
-                       if $0.3 && !$1.3 {
-                           return true
-                       } else if !$0.3 && $1.3 {
-                           return false
-                       } else {
-                           if $0.2 != $1.2 {
-                               return $0.2 < $1.2
-                           } else {
-                               return $0.1 < $1.1
-                           }
-                       }
-                   }
-                   .map { $0.0 }
-
-               return results
-           }
-       }
+            return results
+        }
+    }
 }

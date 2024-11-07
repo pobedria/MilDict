@@ -100,18 +100,10 @@ struct TBXListView: View {
         }
     }
     
-  
     private var navigationTitle: String {
         viewModel.lang == "en" ? "Англійські терміни" : "Українські терміни"
     }
-    
-    // MARK: - Fuzzy search methods
-    
 
-
-
-    
-    // MARK: - Methods
     private func configureSearchBarAppearance() {
         let textFieldAppearance = UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self])
         textFieldAppearance.backgroundColor = UIColor(.steppe)
