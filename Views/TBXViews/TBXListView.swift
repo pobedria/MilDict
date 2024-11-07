@@ -23,16 +23,25 @@ struct TBXListView: View {
             // Використовуємо NavigationSplitView для iPad
             NavigationSplitView {
                 List(selection: $selectedTerm) {
-                    ForEach(groupedTerms, id: \.key) { section in
-                        Section(header: SectionHeaderView(headerText:section.key)) {
-                            ForEach(section.values) { term in
-                                NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
-                                    TBXPreView(term: term)
-                                }
-                                .listRowBackground(Color.olive)
+                    if searchText != ""{
+                        ForEach(searchResults) { term in
+                            NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                                TBXPreView(term: term)
                             }
+                            .listRowBackground(Color.olive)
                         }
-                        .headerProminence(.increased)
+                    } else {
+                        ForEach(groupedTerms, id: \.key) { section in
+                            Section(header: SectionHeaderView(headerText:section.key)) {
+                                ForEach(section.values) { term in
+                                    NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                                        TBXPreView(term: term)
+                                    }
+                                    .listRowBackground(Color.olive)
+                                }
+                            }
+                            .headerProminence(.standard)
+                        }
                     }
                 }
                 .navigationTitle(navigationTitle)
@@ -54,16 +63,25 @@ struct TBXListView: View {
             // Використовуємо NavigationStack для iPhone
             NavigationStack {
                 List {
-                    ForEach(groupedTerms, id: \.key) { section in
-                        Section(header: SectionHeaderView(headerText:section.key)) {
-                            ForEach(section.values) { term in
-                                NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
-                                    TBXPreView(term: term)
-                                }
-                                .listRowBackground(Color.olive)
+                    if searchText != ""{
+                        ForEach(searchResults) { term in
+                            NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                                TBXPreView(term: term)
                             }
+                            .listRowBackground(Color.olive)
                         }
-                        .headerProminence(.standard)
+                    } else {
+                        ForEach(groupedTerms, id: \.key) { section in
+                            Section(header: SectionHeaderView(headerText:section.key)) {
+                                ForEach(section.values) { term in
+                                    NavigationLink(destination: TBXDetailView(chosenTerm: term)) {
+                                        TBXPreView(term: term)
+                                    }
+                                    .listRowBackground(Color.olive)
+                                }
+                            }
+                            .headerProminence(.standard)
+                        }
                     }
                 }
                 .navigationTitle(navigationTitle)
@@ -79,18 +97,59 @@ struct TBXListView: View {
         }
     }
     
-    // MARK: - Computed Properties
+  
     private var navigationTitle: String {
         lang == "en" ? "Англійські терміни" : "Українські терміни"
     }
     
+    // MARK: - Fuzzy search methods
+    func levenshteinDistance(_ s1: String, _ s2: String) -> Int {
+        let empty = [Int](repeating: 0, count: s2.count + 1)
+        var last = [Int](0...s2.count)
+        for (i, c1) in s1.enumerated() {
+            var curr = [i + 1] + empty
+            for (j, c2) in s2.enumerated() {
+                curr[j + 1] = c1 == c2 ? last[j] : min(last[j], last[j + 1], curr[j]) + 1
+            }
+            last = curr
+        }
+        return last[s2.count]
+    }
+
+    func firstNCharacters(_ text: String, _ n: Int) -> String {
+        return String(text.prefix(n))
+    }
+
     private var searchResults: [AppTerm] {
-        
         if searchText.isEmpty {
             return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
         } else {
             let sanitizedField = searchText.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-            return TermsStorage.allTerms.filter({ $0.term.lowercased().starts(with:sanitizedField)}).sorted()
+            let searchCharacterCount = sanitizedField.count
+            guard searchCharacterCount > 0 else {
+                return lang == "en" ? TermsStorage.enTerms : TermsStorage.ukTerms
+            }
+            
+            // Динамічне налаштування максимального допустимого відхилення
+            let maximumDistance: Int
+            switch searchCharacterCount {
+            case 1...3:
+                maximumDistance = 1
+            case 4...6:
+                maximumDistance = 2
+            default:
+                maximumDistance = 3
+            }
+
+            return TermsStorage.allTerms
+                .map { term in
+                    let termSnippet = firstNCharacters(term.term.lowercased(), searchCharacterCount)
+                    let distance = levenshteinDistance(termSnippet, sanitizedField)
+                    return (term, distance)
+                }
+                .filter { $0.1 <= maximumDistance }
+                .sorted { $0.1 < $1.1 }
+                .map { $0.0 }
         }
     }
     
