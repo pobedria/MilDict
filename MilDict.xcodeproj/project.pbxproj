@@ -11,6 +11,7 @@
 		7702E6662BEB74E60002B149 /* TBXPreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6652BEB74E60002B149 /* TBXPreView.swift */; };
 		7702E6682BEB7DE80002B149 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702E6672BEB7DE80002B149 /* AppModel.swift */; };
 		7702E6742BECD1C70002B149 /* convertor.js in Resources */ = {isa = PBXBuildFile; fileRef = 7702E66A2BECD1C60002B149 /* convertor.js */; };
+		770E2FA62CDD0465003F0554 /* TBXListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770E2FA52CDD0465003F0554 /* TBXListViewModel.swift */; };
 		771CF1AC2C060576002E362E /* Volja-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 771CF1A92C060538002E362E /* Volja-Regular.ttf */; };
 		771CF1AE2C06058F002E362E /* Volja-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 771CF1AD2C06058B002E362E /* Volja-Black.ttf */; };
 		776A28EA2BEA4A40008D4662 /* TBXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A28E92BEA4A40008D4662 /* TBXModel.swift */; };
@@ -83,6 +84,7 @@
 		7702E6652BEB74E60002B149 /* TBXPreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXPreView.swift; sourceTree = "<group>"; };
 		7702E6672BEB7DE80002B149 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		7702E66A2BECD1C60002B149 /* convertor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = convertor.js; sourceTree = "<group>"; };
+		770E2FA52CDD0465003F0554 /* TBXListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXListViewModel.swift; sourceTree = "<group>"; };
 		771CF1A92C060538002E362E /* Volja-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Volja-Regular.ttf"; sourceTree = "<group>"; };
 		771CF1AD2C06058B002E362E /* Volja-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Volja-Black.ttf"; sourceTree = "<group>"; };
 		776A28E92BEA4A40008D4662 /* TBXModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXModel.swift; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				776A28E92BEA4A40008D4662 /* TBXModel.swift */,
+				770E2FA52CDD0465003F0554 /* TBXListViewModel.swift */,
 				7702E6672BEB7DE80002B149 /* AppModel.swift */,
 				77AA0A262A77A3CC006D3946 /* ReadWords.swift */,
 				77A02C2E2BF3437C0052A3B8 /* LinksDict.swift */,
@@ -396,7 +399,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					778B072E2A723F3100A96821 = {
 						CreatedOnToolsVersion = 14.3;
@@ -501,6 +504,7 @@
 				77A02C652BF3A6230052A3B8 /* TermsStorage.swift in Sources */,
 				7702E6682BEB7DE80002B149 /* AppModel.swift in Sources */,
 				77A02C2B2BF211BC0052A3B8 /* TBXDetailView.swift in Sources */,
+				770E2FA62CDD0465003F0554 /* TBXListViewModel.swift in Sources */,
 				77AA0A272A77A3CC006D3946 /* ReadWords.swift in Sources */,
 				77A02C2D2BF235910052A3B8 /* TermDetailView.swift in Sources */,
 				777D47012BFC9589006EA0A0 /* QuizOption.swift in Sources */,
@@ -667,7 +671,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MilDict/Preview Content\"";
 				DEVELOPMENT_TEAM = YPW86A9DJB;
 				ENABLE_PREVIEWS = YES;
@@ -699,7 +703,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MilDict/Preview Content\"";
 				DEVELOPMENT_TEAM = YPW86A9DJB;
 				ENABLE_PREVIEWS = YES;
@@ -728,7 +732,6 @@
 		778B07572A723F3200A96821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -748,7 +751,6 @@
 		778B07582A723F3200A96821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -768,7 +770,6 @@
 		778B075A2A723F3200A96821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YPW86A9DJB;
@@ -786,7 +787,6 @@
 		778B075B2A723F3200A96821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YPW86A9DJB;

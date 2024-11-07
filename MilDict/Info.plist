@@ -16,5 +16,7 @@
 		<string>Volja-Black.ttf</string>
 		<string>Volja-Regular.ttf</string>
 	</array>
+	<key>UIPrerenderedIcon</key>
+	<false/>
 </dict>
 </plist>
