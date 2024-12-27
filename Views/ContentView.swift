@@ -9,6 +9,7 @@ import SwiftUI
 
 
 struct ContentView: View {
+    let a = 3;
     
     var body: some View {
 
