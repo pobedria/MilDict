@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "778B072E2A723F3100A96821"
-               BuildableName = "MilDict.app"
-               BlueprintName = "MilDict"
-               ReferencedContainer = "container:MilDict.xcodeproj">
+               BuildableName = "&#x41b;&#x435;&#x441;&#x44f;.app"
+               BlueprintName = "&#x41b;&#x435;&#x441;&#x44f;"
+               ReferencedContainer = "container:&#x41b;&#x435;&#x441;&#x44f;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "778B073E2A723F3200A96821"
-               BuildableName = "MilDictTests.xctest"
-               BlueprintName = "MilDictTests"
-               ReferencedContainer = "container:MilDict.xcodeproj">
+               BuildableName = "&#x41b;&#x435;&#x441;&#x44f;Tests.xctest"
+               BlueprintName = "&#x41b;&#x435;&#x441;&#x44f;Tests"
+               ReferencedContainer = "container:&#x41b;&#x435;&#x441;&#x44f;.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "778B07482A723F3200A96821"
-               BuildableName = "MilDictUITests.xctest"
-               BlueprintName = "MilDictUITests"
-               ReferencedContainer = "container:MilDict.xcodeproj">
+               BuildableName = "&#x41b;&#x435;&#x441;&#x44f;UITests.xctest"
+               BlueprintName = "&#x41b;&#x435;&#x441;&#x44f;UITests"
+               ReferencedContainer = "container:&#x41b;&#x435;&#x441;&#x44f;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "778B072E2A723F3100A96821"
-            BuildableName = "MilDict.app"
-            BlueprintName = "MilDict"
-            ReferencedContainer = "container:MilDict.xcodeproj">
+            BuildableName = "&#x41b;&#x435;&#x441;&#x44f;.app"
+            BlueprintName = "&#x41b;&#x435;&#x441;&#x44f;"
+            ReferencedContainer = "container:&#x41b;&#x435;&#x441;&#x44f;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -93,9 +93,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "778B072E2A723F3100A96821"
-            BuildableName = "MilDict.app"
-            BlueprintName = "MilDict"
-            ReferencedContainer = "container:MilDict.xcodeproj">
+            BuildableName = "&#x41b;&#x435;&#x441;&#x44f;.app"
+            BlueprintName = "&#x41b;&#x435;&#x441;&#x44f;"
+            ReferencedContainer = "container:&#x41b;&#x435;&#x441;&#x44f;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

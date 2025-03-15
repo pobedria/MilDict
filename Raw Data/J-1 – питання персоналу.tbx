@@ -12,6 +12,7 @@
     <text>
         <body>
             <conceptEntry id="326712">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">102 – стратегічні комунікації</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -37,6 +38,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326946">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -54,6 +56,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326958">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">100 – підготовка (загальні положення)</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -71,6 +74,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326988">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">102 – стратегічні комунікації</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -88,6 +92,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327024">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -107,6 +112,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327076">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">102 – стратегічні комунікації</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -124,6 +130,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328074">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">102 – стратегічні комунікації</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -141,6 +148,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328510">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">102 – стратегічні комунікації</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -158,6 +166,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328536">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">102 – стратегічні комунікації</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -175,6 +184,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328610">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">103 – національно-патріотична підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -192,6 +202,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328612">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">101 – морально-психологічне забезпечення</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -209,6 +220,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328688">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">100 – підготовка (загальні положення)</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -226,6 +238,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="329544">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -243,6 +256,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330686">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">102 – стратегічні комунікації</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -260,6 +274,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330692">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -277,6 +292,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331592">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -303,6 +319,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331594">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -327,6 +344,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331596">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -348,6 +366,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331608">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <note>Просто "Штаб"</note>
                 <langSec xml:lang="en">
@@ -366,6 +385,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331628">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -388,6 +408,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331630">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -409,6 +430,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331632">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -426,6 +448,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331634">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -443,6 +466,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331636">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -460,6 +484,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331638">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -477,6 +502,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331640">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -494,6 +520,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331642">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -511,6 +538,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331644">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -529,6 +557,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331646">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -548,6 +577,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331648">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -566,6 +596,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331650">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -583,6 +614,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331652">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -600,6 +632,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331658">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -617,6 +650,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331664">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -635,6 +669,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331689">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -660,6 +695,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331691">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -685,6 +721,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331693">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -702,6 +739,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331697">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -719,6 +757,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331701">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -754,6 +793,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331703">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -776,6 +816,7 @@ The Office of the Secretary of Defense (OSD) is responsible for policy developme
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331705">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -795,6 +836,7 @@ Pay grades are assigned to enlisted members, officers, and warrant officers. An 
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331715">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -822,6 +864,7 @@ Pay grade E-1
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331717">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -844,6 +887,7 @@ Pay grade E-2
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331719">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -865,6 +909,7 @@ Pay grade E-3
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331721">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -887,6 +932,7 @@ CPL.
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331723">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -908,6 +954,7 @@ Pay grade E-5
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331731">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -930,6 +977,7 @@ Pay grade E-6
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331807">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -950,6 +998,7 @@ Pay grade E-7
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331809">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -970,6 +1019,7 @@ Principal NCO at the battalion level and often higher.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331811">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -990,6 +1040,7 @@ Pay Grade E-9
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331813">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1012,6 +1063,7 @@ Pay grade E-9
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331815">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1032,6 +1084,7 @@ Pay grade E-9
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331817">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1056,6 +1109,7 @@ Pay grade O-1.
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331819">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1077,6 +1131,7 @@ Pay grade O-2.
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331821">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1098,6 +1153,7 @@ Pay grade O-3
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331823">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1117,6 +1173,7 @@ Pay grade O-4
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331825">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1139,6 +1196,7 @@ Officer.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331827">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1160,6 +1218,7 @@ Soldiers), with a command sergeant major as the principal NCO assistant.
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331829">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1179,6 +1238,7 @@ Pay grade O-7
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331831">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1199,6 +1259,7 @@ Soldiers).</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331833">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1219,6 +1280,7 @@ Soldiers).</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331835">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1238,6 +1300,7 @@ Pay grade O-10
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331837">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1256,6 +1319,7 @@ Pay grade E-1</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331839">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1274,6 +1338,7 @@ Pay grade E-2</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331841">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1292,6 +1357,7 @@ Pay grade E-3</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331843">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1310,6 +1376,7 @@ Pay grade E-4</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331845">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1328,6 +1395,7 @@ Pay grade E-5</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331847">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1346,6 +1414,7 @@ Pay grade E-6</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331849">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1364,6 +1433,7 @@ Pay grade E-7</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331851">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1382,6 +1452,7 @@ Pay grade E-8</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331853">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1400,6 +1471,7 @@ Pay grade E-9</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331855">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1422,6 +1494,7 @@ Pay grade E-9</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331857">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1440,6 +1513,7 @@ Pay grade E-9</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331859">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1461,6 +1535,7 @@ Pay grade O-1.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331861">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1479,6 +1554,7 @@ Pay grade O-2.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331863">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1497,6 +1573,7 @@ Pay grade O-3.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331865">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1515,6 +1592,7 @@ Pay grade O-4.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331867">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1533,6 +1611,7 @@ Pay grade O-5.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331869">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1551,6 +1630,7 @@ Pay grade O-6.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331871">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1569,6 +1649,7 @@ Pay grade O-7.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331873">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1587,6 +1668,7 @@ Pay grade O-8.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331875">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1605,6 +1687,7 @@ Pay grade O-9.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331877">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1623,6 +1706,7 @@ Pay grade O-10.</descrip>
                 </langSec>
             </conceptEntry>
             <conceptEntry id="332297">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">104 – військова кадрова політика</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1636,6 +1720,855 @@ Pay grade O-10.</descrip>
                         <term id="692521">призов</term>
                         <descrip type="context">Оголошення про набір на військову службу; Набір на військову службу</descrip>
                         <xref type="externalCrossReference" target="https://slovnyk.ua/index.php?swrd=Призов"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343901">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722221">test data analysis</term>
+                        <descrip type="context">Newer expression for polygraph chart interpretation, a change prompted by digital polygraphs where physiological data are displayed on computer screens rather than paper strip charts</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722223">TDA</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722225">аналіз даних тесту</term>
+                        <descrip type="context">Інтерпретація чартів, змін, які фіксують цифрові поліграфи, де фізіологічні дані відображаються на екранах комп’ютерів, а не на паперових діаграмах</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343903">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722227">analysis spot</term>
+                        <descrip type="context">The specific location on a PDD chart where the spot analysis concept is employed, and is generally anchored to a relevant question</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722229">аналіз споту</term>
+                        <descrip type="context">Процедура виокремлення конкретного місця на поліграмі ПФДЗП, як правило, прив’язаного до релевантного запитання.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343905">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722231">artifact</term>
+                        <descrip type="context">A change in a physiological pattern not attributable to stimulus (question presentation) or recovery</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722233">артефакт</term>
+                        <descrip type="context">Зміна фізіологічного патерну реагування, що не пов’язана зі стимулом (пред’явленим запитанням) або відновленням</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343907">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722235">refusal from undergoing PDD testing</term>
+                        <descrip type="context">Unwillingness (expressed in any form) of a person to undergo PDD testing that must be documented by with an arbitrarily composed testing waiver</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722237">відмова від проходження ПФДЗП</term>
+                        <descrip type="context">Небажання (виражене у будь-якій формі) особи проходити ПФДЗП, що повинно бути оформлено довідкою в довільній формі про відмову особи від дослідження</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343909">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722239">diagnostic examination</term>
+                        <descrip type="context">An evidence-based or research-focused polygraph examination conducted with regard to a specific event or accusation in order to establish possible involvement of the subject of the examination in the event or the reliability of the testimony regarding the knowledge of the actual circumstances</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722241">діагностичне дослідження</term>
+                        <descrip type="context">Доказове чи дослідницьке поліграфологічне дослідження щодо конкретної події або звинувачення, проведене для встановлення можливої причетності об’єкта дослідження до події чи правдивості свідчень стосовно знання фактичних обставин</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343911">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722243">electrodermal activity</term>
+                        <descrip type="context">All exosomatic and endosomatic changes in the electrical properties of the skin</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722245">EDA</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722247">електродермальна активність</term>
+                        <descrip type="context">Усі екзосоматичні та ендосоматичні зміни електричних властивостей шкіри</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343913">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722249">electrodermal response</term>
+                        <descrip type="context">The reaction of skin measured by changes in its electrical properties, including skin resistance (SR), skin conductance (SC), and skin potential (SP)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722253">електродермальна реакція</term>
+                        <descrip type="context">Реакція, яка вимірюється змінами таких властивостей шкіри, як електропровідність та електричний потенціал</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343915">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722255">empirical scoring system</term>
+                        <descrip type="context">An evidence-based numerical scoring model for manual test data analysis (TDA) of PDD test data from examinations conducted using comparison question test (CQT) formats</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722259">ESS</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722257">емпірична система підрахунку балів</term>
+                        <descrip type="context">Доказова числова модель підрахунку балів для ручного аналізу даних тесту ПФДЗП, проведеного з використанням форматів тесту із запитаннями порівняння</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343917">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722261">comparison question</term>
+                        <descrip type="context">Type of question, the physiological responses from which are compared to those generated by the relevant questions.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722263">запитання порівняння</term>
+                        <descrip type="context">Тип запитань, фізіологічні реакції на які порівнюються з тими, які були викликані релевантними запитаннями</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343919">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722265">PDD report</term>
+                        <descrip type="context">A document containing presumptive and preliminary written conclusions of a polygraph examiner based on the results of an examination</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722269">довідка про результати ПФДЗП</term>
+                        <descrip type="context">Документ, у якому викладено письмові ймовірні та орієнтувальні висновки спеціаліста поліграфа за результатами дослідження</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343921">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722271">initiator of the examination</term>
+                        <descrip type="context">The official, who is authorized to initiate PDD, as well as a person, whose oral or written statements are under scrutiny in terms of their veracity (if this person submits a written request to undergo the examination to clear up any doubts)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722273">ініціатор дослідження</term>
+                        <descrip type="context">Посадова особа, яка уповноважена ініціювати процедуру ПФДЗП, а також особа, стосовно якої висунуто сумніви щодо правдивості наданої нею усної чи письмової інформації (у разі наявності її письмового клопотання про проведення дослідження для спростування цих сумнівів)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343923">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722275">personnel security</term>
+                        <descrip type="context">A state in which risks and threats related to personnel can negatively affect the effectiveness of the defense forces of Ukraine activities assigned tasks performance are minimized.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722277">кадрова безпека</term>
+                        <descrip type="context">Це стан, при якому мінімізовані ризики та загрози, пов’язані з персоналом, які можуть негативно вплинути на ефективність діяльності сил оборони України і виконання покладених на них завдань</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343925">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722279">personnel decision</term>
+                        <descrip type="context">Deliberate effort to select, assign, transfer, promote in military rank, reward and dismiss from military service (employment) the Armed Forces personnel, that is carried out by the order of the commander (superior).</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722281">кадрове рішення</term>
+                        <descrip type="context">Результат цілеспрямованої дії щодо добору, розстановки, ротації (переміщення), присвоєння військових звань (рангів), нагородження та звільнення з військової служби (роботи) персоналу</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343927">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722283">polygraph examination materials</term>
+                        <descrip type="context">Could be: an assignment to conduct a PDD or a written request of a person being questioned issued to refute any doubts regarding the veracity of the information provided, a statement of voluntary consent to conduct PDD, a statement (digital and printed), general information describing the process of the examination (polygrams, video and audio files of the examination) recorded on media.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722285">матеріали дослідження</term>
+                        <descrip type="context">Можуть бути: завдання на проведення ПФДЗП або письмове клопотання особи спростувати за допомогою поліграфа наявні сумніви щодо правдивості наданої нею інформації; заява про надання добровільної згоди на проведення ПФДЗП; довідка (в електронному та друкованому вигляді); зафіксовані на носіях інформації загальні відомості про факт проведення дослідження (поліграми, відео- та аудіофайли дослідження); письмові пояснення об’єкта дослідження щодо подій, які стосуються ПФДЗП (у разі наявності); протокол аналізу поліграм</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343929">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722287">comparison question technique</term>
+                        <descrip type="context">An umbrella term for standard testing formats that use probable-lie or directed-lie comparison questions</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722291">CQT</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722289">методика запитань порівняння</term>
+                        <descrip type="context">Узагальнювальний термін для позначення стандартизованих тестових форматів, що використовують запитання порівняння</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343931">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722293">deliberate non-compliance</term>
+                        <descrip type="context">The “deliberate non-compliance” conclusion indicates that the polygraph examiner observed the examinee engaging in apparently motivated and repeated behavior contrary to the examiner’s instructions that interferes with the examination protocol or the recording of physiological responses.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722295">навмисна неспівпраця</term>
+                        <descrip type="context">Висновок про навмисне небажання співпрацювати вказує на виявлення спеціалістом поліграфа того, що поведінка об’єкта дослідження є явно вмотивованою, повторюваною і такою, яка суперечить інструкціям спеціаліста поліграфа та заважає запису фізіологічних реакцій або процедурі дослідження</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343933">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722297">subject of the examination</term>
+                        <descrip type="context">A defined person mentioned in PDD examination assignment, that has no medical contraindications and has given voluntary consent to undergo polygraph examination</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722301">examinee</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722303">об’єкт дослідження</term>
+                        <descrip type="context">Особа, яка визначена у завданні на проведення ПФДЗП, не має медичних протипоказань та надала добровільну згоду на проходження процедури дослідження із застосуванням поліграфа</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343935">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722305">multiple-facet test</term>
+                        <descrip type="context">The test format in which the relevant questions are targeted toward different elements of the same crime</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722307">однотемний багатоаспектний тест</term>
+                        <descrip type="context">Формат тесту, в якому релевантні запитання спрямовані на різні елементи однієї й тієї ж події</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343937">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722309">single-issue polygraph test</term>
+                        <descrip type="context">PDD test in which the relevant questions cover the exact same issue</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722311">однотемний тест</term>
+                        <descrip type="context">Формат тесту, в якому релевантні запитання спрямовані на одну й ту саму тему</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343939">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722313">acquaintance test</term>
+                        <descrip type="context">The generic term for stimulation test.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722317">ACQT</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722315">ознайомлювальний тест</term>
+                        <descrip type="context">Загальноприйнятий термін для стимуляційного тесту</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343941">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722319">deception indicated</term>
+                        <descrip type="context">A conclusion issued by a polygraph examiner after the end of a polygraph examination and reflecting that: (1) the physiological data are stable and interpretable; (2) the evaluation criteria used by the examiner led him to conclude that the examinee is not wholly truthful about the relevant issue under investigation.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722321">DI</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722323">ознаки обману виявлено</term>
+                        <descrip type="context">Висновок, що формується спеціалістом поліграфа за результатами ПФДЗП і є відображенням того, що: 1) зафіксовані фізіологічні дані придатні для інтерпретації; 2) критерії оцінки, які застосовувались спеціалістом поліграфа, привели його до висновку, що об’єкт дослідження був неправдивий стосовно досліджуваної тематики</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343943">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722325">no deception indicated</term>
+                        <descrip type="context">A conclusion issued by a polygraph examiner after the end of a polygraph examination and reflecting the fact that: (1) the physiological data are stable and interpretable; (2) the evaluation criteria used by the examiner led him to conclude that the examinee was truthful about the relevant issue under investigation</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722329">NDI</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722327">ознаки обману не виявлено</term>
+                        <descrip type="context">Висновок, що формується спеціалістом поліграфа після завершення дослідження із застосуванням поліграфа і є відображенням того, що: 1) зафіксовані фізіологічні дані придатні для інтерпретації; 2) критерії оцінки, які застосовувались спеціалістом поліграфа, привели його до висновку, що об’єкт дослідження був правдивим щодо досліджуваної тематики</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343945">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722331">credibility assessment</term>
+                        <descrip type="context">The multi-disciplinary field of techniques and procedures that assesses truthfulness and relies on physiological reactions and behavioral measures to test the agreement between an individual’s memories and his or her statements</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722333">оцінка достовірності</term>
+                        <descrip type="context">Мультидисциплінарна галузь методик та процедур, яка оцінює правдивість об’єкта дослідження і покладається на фізіологічні реакції та поведінкові критерії (показники) для перевірки узгодженості між спогадами та твердженнями об’єкта дослідження</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343947">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722335">the pre-test conversation</term>
+                        <descrip type="context">The first part of the PDD procedure, during which the polygraph examiner and the subject of examination discuss the test, the examination procedure, the subject’s state of health and detailed information about the peculiarities of the examination.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722337">передтестова бесіда</term>
+                        <descrip type="context">Перша частина процедури ПФДЗП, під час якої спеціаліст поліграфа і об’єкт дослідження обговорюють тест, процедуру дослідження, стан здоров’я об’єкта і детальну інформацію про особливості проведення дослідження</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343949">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722339">personal data</term>
+                        <descrip type="context">Data or a compilation of data about a physical person who is identified or can be clearly identified</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722341">персональні дані</term>
+                        <descrip type="context">Відомості чи сукупність відомостей про фізичну особу, яка ідентифікована або може бути конкретно ідентифікована</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343951">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722343">post-test conversation</term>
+                        <descrip type="context">The final part of the PDD procedure, which consists of discussing or clarifying possible reactions (confessions, explanations) with the subject of the study</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722345">післятестова бесіда</term>
+                        <descrip type="context">Це завершальна частина ПФДЗП, яка полягає в обговоренні або уточненні з об’єктом дослідження можливих реакцій (зізнань, пояснень)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343953">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722347">polygram</term>
+                        <descrip type="context">The сomplete graphical recording of physiological data from a polygraph test with the required annotations</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722349">поліграма</term>
+                        <descrip type="context">Повне графічне відображення динаміки фізіологічних показників під час ПФДЗП з необхідними помітками</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343955">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722351">polygraph</term>
+                        <descrip type="context">A computer device with appropriate software, certified by the manufacturer, which registers changes in a person’s psychophysiological reaction in response to psychological stimuli presented by a special methodology, does not cause harm to life, human health and the environment and has at least five channels for registering psychophysiological reaction, including a channel for detecting counteraction</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722353">поліграф</term>
+                        <descrip type="context">Комп’ютерний технічний прилад з відповідним програмним забезпеченням, що має сертифікацію виробника, який здійснює реєстрацію змін психофізіологічного реагування людини у відповідь на пред’явлені за спеціальною методикою психологічні стимули, не завдає шкоди життю, здоров’ю людини та навколишньому середовищу і який має не менше, ніж п’ять каналів реєстрації психофізіологічного реагування, в тому числі канал виявлення протидії</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343957">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722355">potential conflict of interest</term>
+                        <descrip type="context">An individual having a private interest in the field in which he/she exercises his/her official or representative powers, which may affect the objectivity or impartiality of his/her decision-making process or whether he/she acts in the exercise of these powers</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722357">потенційний конфлікт інтересів</term>
+                        <note>https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf</note>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343959">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722359">vested interest</term>
+                        <descrip type="context">Any property or non-property interests of a person, including those stemming from personal, family, social or other non-work-related relationships with individuals or legal entities, as well as those arising from membership or participation in public, political, religious or other organizations</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722361">приватний інтерес</term>
+                        <descrip type="context">Будь-який майновий чи немайновий інтерес особи, у тому числі зумовлений особистими, сімейними, дружніми чи іншими позаслужбовими стосунками з фізичними чи юридичними особами, зокрема тими, що виникають у зв’язку із членством або діяльністю в громадських, політичних, релігійних чи інших організаціях</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343961">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722363">countermeasures</term>
+                        <descrip type="context">The strategies employed by the examinees to affect PDD testing through the intentional use of physical, mental, pharmacological or behavioral tactics</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722365">протидія</term>
+                        <descrip type="context">Стратегії, які застосовує об’єкт дослідження для впливу на ПФДЗП (умисне застосування фізичної, психічної, фармакологічної, поведінкової тактик тощо)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343963">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722367">contraindications</term>
+                        <descrip type="context">A list of criteria (circumstances) that if detected lead to the examination being terminated (stopped)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722369">протипоказання</term>
+                        <descrip type="context">Перелік підстав (обставин), у разі виявлення яких ПФДЗП не проводиться (припиняється)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343965">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722371">psychophysiological detection of deception</term>
+                        <descrip type="context">Evidence-based and specially organized set of methods for obtaining, analyzing and interpreting the psychophysiological reactions of the person being examined in response to presented psychological stimuli</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722373">PDD</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722375">психофізіологічне дослідження із застосуванням поліграфа</term>
+                        <descrip type="context">Науково обґрунтована і спеціально організована процедура отримання, аналізу та інтерпретації реакцій об’єкта дослідження у відповідь на пред’явлені стимули (також – дослідження)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722377">ПФДЗП</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343967">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722379">response</term>
+                        <descrip type="context">The physiological changes that occur following, and is attributable to, the presentation of an applied stimulus (for example, reviewed test question)</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722381">реакція</term>
+                        <descrip type="context">Психофізіологічні зміни параметрів об’єкта дослідження зумовлених пред’явленим стимулом, (наприклад запитанням тесту) і не пов’язані з артефактом.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343969">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722383">real conflict of interest</term>
+                        <descrip type="context">A contradiction between a person's private interest and his or her official or representative powers</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722385">реальний конфлікт інтересів</term>
+                        <descrip type="context">Суперечність між приватним інтересом особи та її службовими чи представницькими повноваженнями</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343971">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722387">relevant question</term>
+                        <descrip type="context">A question that deals with the target issue of concern to the investigation.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722389">релевантне запитання</term>
+                        <descrip type="context">Запитання, що стосується тематики, яка є предметом дослідження</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343973">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722391">screening examination</term>
+                        <descrip type="context">An examination conducted in the absence of a reported issue or allegation to investigate whether an examine has withheld information regarding engagement in defined actions</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722393">скринінгове дослідження</term>
+                        <descrip type="context">Дослідження, що проводиться за відсутності конкретної проблеми або звинувачення, щоб з’ясувати, чи приховував об’єкт дослідження інформацію про причетність до певних дій</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343975">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722395">official inspection</term>
+                        <descrip type="context">A set of measures designed to verify the information about the offense, clarify whether there are grounds for an internal investigation, as well as the circumstances of disciplinary violation, and identify persons who committed the offense</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722397">службова перевірка</term>
+                        <descrip type="context">Комплекс заходів, які здійснюються для перевірки інформації про вчинення правопорушення, з’ясування наявності підстав для призначення службового розслідування, обставин порушення виконавської дисципліни, встановлення осіб, які вчинили правопорушення</descrip>
+                        <xref type="externalCrossReference" target="104 – військова кадрова політика"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343977">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722399">internal investigation</term>
+                        <descrip type="context">A set of measures carried out to clarify the reasons and conditions that contributed to the commission of the offense as well as to establish the degree of guilt of the person (persons) whose actions or omissions caused the offense to be committed</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722401">службове розслідування</term>
+                        <descrip type="context">Комплекс заходів, які проводяться для уточнення причин і умов, що сприяли вчиненню правопорушення, а також встановлення ступеня вини особи (осіб), чиї дії або бездіяльність стали причиною вчинення правопорушення</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343979">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722403">polygraph examiner</term>
+                        <descrip type="context">An employee of a structural unit, who is responsible for conducting PDD examination, has at least a Bachelor’s degree, has a document certifying the completion of the relevant training or approved corresponding qualification</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722405">поліграфолог</term>
+                        <descrip type="context">Співробітник структурного підрозділу, на який покладено функцію проведення ПФДЗП, та має освітній рівень не нижче ніж “бакалавр”, має документ, що засвідчує проходження відповідної підготовки або підтвердив свою кваліфікацію за напрямком</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343981">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722407">spot</term>
+                        <descrip type="context">A permanently assigned location of a relevant question in a CQT question series</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722409">спот</term>
+                        <descrip type="context">Визначене розташування релевантного запитання відносно запитань порівняння</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343983">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722411">test</term>
+                        <descrip type="context">A question (stimuli) series (sometimes also called a chart) during physiological recording from the examination</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722413">тест</term>
+                        <descrip type="context">Серія певних запитань (стимулів) для послідовного їх пред’явлення (іноді також може називатися чартом) під час проведення і запису дослідження</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343985">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722415">format</term>
+                        <descrip type="context">In PDD a particular order of question presentations or rules that govern the order along with the types of questions</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722417">формат</term>
+                        <descrip type="context">Чіткий порядок пред’явлення запитань або правил, що визначають їхню послідовність відповідно до їх типів</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343987">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722419">chart</term>
+                        <descrip type="context">Graphical record of PDD phenomena</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722421">чарт</term>
+                        <descrip type="context">Графічний запис явищ ПФДЗП</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343989">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">104 – військова кадрова політика</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722423">sensitive personal data</term>
+                        <descrip type="context">Information about person`s racial or ethnic origin, political, religious or ideological beliefs, membership in political party and trade union affiliations as well as data related to health or sex life.</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722425">чутливі особисті дані</term>
+                        <descrip type="context">Відомості про расове або етнічне походження, політичні, релігійні або світоглядні переконання, членство в політичних партіях та професійних спілках, а також дані, що стосуються здоров’я чи статевого життя</descrip>
+                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-104.001-2024(01).pdf"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>

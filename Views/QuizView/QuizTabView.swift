@@ -196,16 +196,16 @@ struct QuizTabView: View {
         guard let correctConcept = TermsStorage.allConcepts.randomElement() else {
             return
         }
-        questionSubject = correctConcept.descrip._text
+        questionSubject = correctConcept.descrip[1]._text
 
         // Отримуємо всі концепти з тим самим descrip._text, виключаючи правильний концепт
-        let sameSubjectConcepts = TermsStorage.allConcepts.filter { $0.descrip._text == questionSubject && $0.id != correctConcept.id }
+        let sameSubjectConcepts = TermsStorage.allConcepts.filter { $0.descrip[1]._text == questionSubject && $0.id != correctConcept.id }
 
         // Якщо концептів з тим самим subject менше ніж 3, доповнюємо іншими випадковими концептами
         var otherConcepts = sameSubjectConcepts.shuffled()
         if otherConcepts.count < 3 {
             let remaining = 3 - otherConcepts.count
-            let otherRandomConcepts = TermsStorage.allConcepts.filter { $0.descrip._text != correctConcept.descrip._text && $0.id != correctConcept.id }.shuffled().prefix(remaining)
+            let otherRandomConcepts = TermsStorage.allConcepts.filter { $0.descrip[1]._text != correctConcept.descrip[1]._text && $0.id != correctConcept.id }.shuffled().prefix(remaining)
             otherConcepts.append(contentsOf: otherRandomConcepts)
         } else {
             otherConcepts = Array(otherConcepts.prefix(3))

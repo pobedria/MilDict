@@ -12,6 +12,7 @@
     <text>
         <body>
             <conceptEntry id="326080">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">202 – зовнішня розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -29,6 +30,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326082">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">202 – зовнішня розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -50,6 +52,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326086">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -67,6 +70,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326088">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -88,6 +92,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326146">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -105,6 +110,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326166">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -126,6 +132,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326172">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -143,6 +150,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326268">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -160,6 +168,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326300">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -177,6 +186,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326406">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -198,6 +208,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326462">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -215,6 +226,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326498">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">202 – зовнішня розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -232,6 +244,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326748">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -253,6 +266,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326760">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -270,6 +284,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326762">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -287,6 +302,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326764">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -308,6 +324,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326766">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -325,6 +342,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326768">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -341,28 +359,8 @@
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326770">
-                <descrip type="subjectField">201 – воєнна розвідка</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679338">operational intelligence</term>
-                        <descrip type="context">Intelligence required for the planning and conduct of campaigns at the operational level.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                    <termSec>
-                        <term id="680182">OPINTEL</term>
-                        <termNote type="termType">abbreviation</termNote>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="680184">розвідувальна інформація оперативного рівня</term>
-                        <descrip type="context">Розвідувальні дані, необхідні для планування і ведення операцій.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326772">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -379,24 +377,8 @@
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="326774">
-                <descrip type="subjectField">201 – воєнна розвідка</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="679342">intelligence estimate</term>
-                        <descrip type="context">The appraisal, expressed in writing or orally, of available intelligence relating to a specific situation or condition with a view to determining the courses of action open to the enemy or potential enemy and the order of probability of their adoption.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="680190">розвідувальне зведення</term>
-                        <descrip type="context">Виражений у письмовій чи усній формі аналіз наявних розвідувальних даних щодо конкретної ситуації чи обстановки для визначення можливих варіантів дій противника або потенційного противника, а також ймовірності їх реалізації.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.030.001-2020(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="326776">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -418,6 +400,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326778">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -443,6 +426,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326780">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -473,6 +457,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326782">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -490,6 +475,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326846">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <note>Можливо - розвідка сил спеціальних операцій?</note>
                 <langSec xml:lang="en">
@@ -508,6 +494,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326852">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -525,6 +512,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326854">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -542,6 +530,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326876">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -559,6 +548,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326890">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -576,6 +566,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326964">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -593,6 +584,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326966">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -610,6 +602,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327034">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -635,6 +628,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327036">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -660,6 +654,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327038">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -677,6 +672,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327040">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -694,6 +690,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327062">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -711,6 +708,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327074">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -740,6 +738,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327086">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -757,6 +756,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327092">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -774,6 +774,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327096">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -791,6 +792,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327098">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -808,6 +810,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327604">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -825,6 +828,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327634">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -842,6 +846,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327730">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -859,6 +864,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327770">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -876,6 +882,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327792">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -893,6 +900,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="327960">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -910,6 +918,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328070">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -927,6 +936,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328078">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -944,6 +954,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328082">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -961,6 +972,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328222">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -978,6 +990,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328254">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -997,6 +1010,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328302">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1016,6 +1030,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328398">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1033,6 +1048,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328410">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1050,6 +1066,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328414">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1067,6 +1084,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328426">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1084,6 +1102,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328454">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1101,6 +1120,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328464">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1118,6 +1138,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328466">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1135,6 +1156,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328472">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1152,6 +1174,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328504">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1169,6 +1192,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328542">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1186,6 +1210,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328544">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1203,6 +1228,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328548">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1220,6 +1246,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328576">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1236,24 +1263,8 @@ d) доведення – своєчасне надання розвідувал
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328624">
-                <descrip type="subjectField">200 – розвідка</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="684176">all-source intelligence</term>
-                        <descrip type="context">Intelligence produced using all available sources and agencies.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="684178">розвідка за допомогою всіх наявних сил та засобів</term>
-                        <descrip type="context">Розвідка, яка здійснюється з використанням усіх наявних сил та засобів.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.004.006-2017(01).pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328628">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">202 – зовнішня розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1271,6 +1282,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328672">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1288,6 +1300,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328674">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1305,6 +1318,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328678">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1324,6 +1338,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328680">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">203 – радіоелектронна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1341,6 +1356,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328682">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1357,24 +1373,8 @@ d) доведення – своєчасне надання розвідувал
                     </termSec>
                 </langSec>
             </conceptEntry>
-            <conceptEntry id="328742">
-                <descrip type="subjectField">200 – розвідка</descrip>
-                <langSec xml:lang="en">
-                    <termSec>
-                        <term id="684336">collection management</term>
-                        <descrip type="context">In intelligence usage, the process of converting intelligence requirements into collection requirements, establishing, tasking or coordinating with appropriate collection sources or agencies, monitoring results and retasking, as required.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/AAP-06.pdf"></xref>
-                    </termSec>
-                </langSec>
-                <langSec xml:lang="uk">
-                    <termSec>
-                        <term id="684364">управління розвідкою</term>
-                        <descrip type="context">Цілеспрямована діяльність командувачів (командирів) та органів військового управління щодо планування, постановки завдань, організації взаємодії, забезпечення, підготовки та керівництва силами і засобами розвідки (органами розвідки) під час виконання завдань за призначенням, контролю за їх виконанням.</descrip>
-                        <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВКП-1-00(01).01.pdf"></xref>
-                    </termSec>
-                </langSec>
-            </conceptEntry>
             <conceptEntry id="328750">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1392,6 +1392,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330164">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1409,6 +1410,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330218">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1426,6 +1428,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330224">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1443,6 +1446,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330226">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1460,6 +1464,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330248">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1481,6 +1486,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330316">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1502,6 +1508,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330334">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1519,6 +1526,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330446">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1540,6 +1548,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330466">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1557,6 +1566,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330468">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">432 – боєприпаси та вибухові речовини</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1574,6 +1584,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330492">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">201 – воєнна розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1591,6 +1602,7 @@ d) доведення – своєчасне надання розвідувал
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330556">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">200 – розвідка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -1608,6 +1620,126 @@ d) доведення – своєчасне надання розвідувал
                         <term id="688344">розвідка на основі біометричних даних</term>
                         <descrip type="context">Інформація розвідки, пов’язана та/чи отримана з біометричних даних, що позначають конкретну чи невідому особу, пов’язану з місцем, діяльністю, пристроєм, компонентом, мережею чи зброєю, що представляють інтерес через загрозу діяльності, загрози оборони країни та/чи пов'язаний з цим аналіз.</descrip>
                         <xref type="externalCrossReference" target="https://github.com/pobedria/mildictmeta/blob/main/ВСТ-01.106.005-2022(02).pdf"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343647">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">201 – воєнна розвідка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="721919">perishable data</term>
+                        <descrip type="context">Information whose value can decrease substantially during a specified time. A significant decrease in value occurs when the operational circumstances change to the extent that the information is no longer useful.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/perishable_data"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="721921">швидкопсувні дані</term>
+                        <descrip type="context">Інформація, цінність якої може суттєво знизитися протягом певного часу. Значне зниження цінності відбувається, коли оперативні обставини змінюються настільки, що інформація більше не є корисною.</descrip>
+                        <xref type="externalCrossReference" target=" https://csrc.nist.gov/glossary/term/perishable_data"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343683">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">200 – розвідка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="721963">official information</term>
+                        <descrip type="context">All information of any kind, however stored, that is in the custody and control of the Department/Agency (D/A), relates to information in the custody and control of the D/A, or was acquired by D/A employees, or former employees, as part of their official duties or because of their official status within the D/A while such individuals were employed by or served on behalf of the D/A.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/official_information"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="721965">офіційна інформація</term>
+                        <descrip type="context">Інформація будь-якого вигляду, незалежно від того, де вона зберігається, яка перебуває у розпорядженні та під контролем Департаменту/Агенції (D/A), відноситься до інформації, що перебуває у розпорядженні та під контролем D/A, або була отримана працівниками або колишніми працівниками D/A в рамках їхніх службових обов'язків або через їхній офіційний статус у D/A, коли такі особи працювали в D/A або служили від імені D/A.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/official_information"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343685">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">200 – розвідка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="721967">counterintelligence</term>
+                        <descrip type="context">Information gathered and activities conducted to identify, deceive, exploit, disrupt, or protect against espionage, other intelligence activities, sabotage, or assassinations conducted for or on behalf of foreign powers, organizations, or persons, or their agents, or international terrorist organizations or activities.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/counterintelligence"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="721969">контррозвідка</term>
+                        <descrip type="context">Збір інформації та діяльність, спрямована на виявлення, обман, використання, підрив або захист від шпигунства, іншої розвідувальної діяльності, саботажу або вбивств, які здійснюються в інтересах або від імені іноземних держав, організацій чи осіб, або їхніх агентів, або міжнародних терористичних організацій і заходів.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/counterintelligence"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343715">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">200 – розвідка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722005">misuse of controlled unclassified information</term>
+                        <descrip type="context">Any situation where controlled unclassified information (CUI) is used in a manner inconsistent with the policy contained in Executive Order 13556, 32 Code of Federal Regulations (CFR), the CUI Registry, additional issuances from the CUI Executive Agent, or any of the laws, regulations, and Government-wide policies that establish the designation of CUI categories and subcategories. This may include intentional violations or unintentional errors in safeguarding or disseminating CUI.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/misuse_of_controlled_unclassified_information"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722007">misuse of CUI</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722013">неправомірне використання інформації для службового використання</term>
+                        <descrip type="context">Це будь-яка ситуація, коли хтось використовує інформацію для службового використання (ДСК) у спосіб, що не відповідає політиці, що міститься у Виконавчому наказі 13556 (або будь-якому наступному наказі), 32 Кодексі федеральних правил (CFR), Реєстрі ДСК, політиці ДСК агентства або чинному законодавстві, положеннях та загальнодержавних політиках, що регулюють відповідну інформацію. Це може включати навмисні порушення або ненавмисні помилки у захисті або розповсюдженні ДСК.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/misuse_of_controlled_unclassified_information"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722015">неправомірне використання інформації ДСК</term>
+                        <termNote type="termType">variant</termNote>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343743">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">200 – розвідка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722043">intelligence community</term>
+                        <descrip type="context">Intelligence Community and elements of the Intelligence Community refers to: (1) The Office of the Director of National Intelligence; (2) The Central Intelligence Agency; (3) The National Security Agency; (4) The Defense Intelligence Agency; (5) The National Geospatial-Intelligence Agency; (6) The National Reconnaissance Office; (7) The other offices within the Department of Defense for the collection of specialized national foreign intelligence through reconnaissance programs; (8) The intelligence and counterintelligence elements of the Army, the Navy, the Air Force, and the Marine Corps; (9) The intelligence elements of the Federal Bureau of Investigation; (10) The Office of National Security Intelligence of the Drug Enforcement Administration; (11) The Office of Intelligence and Counterintelligence of the Department of Energy; (12) The Bureau of Intelligence and Research of the Department of State; (13) The Office of Intelligence and Analysis of the Department of the Treasury; (14) The Office of Intelligence and Analysis of the Department of Homeland Security; (15) The intelligence and counterintelligence elements of the Coast Guard; and (16) Such other elements of any department or agency as may be designated by the President, or designated jointly by the Director and the head of the department or agency concerned, as an element of the Intelligence Community.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/intelligence_community"></xref>
+                    </termSec>
+                    <termSec>
+                        <term id="722045">IC</term>
+                        <termNote type="termType">abbreviation</termNote>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722049">розвідувальна співтовариство</term>
+                        <descrip type="context">Розвідувальне співтовариство та підрозділи, які входять до складу: (1) Апарат директора національної розвідки; (2) Центральне розвідувальне управління; (3) Агенство національної безпеки; (4) Розвідувальне управління МО США; (5) Національне агенство геопросторової розвідки; (6) Національне управління військово-космічної розвідки; (7) Інші управління в складі Міністерства оборони США що займаються збором розвідувальних даних про іноземні державні структури за допомогою розвідувального забезпечення; (8) Підрозділи розвідки та контррозвідки СВ, ВМС, ВПС, та Корпусу морської піхоти США; (9) Розвідувальні підрозділи Федерального бюро розслідувань США; (10) Департамент розвідки національної безпеки Управління боротьби з наркотиками; (11) Управління розвідки та контррозвідки Міністерства енергетики; (12) Управління розвідки та досліджень Державного департаменту США; (13) Управління розвідки та аналізу Міністерства фінансів США; (14) Управління розвідки та аналізу Міністерства національної безпеки США; (15) Підрозділи розвідки та контррозвідки берегової охорони; (16) Інші підрозділи будь-якого департаменту або органу, які можуть бути призначені Президентом або спільно Директором і начальником</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/intelligence_community"></xref>
+                    </termSec>
+                </langSec>
+            </conceptEntry>
+            <conceptEntry id="343747">
+                <descrip type="translatable">yes</descrip>
+                <descrip type="subjectField">200 – розвідка</descrip>
+                <langSec xml:lang="en">
+                    <termSec>
+                        <term id="722051">intelligence activities</term>
+                        <descrip type="context">All activities that agencies within the Intelligence Community are authorized to conduct pursuant to Executive Order (E.O.) 12333, United States Intelligence Activities.</descrip>
+                        <xref type="externalCrossReference" target=" https://csrc.nist.gov/glossary/term/intelligence_activities"></xref>
+                    </termSec>
+                </langSec>
+                <langSec xml:lang="uk">
+                    <termSec>
+                        <term id="722053">розвідувальна діяльність</term>
+                        <descrip type="context">Усі види діяльності, які установи Розвідувальної спілки уповноважені здійснювати відповідно до Виконавчого наказу (E.O.) 12333, Розвідувальна діяльність США.</descrip>
+                        <xref type="externalCrossReference" target="https://csrc.nist.gov/glossary/term/intelligence_activities"></xref>
                     </termSec>
                 </langSec>
             </conceptEntry>

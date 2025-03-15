@@ -12,6 +12,7 @@
     <text>
         <body>
             <conceptEntry id="326202">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">701 – навчально-бойові завдання</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -29,6 +30,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326662">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -46,6 +48,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="326944">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">701 – навчально-бойові завдання</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -66,6 +69,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328244">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">701 – навчально-бойові завдання</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -83,6 +87,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="328644">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">701 – навчально-бойові завдання</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -100,6 +105,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="330308">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">701 – навчально-бойові завдання</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -117,6 +123,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331598">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -134,6 +141,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331687">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -153,6 +161,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331695">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -171,6 +180,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331881">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -188,6 +198,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331883">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -205,6 +216,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331889">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>
@@ -222,6 +234,7 @@
                 </langSec>
             </conceptEntry>
             <conceptEntry id="331893">
+                <descrip type="translatable">yes</descrip>
                 <descrip type="subjectField">700 – підготовка</descrip>
                 <langSec xml:lang="en">
                     <termSec>

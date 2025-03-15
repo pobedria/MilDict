@@ -9,9 +9,9 @@ import SwiftUI
 
 
 struct ContentView: View {
-    
+    let a = 5;
     var body: some View {
-
+            
             TabView {
                 TBXListView(lang: "en")
                     .tabItem {

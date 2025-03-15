@@ -9,7 +9,7 @@ import Foundation
 
 struct TBXConcept: Decodable{
     let id: Int
-    let descrip: Descrip
+    let descrip: [Descrip]
     let langSec: [LangElement]
     
     
@@ -23,7 +23,7 @@ struct TBXConcept: Decodable{
             throw DecodingError.dataCorruptedError(forKey: .id, in: values, debugDescription: "Id не є коректним Int значенням.")
         }
         id = idInt
-        descrip = try values.decode(Descrip.self, forKey: .descrip)
+        descrip = try values.decode([Descrip].self, forKey: .descrip)
         langSec = try values.decode([LangElement].self, forKey: .langSec)
     }
     
@@ -62,7 +62,7 @@ struct TBXConcept: Decodable{
         return AppTerm(
             id: termId,
             conceptId: id,
-            subject: descrip._text,
+            subject: descrip[1]._text,
             lang: langElement.lang,
             term: termElement.term._text,
             description: termElement.descrip?._text,
