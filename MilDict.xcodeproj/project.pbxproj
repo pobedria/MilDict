@@ -119,13 +119,13 @@
 		777D46FB2BF75605006EA0A0 /* EmptySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchView.swift; sourceTree = "<group>"; };
 		777D46FE2BFC84B4006EA0A0 /* QuizTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTabView.swift; sourceTree = "<group>"; };
 		777D47002BFC9589006EA0A0 /* QuizOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOption.swift; sourceTree = "<group>"; };
-		778B072F2A723F3100A96821 /* Леся.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Леся.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778B072F2A723F3100A96821 /* MilDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B07322A723F3100A96821 /* MilDictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictApp.swift; sourceTree = "<group>"; };
 		778B07342A723F3100A96821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		778B07392A723F3200A96821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		778B073F2A723F3200A96821 /* ЛесяTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ЛесяTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778B073F2A723F3200A96821 /* MilDictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilDictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B07432A723F3200A96821 /* MilDictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictTests.swift; sourceTree = "<group>"; };
-		778B07492A723F3200A96821 /* ЛесяUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ЛесяUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778B07492A723F3200A96821 /* MilDictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilDictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B074D2A723F3200A96821 /* MilDictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictUITests.swift; sourceTree = "<group>"; };
 		778B074F2A723F3200A96821 /* MilDictUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilDictUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		779522892C99BBC50097028B /* Last20ResultsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Last20ResultsBar.swift; sourceTree = "<group>"; };
@@ -244,9 +244,9 @@
 		778B07302A723F3100A96821 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				778B072F2A723F3100A96821 /* Леся.app */,
-				778B073F2A723F3200A96821 /* ЛесяTests.xctest */,
-				778B07492A723F3200A96821 /* ЛесяUITests.xctest */,
+				778B072F2A723F3100A96821 /* MilDict.app */,
+				778B073F2A723F3200A96821 /* MilDictTests.xctest */,
+				778B07492A723F3200A96821 /* MilDictUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -354,9 +354,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		778B072E2A723F3100A96821 /* Леся */ = {
+		778B072E2A723F3100A96821 /* MilDict */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 778B07532A723F3200A96821 /* Build configuration list for PBXNativeTarget "Леся" */;
+			buildConfigurationList = 778B07532A723F3200A96821 /* Build configuration list for PBXNativeTarget "MilDict" */;
 			buildPhases = (
 				778B072B2A723F3100A96821 /* Sources */,
 				778B072C2A723F3100A96821 /* Frameworks */,
@@ -366,14 +366,14 @@
 			);
 			dependencies = (
 			);
-			name = "Леся";
+			name = MilDict;
 			productName = MilDict;
-			productReference = 778B072F2A723F3100A96821 /* Леся.app */;
+			productReference = 778B072F2A723F3100A96821 /* MilDict.app */;
 			productType = "com.apple.product-type.application";
 		};
-		778B073E2A723F3200A96821 /* ЛесяTests */ = {
+		778B073E2A723F3200A96821 /* MilDictTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 778B07562A723F3200A96821 /* Build configuration list for PBXNativeTarget "ЛесяTests" */;
+			buildConfigurationList = 778B07562A723F3200A96821 /* Build configuration list for PBXNativeTarget "MilDictTests" */;
 			buildPhases = (
 				778B073B2A723F3200A96821 /* Sources */,
 				778B073C2A723F3200A96821 /* Frameworks */,
@@ -384,14 +384,14 @@
 			dependencies = (
 				778B07412A723F3200A96821 /* PBXTargetDependency */,
 			);
-			name = "ЛесяTests";
+			name = MilDictTests;
 			productName = MilDictTests;
-			productReference = 778B073F2A723F3200A96821 /* ЛесяTests.xctest */;
+			productReference = 778B073F2A723F3200A96821 /* MilDictTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		778B07482A723F3200A96821 /* ЛесяUITests */ = {
+		778B07482A723F3200A96821 /* MilDictUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 778B07592A723F3200A96821 /* Build configuration list for PBXNativeTarget "ЛесяUITests" */;
+			buildConfigurationList = 778B07592A723F3200A96821 /* Build configuration list for PBXNativeTarget "MilDictUITests" */;
 			buildPhases = (
 				778B07452A723F3200A96821 /* Sources */,
 				778B07462A723F3200A96821 /* Frameworks */,
@@ -402,9 +402,9 @@
 			dependencies = (
 				778B074B2A723F3200A96821 /* PBXTargetDependency */,
 			);
-			name = "ЛесяUITests";
+			name = MilDictUITests;
 			productName = MilDictUITests;
-			productReference = 778B07492A723F3200A96821 /* ЛесяUITests.xctest */;
+			productReference = 778B07492A723F3200A96821 /* MilDictUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -430,7 +430,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 778B072A2A723F3100A96821 /* Build configuration list for PBXProject "Леся" */;
+			buildConfigurationList = 778B072A2A723F3100A96821 /* Build configuration list for PBXProject "MilDict" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -443,9 +443,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				778B072E2A723F3100A96821 /* Леся */,
-				778B073E2A723F3200A96821 /* ЛесяTests */,
-				778B07482A723F3200A96821 /* ЛесяUITests */,
+				778B072E2A723F3100A96821 /* MilDict */,
+				778B073E2A723F3200A96821 /* MilDictTests */,
+				778B07482A723F3200A96821 /* MilDictUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -570,12 +570,12 @@
 /* Begin PBXTargetDependency section */
 		778B07412A723F3200A96821 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 778B072E2A723F3100A96821 /* Леся */;
+			target = 778B072E2A723F3100A96821 /* MilDict */;
 			targetProxy = 778B07402A723F3200A96821 /* PBXContainerItemProxy */;
 		};
 		778B074B2A723F3200A96821 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 778B072E2A723F3100A96821 /* Леся */;
+			target = 778B072E2A723F3100A96821 /* MilDict */;
 			targetProxy = 778B074A2A723F3200A96821 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -720,7 +720,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.0;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.288.MilDict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -752,7 +752,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.0;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.288.MilDict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -776,7 +776,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Леся.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Леся";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilDict.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MilDict";
 			};
 			name = Debug;
 		};
@@ -795,7 +795,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Леся.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Леся";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilDict.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MilDict";
 			};
 			name = Release;
 		};
@@ -836,7 +836,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		778B072A2A723F3100A96821 /* Build configuration list for PBXProject "Леся" */ = {
+		778B072A2A723F3100A96821 /* Build configuration list for PBXProject "MilDict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				778B07512A723F3200A96821 /* Debug */,
@@ -845,7 +845,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		778B07532A723F3200A96821 /* Build configuration list for PBXNativeTarget "Леся" */ = {
+		778B07532A723F3200A96821 /* Build configuration list for PBXNativeTarget "MilDict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				778B07542A723F3200A96821 /* Debug */,
@@ -854,7 +854,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		778B07562A723F3200A96821 /* Build configuration list for PBXNativeTarget "ЛесяTests" */ = {
+		778B07562A723F3200A96821 /* Build configuration list for PBXNativeTarget "MilDictTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				778B07572A723F3200A96821 /* Debug */,
@@ -863,7 +863,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		778B07592A723F3200A96821 /* Build configuration list for PBXNativeTarget "ЛесяUITests" */ = {
+		778B07592A723F3200A96821 /* Build configuration list for PBXNativeTarget "MilDictUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				778B075A2A723F3200A96821 /* Debug */,
